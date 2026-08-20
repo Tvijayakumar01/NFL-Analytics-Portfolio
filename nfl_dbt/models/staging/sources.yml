@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: nfl_raw
+    database: nfl-analytics-505917
+    schema: nfl_raw
+    tables:
+      - name: pbp
+      - name: schedules
+      - name: rosters

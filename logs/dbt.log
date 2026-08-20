@@ -1,0 +1,111 @@
+[0m18:11:16.936468 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029F56B27990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029F569BAD10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029F56A922D0>]}
+
+
+============================== 18:11:16.942987 | b11172ee-7e73-4d91-99fa-812276e74cdd ==============================
+[0m18:11:16.942987 [info ] [MainThread]: Running with dbt=1.12.2
+[0m18:11:16.943396 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'maximum_seed_size_mib': '1', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Tanuj\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'hints_enabled': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'invocation_command': 'dbt init dbt', 'log_path': 'logs'}
+[0m18:11:17.180498 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\Tanuj\.dbt
+[0m18:13:11.527219 [debug] [MainThread]: Starter project path: C:\Users\Tanuj\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\dbt\include\starter_project
+[0m18:13:11.611244 [info ] [MainThread]: Setting up your profile.
+[0m18:14:51.444824 [info ] [MainThread]: Profile nfl_dbt written to C:\Users\Tanuj\.dbt\profiles.yml using target's profile_template.yml and your supplied values.
+[0m18:14:51.468681 [info ] [MainThread]: Running dbt debug to validate the project...
+[0m18:14:51.469718 [info ] [MainThread]: dbt version: 1.12.2
+[0m18:14:51.469718 [info ] [MainThread]: python version: 3.11.9
+[0m18:14:51.470829 [info ] [MainThread]: python path: C:\Users\Tanuj\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+[0m18:14:51.471866 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m18:14:51.546098 [info ] [MainThread]: Using profiles dir at C:\Users\Tanuj\.dbt
+[0m18:14:51.547102 [info ] [MainThread]: Using profiles.yml file at C:\Users\Tanuj\.dbt\profiles.yml
+[0m18:14:51.547102 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Tanuj\Documents\UMass Amherst\Projects\NFL Analytics\nfl_dbt\dbt_project.yml
+[0m18:14:51.548100 [info ] [MainThread]: adapter type: bigquery
+[0m18:14:51.548100 [info ] [MainThread]: adapter version: 1.12.0
+[0m18:14:51.647575 [info ] [MainThread]: Configuration:
+[0m18:14:51.649034 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m18:14:51.649034 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m18:14:51.650220 [info ] [MainThread]: Required dependencies:
+[0m18:14:51.650220 [debug] [MainThread]: Executing "git --help"
+[0m18:14:51.704251 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m18:14:51.705281 [debug] [MainThread]: STDERR: "b''"
+[0m18:14:51.705281 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m18:14:51.706309 [info ] [MainThread]: Connection:
+[0m18:14:51.707413 [info ] [MainThread]:   method: service-account
+[0m18:14:51.707413 [info ] [MainThread]:   database: nfl-analytics-505917
+[0m18:14:51.707413 [info ] [MainThread]:   execution_project: nfl-analytics-505917
+[0m18:14:51.708871 [info ] [MainThread]:   schema: nfl_dbt
+[0m18:14:51.708871 [info ] [MainThread]:   location: US
+[0m18:14:51.710063 [info ] [MainThread]:   priority: interactive
+[0m18:14:51.711083 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m18:14:51.712081 [info ] [MainThread]:   reservation: None
+[0m18:14:51.712727 [info ] [MainThread]:   impersonate_service_account: None
+[0m18:14:51.713736 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m18:14:51.713736 [info ] [MainThread]:   job_retries: 1
+[0m18:14:51.714743 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m18:14:51.715809 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m18:14:51.715809 [info ] [MainThread]:   job_link_info_level_log: False
+[0m18:14:51.716917 [info ] [MainThread]:   timeout_seconds: 300
+[0m18:14:51.716917 [info ] [MainThread]:   client_id: None
+[0m18:14:51.717943 [info ] [MainThread]:   token_uri: None
+[0m18:14:51.718534 [info ] [MainThread]:   compute_region: None
+[0m18:14:51.719544 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m18:14:51.719544 [info ] [MainThread]:   gcs_bucket: None
+[0m18:14:51.720940 [info ] [MainThread]:   dataproc_batch: None
+[0m18:14:51.720940 [info ] [MainThread]: Registered adapter: bigquery=1.12.0
+[0m18:14:52.479362 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m18:14:52.479362 [debug] [MainThread]: On debug: select 1 as id
+[0m18:14:52.480365 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m18:14:54.659953 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nfl-analytics-505917&j=bq:US:ff85acb1-c343-4ea0-b58f-951cff125658&page=queryresults
+[0m18:14:54.890776 [debug] [MainThread]: SQL status: OK in 0.230 seconds
+[0m18:14:58.530598 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m18:14:58.531599 [info ] [MainThread]: [32mAll checks passed![0m
+[0m18:14:58.532599 [info ] [MainThread]: Your new dbt project "nfl_dbt" was created!
+Initialized new project in C:\Users\Tanuj\Documents\UMass Amherst\Projects\NFL Analytics\nfl_dbt\nfl_dbt
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:14:58.535193 [debug] [MainThread]: Command `dbt init` succeeded at 18:14:58.535193 after 221.70 seconds
+[0m18:14:58.536232 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m18:14:58.536232 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029F569CA050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029F546698D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029F56A82810>]}
+[0m18:14:58.537267 [debug] [MainThread]: Flushing usage events
+[0m18:14:59.051594 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:19:17.283997 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026693FDDF90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000266941737D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026694147F50>]}
+
+
+============================== 18:19:17.289267 | f77a073c-7496-48b8-9650-c59d9b3df3be ==============================
+[0m18:19:17.289267 [info ] [MainThread]: Running with dbt=1.12.2
+[0m18:19:17.290302 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'maximum_seed_size_mib': '1', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Tanuj\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt run', 'hints_enabled': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'logs'}
+[0m18:19:17.291708 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Tanuj\Documents\UMass Amherst\Projects\NFL Analytics\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m18:19:17.291708 [debug] [MainThread]: Command `dbt run` failed at 18:19:17.291708 after 0.12 seconds
+[0m18:19:17.291708 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026694092C90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000266940931D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026694092CD0>]}
+[0m18:19:17.291708 [debug] [MainThread]: Flushing usage events
+[0m18:19:17.997701 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:48:00.798309 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017F51F71A10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017F51F73FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017F51F72050>]}
+
+
+============================== 12:48:00.825122 | 6d13135b-fc6e-4551-819b-254203363603 ==============================
+[0m12:48:00.825122 [info ] [MainThread]: Running with dbt=1.12.2
+[0m12:48:00.825122 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Tanuj\\.dbt', 'use_colors': 'True', 'hints_enabled': 'True', 'invocation_command': 'dbt run --select team_week_epa', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs'}
+[0m12:48:00.830527 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Tanuj\Documents\UMass Amherst\Projects\NFL Analytics\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m12:48:00.834291 [debug] [MainThread]: Command `dbt run` failed at 12:48:00.834291 after 0.28 seconds
+[0m12:48:00.834828 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017F51F73F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017F51F71A10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017F51E9BD90>]}
+[0m12:48:00.838582 [debug] [MainThread]: Flushing usage events
+[0m12:48:01.916162 [debug] [MainThread]: An error was encountered while trying to flush usage events

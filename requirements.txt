@@ -1,0 +1,15 @@
+nfl_data_py
+pandas<2.0
+numpy<2.0
+appdirs
+fastparquet
+requests
+google-cloud-bigquery
+db-dtypes
+dbt-core
+dbt-bigquery
+scikit-learn
+xgboost
+joblib
+streamlit
+plotly
