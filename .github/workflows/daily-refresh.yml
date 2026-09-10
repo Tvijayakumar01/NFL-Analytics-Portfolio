@@ -1,0 +1,70 @@
+name: Daily Data Refresh
+
+on:
+  schedule:
+    - cron: '0 10 * * *'   # 10:00 UTC every day
+  workflow_dispatch:        # lets you also trigger it manually from the GitHub Actions tab
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Write BigQuery credentials
+        run: echo '${{ secrets.GCP_CREDENTIALS }}' > credentials.json
+
+      - name: Pull latest NFL data
+        run: python ingestion/pull_data.py
+
+      - name: Load to BigQuery
+        run: python ingestion/load_to_bigquery.py
+
+      - name: Run dbt
+        working-directory: nfl_dbt
+        run: dbt run
+
+      - name: Export This Week / Teams data
+        run: python scripts/export_data.py
+
+      - name: Export backtest predictions
+        run: python scripts/export_predictions.py
+
+      - name: Export upcoming predictions
+        run: python scripts/export_upcoming_predictions.py
+
+      - name: Export schedule
+        run: python scripts/export_schedule.py
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install frontend dependencies
+        working-directory: predictions-app
+        run: npm ci
+
+      - name: Build frontend
+        working-directory: predictions-app
+        run: npm run build
+
+      - name: Commit and push updated data + build
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs predictions-app/public/data
+          git diff --staged --quiet || git commit -m "Automated daily data refresh"
+          git push
