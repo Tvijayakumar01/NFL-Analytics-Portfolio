@@ -14,7 +14,7 @@ import nfl_data_py as nfl
 # Seasons to pull. 5 seasons gives enough history to train a prediction
 # model while keeping the initial pull fast. Extend this list later once
 # the pipeline is working end to end.
-SEASONS = [2021, 2022, 2023, 2024, 2025]
+SEASONS = [2021, 2022, 2023, 2024, 2025, 2026]
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "raw")
 

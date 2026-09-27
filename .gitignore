@@ -3,3 +3,8 @@ __pycache__/
 *.parquet
 .env
 credentials.json
+node_modules/
+logs/
+data/raw/
+predictions-app/node_modules/
+.vite/
