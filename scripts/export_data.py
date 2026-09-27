@@ -1,5 +1,5 @@
 """
-Export key BigQuery tables to static JSON files for the GitHub Pages site.
+Export key BigQuery tables to static JSON files for the frontend.
 
 Run this after each weekly dbt run:
     python scripts/export_data.py
@@ -14,6 +14,7 @@ PROJECT_ID = "nfl-analytics-505917"
 BASE_DIR = os.path.join(os.path.dirname(__file__), "..")
 CREDENTIALS_PATH = os.path.join(BASE_DIR, "credentials.json")
 OUTPUT_DIR = os.path.join(BASE_DIR, "predictions-app", "public", "data")
+
 
 def get_client():
     credentials = service_account.Credentials.from_service_account_file(CREDENTIALS_PATH)
@@ -53,6 +54,8 @@ def get_full_season_pwe(client, season):
 def compute_weekly_totw_history(season_pwe):
     """One row per (week, role) = the top EPA performer that week, min 10 plays."""
     eligible = season_pwe[season_pwe["plays"] >= 10]
+    if eligible.empty:
+        return eligible
     idx = eligible.groupby(["week", "role"])["total_epa"].idxmax()
     return eligible.loc[idx].reset_index(drop=True)
 
@@ -72,7 +75,7 @@ def get_matchup_story(client, season, week, team):
         opponent, team_score, opp_score = row["away_team"], row["home_score"], row["away_score"]
     else:
         opponent, team_score, opp_score = row["home_team"], row["away_score"], row["home_score"]
-    if team_score != team_score:
+    if team_score != team_score:  # NaN check (game not yet played/scored)
         return None
     return {"opponent": opponent, "team_score": int(team_score), "opp_score": int(opp_score)}
 
@@ -97,54 +100,71 @@ def get_form_leader(client, season, week):
 
 
 def export_this_week(client, season, season_pwe):
-    current_week = int(season_pwe["week"].max())
-    this_week_rows = season_pwe[season_pwe["week"] == current_week].sort_values("total_epa", ascending=False)
-
-    top_performer = this_week_rows.iloc[0].to_dict()
-    matchup = get_matchup_story(client, season, current_week, top_performer["team"])
-    if matchup:
-        top_performer.update(matchup)
-
-    eligible = this_week_rows[this_week_rows["plays"] >= 10]
-    team_of_week = (
-        eligible.loc[eligible.groupby("role")["total_epa"].idxmax()]
-        .sort_values("total_epa", ascending=False)
-        .to_dict(orient="records")
-    )
-
+    """Exports EVERY week of the current season, not just the latest, so the
+    frontend can let the user browse any week within this season."""
+    all_weeks = sorted(season_pwe["week"].unique().tolist())
     history = compute_weekly_totw_history(season_pwe)
-    this_totw = history[history["week"] == current_week]
-    prev_totw = history[history["week"] == current_week - 1] if current_week > 1 else history.iloc[0:0]
 
-    held_ids = set(this_totw["player_id"]) & set(prev_totw["player_id"])
-    total_slots = len(this_totw)
-    held_count = len(held_ids)
+    weeks_payload = {}
 
-    prior_ids = set(history[history["week"] < current_week]["player_id"])
-    debutants = this_totw[~this_totw["player_id"].isin(prior_ids)]
-    debutant_count = int(len(debutants))
-    debutant = debutants.iloc[0].to_dict() if len(debutants) else None
+    for current_week in all_weeks:
+        this_week_rows = season_pwe[season_pwe["week"] == current_week].sort_values("total_epa", ascending=False)
+        if this_week_rows.empty:
+            continue
 
-    form_leader = get_form_leader(client, season, current_week)
+        top_performer = this_week_rows.iloc[0].to_dict()
+        matchup = get_matchup_story(client, season, current_week, top_performer["team"])
+        if matchup:
+            top_performer.update(matchup)
+
+        eligible = this_week_rows[this_week_rows["plays"] >= 10]
+        if not eligible.empty:
+            team_of_week = (
+                eligible.loc[eligible.groupby("role")["total_epa"].idxmax()]
+                .sort_values("total_epa", ascending=False)
+                .to_dict(orient="records")
+            )
+        else:
+            team_of_week = []
+
+        this_totw = history[history["week"] == current_week] if not history.empty else history
+        prev_totw = history[history["week"] == current_week - 1] if (current_week > 1 and not history.empty) else history.iloc[0:0]
+
+        held_ids = set(this_totw["player_id"]) & set(prev_totw["player_id"])
+        total_slots = len(this_totw)
+        held_count = len(held_ids)
+
+        prior_ids = set(history[history["week"] < current_week]["player_id"]) if not history.empty else set()
+        debutants = this_totw[~this_totw["player_id"].isin(prior_ids)]
+        debutant_count = int(len(debutants))
+        debutant = debutants.iloc[0].to_dict() if len(debutants) else None
+
+        form_leader = get_form_leader(client, season, current_week)
+
+        weeks_payload[str(int(current_week))] = {
+            "week": int(current_week),
+            "top_performer": top_performer,
+            "team_of_week": team_of_week,
+            "full_week": this_week_rows.to_dict(orient="records"),
+            "form_leader": form_leader,
+            "debutant": debutant,
+            "debutant_count": debutant_count,
+            "held_count": held_count,
+            "total_slots": total_slots,
+        }
+        print(f"  ...computed week {int(current_week)}")
 
     payload = {
         "season": season,
-        "week": current_week,
-        "top_performer": top_performer,
-        "team_of_week": team_of_week,
-        "full_week": this_week_rows.to_dict(orient="records"),
-        "form_leader": form_leader,
-        "debutant": debutant,
-        "debutant_count": debutant_count,
-        "held_count": held_count,
-        "total_slots": total_slots,
+        "latest_week": int(max(all_weeks)),
+        "weeks": weeks_payload,
     }
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     out_path = os.path.join(OUTPUT_DIR, "this_week.json")
     with open(out_path, "w") as f:
         json.dump(payload, f, indent=2, default=str)
-    print(f"Wrote {out_path} ({len(this_week_rows)} players)")
+    print(f"Wrote {out_path} ({len(weeks_payload)} weeks)")
 
 
 def export_teams(client, season, season_pwe):

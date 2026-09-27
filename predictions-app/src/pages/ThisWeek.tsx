@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Info, ChevronLeft, ChevronRight, Trophy, Flame, Star, X } from "lucide-react";
-import { useThisWeek, type Player, type ThisWeekData } from "../lib/thisWeekData";
+import { useThisWeek, type Player } from "../lib/thisWeekData";
 import { TEAM_INFO } from "../lib/teams";
 import Reveal, { SectionLabel, SectionTitle } from "../components/Reveal";
 
@@ -91,7 +91,28 @@ function InfoModal({ open, onClose }: { open: boolean; onClose: () => void }) {
   );
 }
 
-function plainSummary(p: Player | ThisWeekData["top_performer"]): string {
+function WeekPicker({ weeks, current, onSelect }: { weeks: number[]; current: number; onSelect: (w: number) => void }) {
+  return (
+    <div className="relative">
+      <div className="flex gap-2 overflow-x-auto pb-1" style={{ scrollbarWidth: "none" }}>
+        {weeks.map((w) => (
+          <button
+            key={w}
+            onClick={() => onSelect(w)}
+            className={`shrink-0 rounded-full px-4 py-2 text-sm font-semibold transition ${
+              w === current ? "bg-pos text-ink" : "border border-line text-muted hover:border-pos/50 hover:text-white"
+            }`}
+          >
+            Week {w}
+          </button>
+        ))}
+      </div>
+      <div className="pointer-events-none absolute inset-y-0 right-0 w-10 bg-gradient-to-l from-ink to-transparent" />
+    </div>
+  );
+}
+
+function plainSummary(p: Player): string {
   if (p.role === "passer") {
     return `${p.player_name} had a big game, completing ${p.completions} of ${p.plays} passes for ${p.yards} yards and ${p.touchdowns} touchdown${p.touchdowns === 1 ? "" : "s"}${p.turnovers > 0 ? `, though he did throw ${p.turnovers} interception${p.turnovers === 1 ? "" : "s"}` : ""}. It was the best performance by any quarterback this week.`;
   }
@@ -162,6 +183,7 @@ function PlayerCard({ p, index }: { p: Player; index: number }) {
 
 export default function ThisWeek() {
   const { data, loading, error } = useThisWeek();
+  const [selectedWeek, setSelectedWeek] = useState<number | null>(null);
   const [teamFilter, setTeamFilter] = useState("");
   const [roleFilter, setRoleFilter] = useState("");
   const [page, setPage] = useState(0);
@@ -170,13 +192,21 @@ export default function ThisWeek() {
   if (loading) return <div className="flex min-h-screen items-center justify-center text-muted">Loading this week's data…</div>;
   if (error || !data) return <div className="flex min-h-screen items-center justify-center text-danger">Couldn't load this_week.json.</div>;
 
-  const top = data.top_performer;
+  const weekKeys = Object.keys(data.weeks).map(Number).sort((a, b) => a - b);
+  const currentWeek = selectedWeek ?? data.latest_week;
+  const weekData = data.weeks[String(currentWeek)];
+
+  if (!weekData) {
+    return <div className="flex min-h-screen items-center justify-center text-danger">No data found for Week {currentWeek}.</div>;
+  }
+
+  const top = weekData.top_performer;
   const topTeam = TEAM_INFO[top.team] ?? { name: top.team, color: "#2ecc71", logo: "" };
 
-  const teams = [...new Set(data.full_week.map((p) => p.team))].sort((a, b) =>
+  const teams = [...new Set(weekData.full_week.map((p) => p.team))].sort((a, b) =>
     (TEAM_INFO[a]?.name ?? a).localeCompare(TEAM_INFO[b]?.name ?? b)
   );
-  const filtered = data.full_week.filter(
+  const filtered = weekData.full_week.filter(
     (p) => (!teamFilter || p.team === teamFilter) && (!roleFilter || p.role === roleFilter)
   );
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
@@ -188,6 +218,13 @@ export default function ThisWeek() {
     setPage(0);
   };
 
+  const changeWeek = (w: number) => {
+    setSelectedWeek(w);
+    setTeamFilter("");
+    setRoleFilter("");
+    setPage(0);
+  };
+
   return (
     <div className="min-h-screen">
       <AmbientBackground color={topTeam.color} />
@@ -195,7 +232,7 @@ export default function ThisWeek() {
 
       <section className="mx-auto max-w-5xl px-5 py-16 sm:px-10">
         <div className="flex items-center justify-between">
-          <Reveal><SectionLabel>{data.season} · Week {data.week}</SectionLabel></Reveal>
+          <Reveal><SectionLabel>{data.season} · Week {currentWeek}</SectionLabel></Reveal>
           <Reveal>
             <button
               onClick={() => setInfoOpen(true)}
@@ -209,142 +246,162 @@ export default function ThisWeek() {
 
         <Reveal><SectionTitle>Every player, ranked by value added</SectionTitle></Reveal>
 
-        <Reveal delay={0.05} className="mt-8 space-y-4 rounded-2xl border border-line bg-panel/60 p-6">
-          <NarrativeLine icon={<Trophy size={16} />}>
-            <span className="font-bold text-white">{top.player_name}</span> was the standout of the week
-            {top.opponent
-              ? ` — ${fmtEpa(top.total_epa)} EPA for ${top.team} vs ${top.opponent} (${top.team_score}-${top.opp_score}).`
-              : ` — ${fmtEpa(top.total_epa)} EPA across ${top.plays} plays.`}
-          </NarrativeLine>
-          {data.form_leader && (
-            <NarrativeLine icon={<Flame size={16} />}>
-              <span className="font-bold text-white">{data.form_leader.player_name}</span> leads the league
-              over the last 4 weeks at {TEAM_INFO[data.form_leader.team]?.name ?? data.form_leader.team}.
-            </NarrativeLine>
-          )}
-          {data.debutant && (
-            <NarrativeLine icon={<Star size={16} />}>
-              <span className="font-bold text-white">{data.debutant.player_name}</span> for{" "}
-              {TEAM_INFO[data.debutant.team]?.name ?? data.debutant.team} makes their first Team of the Week
-              of the season{data.debutant_count > 1 ? `, one of ${data.debutant_count} debutants this round.` : "."}
-            </NarrativeLine>
-          )}
-          <div className="rounded-xl border-l-2 border-pos bg-pos/5 p-4 text-sm text-muted">
-            Since last week: {data.held_count} of {data.total_slots} slots held their place
-            ({data.total_slots - data.held_count} changed hands), and {data.debutant_count} player
-            {data.debutant_count === 1 ? "" : "s"} made their first Team of the Week of the season.
-          </div>
+        <Reveal delay={0.03} className="mt-6">
+          <WeekPicker weeks={weekKeys} current={currentWeek} onSelect={changeWeek} />
         </Reveal>
 
-        <Reveal delay={0.1} className="mt-8 overflow-hidden rounded-2xl border border-line bg-panel">
-          <div className="flex flex-col items-center gap-6 p-7 sm:flex-row sm:items-start">
-            <div
-              className="h-24 w-24 shrink-0 overflow-hidden rounded-full border-2"
-              style={{ borderColor: topTeam.color, boxShadow: `0 0 24px -4px ${topTeam.color}` }}
-            >
-              {top.headshot_url && <img src={top.headshot_url} alt="" className="h-full w-full object-cover" />}
-            </div>
-            <div>
-              <div className="mb-1 text-[10px] font-bold uppercase tracking-[0.2em] text-pos">Player of the Week</div>
-              <div className="mb-2 text-xl font-bold text-white">{top.player_name} · {topTeam.name}</div>
-              <p className="text-sm leading-relaxed text-muted">{plainSummary(top)}</p>
-            </div>
-          </div>
-        </Reveal>
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={currentWeek}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2 }}
+          >
+            <Reveal delay={0.05} className="mt-8 space-y-4 rounded-2xl border border-line bg-panel/60 p-6">
+              <NarrativeLine icon={<Trophy size={16} />}>
+                <span className="font-bold text-white">{top.player_name}</span> was the standout of the week
+                {top.opponent
+                  ? ` — ${fmtEpa(top.total_epa)} EPA for ${top.team} vs ${top.opponent} (${top.team_score}-${top.opp_score}).`
+                  : ` — ${fmtEpa(top.total_epa)} EPA across ${top.plays} plays.`}
+              </NarrativeLine>
+              {weekData.form_leader && (
+                <NarrativeLine icon={<Flame size={16} />}>
+                  <span className="font-bold text-white">{weekData.form_leader.player_name}</span> leads the league
+                  over the last 4 weeks at {TEAM_INFO[weekData.form_leader.team]?.name ?? weekData.form_leader.team}.
+                </NarrativeLine>
+              )}
+              {weekData.debutant && (
+                <NarrativeLine icon={<Star size={16} />}>
+                  <span className="font-bold text-white">{weekData.debutant.player_name}</span> for{" "}
+                  {TEAM_INFO[weekData.debutant.team]?.name ?? weekData.debutant.team} makes their first Team of the Week
+                  of the season{weekData.debutant_count > 1 ? `, one of ${weekData.debutant_count} debutants this round.` : "."}
+                </NarrativeLine>
+              )}
+              <div className="rounded-xl border-l-2 border-pos bg-pos/5 p-4 text-sm text-muted">
+                {currentWeek > 1 ? (
+                  <>
+                    Since last week: {weekData.held_count} of {weekData.total_slots} slots held their place
+                    ({weekData.total_slots - weekData.held_count} changed hands), and {weekData.debutant_count} player
+                    {weekData.debutant_count === 1 ? "" : "s"} made their first Team of the Week of the season.
+                  </>
+                ) : (
+                  <>Week 1 of the season — {weekData.total_slots} Team of the Week slots filled for the first time.</>
+                )}
+              </div>
+            </Reveal>
 
-        <Reveal delay={0.15} className="mt-14">
-          <SectionTitle>Team of the Week</SectionTitle>
-          <p className="mt-2 text-sm text-muted">Best raw EPA performance per role · minimum 10 plays · click a card for a plain-English recap</p>
-          <div className="mt-6 grid gap-4 sm:grid-cols-3">
-            {data.team_of_week.map((p, i) => (
-              <PlayerCard key={p.player_id} p={p} index={i} />
-            ))}
-          </div>
-        </Reveal>
+            <Reveal delay={0.1} className="mt-8 overflow-hidden rounded-2xl border border-line bg-panel">
+              <div className="flex flex-col items-center gap-6 p-7 sm:flex-row sm:items-start">
+                <div
+                  className="h-24 w-24 shrink-0 overflow-hidden rounded-full border-2"
+                  style={{ borderColor: topTeam.color, boxShadow: `0 0 24px -4px ${topTeam.color}` }}
+                >
+                  {top.headshot_url && <img src={top.headshot_url} alt="" className="h-full w-full object-cover" />}
+                </div>
+                <div>
+                  <div className="mb-1 text-[10px] font-bold uppercase tracking-[0.2em] text-pos">Player of the Week</div>
+                  <div className="mb-2 text-xl font-bold text-white">{top.player_name} · {topTeam.name}</div>
+                  <p className="text-sm leading-relaxed text-muted">{plainSummary(top)}</p>
+                </div>
+              </div>
+            </Reveal>
 
-        <Reveal delay={0.2} className="mt-14">
-          <SectionTitle>Full Week Stats</SectionTitle>
-          <div className="mt-5 mb-4 flex flex-wrap items-center gap-3">
-            <select
-              value={teamFilter}
-              onChange={(e) => changeFilter(setTeamFilter, e.target.value)}
-              className="rounded-lg border border-line bg-panel px-3 py-2 text-sm text-white"
-            >
-              <option value="">All Teams</option>
-              {teams.map((t) => (
-                <option key={t} value={t}>{TEAM_INFO[t]?.name ?? t}</option>
-              ))}
-            </select>
-            <select
-              value={roleFilter}
-              onChange={(e) => changeFilter(setRoleFilter, e.target.value)}
-              className="rounded-lg border border-line bg-panel px-3 py-2 text-sm text-white"
-            >
-              <option value="">All Roles</option>
-              <option value="passer">Passer</option>
-              <option value="rusher">Rusher</option>
-              <option value="receiver">Receiver</option>
-            </select>
-            <span className="ml-auto text-xs text-muted">
-              Showing {pageSafe * PAGE_SIZE + 1}–{Math.min((pageSafe + 1) * PAGE_SIZE, filtered.length)} of {filtered.length} players
-            </span>
-          </div>
+            <Reveal delay={0.15} className="mt-14">
+              <SectionTitle>Team of the Week</SectionTitle>
+              <p className="mt-2 text-sm text-muted">Best raw EPA performance per role · minimum 10 plays · click a card for a plain-English recap</p>
+              <div className="mt-6 grid gap-4 sm:grid-cols-3">
+                {weekData.team_of_week.map((p, i) => (
+                  <PlayerCard key={p.player_id} p={p} index={i} />
+                ))}
+              </div>
+            </Reveal>
 
-          <div className="overflow-hidden rounded-2xl border border-line">
-            <table className="w-full text-sm">
-              <thead>
-                <tr className="border-b border-line bg-panel text-left text-xs uppercase text-muted">
-                  <th className="p-3"></th>
-                  <th className="p-3">Player</th>
-                  <th className="p-3">Team</th>
-                  <th className="p-3">Role</th>
-                  <th className="p-3">Plays</th>
-                  <th className="p-3">Total EPA</th>
-                  <th className="p-3">EPA/Play</th>
-                  <th className="p-3">Success</th>
-                </tr>
-              </thead>
-              <tbody>
-                {paginated.map((p) => {
-                  const t = TEAM_INFO[p.team] ?? { name: p.team, logo: "" };
-                  const cls = p.total_epa >= 0 ? "text-pos" : "text-danger";
-                  return (
-                    <tr key={`${p.player_id}-${p.role}`} className="border-b border-line/50 hover:bg-white/[0.02]">
-                      <td className="p-3">
-                        {p.headshot_url && <img src={p.headshot_url} alt="" className="h-8 w-8 rounded-full object-cover" />}
-                      </td>
-                      <td className="p-3 text-white">{p.player_name}</td>
-                      <td className="p-3 text-muted">{t.name}</td>
-                      <td className="p-3 text-muted">{p.role}</td>
-                      <td className="p-3 text-muted">{p.plays}</td>
-                      <td className={`p-3 font-semibold ${cls}`}>{fmtEpa(p.total_epa)}</td>
-                      <td className={`p-3 font-semibold ${cls}`}>{fmtEpa(p.epa_per_play)}</td>
-                      <td className="p-3 text-muted">{Math.round(p.success_rate * 100)}%</td>
+            <Reveal delay={0.2} className="mt-14">
+              <SectionTitle>Full Week Stats</SectionTitle>
+              <div className="mt-5 mb-4 flex flex-wrap items-center gap-3">
+                <select
+                  value={teamFilter}
+                  onChange={(e) => changeFilter(setTeamFilter, e.target.value)}
+                  className="rounded-lg border border-line bg-panel px-3 py-2 text-sm text-white"
+                >
+                  <option value="">All Teams</option>
+                  {teams.map((t) => (
+                    <option key={t} value={t}>{TEAM_INFO[t]?.name ?? t}</option>
+                  ))}
+                </select>
+                <select
+                  value={roleFilter}
+                  onChange={(e) => changeFilter(setRoleFilter, e.target.value)}
+                  className="rounded-lg border border-line bg-panel px-3 py-2 text-sm text-white"
+                >
+                  <option value="">All Roles</option>
+                  <option value="passer">Passer</option>
+                  <option value="rusher">Rusher</option>
+                  <option value="receiver">Receiver</option>
+                </select>
+                <span className="ml-auto text-xs text-muted">
+                  Showing {pageSafe * PAGE_SIZE + 1}–{Math.min((pageSafe + 1) * PAGE_SIZE, filtered.length)} of {filtered.length} players
+                </span>
+              </div>
+
+              <div className="overflow-hidden rounded-2xl border border-line">
+                <table className="w-full text-sm">
+                  <thead>
+                    <tr className="border-b border-line bg-panel text-left text-xs uppercase text-muted">
+                      <th className="p-3"></th>
+                      <th className="p-3">Player</th>
+                      <th className="p-3">Team</th>
+                      <th className="p-3">Role</th>
+                      <th className="p-3">Plays</th>
+                      <th className="p-3">Total EPA</th>
+                      <th className="p-3">EPA/Play</th>
+                      <th className="p-3">Success</th>
                     </tr>
-                  );
-                })}
-              </tbody>
-            </table>
-          </div>
+                  </thead>
+                  <tbody>
+                    {paginated.map((p) => {
+                      const t = TEAM_INFO[p.team] ?? { name: p.team, logo: "" };
+                      const cls = p.total_epa >= 0 ? "text-pos" : "text-danger";
+                      return (
+                        <tr key={`${p.player_id}-${p.role}`} className="border-b border-line/50 hover:bg-white/[0.02]">
+                          <td className="p-3">
+                            {p.headshot_url && <img src={p.headshot_url} alt="" className="h-8 w-8 rounded-full object-cover" />}
+                          </td>
+                          <td className="p-3 text-white">{p.player_name}</td>
+                          <td className="p-3 text-muted">{t.name}</td>
+                          <td className="p-3 text-muted">{p.role}</td>
+                          <td className="p-3 text-muted">{p.plays}</td>
+                          <td className={`p-3 font-semibold ${cls}`}>{fmtEpa(p.total_epa)}</td>
+                          <td className={`p-3 font-semibold ${cls}`}>{fmtEpa(p.epa_per_play)}</td>
+                          <td className="p-3 text-muted">{Math.round(p.success_rate * 100)}%</td>
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </table>
+              </div>
 
-          <div className="mt-4 flex items-center justify-between">
-            <button
-              onClick={() => setPage((p) => Math.max(p - 1, 0))}
-              disabled={pageSafe === 0}
-              className="flex items-center gap-1 rounded-full border border-line px-4 py-2 text-sm text-white transition hover:border-pos/50 hover:bg-pos/5 disabled:opacity-30"
-            >
-              <ChevronLeft size={16} /> Previous
-            </button>
-            <span className="text-sm text-muted">Page {pageSafe + 1} of {totalPages}</span>
-            <button
-              onClick={() => setPage((p) => Math.min(p + 1, totalPages - 1))}
-              disabled={pageSafe >= totalPages - 1}
-              className="flex items-center gap-1 rounded-full border border-line px-4 py-2 text-sm text-white transition hover:border-pos/50 hover:bg-pos/5 disabled:opacity-30"
-            >
-              Next <ChevronRight size={16} />
-            </button>
-          </div>
-        </Reveal>
+              <div className="mt-4 flex items-center justify-between">
+                <button
+                  onClick={() => setPage((p) => Math.max(p - 1, 0))}
+                  disabled={pageSafe === 0}
+                  className="flex items-center gap-1 rounded-full border border-line px-4 py-2 text-sm text-white transition hover:border-pos/50 hover:bg-pos/5 disabled:opacity-30"
+                >
+                  <ChevronLeft size={16} /> Previous
+                </button>
+                <span className="text-sm text-muted">Page {pageSafe + 1} of {totalPages}</span>
+                <button
+                  onClick={() => setPage((p) => Math.min(p + 1, totalPages - 1))}
+                  disabled={pageSafe >= totalPages - 1}
+                  className="flex items-center gap-1 rounded-full border border-line px-4 py-2 text-sm text-white transition hover:border-pos/50 hover:bg-pos/5 disabled:opacity-30"
+                >
+                  Next <ChevronRight size={16} />
+                </button>
+              </div>
+            </Reveal>
+          </motion.div>
+        </AnimatePresence>
       </section>
     </div>
   );

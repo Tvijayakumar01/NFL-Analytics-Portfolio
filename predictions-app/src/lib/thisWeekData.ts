@@ -16,8 +16,7 @@ export type Player = {
   completions: number;
 };
 
-export type ThisWeekData = {
-  season: number;
+export type WeekPayload = {
   week: number;
   top_performer: Player & { opponent?: string; team_score?: number; opp_score?: number };
   team_of_week: Player[];
@@ -27,6 +26,12 @@ export type ThisWeekData = {
   debutant_count: number;
   held_count: number;
   total_slots: number;
+};
+
+export type ThisWeekData = {
+  season: number;
+  latest_week: number;
+  weeks: Record<string, WeekPayload>;
 };
 
 export function useThisWeek() {

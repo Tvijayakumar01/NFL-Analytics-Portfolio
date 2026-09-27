@@ -147,12 +147,22 @@ function ScoreboardHero({ g, isUpcoming }: { g: AnyGame; isUpcoming: boolean }) 
         </div>
       </div>
 
-      <div className="mt-10 space-y-3">
-        <div className="h-3 w-full overflow-hidden rounded-full bg-white/8">
-          <motion.div className="h-full rounded-full" style={{ backgroundColor: homeWin ? "#2ecc71" : "#4b5563" }} initial={{ width: 0 }} animate={{ width: pct(g.prob.home) }} transition={{ duration: 0.9, ease: EASE, delay: 0.1 }} />
-        </div>
-        <div className="h-3 w-full overflow-hidden rounded-full bg-white/8">
-          <motion.div className="h-full rounded-full" style={{ backgroundColor: !homeWin ? "#2ecc71" : "#4b5563" }} initial={{ width: 0 }} animate={{ width: pct(g.prob.away) }} transition={{ duration: 0.9, ease: EASE, delay: 0.2 }} />
+      <div className="mt-8">
+        <div className="flex h-2.5 w-full overflow-hidden rounded-full bg-white/8">
+          <motion.div
+            className="h-full"
+            style={{ backgroundColor: homeWin ? "#2ecc71" : "#4b5563" }}
+            initial={{ width: 0 }}
+            animate={{ width: pct(g.prob.home) }}
+            transition={{ duration: 0.9, ease: EASE, delay: 0.1 }}
+          />
+          <motion.div
+            className="h-full"
+            style={{ backgroundColor: !homeWin ? "#2ecc71" : "#4b5563" }}
+            initial={{ width: 0 }}
+            animate={{ width: pct(g.prob.away) }}
+            transition={{ duration: 0.9, ease: EASE, delay: 0.2 }}
+          />
         </div>
       </div>
     </div>
@@ -355,14 +365,16 @@ export default function Predictions() {
             </button>
           </div>
         </section>
-        <AnimatePresence mode="wait" custom={direction}>
-          <motion.div key={safeIndex} custom={direction} initial={{ opacity: 0, x: direction > 0 ? 40 : -40 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: direction > 0 ? -40 : 40 }} transition={{ duration: 0.35, ease: EASE }}>
-            <ScoreboardHero g={game} isUpcoming={false} />
-            <section className="mx-auto max-w-5xl px-5 sm:px-10">
-              <DetailPanel g={game} isUpcoming={false} />
-            </section>
-          </motion.div>
-        </AnimatePresence>
+        <section className="mx-auto max-w-5xl px-5 sm:px-10">
+          <AnimatePresence mode="wait" custom={direction}>
+            <motion.div key={safeIndex} custom={direction} initial={{ opacity: 0, x: direction > 0 ? 40 : -40 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: direction > 0 ? -40 : 40 }} transition={{ duration: 0.35, ease: EASE }}>
+              <ScoreboardHero g={game} isUpcoming={false} />
+              <div className="mt-6">
+                <DetailPanel g={game} isUpcoming={false} />
+              </div>
+            </motion.div>
+          </AnimatePresence>
+        </section>
       </div>
     );
   }
@@ -398,7 +410,9 @@ export default function Predictions() {
       <section className="relative mx-auto max-w-5xl scroll-mt-24 px-5 py-20 sm:px-10">
         <PageHeader setInfoOpen={setInfoOpen} view={view} setView={setView} hasUpcoming={hasUpcoming} season={upcomingData!.season} week={upcomingData!.week} />
       </section>
-      <UpcomingList games={upcomingData!.games} index={safeIndex} direction={direction} onGo={goUpcoming} />
+      <section className="mx-auto max-w-5xl px-5 sm:px-10">
+        <UpcomingList games={upcomingData!.games} index={safeIndex} direction={direction} onGo={goUpcoming} />
+      </section>
     </div>
   );
 }
