@@ -26,6 +26,26 @@ jobs:
       - name: Write BigQuery credentials
         run: echo '${{ secrets.GCP_CREDENTIALS }}' > credentials.json
 
+      - name: Set up dbt profile
+        run: |
+          mkdir -p ~/.dbt
+          cat > ~/.dbt/profiles.yml << EOF
+          nfl_dbt:
+            outputs:
+              dev:
+                type: bigquery
+                method: service-account
+                project: nfl-analytics-505917
+                dataset: nfl_dbt
+                threads: 4
+                keyfile: ${{ github.workspace }}/credentials.json
+                location: US
+                priority: interactive
+                job_execution_timeout_seconds: 300
+                job_retries: 1
+            target: dev
+          EOF
+
       - name: Pull latest NFL data
         run: python ingestion/pull_data.py
 
