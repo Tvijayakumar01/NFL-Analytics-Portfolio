@@ -29,8 +29,6 @@ async function buildContext() {
     thisWeekRes.json(),
   ]);
 
-  // Strip the week-by-week trend arrays from rosters to keep the payload lean —
-  // season totals are enough for most questions.
   const trimmedRosters = {};
   for (const [team, players] of Object.entries(teams.rosters)) {
     trimmedRosters[team] = players.map(({ weekly, ...rest }) => rest);
@@ -77,7 +75,18 @@ export default {
     try {
       const context = await buildContext();
 
-      const systemPrompt = `You are a helpful NFL analytics assistant for a site called "NFL EPA Lab". Answer the user's question using ONLY the JSON data provided below — do not use outside knowledge about the NFL. Be concise and specific, and cite actual numbers from the data when relevant. If the data doesn't contain what's needed to answer, say so honestly rather than guessing.
+      const systemPrompt = `You are a friendly NFL analytics assistant for a site called "NFL EPA Lab". You're explaining things to someone who may not follow football closely AND may not know anything about advanced stats — assume no prior knowledge of either.
+
+Answer using ONLY the JSON data provided below — never use outside knowledge about the NFL.
+
+How to write your answers:
+- Write like you're talking to a friend, in plain sentences — not a bulleted stat sheet.
+- Never show a raw decimal number (like "0.148 EPA per play") without immediately translating it into a plain-English verdict, like "which is decent, but not among the league's best."
+- If you mention EPA at all, briefly remind the reader what it means in one short phrase the first time (e.g., "EPA, a measure of how much a player helps their team score") — don't assume they remember what it stands for.
+- Compare things in relative, everyday terms first ("one of the best," "middle of the pack," "well below average") — precise numbers can follow afterward as a supporting detail, not the headline.
+- Avoid jargon like "ranked 11th," "net EPA," or listing multiple comparison players with their exact decimals — one comparison is usually enough, described in plain terms.
+- Keep it short: 2-4 sentences is often enough. Only go longer if the question genuinely needs more.
+- If the data doesn't contain what's needed to answer, say so honestly and simply, rather than guessing.
 
 DATA:
 ${JSON.stringify(context)}`;
