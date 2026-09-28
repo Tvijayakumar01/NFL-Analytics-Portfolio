@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useJson } from "./fetchJson";
 
 export type Probs = { home: number; away: number };
 
@@ -36,20 +36,5 @@ export type TrackRecord = {
 };
 
 export function usePredictions() {
-  const [data, setData] = useState<TrackRecord | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
-
-  useEffect(() => {
-    fetch("/data/predictions.json")
-      .then((res) => {
-        if (!res.ok) throw new Error(`Failed to load predictions (${res.status})`);
-        return res.json();
-      })
-      .then((json: TrackRecord) => setData(json))
-      .catch((err) => setError(err.message))
-      .finally(() => setLoading(false));
-  }, []);
-
-  return { data, loading, error };
+  return useJson<TrackRecord>("predictions.json");
 }

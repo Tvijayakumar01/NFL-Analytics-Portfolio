@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useJson } from "./fetchJson";
 
 export type Player = {
   player_id: string;
@@ -35,20 +35,5 @@ export type ThisWeekData = {
 };
 
 export function useThisWeek() {
-  const [data, setData] = useState<ThisWeekData | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
-
-  useEffect(() => {
-    fetch("/data/this_week.json")
-      .then((res) => {
-        if (!res.ok) throw new Error(`Failed to load this_week.json (${res.status})`);
-        return res.json();
-      })
-      .then((json: ThisWeekData) => setData(json))
-      .catch((err) => setError(err.message))
-      .finally(() => setLoading(false));
-  }, []);
-
-  return { data, loading, error };
+  return useJson<ThisWeekData>("this_week.json");
 }

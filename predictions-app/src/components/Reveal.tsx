@@ -15,28 +15,12 @@ export default function Reveal({
   return (
     <motion.div
       className={className}
-      initial={{ opacity: 0, y: 20 }}
+      initial={{ opacity: 0, y: 16 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.7, ease: EASE, delay }}
+      viewport={{ once: true, margin: "-40px" }}
+      transition={{ duration: 0.55, ease: EASE, delay }}
     >
       {children}
     </motion.div>
-  );
-}
-
-export function SectionLabel({ children }: { children: ReactNode }) {
-  return (
-    <span className="rounded-full bg-white/5 px-3 py-1 text-[11px] uppercase tracking-[0.2em] text-muted">
-      {children}
-    </span>
-  );
-}
-
-export function SectionTitle({ children }: { children: ReactNode }) {
-  return (
-    <h2 className="mt-3 font-semibold text-3xl text-white sm:text-4xl">
-      {children}
-    </h2>
   );
 }

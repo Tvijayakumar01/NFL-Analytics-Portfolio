@@ -1,237 +1,181 @@
 import { motion } from "framer-motion";
 import { Database, Cloud, GitBranch, Cpu, FileJson, MonitorSmartphone, AlertTriangle } from "lucide-react";
-import Reveal, { SectionLabel, SectionTitle } from "../components/Reveal";
+import { Container, PageHero, SectionHeader } from "../components/Page";
+import Reveal from "../components/Reveal";
 
 const EASE = [0.16, 1, 0.3, 1] as const;
 
-function AmbientBackground() {
-  return (
-    <div className="pointer-events-none fixed inset-0 -z-10 overflow-hidden bg-ink">
-      <motion.div
-        className="absolute -left-32 -top-32 h-[560px] w-[560px] rounded-full bg-pos blur-[130px]"
-        animate={{ x: [0, 30, -20, 0], y: [0, -20, 20, 0] }}
-        transition={{ x: { duration: 24, repeat: Infinity, ease: "easeInOut" }, y: { duration: 28, repeat: Infinity, ease: "easeInOut" } }}
-        style={{ opacity: 0.2 }}
-      />
-      <motion.div
-        className="absolute -right-32 bottom-[-100px] h-[500px] w-[500px] rounded-full bg-away blur-[130px]"
-        animate={{ x: [0, -25, 20, 0], y: [0, 20, -15, 0] }}
-        transition={{ x: { duration: 22, repeat: Infinity, ease: "easeInOut" }, y: { duration: 26, repeat: Infinity, ease: "easeInOut" } }}
-        style={{ opacity: 0.15 }}
-      />
-      <div className="absolute inset-0" style={{ background: "radial-gradient(ellipse at center, transparent 60%, #0a0a0d 100%)" }} />
-    </div>
-  );
-}
-
 const pipelineSteps = [
-  { icon: Database, title: "Ingest", desc: "nfl_data_py pulls play-by-play, schedules, and weekly rosters directly from nflverse — 2021 through the current season." },
-  { icon: Cloud, title: "Warehouse", desc: "Raw data lands in BigQuery (nfl_raw dataset) — 250,000+ plays, every schedule, every roster entry, refreshed weekly." },
-  { icon: GitBranch, title: "Transform", desc: "dbt models clean and aggregate the raw data into staging tables and marts: player-week EPA, team-week splits, rolling 4-week form." },
-  { icon: Cpu, title: "Model", desc: "An XGBoost classifier and a Logistic Regression baseline both train on trailing team EPA to predict game outcomes." },
-  { icon: FileJson, title: "Export", desc: "Python scripts query the finished marts and models, writing static JSON files consumed directly by the frontend — no live backend required." },
+  { icon: Database, title: "Ingest", desc: "nfl_data_py pulls play-by-play from nflverse. A one-time backfill covers 1999-2020 — the earliest year this kind of play-level data exists — and daily runs refresh 2021-present." },
+  { icon: Cloud, title: "Warehouse", desc: "Raw data lands in BigQuery — over 1.2 million plays spanning 1999-2026, refreshed daily for recent seasons." },
+  { icon: GitBranch, title: "Transform", desc: "dbt models and Python scripts clean and aggregate the raw data into team-week EPA, rolling 4-week form, and success rate." },
+  { icon: Cpu, title: "Model", desc: "An XGBoost classifier and a Logistic Regression baseline both train on the full historical range, using trailing team EPA and success rate to predict game outcomes." },
+  { icon: FileJson, title: "Export", desc: "Python scripts query the finished data and trained models, writing static JSON files consumed directly by the frontend — no live backend required." },
   { icon: MonitorSmartphone, title: "Frontend", desc: "A React + Tailwind + Framer Motion app renders everything, hosted free on GitHub Pages." },
+];
+
+const accuracyRows = [
+  { label: "Naive baseline (always pick home)", value: 53.7, best: false },
+  { label: "Logistic Regression", value: 63.6, best: false },
+  { label: "XGBoost — recent seasons only (2021-2024)", value: 62.5, best: false },
+  { label: "XGBoost — full history (1999-2024)", value: 66.2, best: true },
+];
+
+const limitations = [
+  "No strength-of-schedule adjustment — a great week against a weak defense looks the same as one against an elite defense.",
+  "No injury, weather, or personnel data — the model only sees trailing EPA and success rate, nothing about who's actually on the field.",
+  "Early-season weeks lean on the tail end of the prior season's form, since there isn't enough current-season data yet to build a reliable 4-week trailing window.",
+  "Pre-2001 seasons reflect a genuinely different NFL — different rules, far less passing volume. The model doesn't distinguish eras when computing trailing form, though a controlled test confirmed including this older data still improves accuracy overall rather than hurting it.",
+  "EPA rewards efficiency, not just outcomes — a team can \"lose\" on the scoreboard while still posting strong EPA numbers, and vice versa.",
+];
+
+const techStack = [
+  "nfl_data_py", "BigQuery", "dbt Core", "Python", "pandas", "scikit-learn",
+  "XGBoost", "React", "TypeScript", "Vite", "Tailwind CSS", "Framer Motion",
+  "Recharts", "GitHub Pages", "GitHub Actions", "Cloudflare Workers", "Claude (Anthropic)",
 ];
 
 function PipelineStep({ step, index }: { step: typeof pipelineSteps[number]; index: number }) {
   const Icon = step.icon;
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 20 }}
+    <motion.article
+      initial={{ opacity: 0, y: 16 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-60px" }}
-      whileHover={{ y: -4 }}
+      viewport={{ once: true, margin: "-40px" }}
       transition={{ duration: 0.4, delay: index * 0.05, ease: EASE }}
-      className="group relative overflow-hidden rounded-2xl border border-line bg-panel p-6 transition-shadow hover:shadow-[0_16px_32px_-12px_rgba(0,0,0,0.6)]"
+      className="card card-hover relative overflow-hidden p-6"
     >
-      <div className="absolute inset-x-0 top-0 h-1 bg-pos" />
-      <div className="pointer-events-none absolute -right-2 -top-2 text-6xl font-black text-white/[0.03] transition-colors group-hover:text-pos/[0.06]">
-        {String(index + 1).padStart(2, "0")}
+      <span className="headline pointer-events-none absolute -right-1 -top-3 text-8xl text-page">{String(index + 1).padStart(2, "0")}</span>
+      <div className="relative flex h-11 w-11 items-center justify-center rounded-lg bg-navy text-white">
+        <Icon size={20} />
       </div>
-      <div className="relative mb-4 flex h-10 w-10 items-center justify-center rounded-full border border-pos/30 bg-pos/10 text-pos">
-        <Icon size={18} />
-      </div>
-      <div className="relative mb-1 text-[10px] font-bold uppercase tracking-[0.2em] text-muted">Step {index + 1}</div>
-      <div className="relative mb-2 text-lg font-bold text-white">{step.title}</div>
-      <p className="relative text-sm leading-relaxed text-muted">{step.desc}</p>
-    </motion.div>
+      <div className="relative mt-4 font-display text-sm font-bold uppercase tracking-[0.14em] text-brand">Step {index + 1}</div>
+      <h3 className="headline relative mt-1 text-3xl text-ink">{step.title}</h3>
+      <p className="relative mt-2 text-sm leading-relaxed text-sub">{step.desc}</p>
+    </motion.article>
   );
 }
-
-function InfoCard({ title, children }: { title: string; children: React.ReactNode }) {
-  return (
-    <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-60px" }}
-      whileHover={{ y: -3 }}
-      transition={{ duration: 0.4, ease: EASE }}
-      className="rounded-2xl border border-line bg-panel p-6 transition-shadow hover:shadow-[0_16px_32px_-12px_rgba(0,0,0,0.6)]"
-    >
-      <div className="mb-2 text-lg font-bold text-white">{title}</div>
-      <div className="text-sm leading-relaxed text-muted">{children}</div>
-    </motion.div>
-  );
-}
-
-const accuracyRows = [
-  { label: "Naive baseline (always pick home)", value: 53.3, best: false },
-  { label: "Logistic Regression", value: 63.9, best: false },
-  { label: "XGBoost", value: 64.9, best: true },
-];
-
-function AccuracyRow({ row, index }: { row: typeof accuracyRows[number]; index: number }) {
-  return (
-    <motion.tr
-      initial={{ opacity: 0, x: -10 }}
-      whileInView={{ opacity: 1, x: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.4, delay: index * 0.08, ease: EASE }}
-      className={index < accuracyRows.length - 1 ? "border-b border-line/50" : ""}
-    >
-      <td className="p-4 text-white">{row.label}</td>
-      <td className="p-4">
-        <div className="flex items-center justify-end gap-3">
-          <div className="h-2 w-32 overflow-hidden rounded-full bg-white/8 sm:w-48">
-            <motion.div
-              className="h-full rounded-full"
-              style={{ backgroundColor: row.best ? "#2ecc71" : "#6b7280" }}
-              initial={{ width: 0 }}
-              whileInView={{ width: `${row.value}%` }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8, delay: 0.2 + index * 0.08, ease: EASE }}
-            />
-          </div>
-          <span className={`w-14 text-right font-bold ${row.best ? "text-pos" : "text-muted"}`}>{row.value}%</span>
-        </div>
-      </td>
-    </motion.tr>
-  );
-}
-
-const limitations = [
-  "No strength-of-schedule adjustment — a great week against a weak defense looks the same as one against an elite defense.",
-  "No injury, weather, or personnel data — the model only sees trailing EPA, nothing about who's actually on the field.",
-  "Early-season weeks lean on the tail end of the prior season's form, since there isn't enough current-season data yet to build a reliable 4-week trailing window.",
-  "EPA rewards efficiency, not just outcomes — a team can \"lose\" on the scoreboard while still posting strong EPA numbers, and vice versa.",
-];
-
-function LimitationRow({ text, index }: { text: string; index: number }) {
-  return (
-    <motion.div
-      initial={{ opacity: 0, y: 10 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.35, delay: index * 0.06, ease: EASE }}
-      className="flex items-start gap-3 rounded-xl border-l-2 border-gold bg-white/[0.03] p-4 text-sm leading-relaxed text-muted"
-    >
-      <AlertTriangle size={15} className="mt-0.5 shrink-0 text-gold" />
-      <span>{text}</span>
-    </motion.div>
-  );
-}
-
-const techStack = [
-  "nfl_data_py", "BigQuery", "dbt Core", "Python", "pandas", "scikit-learn",
-  "XGBoost", "React", "TypeScript", "Vite", "Tailwind CSS", "Framer Motion",
-  "Recharts", "GitHub Pages",
-];
 
 export default function Method() {
   return (
-    <div className="min-h-screen">
-      <AmbientBackground />
-      <section className="mx-auto max-w-5xl px-5 py-16 sm:px-10">
-        <Reveal>
-          <SectionLabel>Behind the Scenes</SectionLabel>
-          <SectionTitle>How this works</SectionTitle>
-          <p className="mt-4 max-w-2xl text-muted">
-            NFL EPA Lab is a full analytics pipeline, from raw play-by-play data to a trained
-            prediction model to the site you're looking at right now. Here's exactly how it fits together.
-          </p>
-        </Reveal>
+    <>
+      <PageHero
+        eyebrow="Behind the Scenes"
+        title="The Playbook"
+        lede="A full analytics pipeline, from raw play-by-play data back to 1999 to a trained prediction model to the site you're looking at right now. Here's exactly how it fits together."
+      >
+        <div className="grid grid-cols-2 gap-6 sm:grid-cols-4">
+          {[
+            ["1.2M+", "Plays analyzed"],
+            ["27", "Seasons of data"],
+            ["66.2%", "Model accuracy"],
+            ["Daily", "Data refresh"],
+          ].map(([v, l]) => (
+            <div key={l} className="border-l-2 border-brand pl-4">
+              <div className="stat text-4xl sm:text-5xl">{v}</div>
+              <div className="font-display text-xs font-bold uppercase tracking-wider text-white/55">{l}</div>
+            </div>
+          ))}
+        </div>
+      </PageHero>
 
-        <div className="mt-12">
-          <h3 className="mb-6 text-xl font-bold text-white">The Pipeline</h3>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <Container className="pt-10">
+        <Reveal>
+          <SectionHeader title="The Pipeline" sub="Six stages, from raw plays to the page you're reading." />
+          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {pipelineSteps.map((step, i) => (
               <PipelineStep key={step.title} step={step} index={i} />
             ))}
           </div>
-        </div>
-
-        <div className="mt-14 grid gap-5 sm:grid-cols-2">
-          <InfoCard title="What is EPA?">
-            Expected Points Added measures how much a single play helped or hurt a team's chance of
-            scoring, based on down, distance, and field position — not just raw yards. A 3-yard gain
-            on 3rd-and-2 is a much bigger deal than the same 3 yards on 3rd-and-15, and EPA captures that.
-          </InfoCard>
-          <InfoCard title="Recent Form">
-            Every player and team's "form" is a 4-week trailing average, shrunk toward the league mean
-            to avoid overreacting to small samples — one huge game doesn't instantly make someone "elite."
-            The window doesn't reset at season boundaries, so early-season form carries over from the
-            prior year until enough current-season data accumulates.
-          </InfoCard>
-        </div>
-
-        <div className="mt-14">
-          <h3 className="mb-1 text-xl font-bold text-white">The Prediction Model</h3>
-          <p className="mb-6 text-sm text-muted">
-            Two models score every game independently — a Logistic Regression baseline and an XGBoost
-            classifier — both trained on six features: each team's trailing offensive EPA/play, trailing
-            defensive EPA/play allowed, and trailing offensive success rate. XGBoost's prediction is the
-            one used as the official pick, benchmarked against the simpler baseline.
-          </p>
-          <div className="overflow-hidden rounded-2xl border border-line bg-panel">
-            <table className="w-full text-sm">
-              <thead>
-                <tr className="border-b border-line text-left text-[11px] uppercase tracking-wide text-muted">
-                  <th className="p-4">Model</th>
-                  <th className="p-4 text-right">2025 Season Accuracy</th>
-                </tr>
-              </thead>
-              <tbody>
-                {accuracyRows.map((row, i) => (
-                  <AccuracyRow key={row.label} row={row} index={i} />
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </div>
-
-        <div className="mt-14">
-          <h3 className="mb-4 text-xl font-bold text-white">Limitations</h3>
-          <div className="space-y-3">
-            {limitations.map((text, i) => (
-              <LimitationRow key={text} text={text} index={i} />
-            ))}
-          </div>
-        </div>
-
-        <div className="mt-14">
-          <h3 className="mb-4 text-xl font-bold text-white">Tech Stack</h3>
-          <div className="flex flex-wrap gap-2">
-            {techStack.map((tech, i) => (
-              <motion.span
-                key={tech}
-                initial={{ opacity: 0, scale: 0.9 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                viewport={{ once: true }}
-                whileHover={{ y: -2, borderColor: "#2ecc71" }}
-                transition={{ duration: 0.3, delay: i * 0.03, ease: EASE }}
-                className="cursor-default rounded-full border border-line bg-panel px-4 py-2 text-sm text-white/85"
-              >
-                {tech}
-              </motion.span>
-            ))}
-          </div>
-        </div>
-
-        <Reveal delay={0.05} className="mt-14 rounded-2xl border border-line bg-panel p-6 text-center text-sm text-muted">
-          Data refreshes weekly. Built as an end-to-end portfolio project — from data engineering to
-          machine learning to frontend design.
         </Reveal>
-      </section>
-    </div>
+
+        <Reveal className="mt-14 grid gap-5 md:grid-cols-2">
+          <article className="card border-t-4 border-t-navy p-6">
+            <h3 className="headline text-3xl text-ink">What is EPA?</h3>
+            <p className="mt-3 text-[15px] leading-relaxed text-sub">
+              Expected Points Added measures how much a single play helped or hurt a team's chance of
+              scoring, based on down, distance, and field position — not just raw yards. A 3-yard gain
+              on 3rd-and-2 is a much bigger deal than the same 3 yards on 3rd-and-15, and EPA captures that.
+            </p>
+          </article>
+          <article className="card border-t-4 border-t-brand p-6">
+            <h3 className="headline text-3xl text-ink">Recent Form</h3>
+            <p className="mt-3 text-[15px] leading-relaxed text-sub">
+              Every player and team's "form" is a 4-week trailing average, shrunk toward the league mean
+              to avoid overreacting to small samples — one huge game doesn't instantly make someone "elite."
+              The window doesn't reset at season boundaries, so early-season form carries over from the
+              prior year until enough current-season data accumulates.
+            </p>
+          </article>
+        </Reveal>
+
+        <Reveal className="mt-14">
+          <SectionHeader title="The Prediction Model" />
+          <div className="grid gap-6 lg:grid-cols-[1fr_1.2fr]">
+            <div className="space-y-4 text-[15px] leading-relaxed text-sub">
+              <p>
+                Two models score every game independently — a Logistic Regression baseline and an XGBoost
+                classifier — both trained on six features: each team's trailing offensive EPA/play, trailing
+                defensive EPA/play allowed, and trailing offensive success rate. XGBoost's prediction is the
+                one used as the official pick.
+              </p>
+              <p>
+                The model was originally trained on 2021-2024 only. We ran a controlled comparison — training
+                an identical model on the full available history back to 1999 instead, and testing both
+                versions on the exact same 2025 holdout games — to check whether more historical data actually
+                helps or just adds noise from a different era of football. It helped: accuracy rose from 62.5%
+                to 66.2%.
+              </p>
+            </div>
+            <div className="card overflow-hidden">
+              <div className="stripes flex items-center justify-between bg-navy px-5 py-3 text-white">
+                <span className="headline text-2xl">2025 Holdout Accuracy</span>
+              </div>
+              <ul className="divide-y divide-line">
+                {accuracyRows.map((row, i) => (
+                  <li key={row.label} className={`px-5 py-4 ${row.best ? "bg-brand/[0.04]" : ""}`}>
+                    <div className="mb-2 flex items-baseline justify-between gap-4">
+                      <span className={`text-sm ${row.best ? "font-semibold text-ink" : "text-sub"}`}>{row.label}</span>
+                      <span className={`stat text-2xl ${row.best ? "text-brand" : "text-ink"}`}>{row.value}%</span>
+                    </div>
+                    <div className="h-2.5 overflow-hidden rounded-full bg-page">
+                      <motion.div
+                        className={`h-full rounded-full ${row.best ? "bg-brand" : "bg-navy/40"}`}
+                        initial={{ width: 0 }}
+                        whileInView={{ width: `${row.value}%` }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.8, delay: 0.1 + i * 0.08, ease: EASE }}
+                      />
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </Reveal>
+
+        <Reveal className="mt-14">
+          <SectionHeader title="Limitations" sub="What the model can't see — worth knowing before you trust a pick." />
+          <ol className="card divide-y divide-line">
+            {limitations.map((text, i) => (
+              <li key={text} className="flex items-start gap-4 px-5 py-4">
+                <span className="stat w-8 shrink-0 text-3xl text-gold">{i + 1}</span>
+                <p className="text-[15px] leading-relaxed text-ink/80">{text}</p>
+                <AlertTriangle size={16} className="ml-auto mt-1 hidden shrink-0 text-gold sm:block" />
+              </li>
+            ))}
+          </ol>
+        </Reveal>
+
+        <Reveal className="mt-14">
+          <SectionHeader title="Tech Stack" />
+          <div className="flex flex-wrap gap-2">
+            {techStack.map((tech) => (
+              <span key={tech} className="tab cursor-default text-ink! hover:border-navy!">{tech}</span>
+            ))}
+          </div>
+        </Reveal>
+      </Container>
+    </>
   );
 }

@@ -1,20 +1,25 @@
 import { useState } from "react";
+import { useSearchParams } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { ChevronLeft, ChevronRight, Check, X, Info, Trophy } from "lucide-react";
+import { ChevronLeft, ChevronRight, Check, X, CalendarClock } from "lucide-react";
 import { usePredictions, type Probs } from "../lib/data";
-import { useUpcomingPredictions, type UpcomingGame } from "../lib/upcomingData";
-import { TEAM_INFO } from "../lib/teams";
-import Reveal, { SectionLabel, SectionTitle } from "../components/Reveal";
+import { useUpcomingPredictions } from "../lib/upcomingData";
+import { teamGradient, visibleColor } from "../lib/color";
+import { Container, PageHero } from "../components/Page";
+import { InfoModal, InfoButton } from "../components/InfoModal";
+import { LoadingState, ErrorState } from "../components/PageState";
+import { TeamLogo, ProbBar, ConfidenceChip } from "../components/sports";
+import { team, nickname, pct, formatGameDay } from "../lib/format";
 
 const EASE = [0.16, 1, 0.3, 1] as const;
-const pct = (n: number) => `${Math.round(n * 100)}%`;
-const BTN = "flex min-w-[130px] items-center justify-center gap-1 rounded-full border border-line px-4 py-2 text-sm text-white transition hover:border-pos/50 hover:bg-pos/5 disabled:opacity-30";
 
-const confTone: Record<string, string> = {
-  High: "text-pos border-pos/40 bg-pos/10",
-  Medium: "text-gold border-gold/40 bg-gold/10",
-  Low: "text-danger border-danger/40 bg-danger/10",
-};
+const INFO_ITEMS = [
+  { title: "Win Probability", desc: "The model's estimated chance each team wins, based on how they've been playing recently." },
+  { title: "Confidence", desc: "High confidence means the model saw a clear gap between the two teams. Low confidence means it was close to a coin flip." },
+  { title: "Trailing EPA (Off/Def)", desc: "How efficient each team's offense and defense have been over their last several games." },
+  { title: "Model Ensemble", desc: "Two models — Logistic Regression and XGBoost — score every game. XGBoost's call is the official pick." },
+  { title: "Upcoming vs. Track Record", desc: "\"Upcoming\" shows real predictions for unplayed games. \"Track Record\" shows how the model did this season." },
+];
 
 type AnyGame = {
   home: string; away: string; week: number; season: number;
@@ -26,393 +31,334 @@ type AnyGame = {
   gameday?: string | null; gametime?: string | null;
 };
 
-function InfoModal({ open, onClose }: { open: boolean; onClose: () => void }) {
-  const cards = [
-    { title: "Win Probability", desc: "The model's estimated chance each team wins, based on how they've been playing recently." },
-    { title: "Confidence", desc: "High confidence means the model saw a clear gap between the two teams. Low confidence means it was close to a coin flip." },
-    { title: "Trailing EPA (Off/Def)", desc: "How efficient each team's offense and defense have been over their last several games." },
-    { title: "Model Ensemble", desc: "Two models — Logistic Regression and XGBoost — score every game. XGBoost's call is the official pick." },
-    { title: "Upcoming vs. Track Record", desc: "\"Upcoming\" shows real predictions for unplayed games. \"Track Record\" shows how the model did this season." },
-  ];
+function whyExplanation(g: AnyGame): string {
+  const homeName = team(g.home).name;
+  const awayName = team(g.away).name;
+  const offEdge = g.features.home_trailing_off_epa >= g.features.away_trailing_off_epa ? homeName : awayName;
+  const defEdge = g.features.home_trailing_def_epa <= g.features.away_trailing_def_epa ? homeName : awayName;
+  return `Heading into this game, ${offEdge} had been moving the ball more efficiently on offense, while ${defEdge} had been the tougher defense to score against over their last few weeks. Putting those trends together, the model leaned toward ${team(g.pick).name}.`;
+}
+
+/* ---------------- Game strip ---------------- */
+
+function GameChip({ g, active, onClick, isUpcoming }: { g: AnyGame; active: boolean; onClick: () => void; isUpcoming: boolean }) {
+  const favorHome = g.pick === g.home;
   return (
-    <AnimatePresence>
-      {open && (
-        <>
-          <motion.div className="fixed inset-0 z-40 bg-black/60 backdrop-blur-sm" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} onClick={onClose} />
-          <motion.div className="fixed left-1/2 top-1/2 z-50 w-[92%] max-w-lg -translate-x-1/2 -translate-y-1/2 rounded-2xl border border-line bg-panel p-6 shadow-2xl" initial={{ opacity: 0, scale: 0.95, y: 10 }} animate={{ opacity: 1, scale: 1, y: 0 }} exit={{ opacity: 0, scale: 0.95, y: 10 }} transition={{ duration: 0.25, ease: EASE }}>
-            <div className="mb-4 flex items-center justify-between">
-              <h3 className="text-lg font-bold text-white">How to read this page</h3>
-              <button onClick={onClose} className="rounded-full p-1 text-muted hover:bg-white/5 hover:text-white"><X size={18} /></button>
+    <button
+      onClick={onClick}
+      aria-pressed={active}
+      className={`relative w-[150px] shrink-0 overflow-hidden rounded-lg border bg-white px-3 py-2.5 text-left transition ${
+        active ? "border-navy shadow-[0_8px_20px_-10px_rgb(10_25_49/0.5)]" : "border-line hover:border-[#c5ccd6]"
+      }`}
+    >
+      {active && <span className="absolute inset-x-0 top-0 h-[3px] bg-brand" />}
+      {[g.away, g.home].map((c, i) => {
+        const picked = (i === 1) === favorHome;
+        const score = i === 0 ? g.away_score : g.home_score;
+        return (
+          <div key={c} className="flex items-center justify-between gap-2">
+            <span className="flex items-center gap-1.5">
+              <TeamLogo code={c} className="h-5 w-5" />
+              <span className={`font-display text-[15px] font-bold ${picked ? "text-ink" : "text-sub"}`}>{c}</span>
+            </span>
+            <span className={`stat text-[15px] ${picked ? "text-ink" : "text-sub/70"}`}>
+              {isUpcoming ? pct(i === 0 ? g.prob.away : g.prob.home) : score}
+            </span>
+          </div>
+        );
+      })}
+      {!isUpcoming && (
+        <span className={`mt-1 flex items-center gap-1 font-display text-[11px] font-bold uppercase tracking-wider ${g.correct ? "text-pos" : "text-neg"}`}>
+          {g.correct ? <Check size={11} strokeWidth={3} /> : <X size={11} strokeWidth={3} />} {g.correct ? "Hit" : "Miss"}
+        </span>
+      )}
+    </button>
+  );
+}
+
+function GameStrip({ games, index, onSelect, isUpcoming }: { games: AnyGame[]; index: number; onSelect: (i: number) => void; isUpcoming: boolean }) {
+  return (
+    <div className="flex items-center gap-2">
+      <button onClick={() => onSelect(index - 1)} disabled={index <= 0} aria-label="Previous game" className="btn btn-outline h-10 w-10 shrink-0 p-0!">
+        <ChevronLeft size={18} />
+      </button>
+      <div className="no-scrollbar flex min-w-0 flex-1 gap-2 overflow-x-auto py-1">
+        {games.map((g, i) => (
+          <GameChip key={`${g.week}-${g.away}-${g.home}`} g={g} active={i === index} onClick={() => onSelect(i)} isUpcoming={isUpcoming} />
+        ))}
+      </div>
+      <button onClick={() => onSelect(index + 1)} disabled={index >= games.length - 1} aria-label="Next game" className="btn btn-outline h-10 w-10 shrink-0 p-0!">
+        <ChevronRight size={18} />
+      </button>
+    </div>
+  );
+}
+
+/* ---------------- Game center ---------------- */
+
+function TeamHalf({ code, prob, favored, side, score }: { code: string; prob: number; favored: boolean; side: "Away" | "Home"; score?: number }) {
+  const t = team(code);
+  const right = side === "Home";
+  return (
+    <div className="relative overflow-hidden" style={{ background: teamGradient(t.color, right ? 235 : 125) }}>
+      <div className="stripes absolute inset-0" />
+      {t.logo && <img src={t.logo} alt="" className={`absolute top-1/2 h-64 w-64 -translate-y-1/2 object-contain opacity-15 ${right ? "-right-16" : "-left-16"}`} />}
+      <div className={`relative flex flex-col items-center gap-3 px-4 py-7 text-white sm:flex-row sm:gap-5 sm:py-9 ${right ? "sm:flex-row-reverse sm:pl-12 sm:pr-8 sm:text-right" : "sm:pl-8 sm:pr-12"}`}>
+        <div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-full bg-white shadow-lg sm:h-24 sm:w-24">
+          <TeamLogo code={code} className="h-14 w-14 sm:h-16 sm:w-16" />
+        </div>
+        <div className={`text-center ${right ? "sm:text-right" : "sm:text-left"}`}>
+          <div className="font-display text-xs font-bold uppercase tracking-[0.18em] text-white/60">{side}</div>
+          <div className="headline text-3xl sm:text-4xl">{nickname(code)}</div>
+          <div className="text-xs text-white/60">{t.name.replace(` ${nickname(code)}`, "")}</div>
+        </div>
+        <div className={right ? "sm:mr-auto" : "sm:ml-auto"}>
+          {score != null ? (
+            <div className={`stat text-6xl ${favored ? "" : "text-white/80"}`}>{score}</div>
+          ) : (
+            <div className={`stat text-5xl sm:text-6xl ${favored ? "" : "text-white/55"}`}>{pct(prob)}</div>
+          )}
+        </div>
+      </div>
+      {favored && (
+        <div className={`absolute top-3 rounded bg-white px-2 py-0.5 font-display text-[11px] font-bold uppercase tracking-wider text-ink ${right ? "right-3" : "left-3"}`}>
+          Our pick
+        </div>
+      )}
+    </div>
+  );
+}
+
+function TapeRow({ label, away, home, lowerIsBetter = false }: { label: string; away: number; home: number; lowerIsBetter?: boolean }) {
+  const scale = (v: number) => Math.min(Math.max(((lowerIsBetter ? -v : v) + 0.3) / 0.6, 0.04), 1);
+  const awayBetter = lowerIsBetter ? away < home : away > home;
+  return (
+    <div className="py-3">
+      <div className="grid grid-cols-[1fr_auto_1fr] items-baseline gap-3">
+        <span className={`stat text-2xl ${awayBetter ? "text-ink" : "text-sub/70"}`}>{away.toFixed(3)}</span>
+        <span className="eyebrow text-center text-[12px]">{label}</span>
+        <span className={`stat text-right text-2xl ${!awayBetter ? "text-ink" : "text-sub/70"}`}>{home.toFixed(3)}</span>
+      </div>
+      <div className="mt-2 grid grid-cols-2 gap-1">
+        <div className="flex justify-end overflow-hidden rounded-l-full bg-page">
+          <motion.div className={`h-2 rounded-l-full ${awayBetter ? "bg-navy" : "bg-[#b8c0cc]"}`} initial={{ width: 0 }} animate={{ width: `${scale(away) * 100}%` }} transition={{ duration: 0.7, ease: EASE }} />
+        </div>
+        <div className="overflow-hidden rounded-r-full bg-page">
+          <motion.div className={`h-2 rounded-r-full ${!awayBetter ? "bg-navy" : "bg-[#b8c0cc]"}`} initial={{ width: 0 }} animate={{ width: `${scale(home) * 100}%` }} transition={{ duration: 0.7, ease: EASE }} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function ModelBar({ label, probs, g }: { label: string; probs: Probs; g: AnyGame }) {
+  return (
+    <div>
+      <div className="mb-1.5 flex items-center justify-between text-sm">
+        <span className="stat text-lg text-ink">{pct(probs.away)}</span>
+        <span className="eyebrow text-[12px]">{label}</span>
+        <span className="stat text-lg text-ink">{pct(probs.home)}</span>
+      </div>
+      <ProbBar home={g.home} away={g.away} homeProb={probs.home} favorHome={probs.home >= probs.away} className="h-1.5" />
+    </div>
+  );
+}
+
+function GameCenter({ g, isUpcoming }: { g: AnyGame; isUpcoming: boolean }) {
+  const favorHome = g.pick === g.home;
+  return (
+    <div className="space-y-5">
+      <article className="card overflow-hidden">
+        <div className="flex flex-wrap items-center justify-between gap-2 border-b border-line px-5 py-3">
+          <span className="eyebrow">Week {g.week} · {g.season}</span>
+          <div className="flex flex-wrap items-center gap-2">
+            <ConfidenceChip level={g.confidence} />
+            <span className="font-display text-xs font-bold uppercase tracking-wider text-sub">confidence</span>
+            {isUpcoming ? (
+              <span className="flex items-center gap-1.5 rounded bg-page px-2 py-0.5 font-display text-xs font-bold uppercase tracking-wider text-ink">
+                <CalendarClock size={13} /> {formatGameDay(g.gameday, g.gametime)}
+              </span>
+            ) : (
+              <span className={`flex items-center gap-1 rounded px-2 py-0.5 font-display text-xs font-bold uppercase tracking-wider ${g.correct ? "bg-pos/10 text-pos" : "bg-neg/10 text-neg"}`}>
+                {g.correct ? <Check size={13} strokeWidth={3} /> : <X size={13} strokeWidth={3} />} {g.correct ? "Called it" : "Missed"}
+              </span>
+            )}
+          </div>
+        </div>
+        <div className="relative grid sm:grid-cols-2">
+          <TeamHalf code={g.away} prob={g.prob.away} favored={!favorHome} side="Away" score={isUpcoming ? undefined : g.away_score} />
+          <TeamHalf code={g.home} prob={g.prob.home} favored={favorHome} side="Home" score={isUpcoming ? undefined : g.home_score} />
+          <div className="absolute left-1/2 top-1/2 hidden h-14 w-14 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-navy font-display text-lg font-extrabold italic text-white ring-4 ring-white sm:flex">
+            {isUpcoming ? "VS" : "FIN"}
+          </div>
+        </div>
+        <div className="px-5 py-4">
+          <div className="mb-1.5 flex justify-between font-display text-sm font-bold uppercase tracking-wider text-sub">
+            <span>{nickname(g.away)} {pct(g.prob.away)}</span>
+            <span>Win probability</span>
+            <span>{pct(g.prob.home)} {nickname(g.home)}</span>
+          </div>
+          <ProbBar home={g.home} away={g.away} homeProb={g.prob.home} favorHome={favorHome} className="h-3" />
+        </div>
+      </article>
+
+      <div className="grid gap-5 lg:grid-cols-[1.2fr_1fr]">
+        <article className="card p-6">
+          <div className="eyebrow">The Pick</div>
+          <div className="mt-2 flex items-center gap-4">
+            <TeamLogo code={g.pick} className="h-14 w-14" />
+            <div>
+              <div className="headline text-4xl text-ink">{team(g.pick).name}</div>
+              <div className="mt-1 text-sm text-sub">
+                <span className="stat text-lg text-pos">+{g.verdict.margin}</span> · {g.verdict.text}
+              </div>
             </div>
-            <div className="space-y-3">
-              {cards.map((c) => (
-                <div key={c.title} className="rounded-lg border-l-2 border-pos bg-white/[0.03] p-4">
-                  <div className="mb-1 text-sm font-bold text-white">{c.title}</div>
-                  <div className="text-xs leading-relaxed text-muted">{c.desc}</div>
+          </div>
+          {!isUpcoming && g.actual_winner && (
+            <div className={`mt-4 rounded-lg px-4 py-3 text-sm ${g.correct ? "bg-pos/10 text-ink" : "bg-neg/10 text-ink"}`}>
+              Final: <span className="font-semibold">{team(g.actual_winner).name}</span> won {Math.max(g.home_score ?? 0, g.away_score ?? 0)}–{Math.min(g.home_score ?? 0, g.away_score ?? 0)}.
+            </div>
+          )}
+          <p className="mt-5 border-t border-line pt-5 text-[15px] leading-relaxed text-ink/80">{whyExplanation(g)}</p>
+        </article>
+
+        <article className="card p-6">
+          <div className="flex items-center justify-between">
+            <span className="flex items-center gap-2"><TeamLogo code={g.away} className="h-7 w-7" /><span className="font-display text-lg font-bold">{g.away}</span></span>
+            <span className="headline text-2xl text-ink">Tale of the Tape</span>
+            <span className="flex items-center gap-2"><span className="font-display text-lg font-bold">{g.home}</span><TeamLogo code={g.home} className="h-7 w-7" /></span>
+          </div>
+          <div className="mt-2 divide-y divide-line">
+            <TapeRow label="Off EPA / play" away={g.features.away_trailing_off_epa} home={g.features.home_trailing_off_epa} />
+            <TapeRow label="Def EPA allowed" away={g.features.away_trailing_def_epa} home={g.features.home_trailing_def_epa} lowerIsBetter />
+          </div>
+          <div className="mt-3 space-y-3 border-t border-line pt-4">
+            <div className="eyebrow">Model ensemble</div>
+            <ModelBar label="Logistic Reg." probs={g.components.logistic} g={g} />
+            <ModelBar label="XGBoost" probs={g.components.xgboost} g={g} />
+          </div>
+        </article>
+      </div>
+    </div>
+  );
+}
+
+/* ---------------- Page ---------------- */
+
+export default function Predictions() {
+  const backtest = usePredictions();
+  const upcoming = useUpcomingPredictions();
+  const [params, setParams] = useSearchParams();
+  const [infoOpen, setInfoOpen] = useState(false);
+
+  const view: "upcoming" | "backtest" = params.get("view") === "record" ? "backtest" : "upcoming";
+  const hasUpcoming = !!upcoming.data && upcoming.data.games.length > 0;
+
+  const update = (next: Record<string, string | null>) => {
+    const p = new URLSearchParams(params);
+    Object.entries(next).forEach(([k, v]) => (v == null ? p.delete(k) : p.set(k, v)));
+    setParams(p, { replace: true });
+  };
+  const setView = (v: "upcoming" | "backtest") => update({ view: v === "backtest" ? "record" : null, game: null, week: null });
+
+  const loading = view === "upcoming" ? upcoming.loading : backtest.loading;
+  if (loading) return <LoadingState label="Loading picks…" />;
+
+  let games: AnyGame[] = [];
+  let weeks: number[] = [];
+  let week = 0;
+  if (view === "backtest") {
+    if (backtest.error || !backtest.data) return <ErrorState message="Couldn't load predictions.json." />;
+    weeks = [...new Set(backtest.data.games.map((g) => g.week))].sort((a, b) => b - a);
+    week = Number(params.get("week")) || weeks[0];
+    games = backtest.data.games.filter((g) => g.week === week);
+  } else if (hasUpcoming) {
+    games = upcoming.data!.games;
+  }
+
+  const gameParam = params.get("game");
+  const found = gameParam ? games.findIndex((g) => g.home === gameParam || g.away === gameParam) : 0;
+  const index = Math.max(found, 0);
+  const game = games[index];
+  const selectIndex = (i: number) => {
+    const g = games[Math.min(Math.max(i, 0), games.length - 1)];
+    if (g) update({ game: g.home });
+  };
+
+  const season = view === "backtest" ? backtest.data!.season : upcoming.data?.season ?? new Date().getFullYear();
+  const heroColor = game ? visibleColor(team(game.pick).color) : undefined;
+
+  return (
+    <>
+      <InfoModal open={infoOpen} onClose={() => setInfoOpen(false)} title="How to read The Line" items={INFO_ITEMS} />
+      <PageHero
+        eyebrow={view === "upcoming" ? `${season} · Week ${upcoming.data?.week ?? "—"} Picks` : `${season} Season · Backtest`}
+        title="The Line"
+        lede={view === "upcoming"
+          ? "Real predictions for games that haven't been played yet, based on each team's recent trailing performance."
+          : "Every game already played this season, and how the model's calls stacked up against reality."}
+        color={heroColor}
+        action={<InfoButton onClick={() => setInfoOpen(true)} label="How to read this page" />}
+      >
+        <div className="flex flex-wrap items-end justify-between gap-6">
+          <div className="flex gap-2">
+            <button onClick={() => setView("upcoming")} disabled={!hasUpcoming} aria-pressed={view === "upcoming"} className="tab-dark">Upcoming</button>
+            <button onClick={() => setView("backtest")} aria-pressed={view === "backtest"} className="tab-dark">Track Record</button>
+          </div>
+          {view === "backtest" && backtest.data && (
+            <div className="flex gap-8">
+              {[
+                ["Record", `${backtest.data.correct}–${backtest.data.total_games - backtest.data.correct}`],
+                ["Accuracy", pct(backtest.data.accuracy)],
+                ["Baseline", "53.3%"],
+              ].map(([l, v]) => (
+                <div key={l}>
+                  <div className="stat text-4xl">{v}</div>
+                  <div className="font-display text-xs font-bold uppercase tracking-wider text-white/55">{l}</div>
                 </div>
               ))}
             </div>
-          </motion.div>
-        </>
-      )}
-    </AnimatePresence>
-  );
-}
-
-function AmbientBackground({ homeColor, awayColor }: { homeColor: string; awayColor: string }) {
-  return (
-    <div className="pointer-events-none fixed inset-0 -z-10 overflow-hidden bg-ink">
-      <motion.div className="absolute -left-32 -top-32 h-[600px] w-[600px] rounded-full blur-[130px]" animate={{ backgroundColor: homeColor }} transition={{ duration: 0.8 }} style={{ opacity: 0.2 }} />
-      <motion.div className="absolute -right-32 bottom-[-100px] h-[560px] w-[560px] rounded-full blur-[130px]" animate={{ backgroundColor: awayColor }} transition={{ duration: 0.8 }} style={{ opacity: 0.18 }} />
-    </div>
-  );
-}
-
-function whyExplanation(g: AnyGame): string {
-  const homeName = TEAM_INFO[g.home]?.name ?? g.home;
-  const awayName = TEAM_INFO[g.away]?.name ?? g.away;
-  const offEdge = g.features.home_trailing_off_epa >= g.features.away_trailing_off_epa ? homeName : awayName;
-  const defEdge = g.features.home_trailing_def_epa <= g.features.away_trailing_def_epa ? homeName : awayName;
-  const pickName = TEAM_INFO[g.pick]?.name ?? g.pick;
-  return `Heading into this game, ${offEdge} had been moving the ball more efficiently on offense, while ${defEdge} had been the tougher defense to score against over their last few weeks. Putting those trends together, the model leaned toward ${pickName}.`;
-}
-
-function ScoreboardHero({ g, isUpcoming }: { g: AnyGame; isUpcoming: boolean }) {
-  const home = TEAM_INFO[g.home] ?? { name: g.home, color: "#2ecc71", logo: "" };
-  const away = TEAM_INFO[g.away] ?? { name: g.away, color: "#3b82f6", logo: "" };
-  const homeWin = g.pick === g.home;
-  const winner = homeWin ? home : away;
-  const winnerProb = homeWin ? g.prob.home : g.prob.away;
-
-  return (
-    <div className="relative overflow-hidden rounded-3xl border border-line p-8 sm:p-12" style={{ background: `linear-gradient(120deg, ${home.color}33 0%, #0a0a0d 45%, #0a0a0d 55%, ${away.color}33 100%)` }}>
-      <div className="mb-6 flex items-center justify-between">
-        <span className="rounded-full bg-white/5 px-3 py-1 text-[11px] uppercase tracking-[0.2em] text-white/70">Week {g.week} · {g.season}</span>
-        <div className="flex items-center gap-2">
-          <span className={`rounded-full border px-3 py-1 text-[11px] uppercase tracking-[0.2em] ${confTone[g.confidence]}`}>{g.confidence} confidence</span>
-          {isUpcoming ? (
-            <span className="flex items-center gap-1 rounded-full bg-white/5 px-3 py-1 text-[11px] uppercase tracking-[0.2em] text-white/70">
-              {g.gameday ?? "TBD"}{g.gametime ? ` · ${g.gametime}` : ""}
-            </span>
-          ) : (
-            <span className={`flex items-center gap-1 rounded-full px-3 py-1 text-[11px] uppercase tracking-[0.2em] ${g.correct ? "bg-pos/15 text-pos" : "bg-danger/15 text-danger"}`}>
-              {g.correct ? <Check size={12} /> : <X size={12} />}
-              {g.correct ? "Correct" : "Missed"}
-            </span>
           )}
         </div>
-      </div>
+      </PageHero>
 
-      <div className="mb-8 flex items-center justify-center gap-3 rounded-2xl border border-pos/30 bg-pos/10 py-4 text-center">
-        <Trophy size={20} className="shrink-0 text-pos" />
-        <span className="text-base font-bold text-white sm:text-xl">
-          <span className="text-pos">{winner.name}</span> favored to win — {pct(winnerProb)}
-        </span>
-      </div>
-
-      <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-4 sm:gap-8">
-        <div className="text-center">
-          {homeWin && (
-            <div className="mb-2 inline-flex items-center gap-1 rounded-full bg-pos/15 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide text-pos">
-              <Trophy size={10} /> Predicted Winner
+      <Container className="pt-8">
+        {view === "upcoming" && !hasUpcoming ? (
+          <div className="card p-10 text-center">
+            <div className="headline text-3xl text-ink">No upcoming picks yet</div>
+            <p className="mx-auto mt-2 max-w-md text-sm text-sub">
+              Run <code className="rounded bg-page px-1.5 py-0.5 text-ink">python scripts/export_upcoming_predictions.py</code> once the next week's schedule is available.
+            </p>
+            <button onClick={() => setView("backtest")} className="btn btn-primary mt-5">See the track record</button>
+          </div>
+        ) : (
+          <>
+            <div className="mb-5 flex flex-wrap items-center gap-3">
+              {view === "backtest" && (
+                <select value={week} onChange={(e) => update({ week: e.target.value, game: null })} className="select-field" aria-label="Choose week">
+                  {weeks.map((w) => <option key={w} value={w}>Week {w}</option>)}
+                </select>
+              )}
+              <span className="eyebrow">Game {index + 1} of {games.length}</span>
             </div>
-          )}
-          <div className="mx-auto flex h-28 w-28 items-center justify-center rounded-full sm:h-32 sm:w-32" style={homeWin ? { boxShadow: `0 0 40px -6px ${home.color}`, border: `2px solid ${home.color}` } : {}}>
-            <img src={home.logo} alt="" className={`h-20 w-20 object-contain sm:h-24 sm:w-24 ${homeWin ? "" : "opacity-40 grayscale"}`} />
-          </div>
-          <div className={`mt-3 text-lg font-bold sm:text-xl ${homeWin ? "text-white" : "text-white/50"}`}>{home.name}</div>
-          <div className={`mt-1 text-3xl font-extrabold sm:text-4xl ${homeWin ? "text-pos" : "text-white/40"}`}>{pct(g.prob.home)}</div>
-        </div>
-
-        <div className="flex flex-col items-center gap-1 text-muted">
-          <span className="text-xs uppercase tracking-[0.2em]">{isUpcoming ? "vs" : "Final"}</span>
-          {isUpcoming ? (
-            <span className="text-2xl font-light">—</span>
-          ) : (
-            <span className="text-xl font-bold text-white">{g.home_score} – {g.away_score}</span>
-          )}
-        </div>
-
-        <div className="text-center">
-          {!homeWin && (
-            <div className="mb-2 inline-flex items-center gap-1 rounded-full bg-pos/15 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide text-pos">
-              <Trophy size={10} /> Predicted Winner
-            </div>
-          )}
-          <div className="mx-auto flex h-28 w-28 items-center justify-center rounded-full sm:h-32 sm:w-32" style={!homeWin ? { boxShadow: `0 0 40px -6px ${away.color}`, border: `2px solid ${away.color}` } : {}}>
-            <img src={away.logo} alt="" className={`h-20 w-20 object-contain sm:h-24 sm:w-24 ${!homeWin ? "" : "opacity-40 grayscale"}`} />
-          </div>
-          <div className={`mt-3 text-lg font-bold sm:text-xl ${!homeWin ? "text-white" : "text-white/50"}`}>{away.name}</div>
-          <div className={`mt-1 text-3xl font-extrabold sm:text-4xl ${!homeWin ? "text-pos" : "text-white/40"}`}>{pct(g.prob.away)}</div>
-        </div>
-      </div>
-
-      <div className="mt-8">
-        <div className="flex h-2.5 w-full overflow-hidden rounded-full bg-white/8">
-          <motion.div
-            className="h-full"
-            style={{ backgroundColor: homeWin ? "#2ecc71" : "#4b5563" }}
-            initial={{ width: 0 }}
-            animate={{ width: pct(g.prob.home) }}
-            transition={{ duration: 0.9, ease: EASE, delay: 0.1 }}
-          />
-          <motion.div
-            className="h-full"
-            style={{ backgroundColor: !homeWin ? "#2ecc71" : "#4b5563" }}
-            initial={{ width: 0 }}
-            animate={{ width: pct(g.prob.away) }}
-            transition={{ duration: 0.9, ease: EASE, delay: 0.2 }}
-          />
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function DetailPanel({ g, isUpcoming }: { g: AnyGame; isUpcoming: boolean }) {
-  const pickName = TEAM_INFO[g.pick]?.name ?? g.pick;
-  return (
-    <div className="grid gap-4 sm:grid-cols-2">
-      <div className="rounded-2xl border border-pos/25 bg-pos/[0.06] p-6 sm:col-span-2">
-        <div className="text-[10px] uppercase tracking-[0.2em] text-muted">Our Pick</div>
-        <div className="mt-2 flex items-baseline gap-3">
-          <span className="text-5xl leading-none text-pos">+{g.verdict.margin}</span>
-          <span className="text-lg font-semibold leading-tight text-white">{g.verdict.text}</span>
-        </div>
-        {!isUpcoming && g.actual_winner && (
-          <div className="mt-3 text-sm text-white/75">
-            XGBoost model favored <span className="font-semibold text-pos">{pickName}</span> —
-            actual winner: <span className="font-semibold text-white">{TEAM_INFO[g.actual_winner]?.name ?? g.actual_winner}</span>
-          </div>
+            <GameStrip games={games} index={index} onSelect={selectIndex} isUpcoming={view === "upcoming"} />
+            <AnimatePresence mode="wait">
+              {game && (
+                <motion.div
+                  key={`${view}-${game.week}-${game.home}`}
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -10 }}
+                  transition={{ duration: 0.3, ease: EASE }}
+                  className="mt-6"
+                >
+                  <GameCenter g={game} isUpcoming={view === "upcoming"} />
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </>
         )}
-        <p className="mt-4 border-t border-white/10 pt-4 text-sm leading-relaxed text-white/75">{whyExplanation(g)}</p>
-      </div>
-
-      <div className="rounded-xl bg-white/[0.03] p-4">
-        <div className="text-[10px] uppercase tracking-[0.2em] text-muted">{g.home} Off EPA/play</div>
-        <div className="mt-1 text-lg font-semibold text-white">{g.features.home_trailing_off_epa.toFixed(3)}</div>
-      </div>
-      <div className="rounded-xl bg-white/[0.03] p-4">
-        <div className="text-[10px] uppercase tracking-[0.2em] text-muted">{g.away} Off EPA/play</div>
-        <div className="mt-1 text-lg font-semibold text-white">{g.features.away_trailing_off_epa.toFixed(3)}</div>
-      </div>
-      <div className="rounded-xl bg-white/[0.03] p-4">
-        <div className="text-[10px] uppercase tracking-[0.2em] text-muted">{g.home} Def EPA/play</div>
-        <div className="mt-1 text-lg font-semibold text-white">{g.features.home_trailing_def_epa.toFixed(3)}</div>
-      </div>
-      <div className="rounded-xl bg-white/[0.03] p-4">
-        <div className="text-[10px] uppercase tracking-[0.2em] text-muted">{g.away} Def EPA/play</div>
-        <div className="mt-1 text-lg font-semibold text-white">{g.features.away_trailing_def_epa.toFixed(3)}</div>
-      </div>
-
-      <div className="rounded-2xl border border-line bg-panel p-5 sm:col-span-2">
-        <div className="mb-2 text-[10px] uppercase tracking-[0.2em] text-muted">Model ensemble · home / away</div>
-        <div className="space-y-2 text-xs">
-          <div className="flex items-center gap-3">
-            <span className="w-36 shrink-0 text-muted">Logistic Regression</span>
-            <span className="text-pos">{pct(g.components.logistic.home)}</span>
-            <span className="text-white/40">/</span>
-            <span className="text-away">{pct(g.components.logistic.away)}</span>
-          </div>
-          <div className="flex items-center gap-3">
-            <span className="w-36 shrink-0 text-muted">XGBoost</span>
-            <span className="text-pos">{pct(g.components.xgboost.home)}</span>
-            <span className="text-white/40">/</span>
-            <span className="text-away">{pct(g.components.xgboost.away)}</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function TrackRecordBar({ total, correct, accuracy }: { total: number; correct: number; accuracy: number }) {
-  return (
-    <div className="mt-8 flex flex-wrap items-center gap-6 rounded-2xl border border-line bg-panel p-6">
-      <div>
-        <div className="text-[10px] uppercase tracking-[0.2em] text-muted">Season Record</div>
-        <div className="mt-1 text-2xl font-semibold text-white">{correct} <span className="text-muted">/</span> {total}</div>
-      </div>
-      <div className="h-10 w-px bg-line" />
-      <div>
-        <div className="text-[10px] uppercase tracking-[0.2em] text-muted">Accuracy</div>
-        <div className="mt-1 text-2xl font-semibold text-pos">{pct(accuracy)}</div>
-      </div>
-      <div className="h-10 w-px bg-line" />
-      <div>
-        <div className="text-[10px] uppercase tracking-[0.2em] text-muted">vs. Naive Baseline</div>
-        <div className="mt-1 text-2xl font-semibold text-white">53.3%</div>
-      </div>
-    </div>
-  );
-}
-
-function UpcomingList({ games, index, direction, onGo }: {
-  games: UpcomingGame[]; index: number; direction: number; onGo: (delta: number) => void;
-}) {
-  const game = games[index];
-
-  return (
-    <>
-      <div className="mt-10 mb-8 grid grid-cols-3 items-center">
-        <button onClick={() => onGo(-1)} disabled={index <= 0} className={`${BTN} justify-self-start`}>
-          <ChevronLeft size={16} /> Previous
-        </button>
-        <span className="justify-self-center text-sm text-muted">Game {index + 1} of {games.length}</span>
-        <button onClick={() => onGo(1)} disabled={index >= games.length - 1} className={`${BTN} justify-self-end`}>
-          Next <ChevronRight size={16} />
-        </button>
-      </div>
-      <AnimatePresence mode="wait" custom={direction}>
-        <motion.div key={index} custom={direction} initial={{ opacity: 0, x: direction > 0 ? 40 : -40 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: direction > 0 ? -40 : 40 }} transition={{ duration: 0.35, ease: EASE }}>
-          <ScoreboardHero g={game} isUpcoming />
-          <div className="mt-6"><DetailPanel g={game} isUpcoming /></div>
-        </motion.div>
-      </AnimatePresence>
+      </Container>
     </>
-  );
-}
-
-function PageHeader({ setInfoOpen, view, setView, hasUpcoming, season, week }: {
-  setInfoOpen: (v: boolean) => void;
-  view: "upcoming" | "backtest"; setView: (v: "upcoming" | "backtest") => void;
-  hasUpcoming: boolean; season: number; week?: number;
-}) {
-  return (
-    <>
-      <div className="flex items-center justify-between">
-        <Reveal><SectionLabel>{view === "upcoming" ? `${season} · Week ${week ?? "—"}` : `${season} Season · Backtest`}</SectionLabel></Reveal>
-        <Reveal>
-          <button onClick={() => setInfoOpen(true)} aria-label="How to read this page" className="flex h-9 w-9 items-center justify-center rounded-full border border-line bg-panel text-muted transition hover:border-pos/50 hover:text-pos">
-            <Info size={18} />
-          </button>
-        </Reveal>
-      </div>
-      <Reveal>
-        <SectionTitle>{view === "upcoming" ? "This Week's Picks" : "Season Track Record"}</SectionTitle>
-        <p className="mt-4 max-w-xl text-muted">
-          {view === "upcoming"
-            ? "Real predictions for games that haven't been played yet, based on each team's recent trailing performance."
-            : "Every game already played this season, and how the model's calls stacked up against reality."}
-        </p>
-      </Reveal>
-      <Reveal delay={0.03} className="mt-6 flex gap-2">
-        <button onClick={() => setView("upcoming")} disabled={!hasUpcoming} className={`rounded-full px-4 py-2 text-sm font-semibold transition ${view === "upcoming" ? "bg-pos text-ink" : "border border-line text-muted hover:text-white"} disabled:opacity-30`}>
-          Upcoming
-        </button>
-        <button onClick={() => setView("backtest")} className={`rounded-full px-4 py-2 text-sm font-semibold transition ${view === "backtest" ? "bg-pos text-ink" : "border border-line text-muted hover:text-white"}`}>
-          Track Record
-        </button>
-      </Reveal>
-    </>
-  );
-}
-
-export default function Predictions() {
-  const { data: backtestData, loading: backtestLoading, error: backtestError } = usePredictions();
-  const { data: upcomingData, loading: upcomingLoading, error: upcomingError } = useUpcomingPredictions();
-  const [view, setViewRaw] = useState<"upcoming" | "backtest">("upcoming");
-  const [index, setIndex] = useState(0);
-  const [direction, setDirection] = useState(0);
-  const [infoOpen, setInfoOpen] = useState(false);
-
-  const setView = (v: "upcoming" | "backtest") => {
-    setViewRaw(v);
-    setIndex(0);
-    setDirection(0);
-  };
-
-  const loading = view === "upcoming" ? upcomingLoading : backtestLoading;
-  const hasUpcoming = !upcomingLoading && !upcomingError && !!upcomingData && upcomingData.games.length > 0;
-
-  if (loading) {
-    return <div className="flex min-h-screen items-center justify-center text-muted">Loading…</div>;
-  }
-
-  if (view === "backtest") {
-    if (backtestError || !backtestData) {
-      return <div className="flex min-h-screen items-center justify-center text-danger">Couldn't load predictions.json.</div>;
-    }
-    const safeIndex = Math.min(index, backtestData.games.length - 1);
-    const game = backtestData.games[safeIndex];
-    const progress = ((safeIndex + 1) / backtestData.games.length) * 100;
-    const homeColor = TEAM_INFO[game.home]?.color ?? "#2ecc71";
-    const awayColor = TEAM_INFO[game.away]?.color ?? "#3b82f6";
-    const go = (delta: number) => {
-      setDirection(delta);
-      setIndex((i) => Math.min(Math.max(i + delta, 0), backtestData.games.length - 1));
-    };
-
-    return (
-      <div className="min-h-screen">
-        <AmbientBackground homeColor={homeColor} awayColor={awayColor} />
-        <InfoModal open={infoOpen} onClose={() => setInfoOpen(false)} />
-        <section className="relative mx-auto max-w-5xl scroll-mt-24 px-5 py-20 sm:px-10">
-          <PageHeader setInfoOpen={setInfoOpen} view={view} setView={setView} hasUpcoming={hasUpcoming} season={backtestData.season} />
-          <Reveal delay={0.05}>
-            <TrackRecordBar total={backtestData.total_games} correct={backtestData.correct} accuracy={backtestData.accuracy} />
-          </Reveal>
-          <div className="mt-10 mb-2 h-1 w-full overflow-hidden rounded-full bg-white/5">
-            <motion.div className="h-full rounded-full bg-pos" animate={{ width: `${progress}%` }} transition={{ duration: 0.4, ease: EASE }} />
-          </div>
-          <div className="mt-10 mb-8 grid grid-cols-3 items-center">
-            <button onClick={() => go(1)} disabled={safeIndex >= backtestData.games.length - 1} className={`${BTN} justify-self-start`}>
-              <ChevronLeft size={16} /> Earlier
-            </button>
-            <span className="justify-self-center text-sm text-muted">Game {safeIndex + 1} of {backtestData.games.length}</span>
-            <button onClick={() => go(-1)} disabled={safeIndex <= 0} className={`${BTN} justify-self-end`}>
-              Later <ChevronRight size={16} />
-            </button>
-          </div>
-        </section>
-        <section className="mx-auto max-w-5xl px-5 sm:px-10">
-          <AnimatePresence mode="wait" custom={direction}>
-            <motion.div key={safeIndex} custom={direction} initial={{ opacity: 0, x: direction > 0 ? 40 : -40 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: direction > 0 ? -40 : 40 }} transition={{ duration: 0.35, ease: EASE }}>
-              <ScoreboardHero g={game} isUpcoming={false} />
-              <div className="mt-6">
-                <DetailPanel g={game} isUpcoming={false} />
-              </div>
-            </motion.div>
-          </AnimatePresence>
-        </section>
-      </div>
-    );
-  }
-
-  if (!hasUpcoming) {
-    return (
-      <div className="min-h-screen">
-        <AmbientBackground homeColor="#2ecc71" awayColor="#3b82f6" />
-        <section className="mx-auto max-w-5xl px-5 py-20 sm:px-10">
-          <PageHeader setInfoOpen={setInfoOpen} view={view} setView={setView} hasUpcoming={hasUpcoming} season={new Date().getFullYear()} />
-          <Reveal delay={0.1} className="mt-10 rounded-2xl border border-line bg-panel p-8 text-center text-muted">
-            No upcoming games found yet — run <code className="rounded bg-white/10 px-1.5 py-0.5 text-white">python scripts/export_upcoming_predictions.py</code> once the next week's schedule is available.
-          </Reveal>
-        </section>
-      </div>
-    );
-  }
-
-  const safeIndex = Math.min(index, upcomingData!.games.length - 1);
-  const currentUpcoming = upcomingData!.games[safeIndex];
-  const homeColor = TEAM_INFO[currentUpcoming.home]?.color ?? "#2ecc71";
-  const awayColor = TEAM_INFO[currentUpcoming.away]?.color ?? "#3b82f6";
-
-  const goUpcoming = (delta: number) => {
-    setDirection(delta);
-    setIndex((i) => Math.min(Math.max(i + delta, 0), upcomingData!.games.length - 1));
-  };
-
-  return (
-    <div className="min-h-screen">
-      <AmbientBackground homeColor={homeColor} awayColor={awayColor} />
-      <InfoModal open={infoOpen} onClose={() => setInfoOpen(false)} />
-      <section className="relative mx-auto max-w-5xl scroll-mt-24 px-5 py-20 sm:px-10">
-        <PageHeader setInfoOpen={setInfoOpen} view={view} setView={setView} hasUpcoming={hasUpcoming} season={upcomingData!.season} week={upcomingData!.week} />
-      </section>
-      <section className="mx-auto max-w-5xl px-5 sm:px-10">
-        <UpcomingList games={upcomingData!.games} index={safeIndex} direction={direction} onGo={goUpcoming} />
-      </section>
-    </div>
   );
 }

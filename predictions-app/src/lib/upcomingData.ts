@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useJson } from "./fetchJson";
 import type { Probs } from "./data";
 
 export type UpcomingGame = {
@@ -31,20 +31,5 @@ export type UpcomingData = {
 };
 
 export function useUpcomingPredictions() {
-  const [data, setData] = useState<UpcomingData | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
-
-  useEffect(() => {
-    fetch("/data/upcoming_predictions.json")
-      .then((res) => {
-        if (!res.ok) throw new Error(`Failed to load upcoming_predictions.json (${res.status})`);
-        return res.json();
-      })
-      .then((json: UpcomingData) => setData(json))
-      .catch((err) => setError(err.message))
-      .finally(() => setLoading(false));
-  }, []);
-
-  return { data, loading, error };
+  return useJson<UpcomingData>("upcoming_predictions.json");
 }

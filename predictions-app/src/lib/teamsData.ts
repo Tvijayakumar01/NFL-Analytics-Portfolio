@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useJson } from "./fetchJson";
 
 export type LeagueTeam = {
   rank: number;
@@ -35,20 +35,5 @@ export type TeamsData = {
 };
 
 export function useTeamsData() {
-  const [data, setData] = useState<TeamsData | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
-
-  useEffect(() => {
-    fetch("/data/teams.json")
-      .then((res) => {
-        if (!res.ok) throw new Error(`Failed to load teams.json (${res.status})`);
-        return res.json();
-      })
-      .then((json: TeamsData) => setData(json))
-      .catch((err) => setError(err.message))
-      .finally(() => setLoading(false));
-  }, []);
-
-  return { data, loading, error };
+  return useJson<TeamsData>("teams.json");
 }

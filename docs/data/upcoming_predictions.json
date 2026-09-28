@@ -10,29 +10,29 @@
       "gameday": "2026-09-27",
       "gametime": "13:00",
       "pick": "BUF",
-      "confidence": "Medium",
+      "confidence": "High",
       "prob": {
-        "home": 0.6692053079605103,
-        "away": 0.33079469203948975
+        "home": 0.7878497242927551,
+        "away": 0.21215027570724487
       },
       "verdict": {
         "text": "BUF favored",
-        "margin": 17
+        "margin": 29
       },
       "features": {
         "home_trailing_off_epa": 0.22444162191213846,
-        "home_trailing_def_epa": -0.01852048179092842,
-        "away_trailing_off_epa": -0.283461590540079,
+        "home_trailing_def_epa": -0.018520481790928398,
+        "away_trailing_off_epa": -0.28346159054007897,
         "away_trailing_def_epa": -0.0721312059438591
       },
       "components": {
         "logistic": {
-          "home": 0.7711040225366299,
-          "away": 0.2288959774633701
+          "home": 0.8312049351772003,
+          "away": 0.1687950648227997
         },
         "xgboost": {
-          "home": 0.6692053079605103,
-          "away": 0.33079469203948975
+          "home": 0.7878497242927551,
+          "away": 0.21215027570724487
         }
       }
     },
@@ -46,27 +46,27 @@
       "pick": "CLE",
       "confidence": "Low",
       "prob": {
-        "home": 0.5407419204711914,
-        "away": 0.4592580795288086
+        "home": 0.5762351751327515,
+        "away": 0.42376482486724854
       },
       "verdict": {
         "text": "CLE favored",
-        "margin": 4
+        "margin": 8
       },
       "features": {
         "home_trailing_off_epa": -0.1334908645695348,
-        "home_trailing_def_epa": -0.03139322887558641,
+        "home_trailing_def_epa": -0.0313932288755864,
         "away_trailing_off_epa": -0.05212838357558226,
-        "away_trailing_def_epa": -0.027884417336643298
+        "away_trailing_def_epa": -0.027884417336643368
       },
       "components": {
         "logistic": {
-          "home": 0.48262535368729836,
-          "away": 0.5173746463127016
+          "home": 0.49987413505658856,
+          "away": 0.5001258649434115
         },
         "xgboost": {
-          "home": 0.5407419204711914,
-          "away": 0.4592580795288086
+          "home": 0.5762351751327515,
+          "away": 0.42376482486724854
         }
       }
     },
@@ -78,29 +78,29 @@
       "gameday": "2026-09-27",
       "gametime": "13:00",
       "pick": "DET",
-      "confidence": "Low",
+      "confidence": "Medium",
       "prob": {
-        "home": 0.5924263596534729,
-        "away": 0.4075736403465271
+        "home": 0.6339967846870422,
+        "away": 0.36600321531295776
       },
       "verdict": {
         "text": "DET favored",
-        "margin": 9
+        "margin": 13
       },
       "features": {
-        "home_trailing_off_epa": -0.021637515643539093,
-        "home_trailing_def_epa": 0.026806570675208613,
-        "away_trailing_off_epa": -0.09798210772443108,
-        "away_trailing_def_epa": 0.12535547239040695
+        "home_trailing_off_epa": -0.021637515643539107,
+        "home_trailing_def_epa": 0.02680657067520864,
+        "away_trailing_off_epa": -0.09798210772443106,
+        "away_trailing_def_epa": 0.1253554723904069
       },
       "components": {
         "logistic": {
-          "home": 0.6070869301400574,
-          "away": 0.39291306985994257
+          "home": 0.652540455726518,
+          "away": 0.347459544273482
         },
         "xgboost": {
-          "home": 0.5924263596534729,
-          "away": 0.4075736403465271
+          "home": 0.6339967846870422,
+          "away": 0.36600321531295776
         }
       }
     },
@@ -111,30 +111,30 @@
       "season": 2026,
       "gameday": "2026-09-27",
       "gametime": "13:00",
-      "pick": "IND",
+      "pick": "HOU",
       "confidence": "Low",
       "prob": {
-        "home": 0.5321096181869507,
-        "away": 0.4678903818130493
+        "home": 0.4405461847782135,
+        "away": 0.5594538152217865
       },
       "verdict": {
-        "text": "IND favored",
-        "margin": 3
+        "text": "HOU favored",
+        "margin": 6
       },
       "features": {
-        "home_trailing_off_epa": -0.0913206823204121,
-        "home_trailing_def_epa": 0.13434709162629435,
-        "away_trailing_off_epa": -0.08719035055735402,
+        "home_trailing_off_epa": -0.09132068232041207,
+        "home_trailing_def_epa": 0.13434709162629432,
+        "away_trailing_off_epa": -0.08719035055735405,
         "away_trailing_def_epa": -0.03772816240764749
       },
       "components": {
         "logistic": {
-          "home": 0.453638639894853,
-          "away": 0.546361360105147
+          "home": 0.4812684240976801,
+          "away": 0.5187315759023199
         },
         "xgboost": {
-          "home": 0.5321096181869507,
-          "away": 0.4678903818130493
+          "home": 0.4405461847782135,
+          "away": 0.5594538152217865
         }
       }
     },
@@ -148,27 +148,27 @@
       "pick": "JAX",
       "confidence": "Medium",
       "prob": {
-        "home": 0.6781449913978577,
-        "away": 0.32185500860214233
+        "home": 0.6096635460853577,
+        "away": 0.39033645391464233
       },
       "verdict": {
         "text": "JAX favored",
-        "margin": 18
+        "margin": 11
       },
       "features": {
         "home_trailing_off_epa": 0.12882876577851998,
         "home_trailing_def_epa": -0.15348384266614484,
-        "away_trailing_off_epa": 0.16706303707914055,
-        "away_trailing_def_epa": -0.20813371720040347
+        "away_trailing_off_epa": 0.1670630370791405,
+        "away_trailing_def_epa": -0.2081337172004035
       },
       "components": {
         "logistic": {
-          "home": 0.5649758776858104,
-          "away": 0.43502412231418963
+          "home": 0.5389900145128449,
+          "away": 0.4610099854871551
         },
         "xgboost": {
-          "home": 0.6781449913978577,
-          "away": 0.32185500860214233
+          "home": 0.6096635460853577,
+          "away": 0.39033645391464233
         }
       }
     },
@@ -182,27 +182,27 @@
       "pick": "KC",
       "confidence": "Medium",
       "prob": {
-        "home": 0.37230250239372253,
-        "away": 0.6276974976062775
+        "home": 0.353470116853714,
+        "away": 0.646529883146286
       },
       "verdict": {
         "text": "KC favored",
-        "margin": 13
+        "margin": 15
       },
       "features": {
-        "home_trailing_off_epa": -0.11833894366273784,
-        "home_trailing_def_epa": 0.20406888862858852,
-        "away_trailing_off_epa": -0.06857157944887923,
-        "away_trailing_def_epa": -0.14577005051988903
+        "home_trailing_off_epa": -0.11833894366273781,
+        "home_trailing_def_epa": 0.20406888862858855,
+        "away_trailing_off_epa": -0.0685715794488792,
+        "away_trailing_def_epa": -0.14577005051988906
       },
       "components": {
         "logistic": {
-          "home": 0.3815146947350099,
-          "away": 0.6184853052649901
+          "home": 0.40379691945952456,
+          "away": 0.5962030805404754
         },
         "xgboost": {
-          "home": 0.37230250239372253,
-          "away": 0.6276974976062775
+          "home": 0.353470116853714,
+          "away": 0.646529883146286
         }
       }
     },
@@ -214,29 +214,29 @@
       "gameday": "2026-09-27",
       "gametime": "13:00",
       "pick": "NYG",
-      "confidence": "Medium",
+      "confidence": "High",
       "prob": {
-        "home": 0.685753345489502,
-        "away": 0.31424665451049805
+        "home": 0.7415366172790527,
+        "away": 0.25846338272094727
       },
       "verdict": {
         "text": "NYG favored",
-        "margin": 19
+        "margin": 24
       },
       "features": {
-        "home_trailing_off_epa": 0.07839061294055785,
-        "home_trailing_def_epa": 0.04157339734720071,
-        "away_trailing_off_epa": -0.1432303519427909,
-        "away_trailing_def_epa": 0.16790828011455194
+        "home_trailing_off_epa": 0.07839061294055781,
+        "home_trailing_def_epa": 0.04157339734720074,
+        "away_trailing_off_epa": -0.14323035194279088,
+        "away_trailing_def_epa": 0.16790828011455197
       },
       "components": {
         "logistic": {
-          "home": 0.6840022561989686,
-          "away": 0.3159977438010314
+          "home": 0.7378761858387696,
+          "away": 0.26212381416123043
         },
         "xgboost": {
-          "home": 0.685753345489502,
-          "away": 0.31424665451049805
+          "home": 0.7415366172790527,
+          "away": 0.25846338272094727
         }
       }
     },
@@ -248,29 +248,29 @@
       "gameday": "2026-09-27",
       "gametime": "13:00",
       "pick": "CIN",
-      "confidence": "Medium",
+      "confidence": "Low",
       "prob": {
-        "home": 0.3528233468532562,
-        "away": 0.6471766531467438
+        "home": 0.4138983488082886,
+        "away": 0.5861016511917114
       },
       "verdict": {
         "text": "CIN favored",
-        "margin": 15
+        "margin": 9
       },
       "features": {
-        "home_trailing_off_epa": -0.20111161729678131,
+        "home_trailing_off_epa": -0.20111161729678134,
         "home_trailing_def_epa": -0.12139850273499013,
-        "away_trailing_off_epa": 0.03337252505012555,
+        "away_trailing_off_epa": 0.03337252505012556,
         "away_trailing_def_epa": -0.15084120764462997
       },
       "components": {
         "logistic": {
-          "home": 0.40967979180456826,
-          "away": 0.5903202081954317
+          "home": 0.3972924659147961,
+          "away": 0.6027075340852039
         },
         "xgboost": {
-          "home": 0.3528233468532562,
-          "away": 0.6471766531467438
+          "home": 0.4138983488082886,
+          "away": 0.5861016511917114
         }
       }
     },
@@ -284,27 +284,27 @@
       "pick": "SEA",
       "confidence": "Low",
       "prob": {
-        "home": 0.43599942326545715,
-        "away": 0.5640005767345428
+        "home": 0.44964608550071716,
+        "away": 0.5503539144992828
       },
       "verdict": {
         "text": "SEA favored",
-        "margin": 6
+        "margin": 5
       },
       "features": {
-        "home_trailing_off_epa": 0.0750027206738688,
-        "home_trailing_def_epa": 0.10187977612687385,
-        "away_trailing_off_epa": 0.05358292238184364,
+        "home_trailing_off_epa": 0.07500272067386879,
+        "home_trailing_def_epa": 0.10187977612687388,
+        "away_trailing_off_epa": 0.053582922381843624,
         "away_trailing_def_epa": -0.3261443125909766
       },
       "components": {
         "logistic": {
-          "home": 0.43759533799004385,
-          "away": 0.5624046620099561
+          "home": 0.43032468424509773,
+          "away": 0.5696753157549023
         },
         "xgboost": {
-          "home": 0.43599942326545715,
-          "away": 0.5640005767345428
+          "home": 0.44964608550071716,
+          "away": 0.5503539144992828
         }
       }
     },
@@ -318,27 +318,27 @@
       "pick": "SF",
       "confidence": "High",
       "prob": {
-        "home": 0.8554468750953674,
-        "away": 0.14455312490463257
+        "home": 0.8375224471092224,
+        "away": 0.1624775528907776
       },
       "verdict": {
         "text": "SF favored",
-        "margin": 36
+        "margin": 34
       },
       "features": {
-        "home_trailing_off_epa": 0.14129448563066865,
-        "home_trailing_def_epa": 0.04140246064771272,
-        "away_trailing_off_epa": -0.04757993763756363,
+        "home_trailing_off_epa": 0.1412944856306687,
+        "home_trailing_def_epa": 0.04140246064771273,
+        "away_trailing_off_epa": -0.0475799376375636,
         "away_trailing_def_epa": 0.11651344253375015
       },
       "components": {
         "logistic": {
-          "home": 0.6813515806104102,
-          "away": 0.31864841938958977
+          "home": 0.7220315609191521,
+          "away": 0.2779684390808479
         },
         "xgboost": {
-          "home": 0.8554468750953674,
-          "away": 0.14455312490463257
+          "home": 0.8375224471092224,
+          "away": 0.1624775528907776
         }
       }
     },
@@ -352,27 +352,27 @@
       "pick": "TB",
       "confidence": "Low",
       "prob": {
-        "home": 0.527802050113678,
-        "away": 0.472197949886322
+        "home": 0.5606064796447754,
+        "away": 0.4393935203552246
       },
       "verdict": {
         "text": "TB favored",
-        "margin": 3
+        "margin": 6
       },
       "features": {
         "home_trailing_off_epa": -0.07253780980218892,
-        "home_trailing_def_epa": 0.023502215305124113,
-        "away_trailing_off_epa": -0.10439718924909701,
+        "home_trailing_def_epa": 0.02350221530512412,
+        "away_trailing_off_epa": -0.10439718924909702,
         "away_trailing_def_epa": -0.2732140951702071
       },
       "components": {
         "logistic": {
-          "home": 0.4819193469404684,
-          "away": 0.5180806530595317
+          "home": 0.5168202815064009,
+          "away": 0.4831797184935991
         },
         "xgboost": {
-          "home": 0.527802050113678,
-          "away": 0.472197949886322
+          "home": 0.5606064796447754,
+          "away": 0.4393935203552246
         }
       }
     },
@@ -386,27 +386,27 @@
       "pick": "DAL",
       "confidence": "Low",
       "prob": {
-        "home": 0.5091192126274109,
-        "away": 0.4908807873725891
+        "home": 0.5504473447799683,
+        "away": 0.44955265522003174
       },
       "verdict": {
         "text": "DAL favored",
-        "margin": 1
+        "margin": 5
       },
       "features": {
-        "home_trailing_off_epa": 0.1325991785250224,
-        "home_trailing_def_epa": 0.19220442083832678,
-        "away_trailing_off_epa": 0.23587592473317495,
+        "home_trailing_off_epa": 0.13259917852502243,
+        "home_trailing_def_epa": 0.19220442083832673,
+        "away_trailing_off_epa": 0.23587592473317492,
         "away_trailing_def_epa": 0.019219508876861996
       },
       "components": {
         "logistic": {
-          "home": 0.45371028667744673,
-          "away": 0.5462897133225533
+          "home": 0.42120962685810454,
+          "away": 0.5787903731418955
         },
         "xgboost": {
-          "home": 0.5091192126274109,
-          "away": 0.4908807873725891
+          "home": 0.5504473447799683,
+          "away": 0.44955265522003174
         }
       }
     },
@@ -420,27 +420,27 @@
       "pick": "NO",
       "confidence": "Medium",
       "prob": {
-        "home": 0.6563628911972046,
-        "away": 0.3436371088027954
+        "home": 0.676735520362854,
+        "away": 0.323264479637146
       },
       "verdict": {
         "text": "NO favored",
-        "margin": 16
+        "margin": 18
       },
       "features": {
-        "home_trailing_off_epa": 0.06236219044763623,
-        "home_trailing_def_epa": -0.07805552172295939,
-        "away_trailing_off_epa": -0.21014179541533357,
-        "away_trailing_def_epa": -0.18148760072213488
+        "home_trailing_off_epa": 0.062362190447636266,
+        "home_trailing_def_epa": -0.07805552172295938,
+        "away_trailing_off_epa": -0.21014179541533365,
+        "away_trailing_def_epa": -0.18148760072213485
       },
       "components": {
         "logistic": {
-          "home": 0.6508647407875019,
-          "away": 0.3491352592124981
+          "home": 0.7062738977634037,
+          "away": 0.29372610223659634
         },
         "xgboost": {
-          "home": 0.6563628911972046,
-          "away": 0.3436371088027954
+          "home": 0.676735520362854,
+          "away": 0.323264479637146
         }
       }
     },
@@ -454,27 +454,27 @@
       "pick": "LA",
       "confidence": "Low",
       "prob": {
-        "home": 0.4477503299713135,
-        "away": 0.5522496700286865
+        "home": 0.4806947410106659,
+        "away": 0.5193052589893341
       },
       "verdict": {
         "text": "LA favored",
-        "margin": 5
+        "margin": 2
       },
       "features": {
-        "home_trailing_off_epa": -0.07690280392608367,
-        "home_trailing_def_epa": -0.12402518741501986,
-        "away_trailing_off_epa": 0.039471938832873435,
-        "away_trailing_def_epa": -0.024649850328674196
+        "home_trailing_off_epa": -0.07690280392608369,
+        "home_trailing_def_epa": -0.1240251874150198,
+        "away_trailing_off_epa": 0.03947193883287344,
+        "away_trailing_def_epa": -0.02464985032867414
       },
       "components": {
         "logistic": {
-          "home": 0.5198118898159951,
-          "away": 0.48018811018400487
+          "home": 0.5159590390515062,
+          "away": 0.4840409609484938
         },
         "xgboost": {
-          "home": 0.4477503299713135,
-          "away": 0.5522496700286865
+          "home": 0.4806947410106659,
+          "away": 0.5193052589893341
         }
       }
     },
@@ -488,27 +488,27 @@
       "pick": "CHI",
       "confidence": "Medium",
       "prob": {
-        "home": 0.6213940382003784,
-        "away": 0.3786059617996216
+        "home": 0.6713427901268005,
+        "away": 0.32865720987319946
       },
       "verdict": {
         "text": "CHI favored",
-        "margin": 12
+        "margin": 17
       },
       "features": {
         "home_trailing_off_epa": 0.15681283635015325,
-        "home_trailing_def_epa": 0.13323681815320954,
+        "home_trailing_def_epa": 0.1332368181532096,
         "away_trailing_off_epa": -0.02813256025641844,
-        "away_trailing_def_epa": -0.002739672390310449
+        "away_trailing_def_epa": -0.0027396723903104665
       },
       "components": {
         "logistic": {
-          "home": 0.6033872215698872,
-          "away": 0.3966127784301128
+          "home": 0.639419825206396,
+          "away": 0.36058017479360405
         },
         "xgboost": {
-          "home": 0.6213940382003784,
-          "away": 0.3786059617996216
+          "home": 0.6713427901268005,
+          "away": 0.32865720987319946
         }
       }
     }
