@@ -14975,6 +14975,23 @@
           "completions": 19
         },
         {
+          "player_id": "00-0028986",
+          "player_name": "Casey Keenum",
+          "team": "CHI",
+          "role": "passer",
+          "week": 3,
+          "position": "QB",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/weixhyzal4ntsyszyepu",
+          "plays": 34,
+          "total_epa": 7.252864733338356,
+          "epa_per_play": 0.2133195509805399,
+          "success_rate": 0.5294117647058824,
+          "yards": 247,
+          "touchdowns": 2,
+          "turnovers": 0,
+          "completions": 24
+        },
+        {
           "player_id": "00-0040663",
           "player_name": "Harold Fannin",
           "team": "CLE",
@@ -15007,6 +15024,23 @@
           "touchdowns": 1,
           "turnovers": 0,
           "completions": 4
+        },
+        {
+          "player_id": "00-0032464",
+          "player_name": "Kalif Raymond",
+          "team": "CHI",
+          "role": "receiver",
+          "week": 3,
+          "position": "WR",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dpdv6dm0almcbjdppizx",
+          "plays": 7,
+          "total_epa": 7.003356084227562,
+          "epa_per_play": 1.0004794406039375,
+          "success_rate": 0.7142857142857143,
+          "yards": 90,
+          "touchdowns": 1,
+          "turnovers": 0,
+          "completions": 6
         },
         {
           "player_id": "00-0039064",
@@ -15519,6 +15553,23 @@
           "completions": 4
         },
         {
+          "player_id": "00-0036389",
+          "player_name": "Jalen Hurts",
+          "team": "PHI",
+          "role": "rusher",
+          "week": 3,
+          "position": "QB",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xow5yvxjeqa6witmofmp",
+          "plays": 4,
+          "total_epa": 3.5909470319747925,
+          "epa_per_play": 0.8977367579936981,
+          "success_rate": 0.5,
+          "yards": 25,
+          "touchdowns": 1,
+          "turnovers": 0,
+          "completions": 0
+        },
+        {
           "player_id": "00-0040648",
           "player_name": "Tory Horton",
           "team": "SEA",
@@ -15842,6 +15893,23 @@
           "completions": 3
         },
         {
+          "player_id": "00-0041558",
+          "player_name": "Sam Roush",
+          "team": "CHI",
+          "role": "receiver",
+          "week": 3,
+          "position": "TE",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/jqkmmguw4934lyjgvuip",
+          "plays": 1,
+          "total_epa": 2.6382179260253906,
+          "epa_per_play": 2.6382179260253906,
+          "success_rate": 1.0,
+          "yards": 16,
+          "touchdowns": 0,
+          "turnovers": 0,
+          "completions": 1
+        },
+        {
           "player_id": "00-0039451",
           "player_name": "Isaiah Williams",
           "team": "NYJ",
@@ -16112,6 +16180,23 @@
           "touchdowns": 0,
           "turnovers": 0,
           "completions": 5
+        },
+        {
+          "player_id": "00-0034844",
+          "player_name": "Saquon Barkley",
+          "team": "PHI",
+          "role": "rusher",
+          "week": 3,
+          "position": "RB",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qcayrzjpura2zydszonh",
+          "plays": 15,
+          "total_epa": 2.2430530972778797,
+          "epa_per_play": 0.14953687315185862,
+          "success_rate": 0.5333333333333333,
+          "yards": 82,
+          "touchdowns": 0,
+          "turnovers": 0,
+          "completions": 0
         },
         {
           "player_id": "00-0038120",
@@ -16418,6 +16503,23 @@
           "touchdowns": 0,
           "turnovers": 0,
           "completions": 2
+        },
+        {
+          "player_id": "00-0040126",
+          "player_name": "Colston Loveland",
+          "team": "CHI",
+          "role": "receiver",
+          "week": 3,
+          "position": "TE",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cnxiyi76jeahgx94nh6d",
+          "plays": 4,
+          "total_epa": 1.7122430801391602,
+          "epa_per_play": 0.42806077003479004,
+          "success_rate": 1.0,
+          "yards": 31,
+          "touchdowns": 0,
+          "turnovers": 0,
+          "completions": 4
         },
         {
           "player_id": "00-0037256",
@@ -17661,6 +17763,23 @@
           "completions": 5
         },
         {
+          "player_id": "00-0028986",
+          "player_name": "Casey Keenum",
+          "team": "CHI",
+          "role": "rusher",
+          "week": 3,
+          "position": "QB",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/weixhyzal4ntsyszyepu",
+          "plays": 2,
+          "total_epa": 0.5234827399253845,
+          "epa_per_play": 0.26174136996269226,
+          "success_rate": 0.5,
+          "yards": 8,
+          "touchdowns": 1,
+          "turnovers": 0,
+          "completions": 0
+        },
+        {
           "player_id": "00-0036754",
           "player_name": "Brock Wright",
           "team": "DET",
@@ -17982,6 +18101,23 @@
           "touchdowns": 0,
           "turnovers": 0,
           "completions": 1
+        },
+        {
+          "player_id": "00-0040735",
+          "player_name": "Luther Burden",
+          "team": "CHI",
+          "role": "rusher",
+          "week": 3,
+          "position": "WR",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/iyuwdz7pbowdkwzq2tg5",
+          "plays": 1,
+          "total_epa": 0.24779285490512848,
+          "epa_per_play": 0.24779285490512848,
+          "success_rate": 1.0,
+          "yards": 7,
+          "touchdowns": 0,
+          "turnovers": 0,
+          "completions": 0
         },
         {
           "player_id": "00-0039067",
@@ -18647,6 +18783,23 @@
           "completions": 0
         },
         {
+          "player_id": "00-0036275",
+          "player_name": "D'Andre Swift",
+          "team": "CHI",
+          "role": "receiver",
+          "week": 3,
+          "position": "RB",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/owpmwzoilitcodc6cmxo",
+          "plays": 3,
+          "total_epa": -0.4024648368358612,
+          "epa_per_play": -0.13415494561195374,
+          "success_rate": 0.33333333333333337,
+          "yards": 4,
+          "touchdowns": 0,
+          "turnovers": 0,
+          "completions": 2
+        },
+        {
           "player_id": "00-0040668",
           "player_name": "Shedeur Sanders",
           "team": "CLE",
@@ -19157,6 +19310,23 @@
           "completions": 0
         },
         {
+          "player_id": "00-0036290",
+          "player_name": "Cole Kmet",
+          "team": "CHI",
+          "role": "receiver",
+          "week": 3,
+          "position": "TE",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ysnui8mzlu2fo70ub0yt",
+          "plays": 1,
+          "total_epa": -0.594227135181427,
+          "epa_per_play": -0.594227135181427,
+          "success_rate": 0.0,
+          "yards": 0,
+          "touchdowns": 0,
+          "turnovers": 0,
+          "completions": 0
+        },
+        {
           "player_id": "00-0032764",
           "player_name": "Derrick Henry",
           "team": "BAL",
@@ -19344,6 +19514,23 @@
           "completions": 0
         },
         {
+          "player_id": "00-0041051",
+          "player_name": "Zavion Thomas",
+          "team": "CHI",
+          "role": "receiver",
+          "week": 3,
+          "position": "WR",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/lhodk54zsmznu4yxjoux",
+          "plays": 1,
+          "total_epa": -0.755200982093811,
+          "epa_per_play": -0.755200982093811,
+          "success_rate": 0.0,
+          "yards": 1,
+          "touchdowns": 0,
+          "turnovers": 0,
+          "completions": 1
+        },
+        {
           "player_id": "00-0033077",
           "player_name": "Rayne Prescott",
           "team": "DAL",
@@ -19378,6 +19565,40 @@
           "completions": 0
         },
         {
+          "player_id": "00-0036912",
+          "player_name": "DeVonta Smith",
+          "team": "PHI",
+          "role": "receiver",
+          "week": 3,
+          "position": "WR",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/k724kq3hyv7jc0y9s03x",
+          "plays": 8,
+          "total_epa": -0.7883613184094429,
+          "epa_per_play": -0.09854516480118033,
+          "success_rate": 0.375,
+          "yards": 65,
+          "touchdowns": 0,
+          "turnovers": 0,
+          "completions": 6
+        },
+        {
+          "player_id": "00-0039746",
+          "player_name": "Will Shipley",
+          "team": "PHI",
+          "role": "receiver",
+          "week": 3,
+          "position": "RB",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pvpaepncsdfgzdubkuhg",
+          "plays": 2,
+          "total_epa": -0.8111793696880341,
+          "epa_per_play": -0.40558968484401703,
+          "success_rate": 0.5,
+          "yards": 11,
+          "touchdowns": 0,
+          "turnovers": 0,
+          "completions": 1
+        },
+        {
           "player_id": "00-0036252",
           "player_name": "Michael Pittman",
           "team": "PIT",
@@ -19395,6 +19616,23 @@
           "completions": 2
         },
         {
+          "player_id": "00-0036275",
+          "player_name": "D'Andre Swift",
+          "team": "CHI",
+          "role": "rusher",
+          "week": 3,
+          "position": "RB",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/owpmwzoilitcodc6cmxo",
+          "plays": 20,
+          "total_epa": -0.8183066993951797,
+          "epa_per_play": -0.04091533496975899,
+          "success_rate": 0.45,
+          "yards": 84,
+          "touchdowns": 0,
+          "turnovers": 0,
+          "completions": 0
+        },
+        {
           "player_id": "00-0041467",
           "player_name": "Lewis Bond",
           "team": "HOU",
@@ -19410,6 +19648,23 @@
           "touchdowns": 0,
           "turnovers": 0,
           "completions": 0
+        },
+        {
+          "player_id": "00-0030061",
+          "player_name": "Zachary Ertz",
+          "team": "PHI",
+          "role": "receiver",
+          "week": 3,
+          "position": "TE",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xktmmeumuoglbuam75iz",
+          "plays": 2,
+          "total_epa": -0.8337841629981995,
+          "epa_per_play": -0.41689208149909973,
+          "success_rate": 0.5,
+          "yards": 9,
+          "touchdowns": 0,
+          "turnovers": 0,
+          "completions": 1
         },
         {
           "player_id": "00-0040730",
@@ -19582,6 +19837,23 @@
           "completions": 0
         },
         {
+          "player_id": "00-0040236",
+          "player_name": "Kyle Monangai",
+          "team": "CHI",
+          "role": "rusher",
+          "week": 3,
+          "position": "RB",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bkkk3uuouhcobydqawro",
+          "plays": 10,
+          "total_epa": -0.9799996167421341,
+          "epa_per_play": -0.0979999616742134,
+          "success_rate": 0.39999999999999997,
+          "yards": 31,
+          "touchdowns": 0,
+          "turnovers": 0,
+          "completions": 0
+        },
+        {
           "player_id": "00-0031588",
           "player_name": "Stefon Diggs",
           "team": "WAS",
@@ -19699,6 +19971,23 @@
           "touchdowns": 0,
           "turnovers": 0,
           "completions": 0
+        },
+        {
+          "player_id": "00-0040735",
+          "player_name": "Luther Burden",
+          "team": "CHI",
+          "role": "receiver",
+          "week": 3,
+          "position": "WR",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/iyuwdz7pbowdkwzq2tg5",
+          "plays": 11,
+          "total_epa": -1.0680264830589294,
+          "epa_per_play": -0.09709331664172088,
+          "success_rate": 0.3636363636363636,
+          "yards": 61,
+          "touchdowns": 1,
+          "turnovers": 0,
+          "completions": 7
         },
         {
           "player_id": "00-0039732",
@@ -19854,6 +20143,23 @@
           "completions": 30
         },
         {
+          "player_id": "00-0033246",
+          "player_name": "Johnny Mundt",
+          "team": "PHI",
+          "role": "receiver",
+          "week": 3,
+          "position": "TE",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gbsnomwbzavt5124vvaz",
+          "plays": 1,
+          "total_epa": -1.1621290445327759,
+          "epa_per_play": -1.1621290445327759,
+          "success_rate": 0.0,
+          "yards": 4,
+          "touchdowns": 0,
+          "turnovers": 0,
+          "completions": 1
+        },
+        {
           "player_id": "00-0035229",
           "player_name": "Thomas Hockenson",
           "team": "MIN",
@@ -19920,6 +20226,23 @@
           "touchdowns": 0,
           "turnovers": 0,
           "completions": 0
+        },
+        {
+          "player_id": "00-0039919",
+          "player_name": "Rome Odunze",
+          "team": "CHI",
+          "role": "receiver",
+          "week": 3,
+          "position": "WR",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/niewdl2p2325kpohbw9v",
+          "plays": 6,
+          "total_epa": -1.281032919883728,
+          "epa_per_play": -0.21350548664728802,
+          "success_rate": 0.5,
+          "yards": 44,
+          "touchdowns": 0,
+          "turnovers": 0,
+          "completions": 3
         },
         {
           "player_id": "00-0033537",
@@ -20126,6 +20449,23 @@
           "completions": 2
         },
         {
+          "player_id": "00-0040867",
+          "player_name": "Makai Lemon",
+          "team": "PHI",
+          "role": "receiver",
+          "week": 3,
+          "position": "WR",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ys2i2o7c0bl36xvlrojz",
+          "plays": 4,
+          "total_epa": -1.6033435463905334,
+          "epa_per_play": -0.40083588659763336,
+          "success_rate": 0.5,
+          "yards": 29,
+          "touchdowns": 0,
+          "turnovers": 0,
+          "completions": 3
+        },
+        {
           "player_id": "00-0034348",
           "player_name": "Courtland Sutton",
           "team": "DEN",
@@ -20226,6 +20566,23 @@
           "touchdowns": 0,
           "turnovers": 1,
           "completions": 2
+        },
+        {
+          "player_id": "00-0034844",
+          "player_name": "Saquon Barkley",
+          "team": "PHI",
+          "role": "receiver",
+          "week": 3,
+          "position": "RB",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qcayrzjpura2zydszonh",
+          "plays": 2,
+          "total_epa": -1.7210106253623962,
+          "epa_per_play": -0.8605053126811981,
+          "success_rate": 0.0,
+          "yards": -2,
+          "touchdowns": 0,
+          "turnovers": 0,
+          "completions": 1
         },
         {
           "player_id": "00-0040142",
@@ -20772,6 +21129,23 @@
           "completions": 0
         },
         {
+          "player_id": "00-0038555",
+          "player_name": "Cartavious Bigsby",
+          "team": "PHI",
+          "role": "receiver",
+          "week": 3,
+          "position": "RB",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vfkdjfpiyrcuzahrmfvn",
+          "plays": 1,
+          "total_epa": -4.0424675941467285,
+          "epa_per_play": -4.0424675941467285,
+          "success_rate": 0.0,
+          "yards": 5,
+          "touchdowns": 0,
+          "turnovers": 1,
+          "completions": 1
+        },
+        {
           "player_id": "00-0036223",
           "player_name": "Jonathan Taylor",
           "team": "IND",
@@ -20855,6 +21229,23 @@
           "touchdowns": 0,
           "turnovers": 0,
           "completions": 1
+        },
+        {
+          "player_id": "00-0038393",
+          "player_name": "Dontayvion Wicks",
+          "team": "PHI",
+          "role": "receiver",
+          "week": 3,
+          "position": "WR",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/v1lt8kpvkn0qw5elyaoz",
+          "plays": 5,
+          "total_epa": -4.402288734912872,
+          "epa_per_play": -0.8804577469825745,
+          "success_rate": 0.4,
+          "yards": 32,
+          "touchdowns": 0,
+          "turnovers": 0,
+          "completions": 2
         },
         {
           "player_id": "00-0037741",
@@ -21008,6 +21399,23 @@
           "touchdowns": 0,
           "turnovers": 2,
           "completions": 16
+        },
+        {
+          "player_id": "00-0027973",
+          "player_name": "Andrew Dalton",
+          "team": "PHI",
+          "role": "passer",
+          "week": 3,
+          "position": "QB",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/sfsneh0bn46e2kwve7sr",
+          "plays": 1,
+          "total_epa": -5.5690741539001465,
+          "epa_per_play": -5.5690741539001465,
+          "success_rate": 0.0,
+          "yards": 0,
+          "touchdowns": 0,
+          "turnovers": 1,
+          "completions": 0
         },
         {
           "player_id": "00-0035685",
@@ -21314,13 +21722,30 @@
           "touchdowns": 0,
           "turnovers": 2,
           "completions": 14
+        },
+        {
+          "player_id": "00-0036389",
+          "player_name": "Jalen Hurts",
+          "team": "PHI",
+          "role": "passer",
+          "week": 3,
+          "position": "QB",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xow5yvxjeqa6witmofmp",
+          "plays": 27,
+          "total_epa": -14.544326223433018,
+          "epa_per_play": -0.5386787490160377,
+          "success_rate": 0.33333333333333326,
+          "yards": 141,
+          "touchdowns": 0,
+          "turnovers": 1,
+          "completions": 16
         }
       ],
       "form_leader": {
         "player_name": "L.Jackson",
         "team": "BAL",
         "position": "QB",
-        "form_z_score": 1.4976598436494108
+        "form_z_score": 1.505554505821842
       },
       "debutant": {
         "player_id": "00-0037238",

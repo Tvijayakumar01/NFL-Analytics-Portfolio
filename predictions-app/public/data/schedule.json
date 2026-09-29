@@ -475,11 +475,11 @@
       "week": 3,
       "home": "CHI",
       "away": "PHI",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 27,
+      "away_score": 7,
       "gameday": "2026-09-28",
       "gametime": "20:15",
-      "played": false
+      "played": true
     },
     {
       "week": 4,
