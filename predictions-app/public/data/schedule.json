@@ -693,6 +693,16 @@
     },
     {
       "week": 5,
+      "home": "GB",
+      "away": "CHI",
+      "home_score": null,
+      "away_score": null,
+      "gameday": "2026-10-11",
+      "gametime": "13:00",
+      "played": false
+    },
+    {
+      "week": 5,
       "home": "NYJ",
       "away": "CLE",
       "home_score": null,
@@ -739,16 +749,6 @@
       "away_score": null,
       "gameday": "2026-10-11",
       "gametime": "16:05",
-      "played": false
-    },
-    {
-      "week": 5,
-      "home": "GB",
-      "away": "CHI",
-      "home_score": null,
-      "away_score": null,
-      "gameday": "2026-10-11",
-      "gametime": "16:25",
       "played": false
     },
     {
