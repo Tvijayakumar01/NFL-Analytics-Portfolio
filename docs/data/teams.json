@@ -4,140 +4,122 @@
     {
       "rank": 1,
       "team": "SF",
-      "off_plays": 160,
-      "off_epa_per_play": 0.3567106809234247,
-      "def_plays": 192,
-      "def_epa_per_play_allowed": -0.007066911828587763,
-      "net_epa_per_play": 0.36377759275201244
+      "off_plays": 222,
+      "off_epa_per_play": 0.2906030263449695,
+      "def_plays": 257,
+      "def_epa_per_play_allowed": 0.017118602855210753,
+      "net_epa_per_play": 0.2734844234897587
     },
     {
       "rank": 2,
       "team": "JAX",
-      "off_plays": 167,
-      "off_epa_per_play": 0.17403641005442616,
-      "def_plays": 165,
-      "def_epa_per_play_allowed": -0.10439026797274974,
-      "net_epa_per_play": 0.2784266780271759
+      "off_plays": 220,
+      "off_epa_per_play": 0.1781430133327376,
+      "def_plays": 236,
+      "def_epa_per_play_allowed": -0.05913474267423627,
+      "net_epa_per_play": 0.23727775600697387
     },
     {
       "rank": 3,
       "team": "KC",
-      "off_plays": 191,
-      "off_epa_per_play": 0.18402489452715476,
-      "def_plays": 176,
-      "def_epa_per_play_allowed": -0.09209293706490743,
-      "net_epa_per_play": 0.27611783159206216
+      "off_plays": 249,
+      "off_epa_per_play": 0.17152655186378454,
+      "def_plays": 252,
+      "def_epa_per_play_allowed": -0.04995461094695779,
+      "net_epa_per_play": 0.22148116281074234
     },
     {
       "rank": 4,
-      "team": "SEA",
-      "off_plays": 178,
-      "off_epa_per_play": 0.050935215609713216,
-      "def_plays": 177,
-      "def_epa_per_play_allowed": -0.15628618412877376,
-      "net_epa_per_play": 0.20722139973848697
+      "team": "BAL",
+      "off_plays": 232,
+      "off_epa_per_play": 0.1863872962401666,
+      "def_plays": 248,
+      "def_epa_per_play_allowed": -0.015526762652781701,
+      "net_epa_per_play": 0.20191405889294828
     },
     {
       "rank": 5,
       "team": "CHI",
-      "off_plays": 206,
-      "off_epa_per_play": 0.12734701761578038,
-      "def_plays": 160,
-      "def_epa_per_play_allowed": -0.04372800304299744,
-      "net_epa_per_play": 0.17107502065877783
+      "off_plays": 292,
+      "off_epa_per_play": 0.10704495370936619,
+      "def_plays": 192,
+      "def_epa_per_play_allowed": -0.05926770677888271,
+      "net_epa_per_play": 0.1663126604882489
     },
     {
       "rank": 6,
-      "team": "BAL",
-      "off_plays": 173,
-      "off_epa_per_play": 0.1932950552412971,
-      "def_plays": 189,
-      "def_epa_per_play_allowed": 0.022379300226925542,
-      "net_epa_per_play": 0.17091575501437153
+      "team": "SEA",
+      "off_plays": 234,
+      "off_epa_per_play": 0.01760672793015201,
+      "def_plays": 245,
+      "def_epa_per_play_allowed": -0.13657746234034396,
+      "net_epa_per_play": 0.15418419027049596
     },
     {
       "rank": 7,
-      "team": "LV",
-      "off_plays": 184,
-      "off_epa_per_play": -0.007390812160852162,
-      "def_plays": 184,
-      "def_epa_per_play_allowed": -0.177472790866412,
-      "net_epa_per_play": 0.17008197870555983
+      "team": "LA",
+      "off_plays": 268,
+      "off_epa_per_play": 0.026220626093068425,
+      "def_plays": 239,
+      "def_epa_per_play_allowed": -0.12235848627625048,
+      "net_epa_per_play": 0.14857911236931892
     },
     {
       "rank": 8,
-      "team": "CIN",
-      "off_plays": 176,
-      "off_epa_per_play": 0.05848761288639666,
-      "def_plays": 183,
-      "def_epa_per_play_allowed": -0.09294484709669414,
-      "net_epa_per_play": 0.1514324599830908
+      "team": "LV",
+      "off_plays": 260,
+      "off_epa_per_play": 0.00869186741228287,
+      "def_plays": 242,
+      "def_epa_per_play_allowed": -0.10369271471084303,
+      "net_epa_per_play": 0.1123845821231259
     },
     {
       "rank": 9,
-      "team": "BUF",
-      "off_plays": 180,
-      "off_epa_per_play": 0.218394379152192,
-      "def_plays": 199,
-      "def_epa_per_play_allowed": 0.07472974996096525,
-      "net_epa_per_play": 0.14366462919122674
+      "team": "CAR",
+      "off_plays": 265,
+      "off_epa_per_play": 0.11510979674914676,
+      "def_plays": 267,
+      "def_epa_per_play_allowed": 0.028288020888406238,
+      "net_epa_per_play": 0.08682177586074052
     },
     {
       "rank": 10,
-      "team": "LA",
-      "off_plays": 192,
-      "off_epa_per_play": 0.01328441422568479,
-      "def_plays": 181,
-      "def_epa_per_play_allowed": -0.06959013855155527,
-      "net_epa_per_play": 0.08287455277724005
+      "team": "MIN",
+      "off_plays": 234,
+      "off_epa_per_play": -0.09771973476670563,
+      "def_plays": 237,
+      "def_epa_per_play_allowed": -0.18415557579353514,
+      "net_epa_per_play": 0.08643584102682951
     },
     {
       "rank": 11,
-      "team": "NYJ",
-      "off_plays": 194,
-      "off_epa_per_play": 0.04405296789770274,
-      "def_plays": 161,
-      "def_epa_per_play_allowed": -0.03157019457831886,
-      "net_epa_per_play": 0.0756231624760216
+      "team": "BUF",
+      "off_plays": 235,
+      "off_epa_per_play": 0.1905596577423684,
+      "def_plays": 271,
+      "def_epa_per_play_allowed": 0.10564987393047977,
+      "net_epa_per_play": 0.08490978381188864
     },
     {
       "rank": 12,
-      "team": "CAR",
-      "off_plays": 195,
-      "off_epa_per_play": 0.05257389103778853,
-      "def_plays": 199,
-      "def_epa_per_play_allowed": -0.022220737427173547,
-      "net_epa_per_play": 0.07479462846496207
+      "team": "CIN",
+      "off_plays": 247,
+      "off_epa_per_play": 0.05490856199348081,
+      "def_plays": 236,
+      "def_epa_per_play_allowed": -0.029159002392296286,
+      "net_epa_per_play": 0.0840675643857771
     },
     {
       "rank": 13,
-      "team": "MIN",
-      "off_plays": 165,
-      "off_epa_per_play": -0.11897136152644332,
-      "def_plays": 200,
-      "def_epa_per_play_allowed": -0.18050053785089404,
-      "net_epa_per_play": 0.06152917632445072
+      "team": "NYJ",
+      "off_plays": 226,
+      "off_epa_per_play": 0.01842193167030284,
+      "def_plays": 247,
+      "def_epa_per_play_allowed": -0.00023951608431242738,
+      "net_epa_per_play": 0.018661447754615267
     },
     {
       "rank": 14,
-      "team": "DET",
-      "off_plays": 197,
-      "off_epa_per_play": 0.1333920989034291,
-      "def_plays": 215,
-      "def_epa_per_play_allowed": 0.1489800125533758,
-      "net_epa_per_play": -0.015587913649946716
-    },
-    {
-      "rank": 15,
-      "team": "DAL",
-      "off_plays": 178,
-      "off_epa_per_play": 0.17522166278003976,
-      "def_plays": 190,
-      "def_epa_per_play_allowed": 0.19128749871038292,
-      "net_epa_per_play": -0.016065835930343164
-    },
-    {
-      "rank": 16,
       "team": "CLE",
       "off_plays": 224,
       "off_epa_per_play": -0.017594133270904422,
@@ -146,13 +128,31 @@
       "net_epa_per_play": -0.033863024408107296
     },
     {
+      "rank": 15,
+      "team": "DAL",
+      "off_plays": 251,
+      "off_epa_per_play": 0.1660286480768684,
+      "def_plays": 240,
+      "def_epa_per_play_allowed": 0.20101230848037327,
+      "net_epa_per_play": -0.03498366040350487
+    },
+    {
+      "rank": 16,
+      "team": "DET",
+      "off_plays": 265,
+      "off_epa_per_play": 0.14435121437429257,
+      "def_plays": 285,
+      "def_epa_per_play_allowed": 0.18344873714081028,
+      "net_epa_per_play": -0.039097522766517706
+    },
+    {
       "rank": 17,
-      "team": "WAS",
-      "off_plays": 198,
-      "off_epa_per_play": 0.018422257851320085,
-      "def_plays": 169,
-      "def_epa_per_play_allowed": 0.07627076948248952,
-      "net_epa_per_play": -0.05784851163116944
+      "team": "NE",
+      "off_plays": 250,
+      "off_epa_per_play": -0.04921217957604677,
+      "def_plays": 228,
+      "def_epa_per_play_allowed": -0.0066806968983687594,
+      "net_epa_per_play": -0.042531482677678006
     },
     {
       "rank": 18,
@@ -165,33 +165,60 @@
     },
     {
       "rank": 19,
-      "team": "ARI",
-      "off_plays": 196,
-      "off_epa_per_play": 0.041728461101860265,
-      "def_plays": 167,
-      "def_epa_per_play_allowed": 0.12277763537661045,
-      "net_epa_per_play": -0.08104917427475018
+      "team": "HOU",
+      "off_plays": 250,
+      "off_epa_per_play": -0.026287701547145843,
+      "def_plays": 254,
+      "def_epa_per_play_allowed": 0.035433756312223404,
+      "net_epa_per_play": -0.06172145785936925
     },
     {
       "rank": 20,
-      "team": "HOU",
-      "off_plays": 200,
-      "off_epa_per_play": -0.09235127333551646,
-      "def_plays": 181,
-      "def_epa_per_play_allowed": -0.00819646734332676,
-      "net_epa_per_play": -0.0841548059921897
+      "team": "NYG",
+      "off_plays": 240,
+      "off_epa_per_play": -0.04747506771236658,
+      "def_plays": 228,
+      "def_epa_per_play_allowed": 0.0157974192815457,
+      "net_epa_per_play": -0.06327248699391227
     },
     {
       "rank": 21,
-      "team": "TEN",
-      "off_plays": 157,
-      "off_epa_per_play": -0.06590371890361332,
-      "def_plays": 189,
-      "def_epa_per_play_allowed": 0.03327050265023317,
-      "net_epa_per_play": -0.0991742215538465
+      "team": "WAS",
+      "off_plays": 259,
+      "off_epa_per_play": -0.04475770940335331,
+      "def_plays": 233,
+      "def_epa_per_play_allowed": 0.031738943100583145,
+      "net_epa_per_play": -0.07649665250393645
     },
     {
       "rank": 22,
+      "team": "DEN",
+      "off_plays": 229,
+      "off_epa_per_play": -0.015382276746031614,
+      "def_plays": 261,
+      "def_epa_per_play_allowed": 0.06312974319004692,
+      "net_epa_per_play": -0.07851201993607854
+    },
+    {
+      "rank": 23,
+      "team": "TB",
+      "off_plays": 238,
+      "off_epa_per_play": -0.1535276085795725,
+      "def_plays": 222,
+      "def_epa_per_play_allowed": -0.059247628213032276,
+      "net_epa_per_play": -0.09427998036654023
+    },
+    {
+      "rank": 24,
+      "team": "ARI",
+      "off_plays": 259,
+      "off_epa_per_play": -0.02924570274578846,
+      "def_plays": 230,
+      "def_epa_per_play_allowed": 0.06677290232771117,
+      "net_epa_per_play": -0.09601860507349963
+    },
+    {
+      "rank": 25,
       "team": "ATL",
       "off_plays": 189,
       "off_epa_per_play": -0.1505417852630474,
@@ -200,16 +227,7 @@
       "net_epa_per_play": -0.10012497938492866
     },
     {
-      "rank": 23,
-      "team": "DEN",
-      "off_plays": 164,
-      "off_epa_per_play": -0.056578471827556424,
-      "def_plays": 199,
-      "def_epa_per_play_allowed": 0.045410553124457145,
-      "net_epa_per_play": -0.10198902495201356
-    },
-    {
-      "rank": 24,
+      "rank": 26,
       "team": "PIT",
       "off_plays": 250,
       "off_epa_per_play": -0.1056055907998234,
@@ -218,76 +236,58 @@
       "net_epa_per_play": -0.10482878604488048
     },
     {
-      "rank": 25,
-      "team": "NE",
-      "off_plays": 178,
-      "off_epa_per_play": -0.14642101397157092,
-      "def_plays": 173,
-      "def_epa_per_play_allowed": -0.04042618621323753,
-      "net_epa_per_play": -0.1059948277583334
-    },
-    {
-      "rank": 26,
-      "team": "TB",
-      "off_plays": 177,
-      "off_epa_per_play": -0.1934374483186478,
-      "def_plays": 170,
-      "def_epa_per_play_allowed": -0.08295288720058606,
-      "net_epa_per_play": -0.11048456111806172
-    },
-    {
       "rank": 27,
-      "team": "PHI",
-      "off_plays": 170,
-      "off_epa_per_play": -0.046184069383889435,
-      "def_plays": 186,
-      "def_epa_per_play_allowed": 0.07594107429907528,
-      "net_epa_per_play": -0.1221251436829647
+      "team": "GB",
+      "off_plays": 232,
+      "off_epa_per_play": -0.0905781576634738,
+      "def_plays": 256,
+      "def_epa_per_play_allowed": 0.041272761112850276,
+      "net_epa_per_play": -0.13185091877632407
     },
     {
       "rank": 28,
-      "team": "NYG",
-      "off_plays": 177,
-      "off_epa_per_play": -0.03529897558444974,
-      "def_plays": 165,
-      "def_epa_per_play_allowed": 0.11730440595949237,
-      "net_epa_per_play": -0.15260338154394212
+      "team": "IND",
+      "off_plays": 251,
+      "off_epa_per_play": -0.06622085813432932,
+      "def_plays": 250,
+      "def_epa_per_play_allowed": 0.06881825574673713,
+      "net_epa_per_play": -0.13503911388106643
     },
     {
       "rank": 29,
-      "team": "GB",
-      "off_plays": 180,
-      "off_epa_per_play": -0.12201749965962437,
-      "def_plays": 195,
-      "def_epa_per_play_allowed": 0.06598445812526804,
-      "net_epa_per_play": -0.18800195778489243
+      "team": "TEN",
+      "off_plays": 216,
+      "off_epa_per_play": -0.08531115161410223,
+      "def_plays": 248,
+      "def_epa_per_play_allowed": 0.06487876278979163,
+      "net_epa_per_play": -0.15018991440389384
     },
     {
       "rank": 30,
       "team": "LAC",
-      "off_plays": 177,
-      "off_epa_per_play": -0.18755526871467798,
-      "def_plays": 188,
-      "def_epa_per_play_allowed": 0.016751583157840404,
-      "net_epa_per_play": -0.20430685187251837
+      "off_plays": 245,
+      "off_epa_per_play": -0.15916778059220132,
+      "def_plays": 244,
+      "def_epa_per_play_allowed": -0.007365559054095847,
+      "net_epa_per_play": -0.15180222153810546
     },
     {
       "rank": 31,
-      "team": "IND",
-      "off_plays": 187,
-      "off_epa_per_play": -0.05950186680006311,
-      "def_plays": 189,
-      "def_epa_per_play_allowed": 0.1716635858556305,
-      "net_epa_per_play": -0.2311654526556936
+      "team": "PHI",
+      "off_plays": 228,
+      "off_epa_per_play": -0.10745243393619985,
+      "def_plays": 262,
+      "def_epa_per_play_allowed": 0.070998320920759,
+      "net_epa_per_play": -0.17845075485695885
     },
     {
       "rank": 32,
       "team": "MIA",
-      "off_plays": 173,
-      "off_epa_per_play": -0.12701632240733315,
-      "def_plays": 160,
-      "def_epa_per_play_allowed": 0.16189209200674667,
-      "net_epa_per_play": -0.28890841441407983
+      "off_plays": 210,
+      "off_epa_per_play": -0.14056470318741743,
+      "def_plays": 229,
+      "def_epa_per_play_allowed": 0.09898074863551745,
+      "net_epa_per_play": -0.23954545182293488
     }
   ],
   "rosters": {
@@ -298,14 +298,14 @@
         "role": "passer",
         "position": "QB",
         "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xs2fyj1sqdgwvt9ihbri",
-        "season_plays": 83,
-        "season_total_epa": 51.08633376285434,
-        "season_epa_per_play": 0.6154979971428234,
-        "season_yards": 789,
-        "season_touchdowns": 9,
+        "season_plays": 112,
+        "season_total_epa": 59.190248699858785,
+        "season_epa_per_play": 0.5284843633915963,
+        "season_yards": 1007,
+        "season_touchdowns": 11,
         "season_turnovers": 1,
-        "season_completions": 60,
-        "form_z_score": null,
+        "season_completions": 79,
+        "form_z_score": 2.0138544494559185,
         "weekly": [
           {
             "week": 1,
@@ -318,6 +318,109 @@
           {
             "week": 3,
             "total_epa": 22.930293016135693
+          },
+          {
+            "week": 4,
+            "total_epa": 8.103914937004447
+          }
+        ]
+      },
+      {
+        "player_id": "00-0031408",
+        "player_name": "Mike Evans",
+        "role": "receiver",
+        "position": "WR",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zc4ujpmndyxrbiyyjomz",
+        "season_plays": 24,
+        "season_total_epa": 24.815534055233,
+        "season_epa_per_play": 1.0339805856347084,
+        "season_yards": 293,
+        "season_touchdowns": 3,
+        "season_turnovers": 0,
+        "season_completions": 17,
+        "form_z_score": 0.9772039314853629,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 8.185192167758942
+          },
+          {
+            "week": 2,
+            "total_epa": 4.730523943901062
+          },
+          {
+            "week": 3,
+            "total_epa": 9.471501350402832
+          },
+          {
+            "week": 4,
+            "total_epa": 2.428316593170166
+          }
+        ]
+      },
+      {
+        "player_id": "00-0033288",
+        "player_name": "George Kittle",
+        "role": "receiver",
+        "position": "TE",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vkicdglglkyukgyxtmpx",
+        "season_plays": 22,
+        "season_total_epa": 14.988185485824943,
+        "season_epa_per_play": 0.6812811584465883,
+        "season_yards": 244,
+        "season_touchdowns": 4,
+        "season_turnovers": 0,
+        "season_completions": 16,
+        "form_z_score": 0.6836317728078948,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -5.580835908651352
+          },
+          {
+            "week": 2,
+            "total_epa": 5.767950117588043
+          },
+          {
+            "week": 3,
+            "total_epa": 10.216605752706528
+          },
+          {
+            "week": 4,
+            "total_epa": 4.584465524181724
+          }
+        ]
+      },
+      {
+        "player_id": "00-0033280",
+        "player_name": "Christian McCaffrey",
+        "role": "receiver",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/st82s2ytyzanatcmkqck",
+        "season_plays": 22,
+        "season_total_epa": 2.7076715417206287,
+        "season_epa_per_play": 0.12307597916911948,
+        "season_yards": 122,
+        "season_touchdowns": 0,
+        "season_turnovers": 0,
+        "season_completions": 16,
+        "form_z_score": 0.5319332026620314,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -4.913404103368521
+          },
+          {
+            "week": 2,
+            "total_epa": 5.50573456287384
+          },
+          {
+            "week": 3,
+            "total_epa": 2.4447838366031647
+          },
+          {
+            "week": 4,
+            "total_epa": -0.32944275438785553
           }
         ]
       },
@@ -327,14 +430,14 @@
         "role": "rusher",
         "position": "RB",
         "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/st82s2ytyzanatcmkqck",
-        "season_plays": 35,
-        "season_total_epa": 1.7946641258895397,
-        "season_epa_per_play": 0.05127611788255828,
-        "season_yards": 166,
-        "season_touchdowns": 3,
+        "season_plays": 50,
+        "season_total_epa": -0.7706066556274891,
+        "season_epa_per_play": -0.015412133112549782,
+        "season_yards": 218,
+        "season_touchdowns": 4,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": null,
+        "form_z_score": 0.5319332026620314,
         "weekly": [
           {
             "week": 1,
@@ -347,6 +450,10 @@
           {
             "week": 3,
             "total_epa": -0.3811292536556721
+          },
+          {
+            "week": 4,
+            "total_epa": -2.565270781517029
           }
         ]
       },
@@ -356,14 +463,14 @@
         "role": "rusher",
         "position": "RB",
         "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/nwgkzr1ysr32jc79zfnt",
-        "season_plays": 25,
-        "season_total_epa": -2.2870821468532085,
-        "season_epa_per_play": -0.09148328587412834,
-        "season_yards": 107,
+        "season_plays": 31,
+        "season_total_epa": -2.0277715735137463,
+        "season_epa_per_play": -0.06541198624237891,
+        "season_yards": 120,
         "season_touchdowns": 0,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": null,
+        "form_z_score": 0.07545432187143511,
         "weekly": [
           {
             "week": 1,
@@ -376,124 +483,10 @@
           {
             "week": 3,
             "total_epa": -0.5808065831661224
-          }
-        ]
-      }
-    ],
-    "DAL": [
-      {
-        "player_id": "00-0033077",
-        "player_name": "Rayne Prescott",
-        "role": "passer",
-        "position": "QB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yvscmqq1qki8zfsemmcd",
-        "season_plays": 109,
-        "season_total_epa": 33.898395016789436,
-        "season_epa_per_play": 0.3109944496953159,
-        "season_yards": 710,
-        "season_touchdowns": 7,
-        "season_turnovers": 1,
-        "season_completions": 73,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": 10.38090305775404
           },
           {
-            "week": 2,
-            "total_epa": 15.104026049375534
-          },
-          {
-            "week": 3,
-            "total_epa": 8.413465909659863
-          }
-        ]
-      },
-      {
-        "player_id": "00-0036358",
-        "player_name": "Cedarian Lamb",
-        "role": "receiver",
-        "position": "WR",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mbblzwtynxr15ovzkevi",
-        "season_plays": 26,
-        "season_total_epa": 28.02823331952095,
-        "season_epa_per_play": 1.0780089738277288,
-        "season_yards": 311,
-        "season_touchdowns": 3,
-        "season_turnovers": 0,
-        "season_completions": 20,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": 5.593274384737015
-          },
-          {
-            "week": 2,
-            "total_epa": 11.368333399295807
-          },
-          {
-            "week": 3,
-            "total_epa": 11.066625535488129
-          }
-        ]
-      },
-      {
-        "player_id": "00-0037247",
-        "player_name": "George Pickens",
-        "role": "receiver",
-        "position": "WR",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cbpyykoguf7rsxezqzvk",
-        "season_plays": 25,
-        "season_total_epa": 6.231470942497253,
-        "season_epa_per_play": 0.24925883769989013,
-        "season_yards": 150,
-        "season_touchdowns": 0,
-        "season_turnovers": 0,
-        "season_completions": 16,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": 0.6187376081943512
-          },
-          {
-            "week": 2,
-            "total_epa": 0.48199689388275146
-          },
-          {
-            "week": 3,
-            "total_epa": 5.130736440420151
-          }
-        ]
-      },
-      {
-        "player_id": "00-0036997",
-        "player_name": "Javonte Williams",
-        "role": "rusher",
-        "position": "RB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xvwroirev2kie6oiphtz",
-        "season_plays": 43,
-        "season_total_epa": -3.2525521777570248,
-        "season_epa_per_play": -0.07564074831993081,
-        "season_yards": 169,
-        "season_touchdowns": 2,
-        "season_turnovers": 0,
-        "season_completions": 0,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": 1.3868122026324272
-          },
-          {
-            "week": 2,
-            "total_epa": -3.7425385750830173
-          },
-          {
-            "week": 3,
-            "total_epa": -0.8968258053064346
+            "week": 4,
+            "total_epa": 0.2593105733394623
           }
         ]
       }
@@ -505,14 +498,14 @@
         "role": "passer",
         "position": "QB",
         "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/kaicbot8qhzrvddilbtp",
-        "season_plays": 116,
-        "season_total_epa": 31.44955858401954,
-        "season_epa_per_play": 0.27111688434499603,
-        "season_yards": 743,
-        "season_touchdowns": 8,
+        "season_plays": 169,
+        "season_total_epa": 43.774126103147864,
+        "season_epa_per_play": 0.2590184976517625,
+        "season_yards": 1149,
+        "season_touchdowns": 9,
         "season_turnovers": 0,
-        "season_completions": 77,
-        "form_z_score": null,
+        "season_completions": 109,
+        "form_z_score": 0.7501308905205335,
         "weekly": [
           {
             "week": 1,
@@ -525,6 +518,76 @@
           {
             "week": 3,
             "total_epa": 12.136147445067763
+          },
+          {
+            "week": 4,
+            "total_epa": 12.324567519128323
+          }
+        ]
+      },
+      {
+        "player_id": "00-0039065",
+        "player_name": "Sam LaPorta",
+        "role": "receiver",
+        "position": "TE",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wxlk7ysg2nfq6h6ntdcu",
+        "season_plays": 32,
+        "season_total_epa": 18.66269263625145,
+        "season_epa_per_play": 0.5832091448828578,
+        "season_yards": 228,
+        "season_touchdowns": 2,
+        "season_turnovers": 0,
+        "season_completions": 22,
+        "form_z_score": 0.5929772803509659,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 3.042638063430786
+          },
+          {
+            "week": 2,
+            "total_epa": 5.680047363042831
+          },
+          {
+            "week": 3,
+            "total_epa": 1.049887239933014
+          },
+          {
+            "week": 4,
+            "total_epa": 8.890119969844818
+          }
+        ]
+      },
+      {
+        "player_id": "00-0037240",
+        "player_name": "Jameson Williams",
+        "role": "receiver",
+        "position": "WR",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/byiptqggtglvy5qrw5wp",
+        "season_plays": 25,
+        "season_total_epa": 12.394034251570702,
+        "season_epa_per_play": 0.49576137006282806,
+        "season_yards": 229,
+        "season_touchdowns": 0,
+        "season_turnovers": 0,
+        "season_completions": 16,
+        "form_z_score": 0.26071831812054846,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 0.44462674111127853
+          },
+          {
+            "week": 2,
+            "total_epa": 1.4968307614326477
+          },
+          {
+            "week": 3,
+            "total_epa": 3.3481513783335686
+          },
+          {
+            "week": 4,
+            "total_epa": 7.104425370693207
           }
         ]
       },
@@ -534,14 +597,14 @@
         "role": "receiver",
         "position": "WR",
         "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fd8nwhm6pvxfyzphzl6i",
-        "season_plays": 35,
-        "season_total_epa": 10.125157669186592,
-        "season_epa_per_play": 0.28929021911961694,
-        "season_yards": 228,
+        "season_plays": 46,
+        "season_total_epa": 8.079468801617622,
+        "season_epa_per_play": 0.17564062612212222,
+        "season_yards": 312,
         "season_touchdowns": 5,
         "season_turnovers": 0,
-        "season_completions": 23,
-        "form_z_score": null,
+        "season_completions": 31,
+        "form_z_score": -0.2378743456687067,
         "weekly": [
           {
             "week": 1,
@@ -554,6 +617,10 @@
           {
             "week": 3,
             "total_epa": -1.3876621425151825
+          },
+          {
+            "week": 4,
+            "total_epa": -2.0456888675689697
           }
         ]
       },
@@ -563,14 +630,14 @@
         "role": "receiver",
         "position": "RB",
         "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cursejnmmp1i9hnxihkj",
-        "season_plays": 21,
-        "season_total_epa": 8.957656828686595,
-        "season_epa_per_play": 0.42655508708031403,
-        "season_yards": 156,
+        "season_plays": 28,
+        "season_total_epa": 6.376675894483924,
+        "season_epa_per_play": 0.22773842480299727,
+        "season_yards": 178,
         "season_touchdowns": 2,
         "season_turnovers": 1,
-        "season_completions": 18,
-        "form_z_score": null,
+        "season_completions": 22,
+        "form_z_score": 0.6798094711287493,
         "weekly": [
           {
             "week": 1,
@@ -583,6 +650,10 @@
           {
             "week": 3,
             "total_epa": 5.8416035901755095
+          },
+          {
+            "week": 4,
+            "total_epa": -2.580980934202671
           }
         ]
       },
@@ -592,14 +663,14 @@
         "role": "rusher",
         "position": "RB",
         "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cursejnmmp1i9hnxihkj",
-        "season_plays": 65,
-        "season_total_epa": -1.1106226705014706,
-        "season_epa_per_play": -0.017086502623099548,
-        "season_yards": 307,
-        "season_touchdowns": 4,
+        "season_plays": 80,
+        "season_total_epa": -1.4603618644177914,
+        "season_epa_per_play": -0.01825452330522239,
+        "season_yards": 353,
+        "season_touchdowns": 5,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": null,
+        "form_z_score": 0.6798094711287493,
         "weekly": [
           {
             "week": 1,
@@ -612,6 +683,437 @@
           {
             "week": 3,
             "total_epa": -0.026723366230726242
+          },
+          {
+            "week": 4,
+            "total_epa": -0.3497391939163208
+          }
+        ]
+      }
+    ],
+    "DAL": [
+      {
+        "player_id": "00-0033077",
+        "player_name": "Rayne Prescott",
+        "role": "passer",
+        "position": "QB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yvscmqq1qki8zfsemmcd",
+        "season_plays": 157,
+        "season_total_epa": 43.72813460230827,
+        "season_epa_per_play": 0.2785231503331737,
+        "season_yards": 1034,
+        "season_touchdowns": 8,
+        "season_turnovers": 1,
+        "season_completions": 105,
+        "form_z_score": 0.9367348491058115,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 10.38090305775404
+          },
+          {
+            "week": 2,
+            "total_epa": 15.104026049375534
+          },
+          {
+            "week": 3,
+            "total_epa": 8.413465909659863
+          },
+          {
+            "week": 4,
+            "total_epa": 9.829739585518837
+          }
+        ]
+      },
+      {
+        "player_id": "00-0036358",
+        "player_name": "Cedarian Lamb",
+        "role": "receiver",
+        "position": "WR",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mbblzwtynxr15ovzkevi",
+        "season_plays": 47,
+        "season_total_epa": 41.641878336668015,
+        "season_epa_per_play": 0.8859974114184684,
+        "season_yards": 500,
+        "season_touchdowns": 4,
+        "season_turnovers": 0,
+        "season_completions": 37,
+        "form_z_score": 0.936930575973818,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 5.593274384737015
+          },
+          {
+            "week": 2,
+            "total_epa": 11.368333399295807
+          },
+          {
+            "week": 3,
+            "total_epa": 11.066625535488129
+          },
+          {
+            "week": 4,
+            "total_epa": 13.613645017147064
+          }
+        ]
+      },
+      {
+        "player_id": "00-0037247",
+        "player_name": "George Pickens",
+        "role": "receiver",
+        "position": "WR",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cbpyykoguf7rsxezqzvk",
+        "season_plays": 28,
+        "season_total_epa": 10.165035843849182,
+        "season_epa_per_play": 0.3630369944231851,
+        "season_yards": 225,
+        "season_touchdowns": 0,
+        "season_turnovers": 0,
+        "season_completions": 18,
+        "form_z_score": 0.08343278690239737,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 0.6187376081943512
+          },
+          {
+            "week": 2,
+            "total_epa": 0.48199689388275146
+          },
+          {
+            "week": 3,
+            "total_epa": 5.130736440420151
+          },
+          {
+            "week": 4,
+            "total_epa": 3.9335649013519287
+          }
+        ]
+      },
+      {
+        "player_id": "00-0039410",
+        "player_name": "Ryan Flournoy",
+        "role": "receiver",
+        "position": "WR",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tqwq3cgpqu7j9hzoyicx",
+        "season_plays": 23,
+        "season_total_epa": 3.592074155807495,
+        "season_epa_per_play": 0.15617713720902152,
+        "season_yards": 104,
+        "season_touchdowns": 0,
+        "season_turnovers": 0,
+        "season_completions": 13,
+        "form_z_score": -0.19605499945435023,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 2.5284291803836823
+          },
+          {
+            "week": 2,
+            "total_epa": 0.1951494663953781
+          },
+          {
+            "week": 3,
+            "total_epa": -2.816414952278137
+          },
+          {
+            "week": 4,
+            "total_epa": 3.684910461306572
+          }
+        ]
+      },
+      {
+        "player_id": "00-0036997",
+        "player_name": "Javonte Williams",
+        "role": "rusher",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xvwroirev2kie6oiphtz",
+        "season_plays": 62,
+        "season_total_epa": -0.43951206002384424,
+        "season_epa_per_play": -0.007088904193932971,
+        "season_yards": 231,
+        "season_touchdowns": 5,
+        "season_turnovers": 0,
+        "season_completions": 0,
+        "form_z_score": 0.4487408978031756,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 1.3868122026324272
+          },
+          {
+            "week": 2,
+            "total_epa": -3.7425385750830173
+          },
+          {
+            "week": 3,
+            "total_epa": -0.8968258053064346
+          },
+          {
+            "week": 4,
+            "total_epa": 2.8130401177331805
+          }
+        ]
+      }
+    ],
+    "BAL": [
+      {
+        "player_id": "00-0034796",
+        "player_name": "Lamar Jackson",
+        "role": "passer",
+        "position": "QB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/eno6s5qzl9grbfbfwhoa",
+        "season_plays": 101,
+        "season_total_epa": 36.85223201289773,
+        "season_epa_per_play": 0.36487358428611616,
+        "season_yards": 903,
+        "season_touchdowns": 6,
+        "season_turnovers": 1,
+        "season_completions": 68,
+        "form_z_score": 1.3893942017403234,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 9.77681064978242
+          },
+          {
+            "week": 2,
+            "total_epa": 3.3950552716851234
+          },
+          {
+            "week": 3,
+            "total_epa": 11.92797815054655
+          },
+          {
+            "week": 4,
+            "total_epa": 11.752387940883636
+          }
+        ]
+      },
+      {
+        "player_id": "00-0039064",
+        "player_name": "Xavien Flowers",
+        "role": "receiver",
+        "position": "WR",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xzhto2dejy2pflkfx40c",
+        "season_plays": 22,
+        "season_total_epa": 23.984327144920826,
+        "season_epa_per_play": 1.090196688405492,
+        "season_yards": 352,
+        "season_touchdowns": 2,
+        "season_turnovers": 0,
+        "season_completions": 18,
+        "form_z_score": 1.398734483043923,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 13.052302420139313
+          },
+          {
+            "week": 3,
+            "total_epa": 6.61737859249115
+          },
+          {
+            "week": 4,
+            "total_epa": 4.314646132290363
+          }
+        ]
+      },
+      {
+        "player_id": "00-0034753",
+        "player_name": "Mark Andrews",
+        "role": "receiver",
+        "position": "TE",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/u4xzz7tclch0tpzm9hhz",
+        "season_plays": 24,
+        "season_total_epa": 7.228047542273998,
+        "season_epa_per_play": 0.3011686475947499,
+        "season_yards": 149,
+        "season_touchdowns": 1,
+        "season_turnovers": 0,
+        "season_completions": 18,
+        "form_z_score": -0.08623279176666701,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 2.0828268826007843
+          },
+          {
+            "week": 2,
+            "total_epa": 3.9567796289920807
+          },
+          {
+            "week": 3,
+            "total_epa": -0.6134762838482857
+          },
+          {
+            "week": 4,
+            "total_epa": 1.801917314529419
+          }
+        ]
+      },
+      {
+        "player_id": "00-0032764",
+        "player_name": "Derrick Henry",
+        "role": "rusher",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tm79x0iknqg6hms3ypyt",
+        "season_plays": 89,
+        "season_total_epa": -4.456965389661491,
+        "season_epa_per_play": -0.05007826280518529,
+        "season_yards": 374,
+        "season_touchdowns": 7,
+        "season_turnovers": 0,
+        "season_completions": 0,
+        "form_z_score": 0.26522790098582544,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 6.757789582014084
+          },
+          {
+            "week": 2,
+            "total_epa": 2.9096432104706764
+          },
+          {
+            "week": 3,
+            "total_epa": -10.827248985879123
+          },
+          {
+            "week": 4,
+            "total_epa": -3.297149196267128
+          }
+        ]
+      }
+    ],
+    "CAR": [
+      {
+        "player_id": "00-0039150",
+        "player_name": "Bryce Young",
+        "role": "passer",
+        "position": "QB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vcvhmxvxw2a3armle0af",
+        "season_plays": 171,
+        "season_total_epa": 36.17681461502798,
+        "season_epa_per_play": 0.21156031938612854,
+        "season_yards": 1205,
+        "season_touchdowns": 9,
+        "season_turnovers": 2,
+        "season_completions": 101,
+        "form_z_score": 0.7628879102545313,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 10.423477157950401
+          },
+          {
+            "week": 2,
+            "total_epa": 11.070034528151155
+          },
+          {
+            "week": 3,
+            "total_epa": -5.8424000244122
+          },
+          {
+            "week": 4,
+            "total_epa": 20.525702953338623
+          }
+        ]
+      },
+      {
+        "player_id": "00-0040124",
+        "player_name": "Tetairoa McMillan",
+        "role": "receiver",
+        "position": "WR",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gilgvjemumd6kpc9eiku",
+        "season_plays": 39,
+        "season_total_epa": 15.89873942732811,
+        "season_epa_per_play": 0.40765998531610537,
+        "season_yards": 385,
+        "season_touchdowns": 2,
+        "season_turnovers": 1,
+        "season_completions": 26,
+        "form_z_score": 0.17383948097687343,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -2.5160980224609375
+          },
+          {
+            "week": 2,
+            "total_epa": 3.581518530845642
+          },
+          {
+            "week": 3,
+            "total_epa": -1.8289524018764496
+          },
+          {
+            "week": 4,
+            "total_epa": 16.662271320819855
+          }
+        ]
+      },
+      {
+        "player_id": "00-0039491",
+        "player_name": "Jalen Coker",
+        "role": "receiver",
+        "position": "WR",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yynz8rxen6tsvhojggiv",
+        "season_plays": 22,
+        "season_total_epa": 12.661382116377354,
+        "season_epa_per_play": 0.5755173689262434,
+        "season_yards": 222,
+        "season_touchdowns": 2,
+        "season_turnovers": 0,
+        "season_completions": 18,
+        "form_z_score": null,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 12.455403342843056
+          },
+          {
+            "week": 2,
+            "total_epa": 1.6981777250766754
+          },
+          {
+            "week": 3,
+            "total_epa": -1.4921989515423775
+          }
+        ]
+      },
+      {
+        "player_id": "00-0036555",
+        "player_name": "Chuba Hubbard",
+        "role": "rusher",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/rzsvnt0pxsaize2ndhxm",
+        "season_plays": 62,
+        "season_total_epa": 1.767120387405157,
+        "season_epa_per_play": 0.028501941732341243,
+        "season_yards": 306,
+        "season_touchdowns": 3,
+        "season_turnovers": 0,
+        "season_completions": 0,
+        "form_z_score": 1.1553885865295006,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 1.4691353105008602
+          },
+          {
+            "week": 2,
+            "total_epa": 0.16913628578186035
+          },
+          {
+            "week": 3,
+            "total_epa": -3.438555493950844
+          },
+          {
+            "week": 4,
+            "total_epa": 3.5674042850732803
           }
         ]
       }
@@ -623,14 +1125,14 @@
         "role": "receiver",
         "position": "WR",
         "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yx1xjrupbqdknnjaq4a6",
-        "season_plays": 36,
-        "season_total_epa": 28.975368477404118,
-        "season_epa_per_play": 0.8048713465945588,
-        "season_yards": 405,
+        "season_plays": 42,
+        "season_total_epa": 32.49833698198199,
+        "season_epa_per_play": 0.7737699281424284,
+        "season_yards": 481,
         "season_touchdowns": 6,
         "season_turnovers": 0,
-        "season_completions": 27,
-        "form_z_score": null,
+        "season_completions": 32,
+        "form_z_score": 0.8385826247806875,
         "weekly": [
           {
             "week": 1,
@@ -643,6 +1145,10 @@
           {
             "week": 3,
             "total_epa": 3.4195184409618378
+          },
+          {
+            "week": 4,
+            "total_epa": 3.522968504577875
           }
         ]
       },
@@ -677,14 +1183,14 @@
         "role": "passer",
         "position": "QB",
         "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fyay8vruj0cqmhopufzk",
-        "season_plays": 48,
-        "season_total_epa": 2.0040112882852554,
-        "season_epa_per_play": 0.041750235172609486,
-        "season_yards": 387,
-        "season_touchdowns": 5,
-        "season_turnovers": 2,
-        "season_completions": 32,
-        "form_z_score": null,
+        "season_plays": 73,
+        "season_total_epa": -3.1710544042289257,
+        "season_epa_per_play": -0.0434391014277935,
+        "season_yards": 535,
+        "season_touchdowns": 7,
+        "season_turnovers": 3,
+        "season_completions": 45,
+        "form_z_score": -0.3076592838243426,
         "weekly": [
           {
             "week": 1,
@@ -693,6 +1199,43 @@
           {
             "week": 3,
             "total_epa": 4.080157354474068
+          },
+          {
+            "week": 4,
+            "total_epa": -5.175065692514181
+          }
+        ]
+      },
+      {
+        "player_id": "00-0039299",
+        "player_name": "George Holani",
+        "role": "rusher",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pgwvv5qhcmnwf3tomy1a",
+        "season_plays": 22,
+        "season_total_epa": -4.251621225848794,
+        "season_epa_per_play": -0.19325551026585427,
+        "season_yards": 70,
+        "season_touchdowns": 0,
+        "season_turnovers": 0,
+        "season_completions": 0,
+        "form_z_score": -0.016990579373891215,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -2.145869905129075
+          },
+          {
+            "week": 2,
+            "total_epa": 2.1746463775634766
+          },
+          {
+            "week": 3,
+            "total_epa": -0.25445209443569183
+          },
+          {
+            "week": 4,
+            "total_epa": -4.025945603847504
           }
         ]
       },
@@ -702,14 +1245,14 @@
         "role": "rusher",
         "position": "RB",
         "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/uorruvczsxzvffpbxu8z",
-        "season_plays": 32,
-        "season_total_epa": -9.113241963088512,
-        "season_epa_per_play": -0.284788811346516,
-        "season_yards": 109,
-        "season_touchdowns": 0,
+        "season_plays": 53,
+        "season_total_epa": -8.890430368483067,
+        "season_epa_per_play": -0.16774396921666163,
+        "season_yards": 190,
+        "season_touchdowns": 1,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": null,
+        "form_z_score": -0.4721857821061968,
         "weekly": [
           {
             "week": 1,
@@ -722,6 +1265,10 @@
           {
             "week": 3,
             "total_epa": -3.3172314763069153
+          },
+          {
+            "week": 4,
+            "total_epa": 0.22281159460544586
           }
         ]
       },
@@ -751,6 +1298,140 @@
           {
             "week": 3,
             "total_epa": -6.010890573263168
+          }
+        ]
+      }
+    ],
+    "JAX": [
+      {
+        "player_id": "00-0036971",
+        "player_name": "Trevor Lawrence",
+        "role": "passer",
+        "position": "QB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/k9uzdernqkx7oquy7dkg",
+        "season_plays": 112,
+        "season_total_epa": 31.829849660396576,
+        "season_epa_per_play": 0.28419508625354084,
+        "season_yards": 797,
+        "season_touchdowns": 8,
+        "season_turnovers": 2,
+        "season_completions": 72,
+        "form_z_score": 0.9848377724906017,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 19.021475687623024
+          },
+          {
+            "week": 2,
+            "total_epa": -4.115053787827492
+          },
+          {
+            "week": 3,
+            "total_epa": 7.639739321544766
+          },
+          {
+            "week": 4,
+            "total_epa": 9.283688439056277
+          }
+        ]
+      },
+      {
+        "player_id": "00-0038606",
+        "player_name": "Christopher Washington",
+        "role": "receiver",
+        "position": "WR",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yn0hc5xrz5nqeccg8two",
+        "season_plays": 26,
+        "season_total_epa": 10.96689097583294,
+        "season_epa_per_play": 0.42180349907049763,
+        "season_yards": 228,
+        "season_touchdowns": 2,
+        "season_turnovers": 0,
+        "season_completions": 16,
+        "form_z_score": 0.13095995170615576,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 8.762311592698097
+          },
+          {
+            "week": 2,
+            "total_epa": -0.3745102137327194
+          },
+          {
+            "week": 3,
+            "total_epa": 4.649739518761635
+          },
+          {
+            "week": 4,
+            "total_epa": -2.0706499218940735
+          }
+        ]
+      },
+      {
+        "player_id": "00-0040719",
+        "player_name": "Bhayshul Tuten",
+        "role": "rusher",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ryjnphuyjbedmgpx5qqj",
+        "season_plays": 60,
+        "season_total_epa": 2.2099094196455553,
+        "season_epa_per_play": 0.03683182366075925,
+        "season_yards": 277,
+        "season_touchdowns": 2,
+        "season_turnovers": 0,
+        "season_completions": 0,
+        "form_z_score": 0.6110331186684851,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -1.088827209547162
+          },
+          {
+            "week": 2,
+            "total_epa": 1.2003643810749054
+          },
+          {
+            "week": 3,
+            "total_epa": 2.5535539709962904
+          },
+          {
+            "week": 4,
+            "total_epa": -0.45518172287847847
+          }
+        ]
+      },
+      {
+        "player_id": "00-0038611",
+        "player_name": "Christopher Rodriguez",
+        "role": "rusher",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pknd5uajvpvfd8c744im",
+        "season_plays": 26,
+        "season_total_epa": 1.8505781777203083,
+        "season_epa_per_play": 0.0711760837584734,
+        "season_yards": 108,
+        "season_touchdowns": 2,
+        "season_turnovers": 0,
+        "season_completions": 0,
+        "form_z_score": 0.4769202662434536,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -0.764428049325943
+          },
+          {
+            "week": 2,
+            "total_epa": -0.6497777700424194
+          },
+          {
+            "week": 3,
+            "total_epa": 2.086058184504509
+          },
+          {
+            "week": 4,
+            "total_epa": 1.1787258125841618
           }
         ]
       }
@@ -873,62 +1554,908 @@
         ]
       }
     ],
-    "BAL": [
+    "BUF": [
       {
-        "player_id": "00-0034796",
-        "player_name": "Lamar Jackson",
+        "player_id": "00-0034857",
+        "player_name": "Joshua Allen",
         "role": "passer",
         "position": "QB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/eno6s5qzl9grbfbfwhoa",
-        "season_plays": 79,
-        "season_total_epa": 25.099844072014093,
-        "season_epa_per_play": 0.31771954521536827,
-        "season_yards": 694,
-        "season_touchdowns": 4,
-        "season_turnovers": 1,
-        "season_completions": 53,
-        "form_z_score": null,
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mjwbioajzldkq1vzoz2d",
+        "season_plays": 130,
+        "season_total_epa": 26.93179204314947,
+        "season_epa_per_play": 0.20716763110114977,
+        "season_yards": 989,
+        "season_touchdowns": 6,
+        "season_turnovers": 3,
+        "season_completions": 79,
+        "form_z_score": 0.842249693284,
         "weekly": [
           {
             "week": 1,
-            "total_epa": 9.77681064978242
+            "total_epa": 14.53502406924963
           },
           {
             "week": 2,
-            "total_epa": 3.3950552716851234
+            "total_epa": 15.04880789667368
           },
           {
             "week": 3,
-            "total_epa": 11.92797815054655
+            "total_epa": -5.375334165990353
+          },
+          {
+            "week": 4,
+            "total_epa": 2.7232942432165146
           }
         ]
       },
       {
-        "player_id": "00-0032764",
-        "player_name": "Derrick Henry",
+        "player_id": "00-0034857",
+        "player_name": "Joshua Allen",
         "role": "rusher",
-        "position": "RB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tm79x0iknqg6hms3ypyt",
-        "season_plays": 66,
-        "season_total_epa": -1.159816193394363,
-        "season_epa_per_play": -0.01757297262718732,
-        "season_yards": 301,
-        "season_touchdowns": 6,
+        "position": "QB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mjwbioajzldkq1vzoz2d",
+        "season_plays": 28,
+        "season_total_epa": 12.506011061370373,
+        "season_epa_per_play": 0.446643252191799,
+        "season_yards": 123,
+        "season_touchdowns": 7,
         "season_turnovers": 0,
         "season_completions": 0,
+        "form_z_score": 0.842249693284,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -2.313209004700184
+          },
+          {
+            "week": 2,
+            "total_epa": 9.530087232589722
+          },
+          {
+            "week": 3,
+            "total_epa": 5.373027548193932
+          },
+          {
+            "week": 4,
+            "total_epa": -0.08389471471309662
+          }
+        ]
+      },
+      {
+        "player_id": "00-0037248",
+        "player_name": "James Cook",
+        "role": "rusher",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/anjbznqb9i21wzcgrtbs",
+        "season_plays": 70,
+        "season_total_epa": 9.175279557704926,
+        "season_epa_per_play": 0.1310754222529275,
+        "season_yards": 421,
+        "season_touchdowns": 3,
+        "season_turnovers": 1,
+        "season_completions": 0,
+        "form_z_score": 0.8088863229362239,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -0.0903681069612503
+          },
+          {
+            "week": 2,
+            "total_epa": 5.04298060387373
+          },
+          {
+            "week": 3,
+            "total_epa": 0.4933680295944214
+          },
+          {
+            "week": 4,
+            "total_epa": 3.7292990311980247
+          }
+        ]
+      },
+      {
+        "player_id": "00-0034827",
+        "player_name": "Denniston Moore",
+        "role": "receiver",
+        "position": "WR",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/lsavpxtqoqu25emwcnvy",
+        "season_plays": 20,
+        "season_total_epa": 6.37448026612401,
+        "season_epa_per_play": 0.3187240133062005,
+        "season_yards": 178,
+        "season_touchdowns": 1,
+        "season_turnovers": 0,
+        "season_completions": 12,
+        "form_z_score": -0.10720244280396246,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 6.376654464751482
+          },
+          {
+            "week": 3,
+            "total_epa": -1.4405295252799988
+          },
+          {
+            "week": 4,
+            "total_epa": 1.4383553266525269
+          }
+        ]
+      },
+      {
+        "player_id": "00-0037261",
+        "player_name": "Khalil Shakir",
+        "role": "receiver",
+        "position": "WR",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/syvp3hficobwcsim3i9v",
+        "season_plays": 23,
+        "season_total_epa": 1.4867133535444736,
+        "season_epa_per_play": 0.06463971102367276,
+        "season_yards": 166,
+        "season_touchdowns": 0,
+        "season_turnovers": 1,
+        "season_completions": 15,
+        "form_z_score": -0.3159991804472023,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 0.549217700958252
+          },
+          {
+            "week": 2,
+            "total_epa": 0.5499039888381958
+          },
+          {
+            "week": 3,
+            "total_epa": -0.12187743186950684
+          },
+          {
+            "week": 4,
+            "total_epa": 0.5094690956175327
+          }
+        ]
+      }
+    ],
+    "KC": [
+      {
+        "player_id": "00-0033873",
+        "player_name": "Patrick Mahomes",
+        "role": "passer",
+        "position": "QB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wdckwtob1lybvkmxnf7p",
+        "season_plays": 135,
+        "season_total_epa": 25.78526633232832,
+        "season_epa_per_play": 0.19100197283206163,
+        "season_yards": 999,
+        "season_touchdowns": 9,
+        "season_turnovers": 2,
+        "season_completions": 82,
+        "form_z_score": 0.6480335574243827,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -2.301831439137459
+          },
+          {
+            "week": 2,
+            "total_epa": 13.424555033445358
+          },
+          {
+            "week": 3,
+            "total_epa": 12.923860304057598
+          },
+          {
+            "week": 4,
+            "total_epa": 1.738682433962822
+          }
+        ]
+      },
+      {
+        "player_id": "00-0030506",
+        "player_name": "Travis Kelce",
+        "role": "receiver",
+        "position": "TE",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dpxovcfku6ud2aohgf6a",
+        "season_plays": 22,
+        "season_total_epa": 16.362777648493648,
+        "season_epa_per_play": 0.7437626203860749,
+        "season_yards": 246,
+        "season_touchdowns": 2,
+        "season_turnovers": 0,
+        "season_completions": 16,
+        "form_z_score": 0.8094977362354187,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 4.968140533193946
+          },
+          {
+            "week": 2,
+            "total_epa": 5.10771956294775
+          },
+          {
+            "week": 3,
+            "total_epa": 6.515220880508423
+          },
+          {
+            "week": 4,
+            "total_epa": -0.22830332815647125
+          }
+        ]
+      },
+      {
+        "player_id": "00-0038134",
+        "player_name": "Kenneth Walker",
+        "role": "rusher",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vk6nruaqdewdglofcwwg",
+        "season_plays": 87,
+        "season_total_epa": 9.701551334001124,
+        "season_epa_per_play": 0.11151208429886349,
+        "season_yards": 537,
+        "season_touchdowns": 4,
+        "season_turnovers": 0,
+        "season_completions": 0,
+        "form_z_score": 0.8931936874302241,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 10.10256402567029
+          },
+          {
+            "week": 2,
+            "total_epa": 0.8259264202788472
+          },
+          {
+            "week": 3,
+            "total_epa": -4.940486252307892
+          },
+          {
+            "week": 4,
+            "total_epa": 3.7135471403598785
+          }
+        ]
+      },
+      {
+        "player_id": "00-0038134",
+        "player_name": "Kenneth Walker",
+        "role": "receiver",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vk6nruaqdewdglofcwwg",
+        "season_plays": 20,
+        "season_total_epa": -0.07049106806516647,
+        "season_epa_per_play": -0.0035245534032583236,
+        "season_yards": 84,
+        "season_touchdowns": 2,
+        "season_turnovers": 0,
+        "season_completions": 12,
+        "form_z_score": 0.8931936874302241,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 0.6422773972153664
+          },
+          {
+            "week": 2,
+            "total_epa": -0.49187418818473816
+          },
+          {
+            "week": 3,
+            "total_epa": 1.2487182021141052
+          },
+          {
+            "week": 4,
+            "total_epa": -1.4696124792099
+          }
+        ]
+      },
+      {
+        "player_id": "00-0039894",
+        "player_name": "Xavier Worthy",
+        "role": "receiver",
+        "position": "WR",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/u6fmnffwteccoxn3uguq",
+        "season_plays": 22,
+        "season_total_epa": -3.339589139446616,
+        "season_epa_per_play": -0.15179950633848255,
+        "season_yards": 133,
+        "season_touchdowns": 1,
+        "season_turnovers": 0,
+        "season_completions": 14,
+        "form_z_score": -0.5845655703482957,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -8.448583079501987
+          },
+          {
+            "week": 2,
+            "total_epa": 0.44614599645137787
+          },
+          {
+            "week": 3,
+            "total_epa": 0.9716916158795357
+          },
+          {
+            "week": 4,
+            "total_epa": 3.691156327724457
+          }
+        ]
+      }
+    ],
+    "LV": [
+      {
+        "player_id": "00-0029604",
+        "player_name": "Kirk Cousins",
+        "role": "passer",
+        "position": "QB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/za7cynvpwlsro1tsaijk",
+        "season_plays": 149,
+        "season_total_epa": 25.123467173427343,
+        "season_epa_per_play": 0.16861387364716338,
+        "season_yards": 1002,
+        "season_touchdowns": 11,
+        "season_turnovers": 4,
+        "season_completions": 93,
+        "form_z_score": 0.4156257902829031,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 0.3931948132812977
+          },
+          {
+            "week": 2,
+            "total_epa": 5.9727412685751915
+          },
+          {
+            "week": 3,
+            "total_epa": 8.9813774228096
+          },
+          {
+            "week": 4,
+            "total_epa": 9.776153668761253
+          }
+        ]
+      },
+      {
+        "player_id": "00-0039338",
+        "player_name": "Brock Bowers",
+        "role": "receiver",
+        "position": "TE",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/waorceny0ggpaeckaol8",
+        "season_plays": 24,
+        "season_total_epa": 13.638863012194633,
+        "season_epa_per_play": 0.5682859588414431,
+        "season_yards": 202,
+        "season_touchdowns": 2,
+        "season_turnovers": 0,
+        "season_completions": 16,
+        "form_z_score": 0.07122459699520484,
+        "weekly": [
+          {
+            "week": 3,
+            "total_epa": 8.58891075849533
+          },
+          {
+            "week": 4,
+            "total_epa": 5.049952253699303
+          }
+        ]
+      },
+      {
+        "player_id": "00-0038563",
+        "player_name": "Tre Tucker",
+        "role": "receiver",
+        "position": "WR",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hazzk3hrcequzosdgzgv",
+        "season_plays": 23,
+        "season_total_epa": 8.136528301984072,
+        "season_epa_per_play": 0.35376210008626396,
+        "season_yards": 233,
+        "season_touchdowns": 1,
+        "season_turnovers": 0,
+        "season_completions": 15,
+        "form_z_score": 0.06284638696683759,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 3.7979774214327335
+          },
+          {
+            "week": 2,
+            "total_epa": 3.36599925160408
+          },
+          {
+            "week": 3,
+            "total_epa": 2.537997543811798
+          },
+          {
+            "week": 4,
+            "total_epa": -1.56544591486454
+          }
+        ]
+      },
+      {
+        "player_id": "00-0039066",
+        "player_name": "Michael Mayer",
+        "role": "receiver",
+        "position": "TE",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/twnkr9uq1phvukxb5jmh",
+        "season_plays": 24,
+        "season_total_epa": 6.341480404138565,
+        "season_epa_per_play": 0.26422835017244023,
+        "season_yards": 169,
+        "season_touchdowns": 1,
+        "season_turnovers": 0,
+        "season_completions": 20,
+        "form_z_score": -0.16440558933699378,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 0.08764591813087463
+          },
+          {
+            "week": 2,
+            "total_epa": 1.2582228854298592
+          },
+          {
+            "week": 3,
+            "total_epa": 3.286204516887665
+          },
+          {
+            "week": 4,
+            "total_epa": 1.7094070836901665
+          }
+        ]
+      },
+      {
+        "player_id": "00-0040122",
+        "player_name": "Ashton Jeanty",
+        "role": "receiver",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/syspis1mntov9kgspb7r",
+        "season_plays": 25,
+        "season_total_epa": -1.5436197519302368,
+        "season_epa_per_play": -0.061744790077209476,
+        "season_yards": 165,
+        "season_touchdowns": 2,
+        "season_turnovers": 0,
+        "season_completions": 19,
+        "form_z_score": -0.6583640016559206,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 2.7588021755218506
+          },
+          {
+            "week": 2,
+            "total_epa": -4.526469945907593
+          },
+          {
+            "week": 3,
+            "total_epa": 0.889442652463913
+          },
+          {
+            "week": 4,
+            "total_epa": -0.6653946340084076
+          }
+        ]
+      },
+      {
+        "player_id": "00-0040878",
+        "player_name": "Mike Washington",
+        "role": "rusher",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ocdjq5ohmtgdghqdh5m4",
+        "season_plays": 24,
+        "season_total_epa": -2.2111868411302567,
+        "season_epa_per_play": -0.09213278504709403,
+        "season_yards": 120,
+        "season_touchdowns": 1,
+        "season_turnovers": 0,
+        "season_completions": 0,
+        "form_z_score": -0.23766589980733727,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -0.9302821457386017
+          },
+          {
+            "week": 2,
+            "total_epa": -1.4388708472251892
+          },
+          {
+            "week": 3,
+            "total_epa": 4.290776953101158
+          },
+          {
+            "week": 4,
+            "total_epa": -4.132810801267624
+          }
+        ]
+      },
+      {
+        "player_id": "00-0040122",
+        "player_name": "Ashton Jeanty",
+        "role": "rusher",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/syspis1mntov9kgspb7r",
+        "season_plays": 78,
+        "season_total_epa": -22.40985900349915,
+        "season_epa_per_play": -0.28730588466024554,
+        "season_yards": 264,
+        "season_touchdowns": 0,
+        "season_turnovers": 0,
+        "season_completions": 0,
+        "form_z_score": -0.6583640016559206,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -0.7251735236495733
+          },
+          {
+            "week": 2,
+            "total_epa": -12.246555015444756
+          },
+          {
+            "week": 3,
+            "total_epa": -6.5799967758357525
+          },
+          {
+            "week": 4,
+            "total_epa": -2.858133688569069
+          }
+        ]
+      }
+    ],
+    "CIN": [
+      {
+        "player_id": "00-0036410",
+        "player_name": "Tamaurice Higgins",
+        "role": "receiver",
+        "position": "WR",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gpwtyv3viwy9q4ewderl",
+        "season_plays": 39,
+        "season_total_epa": 24.63337491452694,
+        "season_epa_per_play": 0.6316249978083831,
+        "season_yards": 401,
+        "season_touchdowns": 1,
+        "season_turnovers": 0,
+        "season_completions": 25,
+        "form_z_score": 0.5560689921386824,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 2.332813024520874
+          },
+          {
+            "week": 2,
+            "total_epa": 5.463932022452354
+          },
+          {
+            "week": 3,
+            "total_epa": 9.885196328163147
+          },
+          {
+            "week": 4,
+            "total_epa": 6.951433539390564
+          }
+        ]
+      },
+      {
+        "player_id": "00-0036442",
+        "player_name": "Joe Burrow",
+        "role": "passer",
+        "position": "QB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gnnvcgui1cijybukk2w7",
+        "season_plays": 166,
+        "season_total_epa": 18.866437688935548,
+        "season_epa_per_play": 0.11365323908997318,
+        "season_yards": 1110,
+        "season_touchdowns": 8,
+        "season_turnovers": 3,
+        "season_completions": 112,
+        "form_z_score": 0.3395623466156991,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -2.626953087747097
+          },
+          {
+            "week": 2,
+            "total_epa": -0.5477253952994943
+          },
+          {
+            "week": 3,
+            "total_epa": 14.65216862410307
+          },
+          {
+            "week": 4,
+            "total_epa": 7.38894754787907
+          }
+        ]
+      },
+      {
+        "player_id": "00-0036900",
+        "player_name": "Ja'Marr Chase",
+        "role": "receiver",
+        "position": "WR",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qya3dtjb5kgofcuj2tuw",
+        "season_plays": 28,
+        "season_total_epa": 15.726079488173127,
+        "season_epa_per_play": 0.5616456960061831,
+        "season_yards": 212,
+        "season_touchdowns": 3,
+        "season_turnovers": 0,
+        "season_completions": 21,
+        "form_z_score": 0.37293829430922487,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -2.537154793739319
+          },
+          {
+            "week": 2,
+            "total_epa": 3.894333863630891
+          },
+          {
+            "week": 3,
+            "total_epa": 9.303246140480042
+          },
+          {
+            "week": 4,
+            "total_epa": 5.065654277801514
+          }
+        ]
+      },
+      {
+        "player_id": "00-0038597",
+        "player_name": "Chase Brown",
+        "role": "receiver",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tch3y6jlj7khvyi9jg0c",
+        "season_plays": 24,
+        "season_total_epa": -6.4016776964999735,
+        "season_epa_per_play": -0.2667365706874989,
+        "season_yards": 103,
+        "season_touchdowns": 0,
+        "season_turnovers": 0,
+        "season_completions": 21,
+        "form_z_score": -0.29064804717618953,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -1.1389979124069214
+          },
+          {
+            "week": 2,
+            "total_epa": -4.138061761856079
+          },
+          {
+            "week": 3,
+            "total_epa": -0.43511661887168884
+          },
+          {
+            "week": 4,
+            "total_epa": -0.6895014033652842
+          }
+        ]
+      },
+      {
+        "player_id": "00-0038597",
+        "player_name": "Chase Brown",
+        "role": "rusher",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tch3y6jlj7khvyi9jg0c",
+        "season_plays": 58,
+        "season_total_epa": -6.6563953291624784,
+        "season_epa_per_play": -0.11476543670969791,
+        "season_yards": 207,
+        "season_touchdowns": 1,
+        "season_turnovers": 0,
+        "season_completions": 0,
+        "form_z_score": -0.29064804717618953,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -1.060825802385807
+          },
+          {
+            "week": 2,
+            "total_epa": -3.8697275519371033
+          },
+          {
+            "week": 3,
+            "total_epa": 0.8553136605769396
+          },
+          {
+            "week": 4,
+            "total_epa": -2.5811556354165077
+          }
+        ]
+      }
+    ],
+    "NYG": [
+      {
+        "player_id": "00-0040691",
+        "player_name": "Jaxson Dart",
+        "role": "passer",
+        "position": "QB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/n6uymxssgiicjmxkzxoc",
+        "season_plays": 36,
+        "season_total_epa": 20.796662345528603,
+        "season_epa_per_play": 0.5776850651535723,
+        "season_yards": 249,
+        "season_touchdowns": 3,
+        "season_turnovers": 0,
+        "season_completions": 26,
         "form_z_score": null,
         "weekly": [
           {
             "week": 1,
-            "total_epa": 6.757789582014084
+            "total_epa": 21.912451520562172
           },
           {
             "week": 2,
-            "total_epa": 2.9096432104706764
+            "total_epa": -1.1157891750335693
+          }
+        ]
+      },
+      {
+        "player_id": "00-0039337",
+        "player_name": "Malik Nabers",
+        "role": "receiver",
+        "position": "WR",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/w3edoyyuomqlovvp9ixc",
+        "season_plays": 26,
+        "season_total_epa": 5.8629002925008535,
+        "season_epa_per_play": 0.22549616509618667,
+        "season_yards": 208,
+        "season_touchdowns": 1,
+        "season_turnovers": 0,
+        "season_completions": 18,
+        "form_z_score": -0.11257686443456161,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 5.0133767277002335
+          },
+          {
+            "week": 2,
+            "total_epa": -7.1066774725914
           },
           {
             "week": 3,
-            "total_epa": -10.827248985879123
+            "total_epa": -2.943232625722885
+          },
+          {
+            "week": 4,
+            "total_epa": 10.899433663114905
+          }
+        ]
+      },
+      {
+        "player_id": "00-0037838",
+        "player_name": "Isaiah Likely",
+        "role": "receiver",
+        "position": "TE",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/b1pahldt9ixp9lssxi2d",
+        "season_plays": 35,
+        "season_total_epa": 5.653476037085056,
+        "season_epa_per_play": 0.16152788677385876,
+        "season_yards": 190,
+        "season_touchdowns": 2,
+        "season_turnovers": 0,
+        "season_completions": 22,
+        "form_z_score": -0.46249219266335573,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 11.029123038053513
+          },
+          {
+            "week": 2,
+            "total_epa": -0.3783155754208565
+          },
+          {
+            "week": 3,
+            "total_epa": -1.1110164821147919
+          },
+          {
+            "week": 4,
+            "total_epa": -3.886314943432808
+          }
+        ]
+      },
+      {
+        "player_id": "00-0036893",
+        "player_name": "Najee Harris",
+        "role": "rusher",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/grfxgbvqnzz40r7rdtvk",
+        "season_plays": 23,
+        "season_total_epa": -5.986695721745491,
+        "season_epa_per_play": -0.2602911183367605,
+        "season_yards": 90,
+        "season_touchdowns": 0,
+        "season_turnovers": 1,
+        "season_completions": 0,
+        "form_z_score": -0.2998334281045612,
+        "weekly": [
+          {
+            "week": 2,
+            "total_epa": -2.7471146062016487
+          },
+          {
+            "week": 3,
+            "total_epa": 1.3718347996473312
+          },
+          {
+            "week": 4,
+            "total_epa": -4.6114159151911736
+          }
+        ]
+      },
+      {
+        "player_id": "00-0040715",
+        "player_name": "Cameron Skattebo",
+        "role": "rusher",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hlggiqdfvj1f4kntkafr",
+        "season_plays": 68,
+        "season_total_epa": -11.490942692384124,
+        "season_epa_per_play": -0.16898445135859005,
+        "season_yards": 235,
+        "season_touchdowns": 1,
+        "season_turnovers": 0,
+        "season_completions": 0,
+        "form_z_score": -0.16433255637037691,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -0.6451099179685116
+          },
+          {
+            "week": 2,
+            "total_epa": -2.187994973734021
+          },
+          {
+            "week": 3,
+            "total_epa": -5.274697996675968
+          },
+          {
+            "week": 4,
+            "total_epa": -3.383139804005623
+          }
+        ]
+      },
+      {
+        "player_id": "00-0031503",
+        "player_name": "Jameis Winston",
+        "role": "passer",
+        "position": "QB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/e5qyxnibbyawi0pvfpjl",
+        "season_plays": 88,
+        "season_total_epa": -18.72166254557669,
+        "season_epa_per_play": -0.21274616529064422,
+        "season_yards": 442,
+        "season_touchdowns": 3,
+        "season_turnovers": 3,
+        "season_completions": 43,
+        "form_z_score": -1.0857825966263124,
+        "weekly": [
+          {
+            "week": 2,
+            "total_epa": -16.49046478420496
+          },
+          {
+            "week": 3,
+            "total_epa": -6.1147079691290855
+          },
+          {
+            "week": 4,
+            "total_epa": 3.883510207757354
           }
         ]
       }
@@ -940,14 +2467,14 @@
         "role": "passer",
         "position": "QB",
         "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zppfqqcyjfma14jjif3a",
-        "season_plays": 112,
-        "season_total_epa": 24.938298046588898,
-        "season_epa_per_play": 0.2226633754159723,
-        "season_yards": 712,
-        "season_touchdowns": 4,
+        "season_plays": 130,
+        "season_total_epa": 20.082768581807613,
+        "season_epa_per_play": 0.15448283524467396,
+        "season_yards": 810,
+        "season_touchdowns": 5,
         "season_turnovers": 0,
-        "season_completions": 77,
-        "form_z_score": null,
+        "season_completions": 85,
+        "form_z_score": 0.1822688102829866,
         "weekly": [
           {
             "week": 1,
@@ -960,6 +2487,10 @@
           {
             "week": 3,
             "total_epa": 10.879246916621923
+          },
+          {
+            "week": 4,
+            "total_epa": -4.855529464781284
           }
         ]
       },
@@ -969,14 +2500,14 @@
         "role": "receiver",
         "position": "WR",
         "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/upxwxmhdd8xluztgqwhe",
-        "season_plays": 28,
-        "season_total_epa": 14.474992226809263,
-        "season_epa_per_play": 0.5169640081003308,
-        "season_yards": 243,
+        "season_plays": 32,
+        "season_total_epa": 13.304969284683466,
+        "season_epa_per_play": 0.4157802901463583,
+        "season_yards": 270,
         "season_touchdowns": 2,
         "season_turnovers": 0,
-        "season_completions": 21,
-        "form_z_score": null,
+        "season_completions": 24,
+        "form_z_score": 0.17139667165180186,
         "weekly": [
           {
             "week": 1,
@@ -989,6 +2520,43 @@
           {
             "week": 3,
             "total_epa": 6.324288967996836
+          },
+          {
+            "week": 4,
+            "total_epa": -1.1700229421257973
+          }
+        ]
+      },
+      {
+        "player_id": "00-0039794",
+        "player_name": "Braelon Allen",
+        "role": "rusher",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fmpzgmfjmcbrv1gmqbdn",
+        "season_plays": 33,
+        "season_total_epa": -3.4354271106421947,
+        "season_epa_per_play": -0.10410385183764226,
+        "season_yards": 120,
+        "season_touchdowns": 1,
+        "season_turnovers": 0,
+        "season_completions": 0,
+        "form_z_score": -0.12200770182409731,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -0.566861018538475
+          },
+          {
+            "week": 2,
+            "total_epa": -2.724817629903555
+          },
+          {
+            "week": 3,
+            "total_epa": -0.6163587123155594
+          },
+          {
+            "week": 4,
+            "total_epa": 0.4726102501153946
           }
         ]
       },
@@ -1022,383 +2590,6 @@
         ]
       }
     ],
-    "BUF": [
-      {
-        "player_id": "00-0034857",
-        "player_name": "Joshua Allen",
-        "role": "passer",
-        "position": "QB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mjwbioajzldkq1vzoz2d",
-        "season_plays": 95,
-        "season_total_epa": 24.208497799932957,
-        "season_epa_per_play": 0.25482629263087325,
-        "season_yards": 740,
-        "season_touchdowns": 5,
-        "season_turnovers": 2,
-        "season_completions": 56,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": 14.53502406924963
-          },
-          {
-            "week": 2,
-            "total_epa": 15.04880789667368
-          },
-          {
-            "week": 3,
-            "total_epa": -5.375334165990353
-          }
-        ]
-      },
-      {
-        "player_id": "00-0034857",
-        "player_name": "Joshua Allen",
-        "role": "rusher",
-        "position": "QB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mjwbioajzldkq1vzoz2d",
-        "season_plays": 23,
-        "season_total_epa": 12.58990577608347,
-        "season_epa_per_play": 0.5473872076558031,
-        "season_yards": 119,
-        "season_touchdowns": 6,
-        "season_turnovers": 0,
-        "season_completions": 0,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": -2.313209004700184
-          },
-          {
-            "week": 2,
-            "total_epa": 9.530087232589722
-          },
-          {
-            "week": 3,
-            "total_epa": 5.373027548193932
-          }
-        ]
-      },
-      {
-        "player_id": "00-0037248",
-        "player_name": "James Cook",
-        "role": "rusher",
-        "position": "RB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/anjbznqb9i21wzcgrtbs",
-        "season_plays": 58,
-        "season_total_epa": 5.445980526506901,
-        "season_epa_per_play": 0.09389621597425692,
-        "season_yards": 346,
-        "season_touchdowns": 2,
-        "season_turnovers": 1,
-        "season_completions": 0,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": -0.0903681069612503
-          },
-          {
-            "week": 2,
-            "total_epa": 5.04298060387373
-          },
-          {
-            "week": 3,
-            "total_epa": 0.4933680295944214
-          }
-        ]
-      }
-    ],
-    "KC": [
-      {
-        "player_id": "00-0033873",
-        "player_name": "Patrick Mahomes",
-        "role": "passer",
-        "position": "QB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wdckwtob1lybvkmxnf7p",
-        "season_plays": 102,
-        "season_total_epa": 24.046583898365498,
-        "season_epa_per_play": 0.23575082253299506,
-        "season_yards": 789,
-        "season_touchdowns": 7,
-        "season_turnovers": 2,
-        "season_completions": 67,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": -2.301831439137459
-          },
-          {
-            "week": 2,
-            "total_epa": 13.424555033445358
-          },
-          {
-            "week": 3,
-            "total_epa": 12.923860304057598
-          }
-        ]
-      },
-      {
-        "player_id": "00-0038134",
-        "player_name": "Kenneth Walker",
-        "role": "rusher",
-        "position": "RB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vk6nruaqdewdglofcwwg",
-        "season_plays": 65,
-        "season_total_epa": 5.988004193641245,
-        "season_epa_per_play": 0.09212314144063455,
-        "season_yards": 360,
-        "season_touchdowns": 2,
-        "season_turnovers": 0,
-        "season_completions": 0,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": 10.10256402567029
-          },
-          {
-            "week": 2,
-            "total_epa": 0.8259264202788472
-          },
-          {
-            "week": 3,
-            "total_epa": -4.940486252307892
-          }
-        ]
-      }
-    ],
-    "JAX": [
-      {
-        "player_id": "00-0036971",
-        "player_name": "Trevor Lawrence",
-        "role": "passer",
-        "position": "QB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/k9uzdernqkx7oquy7dkg",
-        "season_plays": 84,
-        "season_total_epa": 22.5461612213403,
-        "season_epa_per_play": 0.26840668120643213,
-        "season_yards": 585,
-        "season_touchdowns": 7,
-        "season_turnovers": 2,
-        "season_completions": 54,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": 19.021475687623024
-          },
-          {
-            "week": 2,
-            "total_epa": -4.115053787827492
-          },
-          {
-            "week": 3,
-            "total_epa": 7.639739321544766
-          }
-        ]
-      },
-      {
-        "player_id": "00-0038606",
-        "player_name": "Christopher Washington",
-        "role": "receiver",
-        "position": "WR",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yn0hc5xrz5nqeccg8two",
-        "season_plays": 23,
-        "season_total_epa": 13.037540897727013,
-        "season_epa_per_play": 0.5668496042490005,
-        "season_yards": 221,
-        "season_touchdowns": 2,
-        "season_turnovers": 0,
-        "season_completions": 15,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": 8.762311592698097
-          },
-          {
-            "week": 2,
-            "total_epa": -0.3745102137327194
-          },
-          {
-            "week": 3,
-            "total_epa": 4.649739518761635
-          }
-        ]
-      },
-      {
-        "player_id": "00-0040719",
-        "player_name": "Bhayshul Tuten",
-        "role": "rusher",
-        "position": "RB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ryjnphuyjbedmgpx5qqj",
-        "season_plays": 43,
-        "season_total_epa": 2.665091142524034,
-        "season_epa_per_play": 0.06197886377962869,
-        "season_yards": 204,
-        "season_touchdowns": 2,
-        "season_turnovers": 0,
-        "season_completions": 0,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": -1.088827209547162
-          },
-          {
-            "week": 2,
-            "total_epa": 1.2003643810749054
-          },
-          {
-            "week": 3,
-            "total_epa": 2.5535539709962904
-          }
-        ]
-      },
-      {
-        "player_id": "00-0038611",
-        "player_name": "Christopher Rodriguez",
-        "role": "rusher",
-        "position": "RB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pknd5uajvpvfd8c744im",
-        "season_plays": 20,
-        "season_total_epa": 0.6718523651361465,
-        "season_epa_per_play": 0.03359261825680733,
-        "season_yards": 73,
-        "season_touchdowns": 1,
-        "season_turnovers": 0,
-        "season_completions": 0,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": -0.764428049325943
-          },
-          {
-            "week": 2,
-            "total_epa": -0.6497777700424194
-          },
-          {
-            "week": 3,
-            "total_epa": 2.086058184504509
-          }
-        ]
-      }
-    ],
-    "NYG": [
-      {
-        "player_id": "00-0040691",
-        "player_name": "Jaxson Dart",
-        "role": "passer",
-        "position": "QB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/n6uymxssgiicjmxkzxoc",
-        "season_plays": 36,
-        "season_total_epa": 20.796662345528603,
-        "season_epa_per_play": 0.5776850651535723,
-        "season_yards": 249,
-        "season_touchdowns": 3,
-        "season_turnovers": 0,
-        "season_completions": 26,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": 21.912451520562172
-          },
-          {
-            "week": 2,
-            "total_epa": -1.1157891750335693
-          }
-        ]
-      },
-      {
-        "player_id": "00-0037838",
-        "player_name": "Isaiah Likely",
-        "role": "receiver",
-        "position": "TE",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/b1pahldt9ixp9lssxi2d",
-        "season_plays": 23,
-        "season_total_epa": 9.539790980517864,
-        "season_epa_per_play": 0.414773520892081,
-        "season_yards": 124,
-        "season_touchdowns": 2,
-        "season_turnovers": 0,
-        "season_completions": 15,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": 11.029123038053513
-          },
-          {
-            "week": 2,
-            "total_epa": -0.3783155754208565
-          },
-          {
-            "week": 3,
-            "total_epa": -1.1110164821147919
-          }
-        ]
-      },
-      {
-        "player_id": "00-0040715",
-        "player_name": "Cameron Skattebo",
-        "role": "rusher",
-        "position": "RB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hlggiqdfvj1f4kntkafr",
-        "season_plays": 50,
-        "season_total_epa": -8.107802888378501,
-        "season_epa_per_play": -0.16215605776757003,
-        "season_yards": 177,
-        "season_touchdowns": 1,
-        "season_turnovers": 0,
-        "season_completions": 0,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": -0.6451099179685116
-          },
-          {
-            "week": 2,
-            "total_epa": -2.187994973734021
-          },
-          {
-            "week": 3,
-            "total_epa": -5.274697996675968
-          }
-        ]
-      },
-      {
-        "player_id": "00-0031503",
-        "player_name": "Jameis Winston",
-        "role": "passer",
-        "position": "QB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/e5qyxnibbyawi0pvfpjl",
-        "season_plays": 54,
-        "season_total_epa": -22.605172753334045,
-        "season_epa_per_play": -0.41861431024692675,
-        "season_yards": 210,
-        "season_touchdowns": 0,
-        "season_turnovers": 1,
-        "season_completions": 25,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 2,
-            "total_epa": -16.49046478420496
-          },
-          {
-            "week": 3,
-            "total_epa": -6.1147079691290855
-          }
-        ]
-      }
-    ],
     "CHI": [
       {
         "player_id": "00-0032464",
@@ -1406,14 +2597,14 @@
         "role": "receiver",
         "position": "WR",
         "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dpdv6dm0almcbjdppizx",
-        "season_plays": 21,
-        "season_total_epa": 18.66735103726387,
-        "season_epa_per_play": 0.8889214779649462,
-        "season_yards": 214,
+        "season_plays": 23,
+        "season_total_epa": 18.257349468767643,
+        "season_epa_per_play": 0.7937978029898975,
+        "season_yards": 220,
         "season_touchdowns": 1,
         "season_turnovers": 0,
-        "season_completions": 19,
-        "form_z_score": null,
+        "season_completions": 21,
+        "form_z_score": 0.6394381067899377,
         "weekly": [
           {
             "week": 1,
@@ -1426,6 +2617,10 @@
           {
             "week": 3,
             "total_epa": 7.003356084227562
+          },
+          {
+            "week": 4,
+            "total_epa": -0.41000156849622726
           }
         ]
       },
@@ -1451,6 +2646,39 @@
           {
             "week": 2,
             "total_epa": -1.047882397659123
+          }
+        ]
+      },
+      {
+        "player_id": "00-0039919",
+        "player_name": "Rome Odunze",
+        "role": "receiver",
+        "position": "WR",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/niewdl2p2325kpohbw9v",
+        "season_plays": 20,
+        "season_total_epa": 10.951410921290517,
+        "season_epa_per_play": 0.5475705460645258,
+        "season_yards": 233,
+        "season_touchdowns": 0,
+        "season_turnovers": 0,
+        "season_completions": 14,
+        "form_z_score": 0.29200630416537776,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 4.017068013548851
+          },
+          {
+            "week": 2,
+            "total_epa": 1.5529759395867586
+          },
+          {
+            "week": 3,
+            "total_epa": -1.281032919883728
+          },
+          {
+            "week": 4,
+            "total_epa": 6.662399888038635
           }
         ]
       },
@@ -1481,14 +2709,14 @@
         "role": "rusher",
         "position": "RB",
         "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bkkk3uuouhcobydqawro",
-        "season_plays": 30,
-        "season_total_epa": 2.4307078663259745,
-        "season_epa_per_play": 0.08102359554419915,
-        "season_yards": 178,
-        "season_touchdowns": 1,
+        "season_plays": 60,
+        "season_total_epa": 5.8433261308819056,
+        "season_epa_per_play": 0.09738876884803176,
+        "season_yards": 324,
+        "season_touchdowns": 3,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": null,
+        "form_z_score": 0.81347284269119,
         "weekly": [
           {
             "week": 1,
@@ -1501,35 +2729,35 @@
           {
             "week": 3,
             "total_epa": -0.9799996167421341
+          },
+          {
+            "week": 4,
+            "total_epa": 3.412618264555931
           }
         ]
       },
       {
-        "player_id": "00-0036275",
-        "player_name": "D'Andre Swift",
-        "role": "rusher",
-        "position": "RB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/owpmwzoilitcodc6cmxo",
-        "season_plays": 54,
-        "season_total_epa": -0.4717794209718704,
-        "season_epa_per_play": -0.008736655943923526,
-        "season_yards": 253,
-        "season_touchdowns": 3,
+        "player_id": "00-0038416",
+        "player_name": "Tyson Bagent",
+        "role": "passer",
+        "position": "QB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ymimvligfyrucu0v3p6a",
+        "season_plays": 44,
+        "season_total_epa": 5.293334238231182,
+        "season_epa_per_play": 0.1203030508688905,
+        "season_yards": 305,
+        "season_touchdowns": 0,
         "season_turnovers": 1,
-        "season_completions": 0,
-        "form_z_score": null,
+        "season_completions": 30,
+        "form_z_score": 0.2630207997984367,
         "weekly": [
           {
-            "week": 1,
-            "total_epa": 9.220193110406399
-          },
-          {
             "week": 2,
-            "total_epa": -8.87366583198309
+            "total_epa": -2.642252951860428
           },
           {
-            "week": 3,
-            "total_epa": -0.8183066993951797
+            "week": 4,
+            "total_epa": 7.93558719009161
           }
         ]
       },
@@ -1539,14 +2767,14 @@
         "role": "receiver",
         "position": "WR",
         "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/iyuwdz7pbowdkwzq2tg5",
-        "season_plays": 23,
-        "season_total_epa": -3.1183615922927856,
-        "season_epa_per_play": -0.1355809387953385,
-        "season_yards": 156,
+        "season_plays": 29,
+        "season_total_epa": 0.1384582817554474,
+        "season_epa_per_play": 0.004774423508808531,
+        "season_yards": 219,
         "season_touchdowns": 1,
         "season_turnovers": 1,
-        "season_completions": 15,
-        "form_z_score": null,
+        "season_completions": 19,
+        "form_z_score": -0.4408572132989184,
         "weekly": [
           {
             "week": 1,
@@ -1559,302 +2787,198 @@
           {
             "week": 3,
             "total_epa": -1.0680264830589294
+          },
+          {
+            "week": 4,
+            "total_epa": 3.256819874048233
+          }
+        ]
+      },
+      {
+        "player_id": "00-0036275",
+        "player_name": "D'Andre Swift",
+        "role": "rusher",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/owpmwzoilitcodc6cmxo",
+        "season_plays": 69,
+        "season_total_epa": -7.864915991201997,
+        "season_epa_per_play": -0.11398428972756518,
+        "season_yards": 311,
+        "season_touchdowns": 3,
+        "season_turnovers": 2,
+        "season_completions": 0,
+        "form_z_score": 0.2771699509534628,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 9.220193110406399
+          },
+          {
+            "week": 2,
+            "total_epa": -8.87366583198309
+          },
+          {
+            "week": 3,
+            "total_epa": -0.8183066993951797
+          },
+          {
+            "week": 4,
+            "total_epa": -7.393136570230126
           }
         ]
       }
     ],
-    "CIN": [
+    "MIN": [
       {
-        "player_id": "00-0036410",
-        "player_name": "Tamaurice Higgins",
+        "player_id": "00-0035229",
+        "player_name": "Thomas Hockenson",
         "role": "receiver",
-        "position": "WR",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gpwtyv3viwy9q4ewderl",
-        "season_plays": 23,
-        "season_total_epa": 17.681941375136375,
-        "season_epa_per_play": 0.768780059788538,
-        "season_yards": 244,
+        "position": "TE",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/rs8o65x0u0n9xzde0fd6",
+        "season_plays": 26,
+        "season_total_epa": 16.482226334512234,
+        "season_epa_per_play": 0.6339317820966244,
+        "season_yards": 195,
         "season_touchdowns": 1,
         "season_turnovers": 0,
-        "season_completions": 14,
-        "form_z_score": null,
+        "season_completions": 22,
+        "form_z_score": 0.6455456330559892,
         "weekly": [
           {
             "week": 1,
-            "total_epa": 2.332813024520874
+            "total_epa": 3.171756938099861
           },
           {
             "week": 2,
-            "total_epa": 5.463932022452354
+            "total_epa": 3.275061011314392
           },
           {
             "week": 3,
-            "total_epa": 9.885196328163147
+            "total_epa": -1.2044890448451042
+          },
+          {
+            "week": 4,
+            "total_epa": 11.239897429943085
           }
         ]
       },
       {
-        "player_id": "00-0036442",
-        "player_name": "Joe Burrow",
+        "player_id": "00-0032950",
+        "player_name": "Carson Wentz",
         "role": "passer",
         "position": "QB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gnnvcgui1cijybukk2w7",
-        "season_plays": 110,
-        "season_total_epa": 11.477490141056478,
-        "season_epa_per_play": 0.1043408194641498,
-        "season_yards": 696,
-        "season_touchdowns": 7,
-        "season_turnovers": 1,
-        "season_completions": 73,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": -2.626953087747097
-          },
-          {
-            "week": 2,
-            "total_epa": -0.5477253952994943
-          },
-          {
-            "week": 3,
-            "total_epa": 14.65216862410307
-          }
-        ]
-      },
-      {
-        "player_id": "00-0036900",
-        "player_name": "Ja'Marr Chase",
-        "role": "receiver",
-        "position": "WR",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qya3dtjb5kgofcuj2tuw",
-        "season_plays": 25,
-        "season_total_epa": 10.660425210371614,
-        "season_epa_per_play": 0.4264170084148645,
-        "season_yards": 185,
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vuolixdvigc8axelug66",
+        "season_plays": 46,
+        "season_total_epa": 5.500415552814957,
+        "season_epa_per_play": 0.11957425114815123,
+        "season_yards": 243,
         "season_touchdowns": 3,
         "season_turnovers": 0,
-        "season_completions": 18,
+        "season_completions": 23,
         "form_z_score": null,
         "weekly": [
           {
             "week": 1,
-            "total_epa": -2.537154793739319
+            "total_epa": 4.987111911177635
           },
           {
             "week": 2,
-            "total_epa": 3.894333863630891
-          },
-          {
-            "week": 3,
-            "total_epa": 9.303246140480042
+            "total_epa": 0.5133036416373216
           }
         ]
       },
       {
-        "player_id": "00-0038597",
-        "player_name": "Chase Brown",
-        "role": "rusher",
-        "position": "RB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tch3y6jlj7khvyi9jg0c",
-        "season_plays": 49,
-        "season_total_epa": -4.075239693745971,
-        "season_epa_per_play": -0.0831681570152239,
-        "season_yards": 197,
-        "season_touchdowns": 1,
-        "season_turnovers": 0,
-        "season_completions": 0,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": -1.060825802385807
-          },
-          {
-            "week": 2,
-            "total_epa": -3.8697275519371033
-          },
-          {
-            "week": 3,
-            "total_epa": 0.8553136605769396
-          }
-        ]
-      }
-    ],
-    "CAR": [
-      {
-        "player_id": "00-0039150",
-        "player_name": "Bryce Young",
-        "role": "passer",
-        "position": "QB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vcvhmxvxw2a3armle0af",
-        "season_plays": 127,
-        "season_total_epa": 15.651111661689356,
-        "season_epa_per_play": 0.12323709969834139,
-        "season_yards": 887,
-        "season_touchdowns": 7,
-        "season_turnovers": 2,
-        "season_completions": 72,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": 10.423477157950401
-          },
-          {
-            "week": 2,
-            "total_epa": 11.070034528151155
-          },
-          {
-            "week": 3,
-            "total_epa": -5.8424000244122
-          }
-        ]
-      },
-      {
-        "player_id": "00-0039491",
-        "player_name": "Jalen Coker",
+        "player_id": "00-0038994",
+        "player_name": "Jordan Addison",
         "role": "receiver",
         "position": "WR",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yynz8rxen6tsvhojggiv",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mi4lzk9gvjrvo6rwdf1e",
         "season_plays": 22,
-        "season_total_epa": 12.661382116377354,
-        "season_epa_per_play": 0.5755173689262434,
-        "season_yards": 222,
-        "season_touchdowns": 2,
+        "season_total_epa": -2.2404247522354126,
+        "season_epa_per_play": -0.1018374887379733,
+        "season_yards": 163,
+        "season_touchdowns": 1,
         "season_turnovers": 0,
-        "season_completions": 18,
-        "form_z_score": null,
+        "season_completions": 11,
+        "form_z_score": -0.5702316639582719,
         "weekly": [
           {
             "week": 1,
-            "total_epa": 12.455403342843056
+            "total_epa": -3.2772104740142822
           },
           {
             "week": 2,
-            "total_epa": 1.6981777250766754
+            "total_epa": -0.6035597324371338
           },
           {
             "week": 3,
-            "total_epa": -1.4921989515423775
+            "total_epa": 0.5308057069778442
+          },
+          {
+            "week": 4,
+            "total_epa": 1.1095397472381592
           }
         ]
       },
       {
-        "player_id": "00-0040124",
-        "player_name": "Tetairoa McMillan",
-        "role": "receiver",
-        "position": "WR",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gilgvjemumd6kpc9eiku",
-        "season_plays": 23,
-        "season_total_epa": -0.763531893491745,
-        "season_epa_per_play": -0.03319703884746717,
-        "season_yards": 193,
-        "season_touchdowns": 0,
-        "season_turnovers": 1,
-        "season_completions": 12,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": -2.5160980224609375
-          },
-          {
-            "week": 2,
-            "total_epa": 3.581518530845642
-          },
-          {
-            "week": 3,
-            "total_epa": -1.8289524018764496
-          }
-        ]
-      },
-      {
-        "player_id": "00-0036555",
-        "player_name": "Chuba Hubbard",
+        "player_id": "00-0033293",
+        "player_name": "Aaron Jones",
         "role": "rusher",
         "position": "RB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/rzsvnt0pxsaize2ndhxm",
-        "season_plays": 42,
-        "season_total_epa": -1.8002838976681232,
-        "season_epa_per_play": -0.042863902325431504,
-        "season_yards": 184,
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bktkfvgfwujkdbzkcfim",
+        "season_plays": 72,
+        "season_total_epa": -5.72024486400187,
+        "season_epa_per_play": -0.0794478453333593,
+        "season_yards": 297,
         "season_touchdowns": 1,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": null,
+        "form_z_score": -0.04617025616186765,
         "weekly": [
           {
             "week": 1,
-            "total_epa": 1.4691353105008602
+            "total_epa": -1.046383397653699
           },
           {
             "week": 2,
-            "total_epa": 0.16913628578186035
+            "total_epa": -2.355393785983324
           },
           {
             "week": 3,
-            "total_epa": -3.438555493950844
-          }
-        ]
-      }
-    ],
-    "LV": [
-      {
-        "player_id": "00-0029604",
-        "player_name": "Kirk Cousins",
-        "role": "passer",
-        "position": "QB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/za7cynvpwlsro1tsaijk",
-        "season_plays": 99,
-        "season_total_epa": 15.34731350466609,
-        "season_epa_per_play": 0.1550233687340009,
-        "season_yards": 635,
-        "season_touchdowns": 9,
-        "season_turnovers": 3,
-        "season_completions": 62,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": 0.3931948132812977
+            "total_epa": -1.3913746736943722
           },
           {
-            "week": 2,
-            "total_epa": 5.9727412685751915
-          },
-          {
-            "week": 3,
-            "total_epa": 8.9813774228096
+            "week": 4,
+            "total_epa": -0.927093006670475
           }
         ]
       },
       {
-        "player_id": "00-0040122",
-        "player_name": "Ashton Jeanty",
-        "role": "rusher",
-        "position": "RB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/syspis1mntov9kgspb7r",
-        "season_plays": 63,
-        "season_total_epa": -19.55172531493008,
-        "season_epa_per_play": -0.31034484626873143,
-        "season_yards": 206,
-        "season_touchdowns": 0,
-        "season_turnovers": 0,
-        "season_completions": 0,
-        "form_z_score": null,
+        "player_id": "00-0035228",
+        "player_name": "Kyler Murray",
+        "role": "passer",
+        "position": "QB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/btfruyf33adgnjzpcuen",
+        "season_plays": 78,
+        "season_total_epa": -17.22663298761472,
+        "season_epa_per_play": -0.2208542690719836,
+        "season_yards": 383,
+        "season_touchdowns": 1,
+        "season_turnovers": 2,
+        "season_completions": 45,
+        "form_z_score": -0.6583787175854229,
         "weekly": [
           {
             "week": 1,
-            "total_epa": -0.7251735236495733
-          },
-          {
-            "week": 2,
-            "total_epa": -12.246555015444756
+            "total_epa": -4.468294858932495
           },
           {
             "week": 3,
-            "total_epa": -6.5799967758357525
+            "total_epa": -12.093946938868612
+          },
+          {
+            "week": 4,
+            "total_epa": -0.6643911898136139
           }
         ]
       }
@@ -1873,7 +2997,7 @@
         "season_touchdowns": 2,
         "season_turnovers": 0,
         "season_completions": 13,
-        "form_z_score": 0.5634638660680539,
+        "form_z_score": 0.46927316053883544,
         "weekly": [
           {
             "week": 1,
@@ -1906,7 +3030,7 @@
         "season_touchdowns": 3,
         "season_turnovers": 0,
         "season_completions": 17,
-        "form_z_score": 0.3068576597601999,
+        "form_z_score": 0.4132601816140059,
         "weekly": [
           {
             "week": 1,
@@ -1939,7 +3063,7 @@
         "season_touchdowns": 6,
         "season_turnovers": 2,
         "season_completions": 80,
-        "form_z_score": 0.5905507183536002,
+        "form_z_score": 0.10279287306209313,
         "weekly": [
           {
             "week": 1,
@@ -1972,7 +3096,7 @@
         "season_touchdowns": 0,
         "season_turnovers": 1,
         "season_completions": 0,
-        "form_z_score": 0.5905507183536002,
+        "form_z_score": 0.10279287306209313,
         "weekly": [
           {
             "week": 1,
@@ -2005,7 +3129,7 @@
         "season_touchdowns": 0,
         "season_turnovers": 1,
         "season_completions": 17,
-        "form_z_score": -0.45793406976508966,
+        "form_z_score": -0.6154275040927325,
         "weekly": [
           {
             "week": 1,
@@ -2038,7 +3162,7 @@
         "season_touchdowns": 1,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": -0.5050762722761056,
+        "form_z_score": -0.32427568507877147,
         "weekly": [
           {
             "week": 1,
@@ -2066,14 +3190,14 @@
         "role": "receiver",
         "position": "WR",
         "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tdzluk4xau3arxqk9zsl",
-        "season_plays": 29,
-        "season_total_epa": 15.096852019429207,
-        "season_epa_per_play": 0.5205811041182485,
-        "season_yards": 358,
+        "season_plays": 38,
+        "season_total_epa": 14.920642459765077,
+        "season_epa_per_play": 0.3926484857832915,
+        "season_yards": 390,
         "season_touchdowns": 2,
         "season_turnovers": 0,
-        "season_completions": 18,
-        "form_z_score": null,
+        "season_completions": 22,
+        "form_z_score": 0.1465434322854865,
         "weekly": [
           {
             "week": 1,
@@ -2086,6 +3210,10 @@
           {
             "week": 3,
             "total_epa": 5.048631772398949
+          },
+          {
+            "week": 4,
+            "total_epa": -0.1762095596641302
           }
         ]
       },
@@ -2095,14 +3223,14 @@
         "role": "passer",
         "position": "QB",
         "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/jwpkjfrkzufdyh8u1mg7",
-        "season_plays": 113,
-        "season_total_epa": 6.1141431871801615,
-        "season_epa_per_play": 0.054107461833452754,
-        "season_yards": 839,
+        "season_plays": 165,
+        "season_total_epa": 7.210728302598,
+        "season_epa_per_play": 0.043701383652109085,
+        "season_yards": 1148,
         "season_touchdowns": 7,
-        "season_turnovers": 4,
-        "season_completions": 67,
-        "form_z_score": null,
+        "season_turnovers": 6,
+        "season_completions": 99,
+        "form_z_score": -0.12989655723564256,
         "weekly": [
           {
             "week": 1,
@@ -2115,35 +3243,10 @@
           {
             "week": 3,
             "total_epa": -1.1313974168151617
-          }
-        ]
-      },
-      {
-        "player_id": "00-0039738",
-        "player_name": "Blake Corum",
-        "role": "rusher",
-        "position": "RB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/axzqbqjkrbwfzodwwakq",
-        "season_plays": 28,
-        "season_total_epa": 1.0050876438617706,
-        "season_epa_per_play": 0.035895987280777523,
-        "season_yards": 148,
-        "season_touchdowns": 0,
-        "season_turnovers": 0,
-        "season_completions": 0,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": 0.785802349448204
           },
           {
-            "week": 2,
-            "total_epa": 2.3006848841905594
-          },
-          {
-            "week": 3,
-            "total_epa": -2.081399589776993
+            "week": 4,
+            "total_epa": 1.096585115417838
           }
         ]
       },
@@ -2153,14 +3256,14 @@
         "role": "rusher",
         "position": "RB",
         "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xti3pek6rmojqchakxpy",
-        "season_plays": 38,
-        "season_total_epa": -1.15366121660918,
-        "season_epa_per_play": -0.03035950570024158,
-        "season_yards": 214,
-        "season_touchdowns": 1,
+        "season_plays": 54,
+        "season_total_epa": 2.4220732058165595,
+        "season_epa_per_play": 0.04485320751512147,
+        "season_yards": 294,
+        "season_touchdowns": 3,
         "season_turnovers": 1,
         "season_completions": 0,
-        "form_z_score": null,
+        "form_z_score": 0.6161468556889478,
         "weekly": [
           {
             "week": 1,
@@ -2173,153 +3276,101 @@
           {
             "week": 3,
             "total_epa": 1.6178997345268726
-          }
-        ]
-      }
-    ],
-    "ARI": [
-      {
-        "player_id": "00-0037744",
-        "player_name": "Trey McBride",
-        "role": "receiver",
-        "position": "TE",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/psasp10nn5pcvkli9kil",
-        "season_plays": 34,
-        "season_total_epa": 14.176816202700138,
-        "season_epa_per_play": 0.41696518243235703,
-        "season_yards": 211,
-        "season_touchdowns": 2,
-        "season_turnovers": 0,
-        "season_completions": 26,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": 3.750885933637619
           },
           {
-            "week": 2,
-            "total_epa": 5.130864232778549
-          },
-          {
-            "week": 3,
-            "total_epa": 5.29506603628397
+            "week": 4,
+            "total_epa": 3.5757344224257395
           }
         ]
       },
       {
-        "player_id": "00-0033119",
-        "player_name": "Jacoby Brissett",
-        "role": "passer",
-        "position": "QB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qjswiunczrn5xmdiqhlz",
-        "season_plays": 121,
-        "season_total_epa": 12.103408440947533,
-        "season_epa_per_play": 0.10002816893345068,
-        "season_yards": 630,
-        "season_touchdowns": 4,
-        "season_turnovers": 1,
-        "season_completions": 82,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": 9.012864805758
-          },
-          {
-            "week": 2,
-            "total_epa": -8.084280360490084
-          },
-          {
-            "week": 3,
-            "total_epa": 11.174823995679617
-          }
-        ]
-      },
-      {
-        "player_id": "00-0038559",
-        "player_name": "Michael Wilson",
+        "player_id": "00-0039075",
+        "player_name": "Puka Nacua",
         "role": "receiver",
         "position": "WR",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hm2b9z4zujjmbiyldh8n",
-        "season_plays": 31,
-        "season_total_epa": 2.8218880854547024,
-        "season_epa_per_play": 0.09102864791789363,
-        "season_yards": 163,
-        "season_touchdowns": 1,
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ipy6qw7hdygdfc8k86ba",
+        "season_plays": 21,
+        "season_total_epa": 1.1092120818793774,
+        "season_epa_per_play": 0.052819622946637015,
+        "season_yards": 199,
+        "season_touchdowns": 0,
         "season_turnovers": 0,
-        "season_completions": 18,
-        "form_z_score": null,
+        "season_completions": 14,
+        "form_z_score": -0.045250233021881504,
         "weekly": [
           {
             "week": 1,
-            "total_epa": 1.9269832745194435
+            "total_epa": -2.607253611087799
           },
           {
-            "week": 2,
-            "total_epa": -4.991260409355164
-          },
-          {
-            "week": 3,
-            "total_epa": 5.886165220290422
+            "week": 4,
+            "total_epa": 3.7164656929671764
           }
         ]
       },
       {
-        "player_id": "00-0041027",
-        "player_name": "Jeremiyah Love",
-        "role": "rusher",
+        "player_id": "00-0037840",
+        "player_name": "Kyren Williams",
+        "role": "receiver",
         "position": "RB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/b12gtjsylmql5v7iyyla",
-        "season_plays": 41,
-        "season_total_epa": -0.40068282606080174,
-        "season_epa_per_play": -0.009772751855141506,
-        "season_yards": 160,
-        "season_touchdowns": 1,
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xti3pek6rmojqchakxpy",
+        "season_plays": 25,
+        "season_total_epa": 0.9374233055859804,
+        "season_epa_per_play": 0.037496932223439215,
+        "season_yards": 173,
+        "season_touchdowns": 2,
         "season_turnovers": 0,
-        "season_completions": 0,
-        "form_z_score": null,
+        "season_completions": 21,
+        "form_z_score": 0.6161468556889478,
         "weekly": [
           {
             "week": 1,
-            "total_epa": 0.30449606059119105
+            "total_epa": 0.4144042208790779
           },
           {
             "week": 2,
-            "total_epa": -2.520272307097912
+            "total_epa": 2.3479787707328796
           },
           {
             "week": 3,
-            "total_epa": 1.815093420445919
+            "total_epa": -4.981961702927947
+          },
+          {
+            "week": 4,
+            "total_epa": 3.15700201690197
           }
         ]
       },
       {
-        "player_id": "00-0037263",
-        "player_name": "Tyler Allgeier",
+        "player_id": "00-0039738",
+        "player_name": "Blake Corum",
         "role": "rusher",
         "position": "RB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/sp9lhhmpv4qy3xy2msxd",
-        "season_plays": 24,
-        "season_total_epa": -6.8595782816410065,
-        "season_epa_per_play": -0.2858157617350419,
-        "season_yards": 70,
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/axzqbqjkrbwfzodwwakq",
+        "season_plays": 33,
+        "season_total_epa": -0.39517277479171753,
+        "season_epa_per_play": -0.011974932569445986,
+        "season_yards": 162,
         "season_touchdowns": 0,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": null,
+        "form_z_score": 0.1550465127577558,
         "weekly": [
           {
             "week": 1,
-            "total_epa": -2.9650152921676636
+            "total_epa": 0.785802349448204
           },
           {
             "week": 2,
-            "total_epa": -2.783173605799675
+            "total_epa": 2.3006848841905594
           },
           {
             "week": 3,
-            "total_epa": -1.111389383673668
+            "total_epa": -2.081399589776993
+          },
+          {
+            "week": 4,
+            "total_epa": -1.4002604186534882
           }
         ]
       }
@@ -2331,14 +3382,14 @@
         "role": "receiver",
         "position": "WR",
         "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/z3wahaxpmc6d5lcxgh60",
-        "season_plays": 24,
-        "season_total_epa": 13.088688135147095,
-        "season_epa_per_play": 0.5453620056311289,
-        "season_yards": 186,
+        "season_plays": 28,
+        "season_total_epa": 13.615094926208258,
+        "season_epa_per_play": 0.4862533902217235,
+        "season_yards": 202,
         "season_touchdowns": 0,
         "season_turnovers": 0,
-        "season_completions": 14,
-        "form_z_score": null,
+        "season_completions": 17,
+        "form_z_score": 0.26304135844118876,
         "weekly": [
           {
             "week": 1,
@@ -2351,6 +3402,10 @@
           {
             "week": 3,
             "total_epa": 1.5179736018180847
+          },
+          {
+            "week": 4,
+            "total_epa": 0.526406791061163
           }
         ]
       },
@@ -2360,14 +3415,14 @@
         "role": "rusher",
         "position": "RB",
         "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yw46ky6akdm7h7siofu8",
-        "season_plays": 66,
-        "season_total_epa": 1.9840031052008271,
-        "season_epa_per_play": 0.03006065310910344,
-        "season_yards": 258,
-        "season_touchdowns": 4,
+        "season_plays": 86,
+        "season_total_epa": 5.58446551207453,
+        "season_epa_per_play": 0.06493564548923872,
+        "season_yards": 353,
+        "season_touchdowns": 6,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": null,
+        "form_z_score": 0.45315443657646326,
         "weekly": [
           {
             "week": 1,
@@ -2380,6 +3435,10 @@
           {
             "week": 3,
             "total_epa": -4.045765418559313
+          },
+          {
+            "week": 4,
+            "total_epa": 3.600462406873703
           }
         ]
       },
@@ -2389,14 +3448,14 @@
         "role": "receiver",
         "position": "TE",
         "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/f1mfwwrr3qvnxuiackgq",
-        "season_plays": 22,
-        "season_total_epa": 1.3233556002378464,
-        "season_epa_per_play": 0.060152527283538475,
-        "season_yards": 89,
+        "season_plays": 27,
+        "season_total_epa": 3.653058648109436,
+        "season_epa_per_play": 0.13529846844849763,
+        "season_yards": 130,
         "season_touchdowns": 2,
         "season_turnovers": 0,
-        "season_completions": 18,
-        "form_z_score": null,
+        "season_completions": 23,
+        "form_z_score": -0.4196103476389629,
         "weekly": [
           {
             "week": 1,
@@ -2409,6 +3468,10 @@
           {
             "week": 3,
             "total_epa": 1.938756674528122
+          },
+          {
+            "week": 4,
+            "total_epa": 2.3297030478715897
           }
         ]
       },
@@ -2447,14 +3510,14 @@
         "role": "passer",
         "position": "QB",
         "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ohvvctuykzwrpqer7xgl",
-        "season_plays": 104,
-        "season_total_epa": -16.21821342781186,
-        "season_epa_per_play": -0.15594435988280636,
-        "season_yards": 570,
+        "season_plays": 140,
+        "season_total_epa": -29.57365171611309,
+        "season_epa_per_play": -0.2112403694008078,
+        "season_yards": 699,
         "season_touchdowns": 3,
-        "season_turnovers": 3,
-        "season_completions": 65,
-        "form_z_score": null,
+        "season_turnovers": 4,
+        "season_completions": 84,
+        "form_z_score": -1.015164256879407,
         "weekly": [
           {
             "week": 1,
@@ -2467,6 +3530,528 @@
           {
             "week": 3,
             "total_epa": -6.871543008834124
+          },
+          {
+            "week": 4,
+            "total_epa": -13.35543828830123
+          }
+        ]
+      }
+    ],
+    "NE": [
+      {
+        "player_id": "00-0033555",
+        "player_name": "Mack Hollins",
+        "role": "receiver",
+        "position": "WR",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qbz7whjzsittudcecezw",
+        "season_plays": 20,
+        "season_total_epa": 12.884916871786118,
+        "season_epa_per_play": 0.6442458435893059,
+        "season_yards": 209,
+        "season_touchdowns": 0,
+        "season_turnovers": 0,
+        "season_completions": 15,
+        "form_z_score": 0.40876897718246086,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 2.7879810333251953
+          },
+          {
+            "week": 2,
+            "total_epa": 1.0692279934883118
+          },
+          {
+            "week": 3,
+            "total_epa": 5.004126012325287
+          },
+          {
+            "week": 4,
+            "total_epa": 4.023581832647324
+          }
+        ]
+      },
+      {
+        "player_id": "00-0037816",
+        "player_name": "Romeo Doubs",
+        "role": "receiver",
+        "position": "WR",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yxvzijmgwyyigljxfmyb",
+        "season_plays": 20,
+        "season_total_epa": 8.473800793290138,
+        "season_epa_per_play": 0.4236900396645069,
+        "season_yards": 203,
+        "season_touchdowns": 2,
+        "season_turnovers": 0,
+        "season_completions": 12,
+        "form_z_score": 0.1423856727081176,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -5.969859540462494
+          },
+          {
+            "week": 2,
+            "total_epa": 5.557593867182732
+          },
+          {
+            "week": 3,
+            "total_epa": 3.1388647258281708
+          },
+          {
+            "week": 4,
+            "total_epa": 5.74720174074173
+          }
+        ]
+      },
+      {
+        "player_id": "00-0036875",
+        "player_name": "Rhamondre Stevenson",
+        "role": "rusher",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zmpuirvuw4r04inxth5i",
+        "season_plays": 44,
+        "season_total_epa": -2.818775371881202,
+        "season_epa_per_play": -0.06406307663366367,
+        "season_yards": 163,
+        "season_touchdowns": 1,
+        "season_turnovers": 0,
+        "season_completions": 0,
+        "form_z_score": -0.1222641982133817,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -8.050340713001788
+          },
+          {
+            "week": 2,
+            "total_epa": 1.8175322152674198
+          },
+          {
+            "week": 3,
+            "total_epa": 3.571320425486192
+          },
+          {
+            "week": 4,
+            "total_epa": -0.15728729963302612
+          }
+        ]
+      },
+      {
+        "player_id": "00-0040734",
+        "player_name": "TreVeyon Henderson",
+        "role": "rusher",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ebcjvwytgu2y4kqm8ihv",
+        "season_plays": 38,
+        "season_total_epa": -5.869666397571564,
+        "season_epa_per_play": -0.15446490519925168,
+        "season_yards": 141,
+        "season_touchdowns": 1,
+        "season_turnovers": 0,
+        "season_completions": 0,
+        "form_z_score": -0.3992799810781628,
+        "weekly": [
+          {
+            "week": 2,
+            "total_epa": -1.5980434566736221
+          },
+          {
+            "week": 3,
+            "total_epa": -2.3723734617233276
+          },
+          {
+            "week": 4,
+            "total_epa": -1.899249479174614
+          }
+        ]
+      },
+      {
+        "player_id": "00-0039851",
+        "player_name": "Drake Maye",
+        "role": "passer",
+        "position": "QB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/s1nmoon2xnrc3bnyulv4",
+        "season_plays": 128,
+        "season_total_epa": -13.043964423239231,
+        "season_epa_per_play": -0.10190597205655649,
+        "season_yards": 811,
+        "season_touchdowns": 4,
+        "season_turnovers": 7,
+        "season_completions": 73,
+        "form_z_score": -0.2672163636152481,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -4.62135399132967
+          },
+          {
+            "week": 2,
+            "total_epa": -5.2802687138319016
+          },
+          {
+            "week": 3,
+            "total_epa": -14.16894456744194
+          },
+          {
+            "week": 4,
+            "total_epa": 11.02660284936428
+          }
+        ]
+      }
+    ],
+    "PHI": [
+      {
+        "player_id": "00-0038393",
+        "player_name": "Dontayvion Wicks",
+        "role": "receiver",
+        "position": "WR",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/v1lt8kpvkn0qw5elyaoz",
+        "season_plays": 20,
+        "season_total_epa": 10.545417964458466,
+        "season_epa_per_play": 0.5272708982229233,
+        "season_yards": 197,
+        "season_touchdowns": 1,
+        "season_turnovers": 0,
+        "season_completions": 12,
+        "form_z_score": 0.267488757243079,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 3.7594720125198364
+          },
+          {
+            "week": 2,
+            "total_epa": 11.054225951433182
+          },
+          {
+            "week": 3,
+            "total_epa": -4.402288734912872
+          },
+          {
+            "week": 4,
+            "total_epa": 0.1340087354183197
+          }
+        ]
+      },
+      {
+        "player_id": "00-0036912",
+        "player_name": "DeVonta Smith",
+        "role": "receiver",
+        "position": "WR",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/k724kq3hyv7jc0y9s03x",
+        "season_plays": 27,
+        "season_total_epa": 1.2939550131559372,
+        "season_epa_per_play": 0.04792425974651619,
+        "season_yards": 235,
+        "season_touchdowns": 1,
+        "season_turnovers": 0,
+        "season_completions": 19,
+        "form_z_score": null,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 0.8174027651548386
+          },
+          {
+            "week": 2,
+            "total_epa": 1.2649135664105415
+          },
+          {
+            "week": 3,
+            "total_epa": -0.7883613184094429
+          }
+        ]
+      },
+      {
+        "player_id": "00-0034844",
+        "player_name": "Saquon Barkley",
+        "role": "rusher",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qcayrzjpura2zydszonh",
+        "season_plays": 36,
+        "season_total_epa": -0.010241379030048847,
+        "season_epa_per_play": -0.0002844827508346902,
+        "season_yards": 182,
+        "season_touchdowns": 0,
+        "season_turnovers": 0,
+        "season_completions": 0,
+        "form_z_score": 0.1106085484839716,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -0.664371863938868
+          },
+          {
+            "week": 2,
+            "total_epa": -1.412509523332119
+          },
+          {
+            "week": 3,
+            "total_epa": 2.2430530972778797
+          },
+          {
+            "week": 4,
+            "total_epa": -0.17641308903694153
+          }
+        ]
+      },
+      {
+        "player_id": "00-0038555",
+        "player_name": "Cartavious Bigsby",
+        "role": "rusher",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vfkdjfpiyrcuzahrmfvn",
+        "season_plays": 28,
+        "season_total_epa": -4.800948232412338,
+        "season_epa_per_play": -0.1714624368718692,
+        "season_yards": 91,
+        "season_touchdowns": 1,
+        "season_turnovers": 0,
+        "season_completions": 0,
+        "form_z_score": -0.7306528443056839,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -0.31728097796440125
+          },
+          {
+            "week": 2,
+            "total_epa": -1.7339279279112816
+          },
+          {
+            "week": 4,
+            "total_epa": -2.7497393265366554
+          }
+        ]
+      },
+      {
+        "player_id": "00-0036389",
+        "player_name": "Jalen Hurts",
+        "role": "passer",
+        "position": "QB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xow5yvxjeqa6witmofmp",
+        "season_plays": 126,
+        "season_total_epa": -12.657445199787617,
+        "season_epa_per_play": -0.10045591428402871,
+        "season_yards": 643,
+        "season_touchdowns": 7,
+        "season_turnovers": 3,
+        "season_completions": 68,
+        "form_z_score": -0.5818568730740733,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 1.2733765989542007
+          },
+          {
+            "week": 2,
+            "total_epa": 8.767012968659401
+          },
+          {
+            "week": 3,
+            "total_epa": -14.544326223433018
+          },
+          {
+            "week": 4,
+            "total_epa": -8.1535085439682
+          }
+        ]
+      }
+    ],
+    "GB": [
+      {
+        "player_id": "00-0038124",
+        "player_name": "Christian Watson",
+        "role": "receiver",
+        "position": "WR",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tumeg4d32sirkab2xzu5",
+        "season_plays": 32,
+        "season_total_epa": 9.975405223667622,
+        "season_epa_per_play": 0.3117314132396132,
+        "season_yards": 331,
+        "season_touchdowns": 4,
+        "season_turnovers": 0,
+        "season_completions": 20,
+        "form_z_score": 0.009243963758087623,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 6.88224795460701
+          },
+          {
+            "week": 2,
+            "total_epa": -3.7542476058006287
+          },
+          {
+            "week": 3,
+            "total_epa": 1.9746220484375954
+          },
+          {
+            "week": 4,
+            "total_epa": 4.872782826423645
+          }
+        ]
+      },
+      {
+        "player_id": "00-0040667",
+        "player_name": "Matthew Golden",
+        "role": "receiver",
+        "position": "WR",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dbjki6b0swksr7mk17wk",
+        "season_plays": 37,
+        "season_total_epa": 5.020311549305916,
+        "season_epa_per_play": 0.13568409592718692,
+        "season_yards": 274,
+        "season_touchdowns": 2,
+        "season_turnovers": 0,
+        "season_completions": 18,
+        "form_z_score": -0.28282330437940134,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 0.7613586783409119
+          },
+          {
+            "week": 2,
+            "total_epa": 1.2930306494235992
+          },
+          {
+            "week": 3,
+            "total_epa": 4.61577145755291
+          },
+          {
+            "week": 4,
+            "total_epa": -1.6498492360115051
+          }
+        ]
+      },
+      {
+        "player_id": "00-0036264",
+        "player_name": "Jordan Love",
+        "role": "passer",
+        "position": "QB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/thz8stjkbjwddxqnozi5",
+        "season_plays": 162,
+        "season_total_epa": 4.609584406018257,
+        "season_epa_per_play": 0.02845422472850776,
+        "season_yards": 997,
+        "season_touchdowns": 8,
+        "season_turnovers": 3,
+        "season_completions": 87,
+        "form_z_score": -0.29225141770459767,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -2.7036458551883698
+          },
+          {
+            "week": 2,
+            "total_epa": -3.168504446744919
+          },
+          {
+            "week": 3,
+            "total_epa": 3.5712084658443928
+          },
+          {
+            "week": 4,
+            "total_epa": 6.910526242107153
+          }
+        ]
+      },
+      {
+        "player_id": "00-0038996",
+        "player_name": "Tucker Kraft",
+        "role": "receiver",
+        "position": "TE",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/n6vu44jbq31rydoaadaq",
+        "season_plays": 24,
+        "season_total_epa": 3.6114052794873714,
+        "season_epa_per_play": 0.15047521997864047,
+        "season_yards": 148,
+        "season_touchdowns": 1,
+        "season_turnovers": 0,
+        "season_completions": 15,
+        "form_z_score": -0.2623987132969922,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 1.7979860305786133
+          },
+          {
+            "week": 2,
+            "total_epa": -0.22127503156661987
+          },
+          {
+            "week": 3,
+            "total_epa": -1.9915410913527012
+          },
+          {
+            "week": 4,
+            "total_epa": 4.026235371828079
+          }
+        ]
+      },
+      {
+        "player_id": "00-0040142",
+        "player_name": "Kaleb Johnson",
+        "role": "rusher",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zpzc4oobxi8nr5dyonob",
+        "season_plays": 20,
+        "season_total_epa": -9.281013380736113,
+        "season_epa_per_play": -0.46405066903680564,
+        "season_yards": 80,
+        "season_touchdowns": 0,
+        "season_turnovers": 1,
+        "season_completions": 0,
+        "form_z_score": -0.9139500477150494,
+        "weekly": [
+          {
+            "week": 2,
+            "total_epa": -1.6378589272499084
+          },
+          {
+            "week": 3,
+            "total_epa": -1.7564905434846878
+          },
+          {
+            "week": 4,
+            "total_epa": -5.886663910001516
+          }
+        ]
+      },
+      {
+        "player_id": "00-0039811",
+        "player_name": "MarShawn Lloyd",
+        "role": "rusher",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xp8sd4enimuk4zd0aqgu",
+        "season_plays": 30,
+        "season_total_epa": -12.730765588581562,
+        "season_epa_per_play": -0.42435885295271875,
+        "season_yards": 81,
+        "season_touchdowns": 0,
+        "season_turnovers": 1,
+        "season_completions": 0,
+        "form_z_score": -0.6899716308388474,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -3.8408930227160454
+          },
+          {
+            "week": 2,
+            "total_epa": -5.269788324832916
+          },
+          {
+            "week": 3,
+            "total_epa": -0.6027331054210663
+          },
+          {
+            "week": 4,
+            "total_epa": -3.017351135611534
           }
         ]
       }
@@ -2608,19 +4193,48 @@
         ]
       },
       {
+        "player_id": "00-0032268",
+        "player_name": "Marcus Mariota",
+        "role": "passer",
+        "position": "QB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/grx6m1fmu1odltjo3y31",
+        "season_plays": 54,
+        "season_total_epa": 6.674628064036369,
+        "season_epa_per_play": 0.12360422340808092,
+        "season_yards": 327,
+        "season_touchdowns": 4,
+        "season_turnovers": 0,
+        "season_completions": 33,
+        "form_z_score": 0.04768710948112581,
+        "weekly": [
+          {
+            "week": 2,
+            "total_epa": 2.079230234026909
+          },
+          {
+            "week": 3,
+            "total_epa": 3.847252458333969
+          },
+          {
+            "week": 4,
+            "total_epa": 0.7481453716754913
+          }
+        ]
+      },
+      {
         "player_id": "00-0031588",
         "player_name": "Stefon Diggs",
         "role": "receiver",
         "position": "WR",
         "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cemcexmscsarpvwhafln",
-        "season_plays": 22,
-        "season_total_epa": 8.323085993528366,
-        "season_epa_per_play": 0.3783220906149257,
-        "season_yards": 135,
+        "season_plays": 31,
+        "season_total_epa": 4.670693995431066,
+        "season_epa_per_play": 0.1506675482397118,
+        "season_yards": 170,
         "season_touchdowns": 3,
         "season_turnovers": 0,
-        "season_completions": 13,
-        "form_z_score": null,
+        "season_completions": 18,
+        "form_z_score": -0.23804689919344113,
         "weekly": [
           {
             "week": 1,
@@ -2633,31 +4247,10 @@
           {
             "week": 3,
             "total_epa": -0.9858592450618744
-          }
-        ]
-      },
-      {
-        "player_id": "00-0032268",
-        "player_name": "Marcus Mariota",
-        "role": "passer",
-        "position": "QB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/grx6m1fmu1odltjo3y31",
-        "season_plays": 49,
-        "season_total_epa": 5.926482692360878,
-        "season_epa_per_play": 0.12094862637471179,
-        "season_yards": 287,
-        "season_touchdowns": 4,
-        "season_turnovers": 0,
-        "season_completions": 30,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 2,
-            "total_epa": 2.079230234026909
           },
           {
-            "week": 3,
-            "total_epa": 3.847252458333969
+            "week": 4,
+            "total_epa": -3.6523919980973005
           }
         ]
       },
@@ -2721,14 +4314,14 @@
         "role": "rusher",
         "position": "RB",
         "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qew4qhlj4yuf50voko61",
-        "season_plays": 47,
-        "season_total_epa": -6.332581590861082,
-        "season_epa_per_play": -0.13473577852895918,
-        "season_yards": 142,
+        "season_plays": 56,
+        "season_total_epa": -10.00923128053546,
+        "season_epa_per_play": -0.17873627286670463,
+        "season_yards": 157,
         "season_touchdowns": 1,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": null,
+        "form_z_score": -0.36232689193212925,
         "weekly": [
           {
             "week": 1,
@@ -2741,6 +4334,365 @@
           {
             "week": 3,
             "total_epa": -7.209645323455334
+          },
+          {
+            "week": 4,
+            "total_epa": -3.6766496896743774
+          }
+        ]
+      },
+      {
+        "player_id": "00-0041117",
+        "player_name": "Athan Kaliakmanis",
+        "role": "passer",
+        "position": "QB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ahtbv63jyg8ampmyrxn9",
+        "season_plays": 34,
+        "season_total_epa": -10.200917860493064,
+        "season_epa_per_play": -0.30002699589685483,
+        "season_yards": 177,
+        "season_touchdowns": 1,
+        "season_turnovers": 1,
+        "season_completions": 15,
+        "form_z_score": -1.1271508096288645,
+        "weekly": [
+          {
+            "week": 4,
+            "total_epa": -10.200917860493064
+          }
+        ]
+      }
+    ],
+    "ARI": [
+      {
+        "player_id": "00-0037744",
+        "player_name": "Trey McBride",
+        "role": "receiver",
+        "position": "TE",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/psasp10nn5pcvkli9kil",
+        "season_plays": 46,
+        "season_total_epa": 9.027469132095575,
+        "season_epa_per_play": 0.19624932895859945,
+        "season_yards": 242,
+        "season_touchdowns": 2,
+        "season_turnovers": 0,
+        "season_completions": 33,
+        "form_z_score": -0.41980460121951846,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 3.750885933637619
+          },
+          {
+            "week": 2,
+            "total_epa": 5.130864232778549
+          },
+          {
+            "week": 3,
+            "total_epa": 5.29506603628397
+          },
+          {
+            "week": 4,
+            "total_epa": -5.149347070604563
+          }
+        ]
+      },
+      {
+        "player_id": "00-0041027",
+        "player_name": "Jeremiyah Love",
+        "role": "rusher",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/b12gtjsylmql5v7iyyla",
+        "season_plays": 55,
+        "season_total_epa": -0.689125191885978,
+        "season_epa_per_play": -0.012529548943381418,
+        "season_yards": 223,
+        "season_touchdowns": 1,
+        "season_turnovers": 0,
+        "season_completions": 0,
+        "form_z_score": 0.25938341052594244,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 0.30449606059119105
+          },
+          {
+            "week": 2,
+            "total_epa": -2.520272307097912
+          },
+          {
+            "week": 3,
+            "total_epa": 1.815093420445919
+          },
+          {
+            "week": 4,
+            "total_epa": -0.28844236582517624
+          }
+        ]
+      },
+      {
+        "player_id": "00-0037263",
+        "player_name": "Tyler Allgeier",
+        "role": "rusher",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/sp9lhhmpv4qy3xy2msxd",
+        "season_plays": 32,
+        "season_total_epa": -5.4149399399757385,
+        "season_epa_per_play": -0.16921687312424183,
+        "season_yards": 112,
+        "season_touchdowns": 1,
+        "season_turnovers": 0,
+        "season_completions": 0,
+        "form_z_score": -0.37467021566294456,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -2.9650152921676636
+          },
+          {
+            "week": 2,
+            "total_epa": -2.783173605799675
+          },
+          {
+            "week": 3,
+            "total_epa": -1.111389383673668
+          },
+          {
+            "week": 4,
+            "total_epa": 1.444638341665268
+          }
+        ]
+      },
+      {
+        "player_id": "00-0033119",
+        "player_name": "Jacoby Brissett",
+        "role": "passer",
+        "position": "QB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qjswiunczrn5xmdiqhlz",
+        "season_plays": 158,
+        "season_total_epa": -6.058934170752764,
+        "season_epa_per_play": -0.03834768462501749,
+        "season_yards": 777,
+        "season_touchdowns": 7,
+        "season_turnovers": 4,
+        "season_completions": 103,
+        "form_z_score": -0.2978177353452422,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 9.012864805758
+          },
+          {
+            "week": 2,
+            "total_epa": -8.084280360490084
+          },
+          {
+            "week": 3,
+            "total_epa": 11.174823995679617
+          },
+          {
+            "week": 4,
+            "total_epa": -18.162342611700296
+          }
+        ]
+      },
+      {
+        "player_id": "00-0038559",
+        "player_name": "Michael Wilson",
+        "role": "receiver",
+        "position": "WR",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hm2b9z4zujjmbiyldh8n",
+        "season_plays": 44,
+        "season_total_epa": -6.532637808471918,
+        "season_epa_per_play": -0.1484690411016345,
+        "season_yards": 258,
+        "season_touchdowns": 2,
+        "season_turnovers": 0,
+        "season_completions": 25,
+        "form_z_score": -0.815572256790078,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 1.9269832745194435
+          },
+          {
+            "week": 2,
+            "total_epa": -4.991260409355164
+          },
+          {
+            "week": 3,
+            "total_epa": 5.886165220290422
+          },
+          {
+            "week": 4,
+            "total_epa": -9.35452589392662
+          }
+        ]
+      }
+    ],
+    "HOU": [
+      {
+        "player_id": "00-0039163",
+        "player_name": "Coleridge Stroud",
+        "role": "passer",
+        "position": "QB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tt4zrtxlhifaljhj0rn7",
+        "season_plays": 159,
+        "season_total_epa": 7.552933627273887,
+        "season_epa_per_play": 0.04750272721555904,
+        "season_yards": 1059,
+        "season_touchdowns": 5,
+        "season_turnovers": 0,
+        "season_completions": 93,
+        "form_z_score": 0.10915829260139984,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 1.4964430071413517
+          },
+          {
+            "week": 2,
+            "total_epa": -5.804307861253619
+          },
+          {
+            "week": 3,
+            "total_epa": -3.0917123672552407
+          },
+          {
+            "week": 4,
+            "total_epa": 14.952510848641396
+          }
+        ]
+      },
+      {
+        "player_id": "00-0034383",
+        "player_name": "Dalton Schultz",
+        "role": "receiver",
+        "position": "TE",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ym8sbkev8l4scnrc0vd8",
+        "season_plays": 27,
+        "season_total_epa": 7.1295841205865145,
+        "season_epa_per_play": 0.2640586711328339,
+        "season_yards": 233,
+        "season_touchdowns": 0,
+        "season_turnovers": 0,
+        "season_completions": 21,
+        "form_z_score": -0.17560444338283188,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -2.5233009457588196
+          },
+          {
+            "week": 2,
+            "total_epa": 7.491695450618863
+          },
+          {
+            "week": 3,
+            "total_epa": -0.9707698822021484
+          },
+          {
+            "week": 4,
+            "total_epa": 3.1319594979286194
+          }
+        ]
+      },
+      {
+        "player_id": "00-0038618",
+        "player_name": "Xavier Hutchinson",
+        "role": "receiver",
+        "position": "WR",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/n5baiu6sg9wh3xhhewkd",
+        "season_plays": 26,
+        "season_total_epa": 1.5066493451595306,
+        "season_epa_per_play": 0.057948051736905024,
+        "season_yards": 166,
+        "season_touchdowns": 0,
+        "season_turnovers": 0,
+        "season_completions": 12,
+        "form_z_score": -0.3936723373709491,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 0.908643513917923
+          },
+          {
+            "week": 2,
+            "total_epa": -2.0170108675956726
+          },
+          {
+            "week": 3,
+            "total_epa": 0.44272083044052124
+          },
+          {
+            "week": 4,
+            "total_epa": 2.172295868396759
+          }
+        ]
+      },
+      {
+        "player_id": "00-0040583",
+        "player_name": "Jo'Quavious Marks",
+        "role": "rusher",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/y5ntpcenhhhv98uz2fys",
+        "season_plays": 28,
+        "season_total_epa": -4.102500649634749,
+        "season_epa_per_play": -0.14651788034409816,
+        "season_yards": 87,
+        "season_touchdowns": 2,
+        "season_turnovers": 0,
+        "season_completions": 0,
+        "form_z_score": -0.254282524384605,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 1.4704256034456193
+          },
+          {
+            "week": 2,
+            "total_epa": -6.654729187488556
+          },
+          {
+            "week": 3,
+            "total_epa": 1.355984389781952
+          },
+          {
+            "week": 4,
+            "total_epa": -0.27418145537376404
+          }
+        ]
+      },
+      {
+        "player_id": "00-0035685",
+        "player_name": "David Montgomery",
+        "role": "rusher",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/csz0c9roa4pqsccothxg",
+        "season_plays": 47,
+        "season_total_epa": -16.042227542959154,
+        "season_epa_per_play": -0.3413239902757267,
+        "season_yards": 127,
+        "season_touchdowns": 2,
+        "season_turnovers": 0,
+        "season_completions": 0,
+        "form_z_score": -0.4666150806984023,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -0.3056651344522834
+          },
+          {
+            "week": 2,
+            "total_epa": -6.393665067851543
+          },
+          {
+            "week": 3,
+            "total_epa": -5.7913254871964455
+          },
+          {
+            "week": 4,
+            "total_epa": -3.5515718534588814
           }
         ]
       }
@@ -2759,7 +4711,7 @@
         "season_touchdowns": 2,
         "season_turnovers": 0,
         "season_completions": 14,
-        "form_z_score": 0.1176540471929944,
+        "form_z_score": 0.002670817236908093,
         "weekly": [
           {
             "week": 1,
@@ -2792,7 +4744,7 @@
         "season_touchdowns": 0,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": 0.5069822204733737,
+        "form_z_score": 0.3384284342641109,
         "weekly": [
           {
             "week": 1,
@@ -2825,7 +4777,7 @@
         "season_touchdowns": 1,
         "season_turnovers": 0,
         "season_completions": 16,
-        "form_z_score": -0.3540381852159683,
+        "form_z_score": -0.5094129788479075,
         "weekly": [
           {
             "week": 1,
@@ -2858,7 +4810,7 @@
         "season_touchdowns": 0,
         "season_turnovers": 1,
         "season_completions": 13,
-        "form_z_score": 0.5069822204733737,
+        "form_z_score": 0.3384284342641109,
         "weekly": [
           {
             "week": 1,
@@ -2891,7 +4843,7 @@
         "season_touchdowns": 8,
         "season_turnovers": 4,
         "season_completions": 88,
-        "form_z_score": -0.6005077689473695,
+        "form_z_score": -0.8717546889188671,
         "weekly": [
           {
             "week": 1,
@@ -2912,379 +4864,305 @@
         ]
       }
     ],
-    "GB": [
+    "LAC": [
       {
-        "player_id": "00-0040667",
-        "player_name": "Matthew Golden",
+        "player_id": "00-0040727",
+        "player_name": "Cleveland Harris",
         "role": "receiver",
         "position": "WR",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dbjki6b0swksr7mk17wk",
-        "season_plays": 30,
-        "season_total_epa": 6.670160785317421,
-        "season_epa_per_play": 0.22233869284391403,
-        "season_yards": 253,
-        "season_touchdowns": 1,
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/v5ofh8jggzo8rygtpwl7",
+        "season_plays": 21,
+        "season_total_epa": 5.882047891616821,
+        "season_epa_per_play": 0.2800975186484201,
+        "season_yards": 209,
+        "season_touchdowns": 0,
         "season_turnovers": 0,
-        "season_completions": 15,
-        "form_z_score": null,
+        "season_completions": 13,
+        "form_z_score": -0.0820445365973645,
         "weekly": [
           {
             "week": 1,
-            "total_epa": 0.7613586783409119
+            "total_epa": -3.349352180957794
           },
           {
             "week": 2,
-            "total_epa": 1.2930306494235992
+            "total_epa": 3.867700010538101
           },
           {
             "week": 3,
-            "total_epa": 4.61577145755291
+            "total_epa": 2.9962349236011505
+          },
+          {
+            "week": 4,
+            "total_epa": 2.3674651384353638
           }
         ]
       },
       {
-        "player_id": "00-0038124",
-        "player_name": "Christian Watson",
-        "role": "receiver",
-        "position": "WR",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tumeg4d32sirkab2xzu5",
-        "season_plays": 29,
-        "season_total_epa": 5.102622397243977,
-        "season_epa_per_play": 0.17595249645668884,
-        "season_yards": 284,
-        "season_touchdowns": 4,
-        "season_turnovers": 0,
-        "season_completions": 17,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": 6.88224795460701
-          },
-          {
-            "week": 2,
-            "total_epa": -3.7542476058006287
-          },
-          {
-            "week": 3,
-            "total_epa": 1.9746220484375954
-          }
-        ]
-      },
-      {
-        "player_id": "00-0036264",
-        "player_name": "Jordan Love",
-        "role": "passer",
-        "position": "QB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/thz8stjkbjwddxqnozi5",
-        "season_plays": 132,
-        "season_total_epa": -2.300941836088896,
-        "season_epa_per_play": -0.017431377546128,
-        "season_yards": 800,
-        "season_touchdowns": 6,
-        "season_turnovers": 2,
-        "season_completions": 65,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": -2.7036458551883698
-          },
-          {
-            "week": 2,
-            "total_epa": -3.168504446744919
-          },
-          {
-            "week": 3,
-            "total_epa": 3.5712084658443928
-          }
-        ]
-      },
-      {
-        "player_id": "00-0039811",
-        "player_name": "MarShawn Lloyd",
+        "player_id": "00-0038454",
+        "player_name": "Keaton Mitchell",
         "role": "rusher",
         "position": "RB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xp8sd4enimuk4zd0aqgu",
-        "season_plays": 23,
-        "season_total_epa": -9.713414452970028,
-        "season_epa_per_play": -0.422322367520436,
-        "season_yards": 68,
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ztciwwpbyaffmckwrzdk",
+        "season_plays": 27,
+        "season_total_epa": -2.4484345191158354,
+        "season_epa_per_play": -0.09068275996725317,
+        "season_yards": 124,
+        "season_touchdowns": 0,
+        "season_turnovers": 0,
+        "season_completions": 0,
+        "form_z_score": 0.48068453934965893,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -1.1470768451690674
+          },
+          {
+            "week": 2,
+            "total_epa": -0.8222220689058304
+          },
+          {
+            "week": 3,
+            "total_epa": -0.004438998643308878
+          },
+          {
+            "week": 4,
+            "total_epa": -0.4746966063976288
+          }
+        ]
+      },
+      {
+        "player_id": "00-0040666",
+        "player_name": "Omarion Hampton",
+        "role": "rusher",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/lf2jxvxnbexlinoydbej",
+        "season_plays": 59,
+        "season_total_epa": -12.693687481805682,
+        "season_epa_per_play": -0.21514724545433359,
+        "season_yards": 238,
+        "season_touchdowns": 3,
+        "season_turnovers": 2,
+        "season_completions": 0,
+        "form_z_score": -0.2065902736515695,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -4.620024148374796
+          },
+          {
+            "week": 2,
+            "total_epa": -11.008444653823972
+          },
+          {
+            "week": 3,
+            "total_epa": -0.42597489804029465
+          },
+          {
+            "week": 4,
+            "total_epa": 3.36075621843338
+          }
+        ]
+      },
+      {
+        "player_id": "00-0036355",
+        "player_name": "Justin Herbert",
+        "role": "passer",
+        "position": "QB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/jnkspnntgebegzp4ghve",
+        "season_plays": 131,
+        "season_total_epa": -20.57253959402442,
+        "season_epa_per_play": -0.15704228697728564,
+        "season_yards": 741,
+        "season_touchdowns": 4,
+        "season_turnovers": 6,
+        "season_completions": 71,
+        "form_z_score": -1.0271072839786937,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -5.607666596770287
+          },
+          {
+            "week": 2,
+            "total_epa": -0.5631335098296404
+          },
+          {
+            "week": 3,
+            "total_epa": -6.369609747081995
+          },
+          {
+            "week": 4,
+            "total_epa": -8.032129740342498
+          }
+        ]
+      }
+    ],
+    "TEN": [
+      {
+        "player_id": "00-0041438",
+        "player_name": "Carnell Tate",
+        "role": "receiver",
+        "position": "WR",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ghpmpzcnigxrdbyvcxke",
+        "season_plays": 32,
+        "season_total_epa": 5.091145753860474,
+        "season_epa_per_play": 0.1590983048081398,
+        "season_yards": 268,
         "season_touchdowns": 0,
         "season_turnovers": 1,
-        "season_completions": 0,
-        "form_z_score": null,
+        "season_completions": 22,
+        "form_z_score": -0.22862378246064974,
         "weekly": [
           {
             "week": 1,
-            "total_epa": -3.8408930227160454
+            "total_epa": 0.30361299216747284
           },
           {
             "week": 2,
-            "total_epa": -5.269788324832916
+            "total_epa": -3.5470066368579865
           },
           {
             "week": 3,
-            "total_epa": -0.6027331054210663
-          }
-        ]
-      }
-    ],
-    "MIN": [
-      {
-        "player_id": "00-0032950",
-        "player_name": "Carson Wentz",
-        "role": "passer",
-        "position": "QB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vuolixdvigc8axelug66",
-        "season_plays": 46,
-        "season_total_epa": 5.500415552814957,
-        "season_epa_per_play": 0.11957425114815123,
-        "season_yards": 243,
-        "season_touchdowns": 3,
-        "season_turnovers": 0,
-        "season_completions": 23,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": 4.987111911177635
+            "total_epa": 1.6728613674640656
           },
           {
-            "week": 2,
-            "total_epa": 0.5133036416373216
+            "week": 4,
+            "total_epa": 6.661678031086922
           }
         ]
       },
       {
-        "player_id": "00-0033293",
-        "player_name": "Aaron Jones",
-        "role": "rusher",
-        "position": "RB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bktkfvgfwujkdbzkcfim",
-        "season_plays": 52,
-        "season_total_epa": -4.793151857331395,
-        "season_epa_per_play": -0.09217599725637299,
-        "season_yards": 203,
-        "season_touchdowns": 1,
-        "season_turnovers": 0,
-        "season_completions": 0,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": -1.046383397653699
-          },
-          {
-            "week": 2,
-            "total_epa": -2.355393785983324
-          },
-          {
-            "week": 3,
-            "total_epa": -1.3913746736943722
-          }
-        ]
-      },
-      {
-        "player_id": "00-0035228",
-        "player_name": "Kyler Murray",
-        "role": "passer",
-        "position": "QB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/btfruyf33adgnjzpcuen",
-        "season_plays": 37,
-        "season_total_epa": -16.562241797801107,
-        "season_epa_per_play": -0.4476281566973272,
-        "season_yards": 170,
-        "season_touchdowns": 1,
-        "season_turnovers": 2,
-        "season_completions": 18,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": -4.468294858932495
-          },
-          {
-            "week": 3,
-            "total_epa": -12.093946938868612
-          }
-        ]
-      }
-    ],
-    "HOU": [
-      {
-        "player_id": "00-0034383",
-        "player_name": "Dalton Schultz",
-        "role": "receiver",
-        "position": "TE",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ym8sbkev8l4scnrc0vd8",
-        "season_plays": 25,
-        "season_total_epa": 3.997624622657895,
-        "season_epa_per_play": 0.1599049849063158,
-        "season_yards": 205,
-        "season_touchdowns": 0,
-        "season_turnovers": 0,
-        "season_completions": 19,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": -2.5233009457588196
-          },
-          {
-            "week": 2,
-            "total_epa": 7.491695450618863
-          },
-          {
-            "week": 3,
-            "total_epa": -0.9707698822021484
-          }
-        ]
-      },
-      {
-        "player_id": "00-0038618",
-        "player_name": "Xavier Hutchinson",
+        "player_id": "00-0038117",
+        "player_name": "Charles Robinson",
         "role": "receiver",
         "position": "WR",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/n5baiu6sg9wh3xhhewkd",
-        "season_plays": 21,
-        "season_total_epa": -0.6656465232372284,
-        "season_epa_per_play": -0.031697453487487065,
-        "season_yards": 120,
-        "season_touchdowns": 0,
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yzcvyhmilvxedfjfjglc",
+        "season_plays": 23,
+        "season_total_epa": 4.264463794417679,
+        "season_epa_per_play": 0.1854114693225078,
+        "season_yards": 123,
+        "season_touchdowns": 2,
         "season_turnovers": 0,
-        "season_completions": 9,
-        "form_z_score": null,
+        "season_completions": 16,
+        "form_z_score": -0.19371317977706845,
         "weekly": [
           {
             "week": 1,
-            "total_epa": 0.908643513917923
+            "total_epa": 2.9655132442712784
           },
           {
             "week": 2,
-            "total_epa": -2.0170108675956726
+            "total_epa": 1.6233264207839966
           },
           {
             "week": 3,
-            "total_epa": 0.44272083044052124
+            "total_epa": -0.1837404863908887
+          },
+          {
+            "week": 4,
+            "total_epa": -0.14063538424670696
           }
         ]
       },
       {
-        "player_id": "00-0040583",
-        "player_name": "Jo'Quavious Marks",
+        "player_id": "00-0035261",
+        "player_name": "Tony Pollard",
         "role": "rusher",
         "position": "RB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/y5ntpcenhhhv98uz2fys",
-        "season_plays": 22,
-        "season_total_epa": -3.8283191942609847,
-        "season_epa_per_play": -0.17401450883004477,
-        "season_yards": 65,
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mb2xdrqiys6ktlcuah2n",
+        "season_plays": 54,
+        "season_total_epa": -4.054890373721719,
+        "season_epa_per_play": -0.07509056247632813,
+        "season_yards": 221,
         "season_touchdowns": 1,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": null,
+        "form_z_score": -0.5403569689493533,
         "weekly": [
           {
             "week": 1,
-            "total_epa": 1.4704256034456193
+            "total_epa": -0.48754338920116425
           },
           {
             "week": 2,
-            "total_epa": -6.654729187488556
+            "total_epa": -0.17074862122535706
           },
           {
             "week": 3,
-            "total_epa": 1.355984389781952
+            "total_epa": -1.4369910955429077
+          },
+          {
+            "week": 4,
+            "total_epa": -1.9596072677522898
           }
         ]
       },
       {
-        "player_id": "00-0039163",
-        "player_name": "Coleridge Stroud",
+        "player_id": "00-0040676",
+        "player_name": "Cameron Ward",
         "role": "passer",
         "position": "QB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tt4zrtxlhifaljhj0rn7",
-        "season_plays": 128,
-        "season_total_epa": -7.399577221367508,
-        "season_epa_per_play": -0.05780919704193366,
-        "season_yards": 724,
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/l7switu6stlwd2irm8yo",
+        "season_plays": 126,
+        "season_total_epa": -16.789632678963244,
+        "season_epa_per_play": -0.13325105300764478,
+        "season_yards": 691,
         "season_touchdowns": 3,
-        "season_turnovers": 0,
-        "season_completions": 72,
-        "form_z_score": null,
+        "season_turnovers": 2,
+        "season_completions": 75,
+        "form_z_score": -0.630077821515005,
         "weekly": [
           {
             "week": 1,
-            "total_epa": 1.4964430071413517
+            "total_epa": -7.351253665983677
           },
           {
             "week": 2,
-            "total_epa": -5.804307861253619
+            "total_epa": -0.09771451354026794
           },
           {
             "week": 3,
-            "total_epa": -3.0917123672552407
-          }
-        ]
-      },
-      {
-        "player_id": "00-0035685",
-        "player_name": "David Montgomery",
-        "role": "rusher",
-        "position": "RB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/csz0c9roa4pqsccothxg",
-        "season_plays": 37,
-        "season_total_epa": -12.490655689500272,
-        "season_epa_per_play": -0.3375852889054128,
-        "season_yards": 103,
-        "season_touchdowns": 2,
-        "season_turnovers": 0,
-        "season_completions": 0,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": -0.3056651344522834
+            "total_epa": -6.4883263958618045
           },
           {
-            "week": 2,
-            "total_epa": -6.393665067851543
-          },
-          {
-            "week": 3,
-            "total_epa": -5.7913254871964455
+            "week": 4,
+            "total_epa": -2.8523381035774946
           }
         ]
       }
     ],
     "TB": [
       {
-        "player_id": "00-0040129",
-        "player_name": "Emeka Egbuka",
+        "player_id": "00-0038129",
+        "player_name": "Cade Otton",
         "role": "receiver",
-        "position": "WR",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/z224kbzs62rjuykc0vha",
-        "season_plays": 20,
-        "season_total_epa": 2.547388441860676,
-        "season_epa_per_play": 0.12736942209303379,
-        "season_yards": 141,
-        "season_touchdowns": 1,
+        "position": "TE",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yanr6h9aplae3jyzimf7",
+        "season_plays": 23,
+        "season_total_epa": 3.0725865103304386,
+        "season_epa_per_play": 0.13359071784045384,
+        "season_yards": 157,
+        "season_touchdowns": 0,
         "season_turnovers": 0,
-        "season_completions": 13,
-        "form_z_score": null,
+        "season_completions": 15,
+        "form_z_score": -0.430462385815017,
         "weekly": [
           {
             "week": 1,
-            "total_epa": 4.751720488071442
+            "total_epa": -0.08903909847140312
           },
           {
             "week": 2,
-            "total_epa": -1.724276565015316
+            "total_epa": -1.4547699987888336
           },
           {
             "week": 3,
-            "total_epa": -0.48005548119544983
+            "total_epa": 3.5437339693307877
+          },
+          {
+            "week": 4,
+            "total_epa": 1.0726616382598877
           }
         ]
       },
@@ -3294,14 +5172,14 @@
         "role": "rusher",
         "position": "RB",
         "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vkc00rvnix3f2b96vkwo",
-        "season_plays": 40,
-        "season_total_epa": 0.6870038025081158,
-        "season_epa_per_play": 0.017175095062702893,
-        "season_yards": 180,
+        "season_plays": 56,
+        "season_total_epa": -0.2386292852461338,
+        "season_epa_per_play": -0.0042612372365381035,
+        "season_yards": 241,
         "season_touchdowns": 1,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": null,
+        "form_z_score": 0.2132240852921299,
         "weekly": [
           {
             "week": 1,
@@ -3314,6 +5192,68 @@
           {
             "week": 3,
             "total_epa": -2.729675341397524
+          },
+          {
+            "week": 4,
+            "total_epa": -0.9256330877542496
+          }
+        ]
+      },
+      {
+        "player_id": "00-0040129",
+        "player_name": "Emeka Egbuka",
+        "role": "receiver",
+        "position": "WR",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/z224kbzs62rjuykc0vha",
+        "season_plays": 24,
+        "season_total_epa": -1.7413047477602959,
+        "season_epa_per_play": -0.07255436449001233,
+        "season_yards": 154,
+        "season_touchdowns": 1,
+        "season_turnovers": 0,
+        "season_completions": 15,
+        "form_z_score": -0.6043856741350021,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 4.751720488071442
+          },
+          {
+            "week": 2,
+            "total_epa": -1.724276565015316
+          },
+          {
+            "week": 3,
+            "total_epa": -0.48005548119544983
+          },
+          {
+            "week": 4,
+            "total_epa": -4.288693189620972
+          }
+        ]
+      },
+      {
+        "player_id": "00-0041251",
+        "player_name": "Jalon Daniels",
+        "role": "passer",
+        "position": "QB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hwhfl6i5drktwjvslfpn",
+        "season_plays": 33,
+        "season_total_epa": -4.780101757496595,
+        "season_epa_per_play": -0.14485156840898775,
+        "season_yards": 134,
+        "season_touchdowns": 1,
+        "season_turnovers": 3,
+        "season_completions": 19,
+        "form_z_score": -0.4470958602299926,
+        "weekly": [
+          {
+            "week": 3,
+            "total_epa": -0.45671842247247696
+          },
+          {
+            "week": 4,
+            "total_epa": -4.323383335024118
           }
         ]
       },
@@ -3354,14 +5294,14 @@
         "role": "receiver",
         "position": "WR",
         "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gkh7m1jedon9mwn5jlf1",
-        "season_plays": 21,
-        "season_total_epa": 1.5513295233249664,
-        "season_epa_per_play": 0.07387283444404602,
-        "season_yards": 152,
-        "season_touchdowns": 0,
+        "season_plays": 27,
+        "season_total_epa": 2.2478949427604675,
+        "season_epa_per_play": 0.08325536825038769,
+        "season_yards": 187,
+        "season_touchdowns": 1,
         "season_turnovers": 0,
-        "season_completions": 11,
-        "form_z_score": null,
+        "season_completions": 16,
+        "form_z_score": -0.2775999791357782,
         "weekly": [
           {
             "week": 1,
@@ -3374,35 +5314,39 @@
           {
             "week": 3,
             "total_epa": -2.9213629961013794
+          },
+          {
+            "week": 4,
+            "total_epa": 0.6965654194355011
           }
         ]
       },
       {
-        "player_id": "00-0036158",
-        "player_name": "Jkaylin Dobbins",
-        "role": "rusher",
+        "player_id": "00-0040730",
+        "player_name": "Robert Harvey",
+        "role": "receiver",
         "position": "RB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cevotvl3ho5h1mioruyg",
-        "season_plays": 35,
-        "season_total_epa": -6.311491474916693,
-        "season_epa_per_play": -0.18032832785476266,
-        "season_yards": 121,
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/szxmro5enrxlscvv67xg",
+        "season_plays": 21,
+        "season_total_epa": 1.0417269924655557,
+        "season_epa_per_play": 0.04960604726026455,
+        "season_yards": 132,
         "season_touchdowns": 0,
         "season_turnovers": 0,
-        "season_completions": 0,
-        "form_z_score": null,
+        "season_completions": 20,
+        "form_z_score": -0.03761311687918558,
         "weekly": [
           {
             "week": 1,
-            "total_epa": -1.1291318908333778
-          },
-          {
-            "week": 2,
-            "total_epa": -3.241883659735322
+            "total_epa": -0.08042225614190102
           },
           {
             "week": 3,
-            "total_epa": -1.940475924347993
+            "total_epa": 0.17588170990347862
+          },
+          {
+            "week": 4,
+            "total_epa": 0.9462675387039781
           }
         ]
       },
@@ -3412,14 +5356,14 @@
         "role": "passer",
         "position": "QB",
         "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zvo9xatffmqn9lnukpgk",
-        "season_plays": 100,
-        "season_total_epa": -7.023303009569645,
-        "season_epa_per_play": -0.07023303009569645,
-        "season_yards": 586,
-        "season_touchdowns": 4,
+        "season_plays": 142,
+        "season_total_epa": -2.305619173217565,
+        "season_epa_per_play": -0.016236754740968768,
+        "season_yards": 800,
+        "season_touchdowns": 5,
         "season_turnovers": 3,
-        "season_completions": 56,
-        "form_z_score": null,
+        "season_completions": 81,
+        "form_z_score": -0.2852775231714858,
         "weekly": [
           {
             "week": 1,
@@ -3432,288 +5376,124 @@
           {
             "week": 3,
             "total_epa": -1.0727774240076542
+          },
+          {
+            "week": 4,
+            "total_epa": 4.71768383635208
           }
         ]
-      }
-    ],
-    "PHI": [
+      },
       {
-        "player_id": "00-0036912",
-        "player_name": "DeVonta Smith",
+        "player_id": "00-0036158",
+        "player_name": "Jkaylin Dobbins",
+        "role": "rusher",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cevotvl3ho5h1mioruyg",
+        "season_plays": 46,
+        "season_total_epa": -7.598638456722256,
+        "season_epa_per_play": -0.16518779253744034,
+        "season_yards": 161,
+        "season_touchdowns": 0,
+        "season_turnovers": 0,
+        "season_completions": 0,
+        "form_z_score": -0.2090222250179165,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -1.1291318908333778
+          },
+          {
+            "week": 2,
+            "total_epa": -3.241883659735322
+          },
+          {
+            "week": 3,
+            "total_epa": -1.940475924347993
+          },
+          {
+            "week": 4,
+            "total_epa": -1.287146981805563
+          }
+        ]
+      },
+      {
+        "player_id": "00-0034348",
+        "player_name": "Courtland Sutton",
         "role": "receiver",
         "position": "WR",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/k724kq3hyv7jc0y9s03x",
-        "season_plays": 27,
-        "season_total_epa": 1.2939550131559372,
-        "season_epa_per_play": 0.04792425974651619,
-        "season_yards": 235,
-        "season_touchdowns": 1,
-        "season_turnovers": 0,
-        "season_completions": 19,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": 0.8174027651548386
-          },
-          {
-            "week": 2,
-            "total_epa": 1.2649135664105415
-          },
-          {
-            "week": 3,
-            "total_epa": -0.7883613184094429
-          }
-        ]
-      },
-      {
-        "player_id": "00-0034844",
-        "player_name": "Saquon Barkley",
-        "role": "rusher",
-        "position": "RB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qcayrzjpura2zydszonh",
-        "season_plays": 34,
-        "season_total_epa": 0.16617171000689268,
-        "season_epa_per_play": 0.004887403235496844,
-        "season_yards": 174,
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/kqwmqcrlrwmqcvfuguhs",
+        "season_plays": 22,
+        "season_total_epa": -11.409847937524319,
+        "season_epa_per_play": -0.5186294517056509,
+        "season_yards": 86,
         "season_touchdowns": 0,
         "season_turnovers": 0,
-        "season_completions": 0,
-        "form_z_score": null,
+        "season_completions": 9,
+        "form_z_score": -1.053176742393669,
         "weekly": [
           {
             "week": 1,
-            "total_epa": -0.664371863938868
+            "total_epa": -4.806343175470829
           },
           {
             "week": 2,
-            "total_epa": -1.412509523332119
+            "total_epa": -2.518103390932083
           },
           {
             "week": 3,
-            "total_epa": 2.2430530972778797
-          }
-        ]
-      },
-      {
-        "player_id": "00-0036389",
-        "player_name": "Jalen Hurts",
-        "role": "passer",
-        "position": "QB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xow5yvxjeqa6witmofmp",
-        "season_plays": 95,
-        "season_total_epa": -4.503936655819416,
-        "season_epa_per_play": -0.04740985953494122,
-        "season_yards": 575,
-        "season_touchdowns": 5,
-        "season_turnovers": 3,
-        "season_completions": 56,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": 1.2733765989542007
+            "total_epa": -1.6297277510166168
           },
           {
-            "week": 2,
-            "total_epa": 8.767012968659401
-          },
-          {
-            "week": 3,
-            "total_epa": -14.544326223433018
-          }
-        ]
-      }
-    ],
-    "TEN": [
-      {
-        "player_id": "00-0041438",
-        "player_name": "Carnell Tate",
-        "role": "receiver",
-        "position": "WR",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ghpmpzcnigxrdbyvcxke",
-        "season_plays": 20,
-        "season_total_epa": -1.570532277226448,
-        "season_epa_per_play": -0.0785266138613224,
-        "season_yards": 123,
-        "season_touchdowns": 0,
-        "season_turnovers": 0,
-        "season_completions": 13,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": 0.30361299216747284
-          },
-          {
-            "week": 2,
-            "total_epa": -3.5470066368579865
-          },
-          {
-            "week": 3,
-            "total_epa": 1.6728613674640656
-          }
-        ]
-      },
-      {
-        "player_id": "00-0035261",
-        "player_name": "Tony Pollard",
-        "role": "rusher",
-        "position": "RB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mb2xdrqiys6ktlcuah2n",
-        "season_plays": 38,
-        "season_total_epa": -2.095283105969429,
-        "season_epa_per_play": -0.055139029104458656,
-        "season_yards": 173,
-        "season_touchdowns": 0,
-        "season_turnovers": 0,
-        "season_completions": 0,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": -0.48754338920116425
-          },
-          {
-            "week": 2,
-            "total_epa": -0.17074862122535706
-          },
-          {
-            "week": 3,
-            "total_epa": -1.4369910955429077
-          }
-        ]
-      },
-      {
-        "player_id": "00-0040676",
-        "player_name": "Cameron Ward",
-        "role": "passer",
-        "position": "QB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/l7switu6stlwd2irm8yo",
-        "season_plays": 93,
-        "season_total_epa": -13.93729457538575,
-        "season_epa_per_play": -0.14986338253102957,
-        "season_yards": 477,
-        "season_touchdowns": 2,
-        "season_turnovers": 1,
-        "season_completions": 55,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": -7.351253665983677
-          },
-          {
-            "week": 2,
-            "total_epa": -0.09771451354026794
-          },
-          {
-            "week": 3,
-            "total_epa": -6.4883263958618045
-          }
-        ]
-      }
-    ],
-    "NE": [
-      {
-        "player_id": "00-0036875",
-        "player_name": "Rhamondre Stevenson",
-        "role": "rusher",
-        "position": "RB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zmpuirvuw4r04inxth5i",
-        "season_plays": 31,
-        "season_total_epa": -2.6614880722481757,
-        "season_epa_per_play": -0.08585445394348953,
-        "season_yards": 116,
-        "season_touchdowns": 0,
-        "season_turnovers": 0,
-        "season_completions": 0,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": -8.050340713001788
-          },
-          {
-            "week": 2,
-            "total_epa": 1.8175322152674198
-          },
-          {
-            "week": 3,
-            "total_epa": 3.571320425486192
-          }
-        ]
-      },
-      {
-        "player_id": "00-0040734",
-        "player_name": "TreVeyon Henderson",
-        "role": "rusher",
-        "position": "RB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ebcjvwytgu2y4kqm8ihv",
-        "season_plays": 24,
-        "season_total_epa": -3.9704169183969498,
-        "season_epa_per_play": -0.16543403826653957,
-        "season_yards": 99,
-        "season_touchdowns": 1,
-        "season_turnovers": 0,
-        "season_completions": 0,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 2,
-            "total_epa": -1.5980434566736221
-          },
-          {
-            "week": 3,
-            "total_epa": -2.3723734617233276
-          }
-        ]
-      },
-      {
-        "player_id": "00-0039851",
-        "player_name": "Drake Maye",
-        "role": "passer",
-        "position": "QB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/s1nmoon2xnrc3bnyulv4",
-        "season_plays": 89,
-        "season_total_epa": -24.070567272603512,
-        "season_epa_per_play": -0.27045581205172486,
-        "season_yards": 547,
-        "season_touchdowns": 1,
-        "season_turnovers": 6,
-        "season_completions": 51,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": -4.62135399132967
-          },
-          {
-            "week": 2,
-            "total_epa": -5.2802687138319016
-          },
-          {
-            "week": 3,
-            "total_epa": -14.16894456744194
+            "week": 4,
+            "total_epa": -2.4556736201047897
           }
         ]
       }
     ],
     "MIA": [
       {
+        "player_id": "00-0040198",
+        "player_name": "Ollie Gordon",
+        "role": "rusher",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bv33rgypaauv7sealwkr",
+        "season_plays": 29,
+        "season_total_epa": 1.1815783455967903,
+        "season_epa_per_play": 0.04074408088264794,
+        "season_yards": 148,
+        "season_touchdowns": 2,
+        "season_turnovers": 0,
+        "season_completions": 0,
+        "form_z_score": 0.08302763218387517,
+        "weekly": [
+          {
+            "week": 2,
+            "total_epa": -0.5110955387353897
+          },
+          {
+            "week": 3,
+            "total_epa": -4.945651479065418
+          },
+          {
+            "week": 4,
+            "total_epa": 6.638325363397598
+          }
+        ]
+      },
+      {
         "player_id": "00-0039880",
         "player_name": "Malik Washington",
         "role": "receiver",
         "position": "WR",
         "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dmaiwnmaal9nrwfskl28",
-        "season_plays": 23,
-        "season_total_epa": -5.011488825082779,
-        "season_epa_per_play": -0.21789081848185995,
-        "season_yards": 152,
+        "season_plays": 28,
+        "season_total_epa": -1.3815693855285645,
+        "season_epa_per_play": -0.0493417637688773,
+        "season_yards": 219,
         "season_touchdowns": 0,
         "season_turnovers": 1,
-        "season_completions": 12,
-        "form_z_score": null,
+        "season_completions": 17,
+        "form_z_score": -0.6453529079176522,
         "weekly": [
           {
             "week": 1,
@@ -3726,31 +5506,10 @@
           {
             "week": 3,
             "total_epa": -3.531952440738678
-          }
-        ]
-      },
-      {
-        "player_id": "00-0040198",
-        "player_name": "Ollie Gordon",
-        "role": "rusher",
-        "position": "RB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bv33rgypaauv7sealwkr",
-        "season_plays": 20,
-        "season_total_epa": -5.456747017800808,
-        "season_epa_per_play": -0.2728373508900404,
-        "season_yards": 48,
-        "season_touchdowns": 1,
-        "season_turnovers": 0,
-        "season_completions": 0,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 2,
-            "total_epa": -0.5110955387353897
           },
           {
-            "week": 3,
-            "total_epa": -4.945651479065418
+            "week": 4,
+            "total_epa": 3.6299194395542145
           }
         ]
       },
@@ -3789,14 +5548,14 @@
         "role": "passer",
         "position": "QB",
         "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/txvgdbwbryzyyqq6gfet",
-        "season_plays": 95,
-        "season_total_epa": -8.822967622429132,
-        "season_epa_per_play": -0.09287334339399086,
-        "season_yards": 577,
+        "season_plays": 114,
+        "season_total_epa": -21.235042069107294,
+        "season_epa_per_play": -0.18627229885181837,
+        "season_yards": 654,
         "season_touchdowns": 1,
         "season_turnovers": 2,
-        "season_completions": 49,
-        "form_z_score": null,
+        "season_completions": 58,
+        "form_z_score": -0.8265915244393145,
         "weekly": [
           {
             "week": 1,
@@ -3809,66 +5568,10 @@
           {
             "week": 3,
             "total_epa": -4.04699782282114
-          }
-        ]
-      }
-    ],
-    "LAC": [
-      {
-        "player_id": "00-0036355",
-        "player_name": "Justin Herbert",
-        "role": "passer",
-        "position": "QB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/jnkspnntgebegzp4ghve",
-        "season_plays": 96,
-        "season_total_epa": -12.540409853681922,
-        "season_epa_per_play": -0.1306292693091867,
-        "season_yards": 587,
-        "season_touchdowns": 3,
-        "season_turnovers": 4,
-        "season_completions": 52,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": -5.607666596770287
           },
           {
-            "week": 2,
-            "total_epa": -0.5631335098296404
-          },
-          {
-            "week": 3,
-            "total_epa": -6.369609747081995
-          }
-        ]
-      },
-      {
-        "player_id": "00-0040666",
-        "player_name": "Omarion Hampton",
-        "role": "rusher",
-        "position": "RB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/lf2jxvxnbexlinoydbej",
-        "season_plays": 50,
-        "season_total_epa": -16.054443700239062,
-        "season_epa_per_play": -0.32108887400478126,
-        "season_yards": 193,
-        "season_touchdowns": 2,
-        "season_turnovers": 2,
-        "season_completions": 0,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": -4.620024148374796
-          },
-          {
-            "week": 2,
-            "total_epa": -11.008444653823972
-          },
-          {
-            "week": 3,
-            "total_epa": -0.42597489804029465
+            "week": 4,
+            "total_epa": -12.412074446678162
           }
         ]
       }
@@ -3890,7 +5593,7 @@
       },
       {
         "week": 4,
-        "league_avg_epa": 5.803171241655946
+        "league_avg_epa": 2.1370361561130267
       }
     ],
     "receiver": [
@@ -3908,7 +5611,7 @@
       },
       {
         "week": 4,
-        "league_avg_epa": 2.4255091303752527
+        "league_avg_epa": 2.0933318243142875
       }
     ],
     "rusher": [
@@ -3926,7 +5629,7 @@
       },
       {
         "week": 4,
-        "league_avg_epa": -1.397269494831562
+        "league_avg_epa": -0.6765655518170784
       }
     ]
   }

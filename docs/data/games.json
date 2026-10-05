@@ -13,112 +13,112 @@
     {
       "home_team": "WAS",
       "away_team": "IND",
-      "home_score": NaN,
-      "away_score": NaN,
+      "home_score": 13.0,
+      "away_score": 30.0,
       "gameday": "2026-10-04",
       "gametime": "09:30"
     },
     {
       "home_team": "BAL",
       "away_team": "TEN",
-      "home_score": NaN,
-      "away_score": NaN,
+      "home_score": 24.0,
+      "away_score": 18.0,
       "gameday": "2026-10-04",
       "gametime": "13:00"
     },
     {
       "home_team": "BUF",
       "away_team": "NE",
-      "home_score": NaN,
-      "away_score": NaN,
+      "home_score": 26.0,
+      "away_score": 29.0,
       "gameday": "2026-10-04",
       "gametime": "13:00"
     },
     {
       "home_team": "CHI",
       "away_team": "NYJ",
-      "home_score": NaN,
-      "away_score": NaN,
+      "home_score": 23.0,
+      "away_score": 12.0,
       "gameday": "2026-10-04",
       "gametime": "13:00"
     },
     {
       "home_team": "CIN",
       "away_team": "JAX",
-      "home_score": NaN,
-      "away_score": NaN,
+      "home_score": 17.0,
+      "away_score": 22.0,
       "gameday": "2026-10-04",
       "gametime": "13:00"
     },
     {
       "home_team": "HOU",
       "away_team": "DAL",
-      "home_score": NaN,
-      "away_score": NaN,
+      "home_score": 30.0,
+      "away_score": 34.0,
       "gameday": "2026-10-04",
       "gametime": "13:00"
     },
     {
       "home_team": "NYG",
       "away_team": "ARI",
-      "home_score": NaN,
-      "away_score": NaN,
+      "home_score": 36.0,
+      "away_score": 24.0,
       "gameday": "2026-10-04",
       "gametime": "13:00"
     },
     {
       "home_team": "PHI",
       "away_team": "LA",
-      "home_score": NaN,
-      "away_score": NaN,
+      "home_score": 20.0,
+      "away_score": 24.0,
       "gameday": "2026-10-04",
       "gametime": "13:00"
     },
     {
       "home_team": "TB",
       "away_team": "GB",
-      "home_score": NaN,
-      "away_score": NaN,
+      "home_score": 14.0,
+      "away_score": 17.0,
       "gameday": "2026-10-04",
       "gametime": "13:00"
     },
     {
       "home_team": "MIN",
       "away_team": "MIA",
-      "home_score": NaN,
-      "away_score": NaN,
+      "home_score": 15.0,
+      "away_score": 10.0,
       "gameday": "2026-10-04",
       "gametime": "16:05"
     },
     {
       "home_team": "LV",
       "away_team": "KC",
-      "home_score": NaN,
-      "away_score": NaN,
+      "home_score": 27.0,
+      "away_score": 30.0,
       "gameday": "2026-10-04",
       "gametime": "16:25"
     },
     {
       "home_team": "SEA",
       "away_team": "LAC",
-      "home_score": NaN,
-      "away_score": NaN,
+      "home_score": 30.0,
+      "away_score": 23.0,
       "gameday": "2026-10-04",
       "gametime": "16:25"
     },
     {
       "home_team": "SF",
       "away_team": "DEN",
-      "home_score": NaN,
-      "away_score": NaN,
+      "home_score": 24.0,
+      "away_score": 14.0,
       "gameday": "2026-10-04",
       "gametime": "16:25"
     },
     {
       "home_team": "CAR",
       "away_team": "DET",
-      "home_score": NaN,
-      "away_score": NaN,
+      "home_score": 32.0,
+      "away_score": 26.0,
       "gameday": "2026-10-04",
       "gametime": "20:20"
     },
