@@ -125,8 +125,8 @@
     {
       "home_team": "NO",
       "away_team": "ATL",
-      "home_score": NaN,
-      "away_score": NaN,
+      "home_score": 24.0,
+      "away_score": 45.0,
       "gameday": "2026-10-05",
       "gametime": "20:15"
     }

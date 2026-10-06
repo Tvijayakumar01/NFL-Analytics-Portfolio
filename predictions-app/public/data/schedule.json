@@ -635,11 +635,11 @@
       "week": 4,
       "home": "NO",
       "away": "ATL",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 24,
+      "away_score": 45,
       "gameday": "2026-10-05",
       "gametime": "20:15",
-      "played": false
+      "played": true
     },
     {
       "week": 5,
