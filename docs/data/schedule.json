@@ -785,11 +785,11 @@
       "week": 5,
       "home": "LA",
       "away": "BUF",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 34,
+      "away_score": 37,
       "gameday": "2026-10-12",
       "gametime": "20:15",
-      "played": false
+      "played": true
     },
     {
       "week": 6,

@@ -117,8 +117,8 @@
     {
       "home_team": "LA",
       "away_team": "BUF",
-      "home_score": NaN,
-      "away_score": NaN,
+      "home_score": 34.0,
+      "away_score": 37.0,
       "gameday": "2026-10-12",
       "gametime": "20:15"
     }
