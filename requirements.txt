@@ -1,6 +1,9 @@
 nfl_data_py
 pandas<2.0
 numpy<2.0
+# pyarrow 26+ requires NumPy 2, which pandas<2.0 can't use. Without this cap,
+# pip installs pyarrow 26 anyway and BigQuery loads fail with "requires pyarrow".
+pyarrow<26
 appdirs
 fastparquet
 requests
