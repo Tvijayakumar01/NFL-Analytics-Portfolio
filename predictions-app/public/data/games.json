@@ -109,8 +109,8 @@
     {
       "home_team": "PHI",
       "away_team": "DAL",
-      "home_score": NaN,
-      "away_score": NaN,
+      "home_score": 21.0,
+      "away_score": 38.0,
       "gameday": "2026-10-26",
       "gametime": "20:15"
     }

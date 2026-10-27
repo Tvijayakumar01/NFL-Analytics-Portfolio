@@ -1065,11 +1065,11 @@
       "week": 7,
       "home": "PHI",
       "away": "DAL",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 21,
+      "away_score": 38,
       "gameday": "2026-10-26",
       "gametime": "20:15",
-      "played": false
+      "played": true
     },
     {
       "week": 8,

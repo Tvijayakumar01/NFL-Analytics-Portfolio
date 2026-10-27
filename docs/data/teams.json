@@ -201,6 +201,15 @@
     },
     {
       "rank": 23,
+      "team": "DAL",
+      "off_plays": 444,
+      "off_epa_per_play": 0.11398128236996362,
+      "def_plays": 433,
+      "def_epa_per_play_allowed": 0.13836307755475713,
+      "net_epa_per_play": -0.02438179518479351
+    },
+    {
+      "rank": 24,
       "team": "LV",
       "off_plays": 444,
       "off_epa_per_play": -0.008281983219103905,
@@ -209,22 +218,13 @@
       "net_epa_per_play": -0.062364798098655125
     },
     {
-      "rank": 24,
+      "rank": 25,
       "team": "WAS",
       "off_plays": 377,
       "off_epa_per_play": -0.013989942290990636,
       "def_plays": 376,
       "def_epa_per_play_allowed": 0.06715795429153466,
       "net_epa_per_play": -0.0811478965825253
-    },
-    {
-      "rank": 25,
-      "team": "DAL",
-      "off_plays": 378,
-      "off_epa_per_play": 0.07841521698892825,
-      "def_plays": 371,
-      "def_epa_per_play_allowed": 0.1636719792413543,
-      "net_epa_per_play": -0.08525676225242604
     },
     {
       "rank": 26,
@@ -283,11 +283,11 @@
     {
       "rank": 32,
       "team": "PHI",
-      "off_plays": 348,
-      "off_epa_per_play": -0.1348084064532371,
-      "def_plays": 403,
-      "def_epa_per_play_allowed": 0.07830708217258257,
-      "net_epa_per_play": -0.2131154886258197
+      "off_plays": 410,
+      "off_epa_per_play": -0.11640101747087589,
+      "def_plays": 469,
+      "def_epa_per_play_allowed": 0.11199251911727025,
+      "net_epa_per_play": -0.22839353658814615
     }
   ],
   "rosters": {
@@ -305,7 +305,7 @@
         "season_touchdowns": 14,
         "season_turnovers": 0,
         "season_completions": 150,
-        "form_z_score": 1.151435300339098,
+        "form_z_score": 1.2045661003018355,
         "weekly": [
           {
             "week": 1,
@@ -346,7 +346,7 @@
         "season_touchdowns": 3,
         "season_turnovers": 0,
         "season_completions": 28,
-        "form_z_score": 0.74033681223944,
+        "form_z_score": 0.7703285955258334,
         "weekly": [
           {
             "week": 1,
@@ -387,7 +387,7 @@
         "season_touchdowns": 4,
         "season_turnovers": 0,
         "season_completions": 23,
-        "form_z_score": 0.7961341980634631,
+        "form_z_score": 0.8066909839567,
         "weekly": [
           {
             "week": 1,
@@ -428,7 +428,7 @@
         "season_touchdowns": 5,
         "season_turnovers": 0,
         "season_completions": 46,
-        "form_z_score": -0.17759448171984826,
+        "form_z_score": -0.18821727491952683,
         "weekly": [
           {
             "week": 1,
@@ -510,7 +510,7 @@
         "season_touchdowns": 2,
         "season_turnovers": 1,
         "season_completions": 32,
-        "form_z_score": 0.43359940623944687,
+        "form_z_score": 0.4214055331722748,
         "weekly": [
           {
             "week": 1,
@@ -551,7 +551,7 @@
         "season_touchdowns": 7,
         "season_turnovers": 1,
         "season_completions": 0,
-        "form_z_score": 0.43359940623944687,
+        "form_z_score": 0.4214055331722748,
         "weekly": [
           {
             "week": 1,
@@ -594,7 +594,7 @@
         "season_touchdowns": 8,
         "season_turnovers": 0,
         "season_completions": 58,
-        "form_z_score": 0.7857606424350935,
+        "form_z_score": 0.7943520442282309,
         "weekly": [
           {
             "week": 1,
@@ -709,7 +709,7 @@
         "season_touchdowns": 1,
         "season_turnovers": 0,
         "season_completions": 19,
-        "form_z_score": -0.37033778459222716,
+        "form_z_score": -0.3539845814983218,
         "weekly": [
           {
             "week": 1,
@@ -754,7 +754,7 @@
         "season_touchdowns": 9,
         "season_turnovers": 8,
         "season_completions": 110,
-        "form_z_score": -0.5279192187519988,
+        "form_z_score": -0.4945318312743465,
         "weekly": [
           {
             "week": 1,
@@ -824,7 +824,7 @@
         "season_touchdowns": 2,
         "season_turnovers": 1,
         "season_completions": 0,
-        "form_z_score": -1.1141902695179202,
+        "form_z_score": -1.1040572739611199,
         "weekly": [
           {
             "week": 1,
@@ -869,7 +869,7 @@
         "season_touchdowns": 0,
         "season_turnovers": 0,
         "season_completions": 16,
-        "form_z_score": -0.86576165463653,
+        "form_z_score": -0.8883187116758979,
         "weekly": [
           {
             "week": 1,
@@ -914,7 +914,7 @@
         "season_touchdowns": 3,
         "season_turnovers": 1,
         "season_completions": 0,
-        "form_z_score": -0.07220950084789036,
+        "form_z_score": -0.07753498791087067,
         "weekly": [
           {
             "week": 1,
@@ -961,7 +961,7 @@
         "season_touchdowns": 15,
         "season_turnovers": 4,
         "season_completions": 146,
-        "form_z_score": -0.0442371862536618,
+        "form_z_score": -0.005098427380437841,
         "weekly": [
           {
             "week": 1,
@@ -1047,7 +1047,7 @@
         "season_touchdowns": 5,
         "season_turnovers": 1,
         "season_completions": 34,
-        "form_z_score": -0.15246709111090478,
+        "form_z_score": -0.1288392794859542,
         "weekly": [
           {
             "week": 1,
@@ -1092,7 +1092,7 @@
         "season_touchdowns": 1,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": -0.0442371862536618,
+        "form_z_score": -0.005098427380437841,
         "weekly": [
           {
             "week": 1,
@@ -1137,7 +1137,7 @@
         "season_touchdowns": 8,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": 0.9185003913215725,
+        "form_z_score": 0.9008290131800747,
         "weekly": [
           {
             "week": 1,
@@ -1215,7 +1215,7 @@
         "season_touchdowns": 0,
         "season_turnovers": 1,
         "season_completions": 34,
-        "form_z_score": 0.9185003913215725,
+        "form_z_score": 0.9008290131800747,
         "weekly": [
           {
             "week": 1,
@@ -1260,7 +1260,7 @@
         "season_touchdowns": 1,
         "season_turnovers": 1,
         "season_completions": 0,
-        "form_z_score": -0.4751381701921254,
+        "form_z_score": -0.47366900285946695,
         "weekly": [
           {
             "week": 1,
@@ -1873,7 +1873,7 @@
         "season_touchdowns": 16,
         "season_turnovers": 3,
         "season_completions": 157,
-        "form_z_score": 1.2949676459126318,
+        "form_z_score": 1.3501026997550325,
         "weekly": [
           {
             "week": 1,
@@ -1914,7 +1914,7 @@
         "season_touchdowns": 2,
         "season_turnovers": 0,
         "season_completions": 33,
-        "form_z_score": 0.9634892848011262,
+        "form_z_score": 0.9764927596018853,
         "weekly": [
           {
             "week": 1,
@@ -1955,7 +1955,7 @@
         "season_touchdowns": 5,
         "season_turnovers": 0,
         "season_completions": 32,
-        "form_z_score": 0.6884878953402355,
+        "form_z_score": 0.6961315784536151,
         "weekly": [
           {
             "week": 1,
@@ -2037,7 +2037,7 @@
         "season_touchdowns": 1,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": 0.022306354858971332,
+        "form_z_score": 0.017823124709990805,
         "weekly": [
           {
             "week": 1,
@@ -2078,7 +2078,7 @@
         "season_touchdowns": 1,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": -0.4048471300596389,
+        "form_z_score": -0.40551951851332474,
         "weekly": [
           {
             "week": 1,
@@ -2119,7 +2119,7 @@
         "season_touchdowns": 0,
         "season_turnovers": 1,
         "season_completions": 28,
-        "form_z_score": -0.4048471300596389,
+        "form_z_score": -0.40551951851332474,
         "weekly": [
           {
             "week": 1,
@@ -2148,6 +2148,352 @@
         ]
       }
     ],
+    "DAL": [
+      {
+        "player_id": "00-0033077",
+        "player_name": "Rayne Prescott",
+        "role": "passer",
+        "position": "QB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yvscmqq1qki8zfsemmcd",
+        "season_plays": 283,
+        "season_total_epa": 44.11961115710437,
+        "season_epa_per_play": 0.15589968606750662,
+        "season_yards": 1817,
+        "season_touchdowns": 13,
+        "season_turnovers": 5,
+        "season_completions": 178,
+        "form_z_score": -0.1145780905273017,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 10.38090305775404
+          },
+          {
+            "week": 2,
+            "total_epa": 15.104026049375534
+          },
+          {
+            "week": 3,
+            "total_epa": 8.413465909659863
+          },
+          {
+            "week": 4,
+            "total_epa": 9.829739585518837
+          },
+          {
+            "week": 5,
+            "total_epa": -3.286763431504369
+          },
+          {
+            "week": 6,
+            "total_epa": -8.357880111783743
+          },
+          {
+            "week": 7,
+            "total_epa": 12.036120098084211
+          }
+        ]
+      },
+      {
+        "player_id": "00-0036358",
+        "player_name": "Cedarian Lamb",
+        "role": "receiver",
+        "position": "WR",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mbblzwtynxr15ovzkevi",
+        "season_plays": 83,
+        "season_total_epa": 28.16229549795389,
+        "season_epa_per_play": 0.33930476503558904,
+        "season_yards": 653,
+        "season_touchdowns": 6,
+        "season_turnovers": 0,
+        "season_completions": 53,
+        "form_z_score": -0.611385646404227,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 5.593274384737015
+          },
+          {
+            "week": 2,
+            "total_epa": 11.368333399295807
+          },
+          {
+            "week": 3,
+            "total_epa": 11.066625535488129
+          },
+          {
+            "week": 4,
+            "total_epa": 13.613645017147064
+          },
+          {
+            "week": 5,
+            "total_epa": -2.8379258550703526
+          },
+          {
+            "week": 6,
+            "total_epa": -14.28139080107212
+          },
+          {
+            "week": 7,
+            "total_epa": 3.6397338174283504
+          }
+        ]
+      },
+      {
+        "player_id": "00-0037247",
+        "player_name": "George Pickens",
+        "role": "receiver",
+        "position": "WR",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cbpyykoguf7rsxezqzvk",
+        "season_plays": 58,
+        "season_total_epa": 24.27407086081803,
+        "season_epa_per_play": 0.4185184631175522,
+        "season_yards": 485,
+        "season_touchdowns": 2,
+        "season_turnovers": 0,
+        "season_completions": 37,
+        "form_z_score": 0.44863994925244394,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 0.6187376081943512
+          },
+          {
+            "week": 2,
+            "total_epa": 0.48199689388275146
+          },
+          {
+            "week": 3,
+            "total_epa": 5.130736440420151
+          },
+          {
+            "week": 4,
+            "total_epa": 3.9335649013519287
+          },
+          {
+            "week": 5,
+            "total_epa": 6.402665229514241
+          },
+          {
+            "week": 6,
+            "total_epa": 3.96391162276268
+          },
+          {
+            "week": 7,
+            "total_epa": 3.742458164691925
+          }
+        ]
+      },
+      {
+        "player_id": "00-0039410",
+        "player_name": "Ryan Flournoy",
+        "role": "receiver",
+        "position": "WR",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tqwq3cgpqu7j9hzoyicx",
+        "season_plays": 41,
+        "season_total_epa": 12.214531730860472,
+        "season_epa_per_play": 0.29791540806976763,
+        "season_yards": 304,
+        "season_touchdowns": 1,
+        "season_turnovers": 0,
+        "season_completions": 27,
+        "form_z_score": 0.3557873736254141,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 2.5284291803836823
+          },
+          {
+            "week": 2,
+            "total_epa": 0.1951494663953781
+          },
+          {
+            "week": 3,
+            "total_epa": -2.816414952278137
+          },
+          {
+            "week": 4,
+            "total_epa": 3.684910461306572
+          },
+          {
+            "week": 5,
+            "total_epa": -0.4019366502761841
+          },
+          {
+            "week": 6,
+            "total_epa": 3.614711757749319
+          },
+          {
+            "week": 7,
+            "total_epa": 5.409682467579842
+          }
+        ]
+      },
+      {
+        "player_id": "00-0036997",
+        "player_name": "Javonte Williams",
+        "role": "rusher",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xvwroirev2kie6oiphtz",
+        "season_plays": 110,
+        "season_total_epa": 11.483264123089612,
+        "season_epa_per_play": 0.10439331020990555,
+        "season_yards": 472,
+        "season_touchdowns": 8,
+        "season_turnovers": 0,
+        "season_completions": 0,
+        "form_z_score": 1.1032414693216317,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 1.3868122026324272
+          },
+          {
+            "week": 2,
+            "total_epa": -3.7425385750830173
+          },
+          {
+            "week": 3,
+            "total_epa": -0.8968258053064346
+          },
+          {
+            "week": 4,
+            "total_epa": 2.8130401177331805
+          },
+          {
+            "week": 5,
+            "total_epa": -0.08043327182531357
+          },
+          {
+            "week": 6,
+            "total_epa": 2.3881892934441566
+          },
+          {
+            "week": 7,
+            "total_epa": 9.615020161494613
+          }
+        ]
+      },
+      {
+        "player_id": "00-0036997",
+        "player_name": "Javonte Williams",
+        "role": "receiver",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xvwroirev2kie6oiphtz",
+        "season_plays": 22,
+        "season_total_epa": 0.1784801334142685,
+        "season_epa_per_play": 0.008112733337012205,
+        "season_yards": 103,
+        "season_touchdowns": 1,
+        "season_turnovers": 0,
+        "season_completions": 19,
+        "form_z_score": 1.1032414693216317,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": 1.6393468976020813
+          },
+          {
+            "week": 2,
+            "total_epa": 0.2431722730398178
+          },
+          {
+            "week": 3,
+            "total_epa": 0.750237226486206
+          },
+          {
+            "week": 4,
+            "total_epa": -1.7859738171100616
+          },
+          {
+            "week": 5,
+            "total_epa": 0.24620065093040466
+          },
+          {
+            "week": 6,
+            "total_epa": -0.9145030975341797
+          }
+        ]
+      },
+      {
+        "player_id": "00-0037120",
+        "player_name": "Tyler Goodson",
+        "role": "rusher",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/v65dvcfcx8mz8kvif7dw",
+        "season_plays": 21,
+        "season_total_epa": -3.0080982260406017,
+        "season_epa_per_play": -0.14324277266860008,
+        "season_yards": 72,
+        "season_touchdowns": 0,
+        "season_turnovers": 0,
+        "season_completions": 0,
+        "form_z_score": -0.32958193238710687,
+        "weekly": [
+          {
+            "week": 3,
+            "total_epa": -1.0595585852861404
+          },
+          {
+            "week": 4,
+            "total_epa": 0.41448962688446045
+          },
+          {
+            "week": 6,
+            "total_epa": -1.424472987651825
+          },
+          {
+            "week": 7,
+            "total_epa": -0.9385562799870968
+          }
+        ]
+      },
+      {
+        "player_id": "00-0038041",
+        "player_name": "Jake Ferguson",
+        "role": "receiver",
+        "position": "TE",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xpykb0tbosfwsn6dqstb",
+        "season_plays": 25,
+        "season_total_epa": -6.783397249877453,
+        "season_epa_per_play": -0.2713358899950981,
+        "season_yards": 115,
+        "season_touchdowns": 3,
+        "season_turnovers": 1,
+        "season_completions": 17,
+        "form_z_score": null,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -0.21047763526439667
+          },
+          {
+            "week": 2,
+            "total_epa": 6.472676515579224
+          },
+          {
+            "week": 3,
+            "total_epa": -4.642300583422184
+          },
+          {
+            "week": 4,
+            "total_epa": -0.11231249570846558
+          },
+          {
+            "week": 5,
+            "total_epa": -7.069239675998688
+          },
+          {
+            "week": 6,
+            "total_epa": -0.46333739161491394
+          },
+          {
+            "week": 7,
+            "total_epa": -0.7584059834480286
+          }
+        ]
+      }
+    ],
     "NO": [
       {
         "player_id": "00-0037239",
@@ -2162,7 +2508,7 @@
         "season_touchdowns": 2,
         "season_turnovers": 0,
         "season_completions": 49,
-        "form_z_score": 0.005914546230416365,
+        "form_z_score": -0.0004679976415711253,
         "weekly": [
           {
             "week": 1,
@@ -2207,7 +2553,7 @@
         "season_touchdowns": 3,
         "season_turnovers": 0,
         "season_completions": 33,
-        "form_z_score": 0.27003711061087793,
+        "form_z_score": 0.2698733361240257,
         "weekly": [
           {
             "week": 1,
@@ -2252,7 +2598,7 @@
         "season_touchdowns": 2,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": -0.24047742550840565,
+        "form_z_score": -0.20347387694089675,
         "weekly": [
           {
             "week": 1,
@@ -2338,7 +2684,7 @@
         "season_touchdowns": 13,
         "season_turnovers": 6,
         "season_completions": 183,
-        "form_z_score": -0.24047742550840565,
+        "form_z_score": -0.20347387694089675,
         "weekly": [
           {
             "week": 1,
@@ -2412,7 +2758,7 @@
         "season_touchdowns": 1,
         "season_turnovers": 0,
         "season_completions": 22,
-        "form_z_score": 0.5168033577102061,
+        "form_z_score": 0.5052757150512945,
         "weekly": [
           {
             "week": 2,
@@ -2453,7 +2799,7 @@
         "season_touchdowns": 2,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": 0.5168033577102061,
+        "form_z_score": 0.5052757150512945,
         "weekly": [
           {
             "week": 2,
@@ -2539,7 +2885,7 @@
         "season_touchdowns": 2,
         "season_turnovers": 1,
         "season_completions": 0,
-        "form_z_score": -1.1438576199944983,
+        "form_z_score": -1.134691429139321,
         "weekly": [
           {
             "week": 1,
@@ -2582,7 +2928,7 @@
         "season_touchdowns": 5,
         "season_turnovers": 1,
         "season_completions": 88,
-        "form_z_score": 0.9987430736684054,
+        "form_z_score": 1.0501542649338942,
         "weekly": [
           {
             "week": 1,
@@ -2615,7 +2961,7 @@
         "season_touchdowns": 0,
         "season_turnovers": 1,
         "season_completions": 24,
-        "form_z_score": 0.3033754788948829,
+        "form_z_score": 0.3040012156259846,
         "weekly": [
           {
             "week": 1,
@@ -2705,7 +3051,7 @@
         "season_touchdowns": 2,
         "season_turnovers": 1,
         "season_completions": 35,
-        "form_z_score": 0.41756180212022387,
+        "form_z_score": 0.41993999903004675,
         "weekly": [
           {
             "week": 1,
@@ -2783,7 +3129,7 @@
         "season_touchdowns": 2,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": 0.9987430736684054,
+        "form_z_score": 1.0501542649338942,
         "weekly": [
           {
             "week": 1,
@@ -2816,7 +3162,7 @@
         "season_touchdowns": 0,
         "season_turnovers": 0,
         "season_completions": 22,
-        "form_z_score": -0.0486460377258179,
+        "form_z_score": -0.05409211416936724,
         "weekly": [
           {
             "week": 1,
@@ -2861,7 +3207,7 @@
         "season_touchdowns": 2,
         "season_turnovers": 0,
         "season_completions": 26,
-        "form_z_score": -0.42966150508021783,
+        "form_z_score": -0.4076789857315949,
         "weekly": [
           {
             "week": 1,
@@ -2960,7 +3306,7 @@
         "season_touchdowns": 1,
         "season_turnovers": 1,
         "season_completions": 0,
-        "form_z_score": 0.08001775607285458,
+        "form_z_score": 0.07453721591133375,
         "weekly": [
           {
             "week": 4,
@@ -2993,7 +3339,7 @@
         "season_touchdowns": 7,
         "season_turnovers": 2,
         "season_completions": 0,
-        "form_z_score": -0.0486460377258179,
+        "form_z_score": -0.05409211416936724,
         "weekly": [
           {
             "week": 1,
@@ -3073,7 +3419,7 @@
         "season_touchdowns": 3,
         "season_turnovers": 0,
         "season_completions": 40,
-        "form_z_score": 0.02756232215266962,
+        "form_z_score": 0.020938278971903986,
         "weekly": [
           {
             "week": 1,
@@ -3159,7 +3505,7 @@
         "season_touchdowns": 5,
         "season_turnovers": 1,
         "season_completions": 74,
-        "form_z_score": -0.20484725766267595,
+        "form_z_score": -0.16852598863328264,
         "weekly": [
           {
             "week": 4,
@@ -3192,7 +3538,7 @@
         "season_touchdowns": 0,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": 0.21140932355996406,
+        "form_z_score": 0.2051642063965862,
         "weekly": [
           {
             "week": 1,
@@ -3233,7 +3579,7 @@
         "season_touchdowns": 2,
         "season_turnovers": 1,
         "season_completions": 26,
-        "form_z_score": -0.7335900085688599,
+        "form_z_score": -0.720964987848075,
         "weekly": [
           {
             "week": 1,
@@ -3278,7 +3624,7 @@
         "season_touchdowns": 7,
         "season_turnovers": 1,
         "season_completions": 0,
-        "form_z_score": -0.47136650476374087,
+        "form_z_score": -0.47164557232656507,
         "weekly": [
           {
             "week": 1,
@@ -3325,7 +3671,7 @@
         "season_touchdowns": 1,
         "season_turnovers": 0,
         "season_completions": 38,
-        "form_z_score": 0.39574867411238185,
+        "form_z_score": 0.39697697496561446,
         "weekly": [
           {
             "week": 1,
@@ -3370,7 +3716,7 @@
         "season_touchdowns": 9,
         "season_turnovers": 1,
         "season_completions": 96,
-        "form_z_score": 0.11793410710677515,
+        "form_z_score": 0.1580833683545659,
         "weekly": [
           {
             "week": 3,
@@ -3407,7 +3753,7 @@
         "season_touchdowns": 4,
         "season_turnovers": 0,
         "season_completions": 20,
-        "form_z_score": 0.47012311229706677,
+        "form_z_score": 0.495695022176602,
         "weekly": [
           {
             "week": 1,
@@ -3452,7 +3798,7 @@
         "season_touchdowns": 4,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": 0.13441678404135315,
+        "form_z_score": 0.12657665096674378,
         "weekly": [
           {
             "week": 1,
@@ -3583,7 +3929,7 @@
         "season_touchdowns": 2,
         "season_turnovers": 0,
         "season_completions": 25,
-        "form_z_score": 0.13441678404135315,
+        "form_z_score": 0.12657665096674378,
         "weekly": [
           {
             "week": 1,
@@ -3655,7 +4001,7 @@
         "season_touchdowns": 13,
         "season_turnovers": 8,
         "season_completions": 141,
-        "form_z_score": 1.9264538913086748,
+        "form_z_score": 1.9884361810166005,
         "weekly": [
           {
             "week": 1,
@@ -3700,7 +4046,7 @@
         "season_touchdowns": 2,
         "season_turnovers": 0,
         "season_completions": 26,
-        "form_z_score": 0.702461394317253,
+        "form_z_score": 0.7304178718069909,
         "weekly": [
           {
             "week": 1,
@@ -3745,7 +4091,7 @@
         "season_touchdowns": 2,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": 1.9264538913086748,
+        "form_z_score": 1.9884361810166005,
         "weekly": [
           {
             "week": 1,
@@ -3790,7 +4136,7 @@
         "season_touchdowns": 3,
         "season_turnovers": 1,
         "season_completions": 23,
-        "form_z_score": 0.5563109340383774,
+        "form_z_score": 0.5626929451434839,
         "weekly": [
           {
             "week": 1,
@@ -3909,7 +4255,7 @@
         "season_touchdowns": 1,
         "season_turnovers": 1,
         "season_completions": 20,
-        "form_z_score": 0.8100052177510859,
+        "form_z_score": 0.7940921990619828,
         "weekly": [
           {
             "week": 1,
@@ -3950,7 +4296,7 @@
         "season_touchdowns": 0,
         "season_turnovers": 0,
         "season_completions": 9,
-        "form_z_score": -0.7275151610463846,
+        "form_z_score": -0.7478970673853376,
         "weekly": [
           {
             "week": 1,
@@ -3979,7 +4325,7 @@
         "season_touchdowns": 2,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": 0.8100052177510859,
+        "form_z_score": 0.7940921990619828,
         "weekly": [
           {
             "week": 1,
@@ -4024,7 +4370,7 @@
         "season_touchdowns": 0,
         "season_turnovers": 1,
         "season_completions": 0,
-        "form_z_score": -0.20727154149299365,
+        "form_z_score": -0.20876029978636385,
         "weekly": [
           {
             "week": 1,
@@ -4065,7 +4411,7 @@
         "season_touchdowns": 1,
         "season_turnovers": 1,
         "season_completions": 0,
-        "form_z_score": -0.6456103143944434,
+        "form_z_score": -0.6418511677793671,
         "weekly": [
           {
             "week": 2,
@@ -4108,7 +4454,7 @@
         "season_touchdowns": 13,
         "season_turnovers": 5,
         "season_completions": 162,
-        "form_z_score": 0.9799580564481543,
+        "form_z_score": 1.0311527082789034,
         "weekly": [
           {
             "week": 1,
@@ -4153,7 +4499,7 @@
         "season_touchdowns": 6,
         "season_turnovers": 0,
         "season_completions": 34,
-        "form_z_score": 0.9074220622645395,
+        "form_z_score": 0.9199906473326217,
         "weekly": [
           {
             "week": 1,
@@ -4198,7 +4544,7 @@
         "season_touchdowns": 2,
         "season_turnovers": 0,
         "season_completions": 29,
-        "form_z_score": 0.34300438708488346,
+        "form_z_score": 0.3708486812050272,
         "weekly": [
           {
             "week": 1,
@@ -4243,7 +4589,7 @@
         "season_touchdowns": 3,
         "season_turnovers": 0,
         "season_completions": 36,
-        "form_z_score": -0.45362097733430173,
+        "form_z_score": -0.46973594214822617,
         "weekly": [
           {
             "week": 1,
@@ -4325,7 +4671,7 @@
         "season_touchdowns": 2,
         "season_turnovers": 1,
         "season_completions": 0,
-        "form_z_score": -0.6560516748527541,
+        "form_z_score": -0.6525477044261885,
         "weekly": [
           {
             "week": 1,
@@ -4372,7 +4718,7 @@
         "season_touchdowns": 16,
         "season_turnovers": 5,
         "season_completions": 161,
-        "form_z_score": 0.12570894810849598,
+        "form_z_score": 0.16761624125947766,
         "weekly": [
           {
             "week": 1,
@@ -4417,7 +4763,7 @@
         "season_touchdowns": 3,
         "season_turnovers": 1,
         "season_completions": 34,
-        "form_z_score": 0.10394203253106199,
+        "form_z_score": 0.1334874547916664,
         "weekly": [
           {
             "week": 3,
@@ -4454,7 +4800,7 @@
         "season_touchdowns": 4,
         "season_turnovers": 0,
         "season_completions": 29,
-        "form_z_score": 0.07768259432981511,
+        "form_z_score": 0.07283353918232292,
         "weekly": [
           {
             "week": 1,
@@ -4499,7 +4845,7 @@
         "season_touchdowns": 1,
         "season_turnovers": 0,
         "season_completions": 31,
-        "form_z_score": -0.09763439430172881,
+        "form_z_score": -0.07677114485866605,
         "weekly": [
           {
             "week": 1,
@@ -4589,7 +4935,7 @@
         "season_touchdowns": 3,
         "season_turnovers": 0,
         "season_completions": 34,
-        "form_z_score": -0.19331182309085312,
+        "form_z_score": -0.19675413216221446,
         "weekly": [
           {
             "week": 1,
@@ -4634,7 +4980,7 @@
         "season_touchdowns": 1,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": -0.7029048741860603,
+        "form_z_score": -0.6981537253522488,
         "weekly": [
           {
             "week": 1,
@@ -4716,7 +5062,7 @@
         "season_touchdowns": 1,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": -0.19331182309085312,
+        "form_z_score": -0.19675413216221446,
         "weekly": [
           {
             "week": 1,
@@ -4749,295 +5095,6 @@
         ]
       }
     ],
-    "DAL": [
-      {
-        "player_id": "00-0033077",
-        "player_name": "Rayne Prescott",
-        "role": "passer",
-        "position": "QB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yvscmqq1qki8zfsemmcd",
-        "season_plays": 256,
-        "season_total_epa": 32.08349105902016,
-        "season_epa_per_play": 0.1253261369492975,
-        "season_yards": 1605,
-        "season_touchdowns": 10,
-        "season_turnovers": 5,
-        "season_completions": 163,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": 10.38090305775404
-          },
-          {
-            "week": 2,
-            "total_epa": 15.104026049375534
-          },
-          {
-            "week": 3,
-            "total_epa": 8.413465909659863
-          },
-          {
-            "week": 4,
-            "total_epa": 9.829739585518837
-          },
-          {
-            "week": 5,
-            "total_epa": -3.286763431504369
-          },
-          {
-            "week": 6,
-            "total_epa": -8.357880111783743
-          }
-        ]
-      },
-      {
-        "player_id": "00-0036358",
-        "player_name": "Cedarian Lamb",
-        "role": "receiver",
-        "position": "WR",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mbblzwtynxr15ovzkevi",
-        "season_plays": 71,
-        "season_total_epa": 24.52256168052554,
-        "season_epa_per_play": 0.34538819268345833,
-        "season_yards": 579,
-        "season_touchdowns": 4,
-        "season_turnovers": 0,
-        "season_completions": 48,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": 5.593274384737015
-          },
-          {
-            "week": 2,
-            "total_epa": 11.368333399295807
-          },
-          {
-            "week": 3,
-            "total_epa": 11.066625535488129
-          },
-          {
-            "week": 4,
-            "total_epa": 13.613645017147064
-          },
-          {
-            "week": 5,
-            "total_epa": -2.8379258550703526
-          },
-          {
-            "week": 6,
-            "total_epa": -14.28139080107212
-          }
-        ]
-      },
-      {
-        "player_id": "00-0037247",
-        "player_name": "George Pickens",
-        "role": "receiver",
-        "position": "WR",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cbpyykoguf7rsxezqzvk",
-        "season_plays": 52,
-        "season_total_epa": 20.531612696126103,
-        "season_epa_per_play": 0.3948387056947328,
-        "season_yards": 428,
-        "season_touchdowns": 1,
-        "season_turnovers": 0,
-        "season_completions": 33,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": 0.6187376081943512
-          },
-          {
-            "week": 2,
-            "total_epa": 0.48199689388275146
-          },
-          {
-            "week": 3,
-            "total_epa": 5.130736440420151
-          },
-          {
-            "week": 4,
-            "total_epa": 3.9335649013519287
-          },
-          {
-            "week": 5,
-            "total_epa": 6.402665229514241
-          },
-          {
-            "week": 6,
-            "total_epa": 3.96391162276268
-          }
-        ]
-      },
-      {
-        "player_id": "00-0039410",
-        "player_name": "Ryan Flournoy",
-        "role": "receiver",
-        "position": "WR",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tqwq3cgpqu7j9hzoyicx",
-        "season_plays": 37,
-        "season_total_epa": 6.80484926328063,
-        "season_epa_per_play": 0.18391484495353055,
-        "season_yards": 234,
-        "season_touchdowns": 1,
-        "season_turnovers": 0,
-        "season_completions": 23,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": 2.5284291803836823
-          },
-          {
-            "week": 2,
-            "total_epa": 0.1951494663953781
-          },
-          {
-            "week": 3,
-            "total_epa": -2.816414952278137
-          },
-          {
-            "week": 4,
-            "total_epa": 3.684910461306572
-          },
-          {
-            "week": 5,
-            "total_epa": -0.4019366502761841
-          },
-          {
-            "week": 6,
-            "total_epa": 3.614711757749319
-          }
-        ]
-      },
-      {
-        "player_id": "00-0036997",
-        "player_name": "Javonte Williams",
-        "role": "rusher",
-        "position": "RB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xvwroirev2kie6oiphtz",
-        "season_plays": 85,
-        "season_total_epa": 1.8682439615949988,
-        "season_epa_per_play": 0.021979340724647044,
-        "season_yards": 317,
-        "season_touchdowns": 7,
-        "season_turnovers": 0,
-        "season_completions": 0,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": 1.3868122026324272
-          },
-          {
-            "week": 2,
-            "total_epa": -3.7425385750830173
-          },
-          {
-            "week": 3,
-            "total_epa": -0.8968258053064346
-          },
-          {
-            "week": 4,
-            "total_epa": 2.8130401177331805
-          },
-          {
-            "week": 5,
-            "total_epa": -0.08043327182531357
-          },
-          {
-            "week": 6,
-            "total_epa": 2.3881892934441566
-          }
-        ]
-      },
-      {
-        "player_id": "00-0036997",
-        "player_name": "Javonte Williams",
-        "role": "receiver",
-        "position": "RB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xvwroirev2kie6oiphtz",
-        "season_plays": 22,
-        "season_total_epa": 0.1784801334142685,
-        "season_epa_per_play": 0.008112733337012205,
-        "season_yards": 103,
-        "season_touchdowns": 1,
-        "season_turnovers": 0,
-        "season_completions": 19,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": 1.6393468976020813
-          },
-          {
-            "week": 2,
-            "total_epa": 0.2431722730398178
-          },
-          {
-            "week": 3,
-            "total_epa": 0.750237226486206
-          },
-          {
-            "week": 4,
-            "total_epa": -1.7859738171100616
-          },
-          {
-            "week": 5,
-            "total_epa": 0.24620065093040466
-          },
-          {
-            "week": 6,
-            "total_epa": -0.9145030975341797
-          }
-        ]
-      },
-      {
-        "player_id": "00-0038041",
-        "player_name": "Jake Ferguson",
-        "role": "receiver",
-        "position": "TE",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xpykb0tbosfwsn6dqstb",
-        "season_plays": 24,
-        "season_total_epa": -6.024991266429424,
-        "season_epa_per_play": -0.25104130276789266,
-        "season_yards": 115,
-        "season_touchdowns": 3,
-        "season_turnovers": 1,
-        "season_completions": 17,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": -0.21047763526439667
-          },
-          {
-            "week": 2,
-            "total_epa": 6.472676515579224
-          },
-          {
-            "week": 3,
-            "total_epa": -4.642300583422184
-          },
-          {
-            "week": 4,
-            "total_epa": -0.11231249570846558
-          },
-          {
-            "week": 5,
-            "total_epa": -7.069239675998688
-          },
-          {
-            "week": 6,
-            "total_epa": -0.46333739161491394
-          }
-        ]
-      }
-    ],
     "HOU": [
       {
         "player_id": "00-0039163",
@@ -5052,7 +5109,7 @@
         "season_touchdowns": 11,
         "season_turnovers": 1,
         "season_completions": 160,
-        "form_z_score": 1.2446780611126484,
+        "form_z_score": 1.2981220764825299,
         "weekly": [
           {
             "week": 1,
@@ -5097,7 +5154,7 @@
         "season_touchdowns": 3,
         "season_turnovers": 0,
         "season_completions": 24,
-        "form_z_score": 0.46804986440406987,
+        "form_z_score": 0.4718768349129997,
         "weekly": [
           {
             "week": 1,
@@ -5269,7 +5326,7 @@
         "season_touchdowns": 1,
         "season_turnovers": 0,
         "season_completions": 21,
-        "form_z_score": -0.3550505797939941,
+        "form_z_score": -0.3671781849692772,
         "weekly": [
           {
             "week": 1,
@@ -5314,7 +5371,7 @@
         "season_touchdowns": 2,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": -0.13721269968944488,
+        "form_z_score": -0.14118357339638893,
         "weekly": [
           {
             "week": 1,
@@ -5398,7 +5455,7 @@
         "season_touchdowns": 15,
         "season_turnovers": 7,
         "season_completions": 187,
-        "form_z_score": 0.17322918686755384,
+        "form_z_score": 0.21581982977318273,
         "weekly": [
           {
             "week": 1,
@@ -5484,7 +5541,7 @@
         "season_touchdowns": 2,
         "season_turnovers": 0,
         "season_completions": 45,
-        "form_z_score": -0.02546250004781603,
+        "form_z_score": -0.03393397614173024,
         "weekly": [
           {
             "week": 1,
@@ -5521,7 +5578,7 @@
         "season_touchdowns": 2,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": 1.4546226560827764,
+        "form_z_score": 1.4310613812248931,
         "weekly": [
           {
             "week": 1,
@@ -5607,7 +5664,7 @@
         "season_touchdowns": 5,
         "season_turnovers": 2,
         "season_completions": 0,
-        "form_z_score": 0.5435824218003538,
+        "form_z_score": 0.5304158316759056,
         "weekly": [
           {
             "week": 1,
@@ -5652,7 +5709,7 @@
         "season_touchdowns": 2,
         "season_turnovers": 0,
         "season_completions": 32,
-        "form_z_score": 0.5435824218003538,
+        "form_z_score": 0.5304158316759056,
         "weekly": [
           {
             "week": 1,
@@ -5699,7 +5756,7 @@
         "season_touchdowns": 10,
         "season_turnovers": 2,
         "season_completions": 145,
-        "form_z_score": -0.4222185627902043,
+        "form_z_score": -0.38892013230787853,
         "weekly": [
           {
             "week": 1,
@@ -5744,7 +5801,7 @@
         "season_touchdowns": 3,
         "season_turnovers": 0,
         "season_completions": 37,
-        "form_z_score": 0.16451686929036027,
+        "form_z_score": 0.1624660188056074,
         "weekly": [
           {
             "week": 1,
@@ -5789,7 +5846,7 @@
         "season_touchdowns": 2,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": 0.2858151892852661,
+        "form_z_score": 0.2759308433112899,
         "weekly": [
           {
             "week": 1,
@@ -5834,7 +5891,7 @@
         "season_touchdowns": 0,
         "season_turnovers": 0,
         "season_completions": 15,
-        "form_z_score": 0.2858151892852661,
+        "form_z_score": 0.2759308433112899,
         "weekly": [
           {
             "week": 1,
@@ -5955,7 +6012,7 @@
         "season_touchdowns": 2,
         "season_turnovers": 1,
         "season_completions": 36,
-        "form_z_score": 0.5776924125075744,
+        "form_z_score": 0.5827490298212264,
         "weekly": [
           {
             "week": 1,
@@ -5996,7 +6053,7 @@
         "season_touchdowns": 13,
         "season_turnovers": 4,
         "season_completions": 135,
-        "form_z_score": -0.4172728355434058,
+        "form_z_score": -0.3816944343844205,
         "weekly": [
           {
             "week": 1,
@@ -6078,7 +6135,7 @@
         "season_touchdowns": 4,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": 0.8875288484493495,
+        "form_z_score": 0.8699644136397188,
         "weekly": [
           {
             "week": 1,
@@ -6119,7 +6176,7 @@
         "season_touchdowns": 2,
         "season_turnovers": 0,
         "season_completions": 25,
-        "form_z_score": -0.6188433258285074,
+        "form_z_score": -0.6373528167000686,
         "weekly": [
           {
             "week": 1,
@@ -6199,7 +6256,7 @@
         "season_touchdowns": 9,
         "season_turnovers": 4,
         "season_completions": 124,
-        "form_z_score": 0.18297185886426917,
+        "form_z_score": 0.22354104302504843,
         "weekly": [
           {
             "week": 1,
@@ -6281,7 +6338,7 @@
         "season_touchdowns": 6,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": 0.32214232249446834,
+        "form_z_score": 0.3118328609051759,
         "weekly": [
           {
             "week": 1,
@@ -6322,7 +6379,7 @@
         "season_touchdowns": 1,
         "season_turnovers": 0,
         "season_completions": 24,
-        "form_z_score": 0.07247506532778647,
+        "form_z_score": 0.06882721198025331,
         "weekly": [
           {
             "week": 1,
@@ -6363,7 +6420,7 @@
         "season_touchdowns": 2,
         "season_turnovers": 0,
         "season_completions": 18,
-        "form_z_score": 0.32214232249446834,
+        "form_z_score": 0.3118328609051759,
         "weekly": [
           {
             "week": 1,
@@ -6406,7 +6463,7 @@
         "season_touchdowns": 3,
         "season_turnovers": 0,
         "season_completions": 23,
-        "form_z_score": 0.10832932265349968,
+        "form_z_score": 0.10527263837186945,
         "weekly": [
           {
             "week": 1,
@@ -6443,7 +6500,7 @@
         "season_touchdowns": 2,
         "season_turnovers": 0,
         "season_completions": 27,
-        "form_z_score": 0.21496979888181308,
+        "form_z_score": 0.23904141255739714,
         "weekly": [
           {
             "week": 1,
@@ -6509,7 +6566,7 @@
         "season_touchdowns": 1,
         "season_turnovers": 0,
         "season_completions": 13,
-        "form_z_score": -0.37516033972800555,
+        "form_z_score": -0.3882098000271736,
         "weekly": [
           {
             "week": 1,
@@ -6546,7 +6603,7 @@
         "season_touchdowns": 1,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": -0.2511383842698564,
+        "form_z_score": -0.2531496758835883,
         "weekly": [
           {
             "week": 1,
@@ -6571,7 +6628,7 @@
         "season_touchdowns": 4,
         "season_turnovers": 2,
         "season_completions": 83,
-        "form_z_score": -0.49417874886323354,
+        "form_z_score": -0.4604933501431427,
         "weekly": [
           {
             "week": 1,
@@ -6608,7 +6665,7 @@
         "season_touchdowns": 2,
         "season_turnovers": 1,
         "season_completions": 0,
-        "form_z_score": -0.7306540261455067,
+        "form_z_score": -0.7276135484427515,
         "weekly": [
           {
             "week": 1,
@@ -6676,7 +6733,7 @@
         "season_touchdowns": 2,
         "season_turnovers": 0,
         "season_completions": 48,
-        "form_z_score": 0.27686921359412187,
+        "form_z_score": 0.2747921221106727,
         "weekly": [
           {
             "week": 1,
@@ -6721,7 +6778,7 @@
         "season_touchdowns": 5,
         "season_turnovers": 0,
         "season_completions": 41,
-        "form_z_score": -0.27604610855539546,
+        "form_z_score": -0.24978354673908398,
         "weekly": [
           {
             "week": 1,
@@ -6766,7 +6823,7 @@
         "season_touchdowns": 1,
         "season_turnovers": 1,
         "season_completions": 31,
-        "form_z_score": 0.5834410497520665,
+        "form_z_score": 0.6246931276139206,
         "weekly": [
           {
             "week": 6,
@@ -6881,7 +6938,7 @@
         "season_touchdowns": 2,
         "season_turnovers": 1,
         "season_completions": 0,
-        "form_z_score": 0.11789879749727657,
+        "form_z_score": 0.11035384762154532,
         "weekly": [
           {
             "week": 1,
@@ -6959,7 +7016,7 @@
         "season_touchdowns": 7,
         "season_turnovers": 5,
         "season_completions": 90,
-        "form_z_score": 0.09395164542797836,
+        "form_z_score": 0.13360734791755524,
         "weekly": [
           {
             "week": 2,
@@ -6998,7 +7055,7 @@
         "season_touchdowns": 4,
         "season_turnovers": 0,
         "season_completions": 59,
-        "form_z_score": -0.2907911486497455,
+        "form_z_score": -0.26381683039469334,
         "weekly": [
           {
             "week": 1,
@@ -7043,7 +7100,7 @@
         "season_touchdowns": 1,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": -0.7178929239961437,
+        "form_z_score": -0.6851678977254858,
         "weekly": [
           {
             "week": 1,
@@ -7088,7 +7145,7 @@
         "season_touchdowns": 0,
         "season_turnovers": 0,
         "season_completions": 25,
-        "form_z_score": -0.3273890927280162,
+        "form_z_score": -0.33947577229081516,
         "weekly": [
           {
             "week": 1,
@@ -7129,7 +7186,7 @@
         "season_touchdowns": 0,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": -0.16044564769548722,
+        "form_z_score": -0.16273728787641734,
         "weekly": [
           {
             "week": 2,
@@ -7199,7 +7256,7 @@
         "season_touchdowns": 2,
         "season_turnovers": 0,
         "season_completions": 37,
-        "form_z_score": -0.7762598985187807,
+        "form_z_score": -0.798652234501529,
         "weekly": [
           {
             "week": 1,
@@ -7244,7 +7301,7 @@
         "season_touchdowns": 11,
         "season_turnovers": 6,
         "season_completions": 183,
-        "form_z_score": -0.7178929239961437,
+        "form_z_score": -0.6851678977254858,
         "weekly": [
           {
             "week": 1,
@@ -7289,7 +7346,7 @@
         "season_touchdowns": 1,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": -0.3060327862664467,
+        "form_z_score": -0.30721919551766613,
         "weekly": [
           {
             "week": 1,
@@ -7336,7 +7393,7 @@
         "season_touchdowns": 3,
         "season_turnovers": 1,
         "season_completions": 0,
-        "form_z_score": -0.4350488141693161,
+        "form_z_score": -0.4013271985596487,
         "weekly": [
           {
             "week": 1,
@@ -7377,7 +7434,7 @@
         "season_touchdowns": 0,
         "season_turnovers": 0,
         "season_completions": 18,
-        "form_z_score": 0.21011057252741117,
+        "form_z_score": 0.23301388438172993,
         "weekly": [
           {
             "week": 1,
@@ -7414,7 +7471,7 @@
         "season_touchdowns": 4,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": 0.49852351993117194,
+        "form_z_score": 0.48613193669345744,
         "weekly": [
           {
             "week": 2,
@@ -7451,7 +7508,7 @@
         "season_touchdowns": 0,
         "season_turnovers": 1,
         "season_completions": 26,
-        "form_z_score": -0.2858648086878685,
+        "form_z_score": -0.29795094947431533,
         "weekly": [
           {
             "week": 1,
@@ -7521,7 +7578,7 @@
         "season_touchdowns": 0,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": -0.712343943354464,
+        "form_z_score": -0.7066327643715733,
         "weekly": [
           {
             "week": 1,
@@ -7558,7 +7615,7 @@
         "season_touchdowns": 4,
         "season_turnovers": 4,
         "season_completions": 87,
-        "form_z_score": -0.4350488141693161,
+        "form_z_score": -0.4013271985596487,
         "weekly": [
           {
             "week": 1,
@@ -7635,14 +7692,14 @@
         "role": "receiver",
         "position": "TE",
         "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bafepstxu7vvxb9v5vua",
-        "season_plays": 24,
-        "season_total_epa": 11.63018760830164,
-        "season_epa_per_play": 0.48459115034590167,
-        "season_yards": 180,
+        "season_plays": 31,
+        "season_total_epa": 7.28392069041729,
+        "season_epa_per_play": 0.23496518356184806,
+        "season_yards": 228,
         "season_touchdowns": 2,
         "season_turnovers": 0,
-        "season_completions": 17,
-        "form_z_score": null,
+        "season_completions": 22,
+        "form_z_score": -0.37429055875583256,
         "weekly": [
           {
             "week": 1,
@@ -7659,6 +7716,92 @@
           {
             "week": 6,
             "total_epa": 4.363970041275024
+          },
+          {
+            "week": 7,
+            "total_epa": -4.34626691788435
+          }
+        ]
+      },
+      {
+        "player_id": "00-0034844",
+        "player_name": "Saquon Barkley",
+        "role": "rusher",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qcayrzjpura2zydszonh",
+        "season_plays": 43,
+        "season_total_epa": 3.1264120964333415,
+        "season_epa_per_play": 0.07270725805658934,
+        "season_yards": 244,
+        "season_touchdowns": 1,
+        "season_turnovers": 0,
+        "season_completions": 0,
+        "form_z_score": 0.48060887984655337,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -0.664371863938868
+          },
+          {
+            "week": 2,
+            "total_epa": -1.412509523332119
+          },
+          {
+            "week": 3,
+            "total_epa": 2.2430530972778797
+          },
+          {
+            "week": 4,
+            "total_epa": -0.17641308903694153
+          },
+          {
+            "week": 7,
+            "total_epa": 3.1366534754633904
+          }
+        ]
+      },
+      {
+        "player_id": "00-0040867",
+        "player_name": "Makai Lemon",
+        "role": "receiver",
+        "position": "WR",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ys2i2o7c0bl36xvlrojz",
+        "season_plays": 36,
+        "season_total_epa": 2.346481814980507,
+        "season_epa_per_play": 0.0651800504161252,
+        "season_yards": 194,
+        "season_touchdowns": 1,
+        "season_turnovers": 0,
+        "season_completions": 25,
+        "form_z_score": -0.11444047477259042,
+        "weekly": [
+          {
+            "week": 1,
+            "total_epa": -3.885184794664383
+          },
+          {
+            "week": 2,
+            "total_epa": 2.49466609954834
+          },
+          {
+            "week": 3,
+            "total_epa": -1.6033435463905334
+          },
+          {
+            "week": 4,
+            "total_epa": 1.5565593987703323
+          },
+          {
+            "week": 5,
+            "total_epa": 0.08046653866767883
+          },
+          {
+            "week": 6,
+            "total_epa": -2.9239318668842316
+          },
+          {
+            "week": 7,
+            "total_epa": 6.627249985933304
           }
         ]
       },
@@ -7733,80 +7876,6 @@
         ]
       },
       {
-        "player_id": "00-0034844",
-        "player_name": "Saquon Barkley",
-        "role": "rusher",
-        "position": "RB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qcayrzjpura2zydszonh",
-        "season_plays": 36,
-        "season_total_epa": -0.010241379030048847,
-        "season_epa_per_play": -0.0002844827508346902,
-        "season_yards": 182,
-        "season_touchdowns": 0,
-        "season_turnovers": 0,
-        "season_completions": 0,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": -0.664371863938868
-          },
-          {
-            "week": 2,
-            "total_epa": -1.412509523332119
-          },
-          {
-            "week": 3,
-            "total_epa": 2.2430530972778797
-          },
-          {
-            "week": 4,
-            "total_epa": -0.17641308903694153
-          }
-        ]
-      },
-      {
-        "player_id": "00-0040867",
-        "player_name": "Makai Lemon",
-        "role": "receiver",
-        "position": "WR",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ys2i2o7c0bl36xvlrojz",
-        "season_plays": 28,
-        "season_total_epa": -4.280768170952797,
-        "season_epa_per_play": -0.15288457753402845,
-        "season_yards": 127,
-        "season_touchdowns": 0,
-        "season_turnovers": 0,
-        "season_completions": 18,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 1,
-            "total_epa": -3.885184794664383
-          },
-          {
-            "week": 2,
-            "total_epa": 2.49466609954834
-          },
-          {
-            "week": 3,
-            "total_epa": -1.6033435463905334
-          },
-          {
-            "week": 4,
-            "total_epa": 1.5565593987703323
-          },
-          {
-            "week": 5,
-            "total_epa": 0.08046653866767883
-          },
-          {
-            "week": 6,
-            "total_epa": -2.9239318668842316
-          }
-        ]
-      },
-      {
         "player_id": "00-0038555",
         "player_name": "Cartavious Bigsby",
         "role": "rusher",
@@ -7832,6 +7901,35 @@
           {
             "week": 4,
             "total_epa": -2.7497393265366554
+          }
+        ]
+      },
+      {
+        "player_id": "00-0037258",
+        "player_name": "Dameon Pierce",
+        "role": "rusher",
+        "position": "RB",
+        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/oai3defivyfyofxxh4ux",
+        "season_plays": 37,
+        "season_total_epa": -5.875616648234427,
+        "season_epa_per_play": -0.15880044995228182,
+        "season_yards": 96,
+        "season_touchdowns": 2,
+        "season_turnovers": 0,
+        "season_completions": 0,
+        "form_z_score": -0.8111049275520982,
+        "weekly": [
+          {
+            "week": 5,
+            "total_epa": -6.547596448101103
+          },
+          {
+            "week": 6,
+            "total_epa": -0.2919870838522911
+          },
+          {
+            "week": 7,
+            "total_epa": 0.9639668837189674
           }
         ]
       },
@@ -7869,48 +7967,27 @@
         ]
       },
       {
-        "player_id": "00-0037258",
-        "player_name": "Dameon Pierce",
-        "role": "rusher",
-        "position": "RB",
-        "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/oai3defivyfyofxxh4ux",
-        "season_plays": 23,
-        "season_total_epa": -6.839583531953394,
-        "season_epa_per_play": -0.29737319704145193,
-        "season_yards": 49,
-        "season_touchdowns": 1,
-        "season_turnovers": 0,
-        "season_completions": 0,
-        "form_z_score": null,
-        "weekly": [
-          {
-            "week": 5,
-            "total_epa": -6.547596448101103
-          },
-          {
-            "week": 6,
-            "total_epa": -0.2919870838522911
-          }
-        ]
-      },
-      {
         "player_id": "00-0038400",
         "player_name": "Tanner McKee",
         "role": "passer",
         "position": "QB",
         "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/oveivzhzv13jrfvkp8zg",
-        "season_plays": 48,
-        "season_total_epa": -8.629294820129871,
-        "season_epa_per_play": -0.17977697541937232,
-        "season_yards": 187,
-        "season_touchdowns": 1,
-        "season_turnovers": 0,
-        "season_completions": 26,
-        "form_z_score": null,
+        "season_plays": 85,
+        "season_total_epa": -11.983441084623337,
+        "season_epa_per_play": -0.14098165981909808,
+        "season_yards": 387,
+        "season_touchdowns": 2,
+        "season_turnovers": 1,
+        "season_completions": 49,
+        "form_z_score": -0.9407198078223025,
         "weekly": [
           {
             "week": 6,
             "total_epa": -8.629294820129871
+          },
+          {
+            "week": 7,
+            "total_epa": -3.3541462644934654
           }
         ]
       },
@@ -8306,7 +8383,7 @@
         "season_touchdowns": 0,
         "season_turnovers": 0,
         "season_completions": 26,
-        "form_z_score": -0.41464543247391017,
+        "form_z_score": -0.42824213928926486,
         "weekly": [
           {
             "week": 1,
@@ -8388,7 +8465,7 @@
         "season_touchdowns": 1,
         "season_turnovers": 0,
         "season_completions": 29,
-        "form_z_score": 0.34232504148100923,
+        "form_z_score": 0.34299216550765893,
         "weekly": [
           {
             "week": 1,
@@ -8429,7 +8506,7 @@
         "season_touchdowns": 0,
         "season_turnovers": 0,
         "season_completions": 15,
-        "form_z_score": -0.33920583979267277,
+        "form_z_score": -0.3510141104015784,
         "weekly": [
           {
             "week": 1,
@@ -8474,7 +8551,7 @@
         "season_touchdowns": 0,
         "season_turnovers": 1,
         "season_completions": 17,
-        "form_z_score": 0.3567096870300334,
+        "form_z_score": 0.34588642341039927,
         "weekly": [
           {
             "week": 1,
@@ -8519,7 +8596,7 @@
         "season_touchdowns": 8,
         "season_turnovers": 1,
         "season_completions": 0,
-        "form_z_score": 0.3567096870300334,
+        "form_z_score": 0.34588642341039927,
         "weekly": [
           {
             "week": 1,
@@ -8564,7 +8641,7 @@
         "season_touchdowns": 0,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": 0.054684672837388454,
+        "form_z_score": 0.049789157760840405,
         "weekly": [
           {
             "week": 2,
@@ -8605,7 +8682,7 @@
         "season_touchdowns": 4,
         "season_turnovers": 7,
         "season_completions": 143,
-        "form_z_score": -0.9979637264472854,
+        "form_z_score": -0.9692598468458147,
         "weekly": [
           {
             "week": 1,
@@ -8652,7 +8729,7 @@
         "season_touchdowns": 1,
         "season_turnovers": 2,
         "season_completions": 34,
-        "form_z_score": 0.16387646971256117,
+        "form_z_score": 0.16104292490733293,
         "weekly": [
           {
             "week": 1,
@@ -8742,7 +8819,7 @@
         "season_touchdowns": 2,
         "season_turnovers": 0,
         "season_completions": 29,
-        "form_z_score": -0.7416515122482206,
+        "form_z_score": -0.7622048385776845,
         "weekly": [
           {
             "week": 1,
@@ -8787,7 +8864,7 @@
         "season_touchdowns": 4,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": -0.7314850266733516,
+        "form_z_score": -0.7283394903697623,
         "weekly": [
           {
             "week": 1,
@@ -8832,7 +8909,7 @@
         "season_touchdowns": 4,
         "season_turnovers": 5,
         "season_completions": 129,
-        "form_z_score": -1.3601739810038955,
+        "form_z_score": -1.3369585990779074,
         "weekly": [
           {
             "week": 1,
@@ -8879,7 +8956,7 @@
         "season_touchdowns": 1,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": 1.222480732737629,
+        "form_z_score": 1.200706933918068,
         "weekly": [
           {
             "week": 1,
@@ -8961,7 +9038,7 @@
         "season_touchdowns": 4,
         "season_turnovers": 0,
         "season_completions": 23,
-        "form_z_score": -0.05389712945711401,
+        "form_z_score": -0.03429618720362871,
         "weekly": [
           {
             "week": 1,
@@ -9006,7 +9083,7 @@
         "season_touchdowns": 1,
         "season_turnovers": 0,
         "season_completions": 32,
-        "form_z_score": 0.06334146318255506,
+        "form_z_score": 0.058116300221946936,
         "weekly": [
           {
             "week": 1,
@@ -9096,7 +9173,7 @@
         "season_touchdowns": 1,
         "season_turnovers": 1,
         "season_completions": 24,
-        "form_z_score": 1.222480732737629,
+        "form_z_score": 1.200706933918068,
         "weekly": [
           {
             "week": 1,
@@ -9141,7 +9218,7 @@
         "season_touchdowns": 1,
         "season_turnovers": 0,
         "season_completions": 27,
-        "form_z_score": -0.3490799130418028,
+        "form_z_score": -0.3620502698877143,
         "weekly": [
           {
             "week": 2,
@@ -9182,7 +9259,7 @@
         "season_touchdowns": 0,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": -0.29666671063001454,
+        "form_z_score": -0.29805738548848754,
         "weekly": [
           {
             "week": 1,
@@ -9215,7 +9292,7 @@
         "season_touchdowns": 14,
         "season_turnovers": 5,
         "season_completions": 162,
-        "form_z_score": -0.46095001852629675,
+        "form_z_score": -0.4260558520915926,
         "weekly": [
           {
             "week": 1,
@@ -9262,7 +9339,7 @@
         "season_touchdowns": 0,
         "season_turnovers": 1,
         "season_completions": 30,
-        "form_z_score": 0.16234646941008757,
+        "form_z_score": 0.15958106171692835,
         "weekly": [
           {
             "week": 1,
@@ -9307,7 +9384,7 @@
         "season_touchdowns": 3,
         "season_turnovers": 0,
         "season_completions": 20,
-        "form_z_score": -0.6507545767957514,
+        "form_z_score": -0.6695894518874572,
         "weekly": [
           {
             "week": 1,
@@ -9352,7 +9429,7 @@
         "season_touchdowns": 3,
         "season_turnovers": 1,
         "season_completions": 25,
-        "form_z_score": -0.49480588553157145,
+        "form_z_score": -0.4791373734664678,
         "weekly": [
           {
             "week": 1,
@@ -9397,7 +9474,7 @@
         "season_touchdowns": 1,
         "season_turnovers": 1,
         "season_completions": 0,
-        "form_z_score": -0.6750432270477145,
+        "form_z_score": -0.6426169647842569,
         "weekly": [
           {
             "week": 1,
@@ -9442,7 +9519,7 @@
         "season_touchdowns": 0,
         "season_turnovers": 0,
         "season_completions": 19,
-        "form_z_score": 0.21189422132834887,
+        "form_z_score": 0.2030881746632623,
         "weekly": [
           {
             "week": 1,
@@ -9524,7 +9601,7 @@
         "season_touchdowns": 7,
         "season_turnovers": 3,
         "season_completions": 136,
-        "form_z_score": -0.6750432270477145,
+        "form_z_score": -0.6426169647842569,
         "weekly": [
           {
             "week": 1,
@@ -9569,7 +9646,7 @@
         "season_touchdowns": 3,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": 0.21189422132834887,
+        "form_z_score": 0.2030881746632623,
         "weekly": [
           {
             "week": 1,
@@ -9612,7 +9689,7 @@
         "season_touchdowns": 0,
         "season_turnovers": 0,
         "season_completions": 27,
-        "form_z_score": -0.24686670739687813,
+        "form_z_score": -0.2572085740841841,
         "weekly": [
           {
             "week": 1,
@@ -9702,7 +9779,7 @@
         "season_touchdowns": 4,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": 0.5616745992961646,
+        "form_z_score": 0.5482593854435729,
         "weekly": [
           {
             "week": 1,
@@ -9788,7 +9865,7 @@
         "season_touchdowns": 0,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": 0.6946386492426672,
+        "form_z_score": 0.6815943668649662,
         "weekly": [
           {
             "week": 1,
@@ -9833,7 +9910,7 @@
         "season_touchdowns": 1,
         "season_turnovers": 1,
         "season_completions": 18,
-        "form_z_score": 0.5616745992961646,
+        "form_z_score": 0.5482593854435729,
         "weekly": [
           {
             "week": 1,
@@ -9948,7 +10025,7 @@
         "season_touchdowns": 4,
         "season_turnovers": 2,
         "season_completions": 68,
-        "form_z_score": -1.3419730386399569,
+        "form_z_score": -1.3188142989658784,
         "weekly": [
           {
             "week": 1,
@@ -9983,7 +10060,7 @@
         "season_touchdowns": 1,
         "season_turnovers": 0,
         "season_completions": 25,
-        "form_z_score": 0.7731694698309395,
+        "form_z_score": 0.7587434808651123,
         "weekly": [
           {
             "week": 1,
@@ -10024,7 +10101,7 @@
         "season_touchdowns": 1,
         "season_turnovers": 0,
         "season_completions": 26,
-        "form_z_score": -0.3105053048192408,
+        "form_z_score": -0.32236931928981,
         "weekly": [
           {
             "week": 1,
@@ -10114,7 +10191,7 @@
         "season_touchdowns": 2,
         "season_turnovers": 1,
         "season_completions": 0,
-        "form_z_score": -0.5558455411585502,
+        "form_z_score": -0.5230113171890924,
         "weekly": [
           {
             "week": 1,
@@ -10159,7 +10236,7 @@
         "season_touchdowns": 1,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": 0.7731694698309395,
+        "form_z_score": 0.7587434808651123,
         "weekly": [
           {
             "week": 1,
@@ -10245,7 +10322,7 @@
         "season_touchdowns": 7,
         "season_turnovers": 3,
         "season_completions": 129,
-        "form_z_score": -0.5558455411585502,
+        "form_z_score": -0.5230113171890924,
         "weekly": [
           {
             "week": 1,
@@ -10290,7 +10367,7 @@
         "season_touchdowns": 3,
         "season_turnovers": 0,
         "season_completions": 0,
-        "form_z_score": -0.3698301764889438,
+        "form_z_score": -0.37068846630358826,
         "weekly": [
           {
             "week": 1,
@@ -10666,7 +10743,7 @@
       },
       {
         "week": 7,
-        "league_avg_epa": 3.5447880623575587
+        "league_avg_epa": 3.601659409103117
       }
     ],
     "receiver": [
@@ -10696,7 +10773,7 @@
       },
       {
         "week": 7,
-        "league_avg_epa": 2.103639147883015
+        "league_avg_epa": 2.061814502850175
       }
     ],
     "rusher": [
@@ -10726,7 +10803,7 @@
       },
       {
         "week": 7,
-        "league_avg_epa": -0.4896901373382813
+        "league_avg_epa": -0.2063085067605313
       }
     ]
   }

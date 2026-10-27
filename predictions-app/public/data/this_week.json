@@ -42249,18 +42249,18 @@
           "completions": 9
         },
         {
-          "player_id": "00-0039738",
-          "player_name": "Blake Corum",
-          "team": "LA",
+          "player_id": "00-0036997",
+          "player_name": "Javonte Williams",
+          "team": "DAL",
           "role": "rusher",
           "week": 7,
           "position": "RB",
-          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/axzqbqjkrbwfzodwwakq",
-          "plays": 17,
-          "total_epa": 6.776993918698281,
-          "epa_per_play": 0.39864670109989886,
-          "success_rate": 0.6470588235294119,
-          "yards": 93,
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xvwroirev2kie6oiphtz",
+          "plays": 25,
+          "total_epa": 9.615020161494613,
+          "epa_per_play": 0.38460080645978456,
+          "success_rate": 0.5200000000000002,
+          "yards": 155,
           "touchdowns": 1,
           "turnovers": 0,
           "completions": 0
@@ -42370,6 +42370,23 @@
           "completions": 20
         },
         {
+          "player_id": "00-0033077",
+          "player_name": "Rayne Prescott",
+          "team": "DAL",
+          "role": "passer",
+          "week": 7,
+          "position": "QB",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yvscmqq1qki8zfsemmcd",
+          "plays": 27,
+          "total_epa": 12.036120098084211,
+          "epa_per_play": 0.4457822258549708,
+          "success_rate": 0.5555555555555556,
+          "yards": 212,
+          "touchdowns": 3,
+          "turnovers": 0,
+          "completions": 15
+        },
+        {
           "player_id": "00-0036410",
           "player_name": "Tamaurice Higgins",
           "team": "CIN",
@@ -42436,6 +42453,23 @@
           "touchdowns": 1,
           "turnovers": 1,
           "completions": 30
+        },
+        {
+          "player_id": "00-0036997",
+          "player_name": "Javonte Williams",
+          "team": "DAL",
+          "role": "rusher",
+          "week": 7,
+          "position": "RB",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xvwroirev2kie6oiphtz",
+          "plays": 25,
+          "total_epa": 9.615020161494613,
+          "epa_per_play": 0.38460080645978456,
+          "success_rate": 0.5200000000000002,
+          "yards": 155,
+          "touchdowns": 1,
+          "turnovers": 0,
+          "completions": 0
         },
         {
           "player_id": "00-0041511",
@@ -42710,6 +42744,23 @@
           "completions": 4
         },
         {
+          "player_id": "00-0040867",
+          "player_name": "Makai Lemon",
+          "team": "PHI",
+          "role": "receiver",
+          "week": 7,
+          "position": "WR",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ys2i2o7c0bl36xvlrojz",
+          "plays": 8,
+          "total_epa": 6.627249985933304,
+          "epa_per_play": 0.828406248241663,
+          "success_rate": 0.5,
+          "yards": 67,
+          "touchdowns": 1,
+          "turnovers": 0,
+          "completions": 7
+        },
+        {
           "player_id": "00-0037744",
           "player_name": "Trey McBride",
           "team": "ARI",
@@ -42810,6 +42861,23 @@
           "touchdowns": 1,
           "turnovers": 0,
           "completions": 5
+        },
+        {
+          "player_id": "00-0039410",
+          "player_name": "Ryan Flournoy",
+          "team": "DAL",
+          "role": "receiver",
+          "week": 7,
+          "position": "WR",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tqwq3cgpqu7j9hzoyicx",
+          "plays": 4,
+          "total_epa": 5.409682467579842,
+          "epa_per_play": 1.3524206168949604,
+          "success_rate": 1.0,
+          "yards": 70,
+          "touchdowns": 0,
+          "turnovers": 0,
+          "completions": 4
         },
         {
           "player_id": "00-0033090",
@@ -43152,6 +43220,23 @@
           "completions": 2
         },
         {
+          "player_id": "00-0037247",
+          "player_name": "George Pickens",
+          "team": "DAL",
+          "role": "receiver",
+          "week": 7,
+          "position": "WR",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cbpyykoguf7rsxezqzvk",
+          "plays": 6,
+          "total_epa": 3.742458164691925,
+          "epa_per_play": 0.6237430274486542,
+          "success_rate": 0.6666666666666666,
+          "yards": 57,
+          "touchdowns": 1,
+          "turnovers": 0,
+          "completions": 4
+        },
+        {
           "player_id": "00-0040784",
           "player_name": "Quinshon Judkins",
           "team": "CLE",
@@ -43167,6 +43252,23 @@
           "touchdowns": 2,
           "turnovers": 0,
           "completions": 0
+        },
+        {
+          "player_id": "00-0036358",
+          "player_name": "Cedarian Lamb",
+          "team": "DAL",
+          "role": "receiver",
+          "week": 7,
+          "position": "WR",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mbblzwtynxr15ovzkevi",
+          "plays": 12,
+          "total_epa": 3.6397338174283504,
+          "epa_per_play": 0.30331115145236254,
+          "success_rate": 0.41666666666666663,
+          "yards": 74,
+          "touchdowns": 2,
+          "turnovers": 0,
+          "completions": 5
         },
         {
           "player_id": "00-0036919",
@@ -43237,13 +43339,13 @@
           "completions": 0
         },
         {
-          "player_id": "00-0037304",
-          "player_name": "Connor Heyward",
+          "player_id": "00-0035190",
+          "player_name": "A.J. Cole",
           "team": "LV",
-          "role": "receiver",
+          "role": "passer",
           "week": 7,
-          "position": "RB",
-          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/nbbhxtutzvbj0ejljyyp",
+          "position": "P",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/t6ah2u0wptbb8n22tehr",
           "plays": 1,
           "total_epa": 3.364692211151123,
           "epa_per_play": 3.364692211151123,
@@ -43254,13 +43356,13 @@
           "completions": 1
         },
         {
-          "player_id": "00-0035190",
-          "player_name": "A.J. Cole",
+          "player_id": "00-0037304",
+          "player_name": "Connor Heyward",
           "team": "LV",
-          "role": "passer",
+          "role": "receiver",
           "week": 7,
-          "position": "P",
-          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/t6ah2u0wptbb8n22tehr",
+          "position": "RB",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/nbbhxtutzvbj0ejljyyp",
           "plays": 1,
           "total_epa": 3.364692211151123,
           "epa_per_play": 3.364692211151123,
@@ -43371,6 +43473,23 @@
           "touchdowns": 1,
           "turnovers": 0,
           "completions": 2
+        },
+        {
+          "player_id": "00-0034844",
+          "player_name": "Saquon Barkley",
+          "team": "PHI",
+          "role": "rusher",
+          "week": 7,
+          "position": "RB",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qcayrzjpura2zydszonh",
+          "plays": 7,
+          "total_epa": 3.1366534754633904,
+          "epa_per_play": 0.44809335363762715,
+          "success_rate": 0.5714285714285714,
+          "yards": 62,
+          "touchdowns": 1,
+          "turnovers": 0,
+          "completions": 0
         },
         {
           "player_id": "00-0036309",
@@ -44665,6 +44784,23 @@
           "completions": 4
         },
         {
+          "player_id": "00-0040024",
+          "player_name": "Darius Cooper",
+          "team": "PHI",
+          "role": "receiver",
+          "week": 7,
+          "position": "WR",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pe71oe4eoyyfnq80fkxc",
+          "plays": 3,
+          "total_epa": 1.1045037806034088,
+          "epa_per_play": 0.3681679268678029,
+          "success_rate": 0.33333333333333337,
+          "yards": 17,
+          "touchdowns": 0,
+          "turnovers": 0,
+          "completions": 1
+        },
+        {
           "player_id": "00-0039849",
           "player_name": "Marvin Harrison",
           "team": "HOU",
@@ -44680,6 +44816,23 @@
           "touchdowns": 1,
           "turnovers": 0,
           "completions": 1
+        },
+        {
+          "player_id": "00-0033077",
+          "player_name": "Rayne Prescott",
+          "team": "DAL",
+          "role": "rusher",
+          "week": 7,
+          "position": "QB",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yvscmqq1qki8zfsemmcd",
+          "plays": 3,
+          "total_epa": 1.0596050024032593,
+          "epa_per_play": 0.3532016674677531,
+          "success_rate": 0.6666666666666666,
+          "yards": 10,
+          "touchdowns": 0,
+          "turnovers": 0,
+          "completions": 0
         },
         {
           "player_id": "00-0041067",
@@ -44801,6 +44954,23 @@
           "completions": 3
         },
         {
+          "player_id": "00-0037258",
+          "player_name": "Dameon Pierce",
+          "team": "PHI",
+          "role": "rusher",
+          "week": 7,
+          "position": "RB",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/oai3defivyfyofxxh4ux",
+          "plays": 14,
+          "total_epa": 0.9639668837189674,
+          "epa_per_play": 0.06885477740849767,
+          "success_rate": 0.42857142857142855,
+          "yards": 47,
+          "touchdowns": 1,
+          "turnovers": 0,
+          "completions": 0
+        },
+        {
           "player_id": "00-0036924",
           "player_name": "Michael Carter",
           "team": "TEN",
@@ -44901,6 +45071,23 @@
           "touchdowns": 0,
           "turnovers": 0,
           "completions": 0
+        },
+        {
+          "player_id": "00-0039530",
+          "player_name": "Brevyn Spann-Ford",
+          "team": "DAL",
+          "role": "receiver",
+          "week": 7,
+          "position": "TE",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/sko2pmuqociwa92ep1ad",
+          "plays": 2,
+          "total_epa": 0.8059423565864563,
+          "epa_per_play": 0.40297117829322815,
+          "success_rate": 1.0,
+          "yards": 11,
+          "touchdowns": 0,
+          "turnovers": 0,
+          "completions": 2
         },
         {
           "player_id": "00-0036894",
@@ -45156,6 +45343,23 @@
           "touchdowns": 0,
           "turnovers": 0,
           "completions": 1
+        },
+        {
+          "player_id": "00-0036567",
+          "player_name": "Elijah Mitchell",
+          "team": "PHI",
+          "role": "receiver",
+          "week": 7,
+          "position": "RB",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gqupeqvrzpqeubx6p04o",
+          "plays": 4,
+          "total_epa": 0.4021359086036682,
+          "epa_per_play": 0.10053397715091705,
+          "success_rate": 0.25,
+          "yards": 23,
+          "touchdowns": 0,
+          "turnovers": 0,
+          "completions": 3
         },
         {
           "player_id": "00-0039798",
@@ -45617,6 +45821,23 @@
           "completions": 0
         },
         {
+          "player_id": "00-0036980",
+          "player_name": "Elijah Moore",
+          "team": "PHI",
+          "role": "receiver",
+          "week": 7,
+          "position": "WR",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wax90oyx9vs0x9j4nt5n",
+          "plays": 2,
+          "total_epa": 0.007203102111816406,
+          "epa_per_play": 0.003601551055908203,
+          "success_rate": 0.5,
+          "yards": 16,
+          "touchdowns": 0,
+          "turnovers": 0,
+          "completions": 2
+        },
+        {
           "player_id": "00-0039359",
           "player_name": "Cade Stover",
           "team": "HOU",
@@ -45923,6 +46144,23 @@
           "completions": 3
         },
         {
+          "player_id": "00-0037258",
+          "player_name": "Dameon Pierce",
+          "team": "PHI",
+          "role": "receiver",
+          "week": 7,
+          "position": "RB",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/oai3defivyfyofxxh4ux",
+          "plays": 1,
+          "total_epa": -0.33008500933647156,
+          "epa_per_play": -0.33008500933647156,
+          "success_rate": 0.0,
+          "yards": 1,
+          "touchdowns": 0,
+          "turnovers": 0,
+          "completions": 1
+        },
+        {
           "player_id": "00-0039384",
           "player_name": "Tyrone Tracy",
           "team": "NYG",
@@ -45938,6 +46176,23 @@
           "touchdowns": 0,
           "turnovers": 0,
           "completions": 1
+        },
+        {
+          "player_id": "00-0034844",
+          "player_name": "Saquon Barkley",
+          "team": "PHI",
+          "role": "receiver",
+          "week": 7,
+          "position": "RB",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qcayrzjpura2zydszonh",
+          "plays": 2,
+          "total_epa": -0.37438321113586426,
+          "epa_per_play": -0.18719160556793213,
+          "success_rate": 0.5,
+          "yards": 9,
+          "touchdowns": 0,
+          "turnovers": 0,
+          "completions": 2
         },
         {
           "player_id": "00-0034975",
@@ -46110,6 +46365,23 @@
           "completions": 1
         },
         {
+          "player_id": "00-0038400",
+          "player_name": "Tanner McKee",
+          "team": "PHI",
+          "role": "rusher",
+          "week": 7,
+          "position": "QB",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/oveivzhzv13jrfvkp8zg",
+          "plays": 1,
+          "total_epa": -0.5081536173820496,
+          "epa_per_play": -0.5081536173820496,
+          "success_rate": 0.0,
+          "yards": 1,
+          "touchdowns": 0,
+          "turnovers": 0,
+          "completions": 0
+        },
+        {
           "player_id": "00-0033526",
           "player_name": "Samaje Perine",
           "team": "CIN",
@@ -46142,6 +46414,23 @@
           "touchdowns": 0,
           "turnovers": 0,
           "completions": 1
+        },
+        {
+          "player_id": "00-0039062",
+          "player_name": "Jonathan Mingo",
+          "team": "DAL",
+          "role": "receiver",
+          "week": 7,
+          "position": "WR",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/u2b8s2s0ix5hntyg3eog",
+          "plays": 1,
+          "total_epa": -0.5219001770019531,
+          "epa_per_play": -0.5219001770019531,
+          "success_rate": 0.0,
+          "yards": 0,
+          "touchdowns": 0,
+          "turnovers": 0,
+          "completions": 0
         },
         {
           "player_id": "00-0034959",
@@ -46365,6 +46654,23 @@
           "completions": 0
         },
         {
+          "player_id": "00-0041483",
+          "player_name": "Eli Stowers",
+          "team": "PHI",
+          "role": "receiver",
+          "week": 7,
+          "position": "TE",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/c9rjqit3q5tm9hzkm5ay",
+          "plays": 1,
+          "total_epa": -0.6987989544868469,
+          "epa_per_play": -0.6987989544868469,
+          "success_rate": 0.0,
+          "yards": 0,
+          "touchdowns": 0,
+          "turnovers": 0,
+          "completions": 0
+        },
+        {
           "player_id": "00-0039793",
           "player_name": "A.J. Barner",
           "team": "SEA",
@@ -46414,6 +46720,23 @@
           "touchdowns": 0,
           "turnovers": 0,
           "completions": 1
+        },
+        {
+          "player_id": "00-0038041",
+          "player_name": "Jake Ferguson",
+          "team": "DAL",
+          "role": "receiver",
+          "week": 7,
+          "position": "TE",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xpykb0tbosfwsn6dqstb",
+          "plays": 1,
+          "total_epa": -0.7584059834480286,
+          "epa_per_play": -0.7584059834480286,
+          "success_rate": 0.0,
+          "yards": 0,
+          "touchdowns": 0,
+          "turnovers": 0,
+          "completions": 0
         },
         {
           "player_id": "00-0037755",
@@ -46496,6 +46819,23 @@
           "epa_per_play": -0.267603466908137,
           "success_rate": 0.33333333333333337,
           "yards": 9,
+          "touchdowns": 0,
+          "turnovers": 0,
+          "completions": 0
+        },
+        {
+          "player_id": "00-0038738",
+          "player_name": "Hunter Luepke",
+          "team": "DAL",
+          "role": "rusher",
+          "week": 7,
+          "position": "RB",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/m28qafff4o5vb3aaumiv",
+          "plays": 1,
+          "total_epa": -0.8054516315460205,
+          "epa_per_play": -0.8054516315460205,
+          "success_rate": 0.0,
+          "yards": 3,
           "touchdowns": 0,
           "turnovers": 0,
           "completions": 0
@@ -46705,6 +47045,23 @@
           "completions": 0
         },
         {
+          "player_id": "00-0037120",
+          "player_name": "Tyler Goodson",
+          "team": "DAL",
+          "role": "rusher",
+          "week": 7,
+          "position": "RB",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/v65dvcfcx8mz8kvif7dw",
+          "plays": 10,
+          "total_epa": -0.9385562799870968,
+          "epa_per_play": -0.0938556279987097,
+          "success_rate": 0.5,
+          "yards": 38,
+          "touchdowns": 0,
+          "turnovers": 0,
+          "completions": 0
+        },
+        {
           "player_id": "00-0037157",
           "player_name": "Zonovan Knight",
           "team": "ARI",
@@ -46717,6 +47074,23 @@
           "epa_per_play": -0.1386858991214207,
           "success_rate": 0.28571428571428575,
           "yards": 48,
+          "touchdowns": 0,
+          "turnovers": 0,
+          "completions": 0
+        },
+        {
+          "player_id": "00-0036567",
+          "player_name": "Elijah Mitchell",
+          "team": "PHI",
+          "role": "rusher",
+          "week": 7,
+          "position": "RB",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gqupeqvrzpqeubx6p04o",
+          "plays": 3,
+          "total_epa": -1.0494121946394444,
+          "epa_per_play": -0.34980406487981475,
+          "success_rate": 0.33333333333333337,
+          "yards": 11,
           "touchdowns": 0,
           "turnovers": 0,
           "completions": 0
@@ -47300,6 +47674,23 @@
           "completions": 0
         },
         {
+          "player_id": "00-0035662",
+          "player_name": "Marquise Brown",
+          "team": "PHI",
+          "role": "receiver",
+          "week": 7,
+          "position": "WR",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/shkjxggufymydgp6wk3p",
+          "plays": 5,
+          "total_epa": -2.281827688217163,
+          "epa_per_play": -0.4563655376434326,
+          "success_rate": 0.4,
+          "yards": 30,
+          "touchdowns": 0,
+          "turnovers": 0,
+          "completions": 2
+        },
+        {
           "player_id": "00-0038115",
           "player_name": "Daniel Bellinger",
           "team": "TEN",
@@ -47572,6 +47963,23 @@
           "completions": 0
         },
         {
+          "player_id": "00-0038400",
+          "player_name": "Tanner McKee",
+          "team": "PHI",
+          "role": "passer",
+          "week": 7,
+          "position": "QB",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/oveivzhzv13jrfvkp8zg",
+          "plays": 37,
+          "total_epa": -3.3541462644934654,
+          "epa_per_play": -0.09065260174306664,
+          "success_rate": 0.35135135135135126,
+          "yards": 200,
+          "touchdowns": 1,
+          "turnovers": 1,
+          "completions": 23
+        },
+        {
           "player_id": "00-0037157",
           "player_name": "Zonovan Knight",
           "team": "ARI",
@@ -47723,6 +48131,23 @@
           "touchdowns": 0,
           "turnovers": 0,
           "completions": 4
+        },
+        {
+          "player_id": "00-0034351",
+          "player_name": "Dallas Goedert",
+          "team": "PHI",
+          "role": "receiver",
+          "week": 7,
+          "position": "TE",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bafepstxu7vvxb9v5vua",
+          "plays": 7,
+          "total_epa": -4.34626691788435,
+          "epa_per_play": -0.6208952739834784,
+          "success_rate": 0.4285714285714286,
+          "yards": 48,
+          "touchdowns": 0,
+          "turnovers": 0,
+          "completions": 5
         },
         {
           "player_id": "00-0038551",
@@ -48086,7 +48511,7 @@
         "player_name": "D.Maye",
         "team": "NE",
         "position": "QB",
-        "form_z_score": 1.9264538913086748
+        "form_z_score": 1.9884361810166005
       },
       "debutant": {
         "player_id": "00-0036442",

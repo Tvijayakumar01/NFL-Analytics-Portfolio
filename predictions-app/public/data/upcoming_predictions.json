@@ -1,38 +1,480 @@
 {
   "season": 2026,
-  "week": 7,
+  "week": 8,
   "games": [
     {
-      "home": "PHI",
-      "away": "DAL",
-      "week": 7,
+      "home": "GB",
+      "away": "CAR",
+      "week": 8,
       "season": 2026,
-      "gameday": "2026-10-26",
+      "gameday": "2026-10-29",
       "gametime": "20:15",
-      "pick": "DAL",
+      "pick": "GB",
       "confidence": "Medium",
       "prob": {
-        "home": 0.3745298981666565,
-        "away": 0.6254701018333435
+        "home": 0.6540637016296387,
+        "away": 0.34593629837036133
       },
       "verdict": {
-        "text": "DAL favored",
-        "margin": 13
+        "text": "GB favored",
+        "margin": 15
       },
       "features": {
-        "home_trailing_off_epa": -0.2412368827869648,
-        "home_trailing_def_epa": 0.08340290292122204,
-        "away_trailing_off_epa": 0.017021020286850184,
-        "away_trailing_def_epa": 0.14179625834351936
+        "home_trailing_off_epa": 0.08709481741217215,
+        "home_trailing_def_epa": -0.1432968343648276,
+        "away_trailing_off_epa": 0.0034242301416313875,
+        "away_trailing_def_epa": 0.04868078414867378
       },
       "components": {
         "logistic": {
-          "home": 0.37791433758822773,
-          "away": 0.6220856624117723
+          "home": 0.6747560473469242,
+          "away": 0.3252439526530758
         },
         "xgboost": {
-          "home": 0.3745298981666565,
-          "away": 0.6254701018333435
+          "home": 0.6540637016296387,
+          "away": 0.34593629837036133
+        }
+      }
+    },
+    {
+      "home": "BUF",
+      "away": "BAL",
+      "week": 8,
+      "season": 2026,
+      "gameday": "2026-11-01",
+      "gametime": "13:00",
+      "pick": "BUF",
+      "confidence": "Medium",
+      "prob": {
+        "home": 0.6233866810798645,
+        "away": 0.3766133189201355
+      },
+      "verdict": {
+        "text": "BUF favored",
+        "margin": 12
+      },
+      "features": {
+        "home_trailing_off_epa": 0.13522499139888167,
+        "home_trailing_def_epa": 0.11135668128082002,
+        "away_trailing_off_epa": 0.004745122453299271,
+        "away_trailing_def_epa": 0.013858718083239324
+      },
+      "components": {
+        "logistic": {
+          "home": 0.6195659059784344,
+          "away": 0.3804340940215656
+        },
+        "xgboost": {
+          "home": 0.6233866810798645,
+          "away": 0.3766133189201355
+        }
+      }
+    },
+    {
+      "home": "CIN",
+      "away": "TEN",
+      "week": 8,
+      "season": 2026,
+      "gameday": "2026-11-01",
+      "gametime": "13:00",
+      "pick": "CIN",
+      "confidence": "High",
+      "prob": {
+        "home": 0.8851263523101807,
+        "away": 0.11487364768981934
+      },
+      "verdict": {
+        "text": "CIN favored",
+        "margin": 39
+      },
+      "features": {
+        "home_trailing_off_epa": 0.20001804641134613,
+        "home_trailing_def_epa": 0.06665063938442048,
+        "away_trailing_off_epa": -0.1829757317723648,
+        "away_trailing_def_epa": 0.08517476139927706
+      },
+      "components": {
+        "logistic": {
+          "home": 0.7969986848801222,
+          "away": 0.20300131511987785
+        },
+        "xgboost": {
+          "home": 0.8851263523101807,
+          "away": 0.11487364768981934
+        }
+      }
+    },
+    {
+      "home": "DAL",
+      "away": "ARI",
+      "week": 8,
+      "season": 2026,
+      "gameday": "2026-11-01",
+      "gametime": "13:00",
+      "pick": "DAL",
+      "confidence": "High",
+      "prob": {
+        "home": 0.7141227126121521,
+        "away": 0.2858772873878479
+      },
+      "verdict": {
+        "text": "DAL favored",
+        "margin": 21
+      },
+      "features": {
+        "home_trailing_off_epa": 0.0704837163721673,
+        "home_trailing_def_epa": 0.10507149376187086,
+        "away_trailing_off_epa": -0.09041468275873552,
+        "away_trailing_def_epa": 0.07284049788808977
+      },
+      "components": {
+        "logistic": {
+          "home": 0.6405287252354553,
+          "away": 0.35947127476454466
+        },
+        "xgboost": {
+          "home": 0.7141227126121521,
+          "away": 0.2858772873878479
+        }
+      }
+    },
+    {
+      "home": "DET",
+      "away": "MIN",
+      "week": 8,
+      "season": 2026,
+      "gameday": "2026-11-01",
+      "gametime": "13:00",
+      "pick": "DET",
+      "confidence": "Medium",
+      "prob": {
+        "home": 0.6926078200340271,
+        "away": 0.3073921799659729
+      },
+      "verdict": {
+        "text": "DET favored",
+        "margin": 19
+      },
+      "features": {
+        "home_trailing_off_epa": 0.1575999296249784,
+        "home_trailing_def_epa": 0.11080578901464977,
+        "away_trailing_off_epa": -0.1238201215815499,
+        "away_trailing_def_epa": -0.22815215840452954
+      },
+      "components": {
+        "logistic": {
+          "home": 0.6587049064368479,
+          "away": 0.34129509356315213
+        },
+        "xgboost": {
+          "home": 0.6926078200340271,
+          "away": 0.3073921799659729
+        }
+      }
+    },
+    {
+      "home": "JAX",
+      "away": "IND",
+      "week": 8,
+      "season": 2026,
+      "gameday": "2026-11-01",
+      "gametime": "13:00",
+      "pick": "JAX",
+      "confidence": "Medium",
+      "prob": {
+        "home": 0.6611360907554626,
+        "away": 0.33886390924453735
+      },
+      "verdict": {
+        "text": "JAX favored",
+        "margin": 16
+      },
+      "features": {
+        "home_trailing_off_epa": 0.165266451026062,
+        "home_trailing_def_epa": -0.046267062684979786,
+        "away_trailing_off_epa": -0.07475946311069563,
+        "away_trailing_def_epa": -0.05866959366143484
+      },
+      "components": {
+        "logistic": {
+          "home": 0.7042596765448195,
+          "away": 0.29574032345518053
+        },
+        "xgboost": {
+          "home": 0.6611360907554626,
+          "away": 0.33886390924453735
+        }
+      }
+    },
+    {
+      "home": "NYJ",
+      "away": "LV",
+      "week": 8,
+      "season": 2026,
+      "gameday": "2026-11-01",
+      "gametime": "13:00",
+      "pick": "NYJ",
+      "confidence": "Low",
+      "prob": {
+        "home": 0.569450318813324,
+        "away": 0.430549681186676
+      },
+      "verdict": {
+        "text": "NYJ favored",
+        "margin": 7
+      },
+      "features": {
+        "home_trailing_off_epa": -0.019591236741393993,
+        "home_trailing_def_epa": 0.01432055275001406,
+        "away_trailing_off_epa": -0.009382426951419855,
+        "away_trailing_def_epa": 0.2246449157841495
+      },
+      "components": {
+        "logistic": {
+          "home": 0.6343839476155384,
+          "away": 0.3656160523844616
+        },
+        "xgboost": {
+          "home": 0.569450318813324,
+          "away": 0.430549681186676
+        }
+      }
+    },
+    {
+      "home": "PIT",
+      "away": "CLE",
+      "week": 8,
+      "season": 2026,
+      "gameday": "2026-11-01",
+      "gametime": "13:00",
+      "pick": "PIT",
+      "confidence": "Medium",
+      "prob": {
+        "home": 0.6012142896652222,
+        "away": 0.39878571033477783
+      },
+      "verdict": {
+        "text": "PIT favored",
+        "margin": 10
+      },
+      "features": {
+        "home_trailing_off_epa": 0.059061283987926344,
+        "home_trailing_def_epa": -0.03510586602672584,
+        "away_trailing_off_epa": -0.041997733538034696,
+        "away_trailing_def_epa": -0.06472103206514299
+      },
+      "components": {
+        "logistic": {
+          "home": 0.6107002498699245,
+          "away": 0.38929975013007545
+        },
+        "xgboost": {
+          "home": 0.6012142896652222,
+          "away": 0.39878571033477783
+        }
+      }
+    },
+    {
+      "home": "TB",
+      "away": "ATL",
+      "week": 8,
+      "season": 2026,
+      "gameday": "2026-11-01",
+      "gametime": "13:00",
+      "pick": "TB",
+      "confidence": "Low",
+      "prob": {
+        "home": 0.5848755240440369,
+        "away": 0.41512447595596313
+      },
+      "verdict": {
+        "text": "TB favored",
+        "margin": 8
+      },
+      "features": {
+        "home_trailing_off_epa": 0.007914708542945698,
+        "home_trailing_def_epa": -0.12426439359858975,
+        "away_trailing_off_epa": 0.048323985771049974,
+        "away_trailing_def_epa": 0.0032896610185816633
+      },
+      "components": {
+        "logistic": {
+          "home": 0.5999165288075214,
+          "away": 0.40008347119247856
+        },
+        "xgboost": {
+          "home": 0.5848755240440369,
+          "away": 0.41512447595596313
+        }
+      }
+    },
+    {
+      "home": "LA",
+      "away": "LAC",
+      "week": 8,
+      "season": 2026,
+      "gameday": "2026-11-01",
+      "gametime": "16:05",
+      "pick": "LA",
+      "confidence": "High",
+      "prob": {
+        "home": 0.7705519199371338,
+        "away": 0.2294480800628662
+      },
+      "verdict": {
+        "text": "LA favored",
+        "margin": 27
+      },
+      "features": {
+        "home_trailing_off_epa": 0.07711561227472938,
+        "home_trailing_def_epa": -0.04471548516256032,
+        "away_trailing_off_epa": -0.21604920151409762,
+        "away_trailing_def_epa": -0.07488977195291763
+      },
+      "components": {
+        "logistic": {
+          "home": 0.7617619189753742,
+          "away": 0.23823808102462585
+        },
+        "xgboost": {
+          "home": 0.7705519199371338,
+          "away": 0.2294480800628662
+        }
+      }
+    },
+    {
+      "home": "DEN",
+      "away": "KC",
+      "week": 8,
+      "season": 2026,
+      "gameday": "2026-11-01",
+      "gametime": "16:25",
+      "pick": "KC",
+      "confidence": "Low",
+      "prob": {
+        "home": 0.4318508207798004,
+        "away": 0.5681491792201996
+      },
+      "verdict": {
+        "text": "KC favored",
+        "margin": 7
+      },
+      "features": {
+        "home_trailing_off_epa": -0.03118528867528948,
+        "home_trailing_def_epa": -0.1192514906897184,
+        "away_trailing_off_epa": 0.06118034784821695,
+        "away_trailing_def_epa": -0.06448973249844485
+      },
+      "components": {
+        "logistic": {
+          "home": 0.4880899889156037,
+          "away": 0.5119100110843964
+        },
+        "xgboost": {
+          "home": 0.4318508207798004,
+          "away": 0.5681491792201996
+        }
+      }
+    },
+    {
+      "home": "MIA",
+      "away": "NE",
+      "week": 8,
+      "season": 2026,
+      "gameday": "2026-11-01",
+      "gametime": "16:25",
+      "pick": "NE",
+      "confidence": "Medium",
+      "prob": {
+        "home": 0.3956197500228882,
+        "away": 0.6043802499771118
+      },
+      "verdict": {
+        "text": "NE favored",
+        "margin": 10
+      },
+      "features": {
+        "home_trailing_off_epa": -0.026272723959191106,
+        "home_trailing_def_epa": 0.12619083716021384,
+        "away_trailing_off_epa": 0.20278896938502397,
+        "away_trailing_def_epa": 0.06001347199164608
+      },
+      "components": {
+        "logistic": {
+          "home": 0.3641236740196766,
+          "away": 0.6358763259803234
+        },
+        "xgboost": {
+          "home": 0.3956197500228882,
+          "away": 0.6043802499771118
+        }
+      }
+    },
+    {
+      "home": "WAS",
+      "away": "PHI",
+      "week": 8,
+      "season": 2026,
+      "gameday": "2026-11-01",
+      "gametime": "20:20",
+      "pick": "WAS",
+      "confidence": "Medium",
+      "prob": {
+        "home": 0.6461297273635864,
+        "away": 0.3538702726364136
+      },
+      "verdict": {
+        "text": "WAS favored",
+        "margin": 15
+      },
+      "features": {
+        "home_trailing_off_epa": -0.056148486897522075,
+        "home_trailing_def_epa": 0.03510461139189262,
+        "away_trailing_off_epa": -0.16855315726651543,
+        "away_trailing_def_epa": 0.13959163865652272
+      },
+      "components": {
+        "logistic": {
+          "home": 0.6540628422536965,
+          "away": 0.3459371577463035
+        },
+        "xgboost": {
+          "home": 0.6461297273635864,
+          "away": 0.3538702726364136
+        }
+      }
+    },
+    {
+      "home": "SEA",
+      "away": "CHI",
+      "week": 8,
+      "season": 2026,
+      "gameday": "2026-11-02",
+      "gametime": "20:15",
+      "pick": "SEA",
+      "confidence": "Low",
+      "prob": {
+        "home": 0.5146698951721191,
+        "away": 0.48533010482788086
+      },
+      "verdict": {
+        "text": "SEA favored",
+        "margin": 1
+      },
+      "features": {
+        "home_trailing_off_epa": -0.11113065276333703,
+        "home_trailing_def_epa": -0.11296620486614012,
+        "away_trailing_off_epa": -0.012261178881808747,
+        "away_trailing_def_epa": 0.012730175447180005
+      },
+      "components": {
+        "logistic": {
+          "home": 0.5185380035440078,
+          "away": 0.4814619964559922
+        },
+        "xgboost": {
+          "home": 0.5146698951721191,
+          "away": 0.48533010482788086
         }
       }
     }
