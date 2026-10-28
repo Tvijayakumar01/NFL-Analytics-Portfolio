@@ -40778,8 +40778,8 @@
           "position": "QB",
           "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xs2fyj1sqdgwvt9ihbri",
           "plays": 31,
-          "total_epa": -1.5560496263206005,
-          "epa_per_play": -0.0501951492361484,
+          "total_epa": -1.5502824001014233,
+          "epa_per_play": -0.05000910968069107,
           "success_rate": 0.3548387096774193,
           "yards": 249,
           "touchdowns": 1,
@@ -48511,7 +48511,7 @@
         "player_name": "D.Maye",
         "team": "NE",
         "position": "QB",
-        "form_z_score": 1.9884361810166005
+        "form_z_score": 1.9884292790856237
       },
       "debutant": {
         "player_id": "00-0036442",
