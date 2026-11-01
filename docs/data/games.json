@@ -11,22 +11,6 @@
       "gametime": "20:15"
     },
     {
-      "home_team": "BUF",
-      "away_team": "BAL",
-      "home_score": NaN,
-      "away_score": NaN,
-      "gameday": "2026-11-01",
-      "gametime": "13:00"
-    },
-    {
-      "home_team": "CIN",
-      "away_team": "TEN",
-      "home_score": NaN,
-      "away_score": NaN,
-      "gameday": "2026-11-01",
-      "gametime": "13:00"
-    },
-    {
       "home_team": "DAL",
       "away_team": "ARI",
       "home_score": NaN,
@@ -35,8 +19,8 @@
       "gametime": "13:00"
     },
     {
-      "home_team": "DET",
-      "away_team": "MIN",
+      "home_team": "PIT",
+      "away_team": "CLE",
       "home_score": NaN,
       "away_score": NaN,
       "gameday": "2026-11-01",
@@ -51,6 +35,22 @@
       "gametime": "13:00"
     },
     {
+      "home_team": "DET",
+      "away_team": "MIN",
+      "home_score": NaN,
+      "away_score": NaN,
+      "gameday": "2026-11-01",
+      "gametime": "13:00"
+    },
+    {
+      "home_team": "BUF",
+      "away_team": "BAL",
+      "home_score": NaN,
+      "away_score": NaN,
+      "gameday": "2026-11-01",
+      "gametime": "13:00"
+    },
+    {
       "home_team": "NYJ",
       "away_team": "LV",
       "home_score": NaN,
@@ -59,8 +59,8 @@
       "gametime": "13:00"
     },
     {
-      "home_team": "PIT",
-      "away_team": "CLE",
+      "home_team": "CIN",
+      "away_team": "TEN",
       "home_score": NaN,
       "away_score": NaN,
       "gameday": "2026-11-01",
