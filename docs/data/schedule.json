@@ -1215,11 +1215,11 @@
       "week": 9,
       "home": "BAL",
       "away": "JAX",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 10,
+      "away_score": 33,
       "gameday": "2026-11-05",
       "gametime": "20:15",
-      "played": false
+      "played": true
     },
     {
       "week": 9,
