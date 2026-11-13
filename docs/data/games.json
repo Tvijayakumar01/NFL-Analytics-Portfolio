@@ -1,125 +1,117 @@
 {
   "season": 2026,
-  "week": 9,
+  "week": 10,
   "games": [
     {
-      "home_team": "BAL",
-      "away_team": "JAX",
-      "home_score": 10.0,
-      "away_score": 33.0,
-      "gameday": "2026-11-05",
+      "home_team": "NYG",
+      "away_team": "WAS",
+      "home_score": 21.0,
+      "away_score": 24.0,
+      "gameday": "2026-11-12",
       "gametime": "20:15"
     },
     {
-      "home_team": "ATL",
-      "away_team": "CIN",
-      "home_score": 17.0,
-      "away_score": 34.0,
-      "gameday": "2026-11-08",
+      "home_team": "DET",
+      "away_team": "NE",
+      "home_score": NaN,
+      "away_score": NaN,
+      "gameday": "2026-11-15",
       "gametime": "09:30"
     },
     {
-      "home_team": "CAR",
-      "away_team": "DEN",
-      "home_score": 21.0,
-      "away_score": 26.0,
-      "gameday": "2026-11-08",
+      "home_team": "ATL",
+      "away_team": "KC",
+      "home_score": NaN,
+      "away_score": NaN,
+      "gameday": "2026-11-15",
+      "gametime": "13:00"
+    },
+    {
+      "home_team": "CLE",
+      "away_team": "HOU",
+      "home_score": NaN,
+      "away_score": NaN,
+      "gameday": "2026-11-15",
+      "gametime": "13:00"
+    },
+    {
+      "home_team": "GB",
+      "away_team": "MIN",
+      "home_score": NaN,
+      "away_score": NaN,
+      "gameday": "2026-11-15",
       "gametime": "13:00"
     },
     {
       "home_team": "IND",
-      "away_team": "DAL",
-      "home_score": 23.0,
-      "away_score": 27.0,
-      "gameday": "2026-11-08",
+      "away_team": "MIA",
+      "home_score": NaN,
+      "away_score": NaN,
+      "gameday": "2026-11-15",
       "gametime": "13:00"
     },
     {
-      "home_team": "KC",
-      "away_team": "NYJ",
-      "home_score": 35.0,
-      "away_score": 12.0,
-      "gameday": "2026-11-08",
-      "gametime": "13:00"
-    },
-    {
-      "home_team": "MIA",
-      "away_team": "DET",
-      "home_score": 9.0,
-      "away_score": 19.0,
-      "gameday": "2026-11-08",
+      "home_team": "TEN",
+      "away_team": "JAX",
+      "home_score": NaN,
+      "away_score": NaN,
+      "gameday": "2026-11-15",
       "gametime": "13:00"
     },
     {
       "home_team": "NO",
-      "away_team": "CLE",
-      "home_score": 23.0,
-      "away_score": 22.0,
-      "gameday": "2026-11-08",
+      "away_team": "CAR",
+      "home_score": NaN,
+      "away_score": NaN,
+      "gameday": "2026-11-15",
       "gametime": "13:00"
     },
     {
-      "home_team": "PHI",
-      "away_team": "NYG",
-      "home_score": 11.0,
-      "away_score": 19.0,
-      "gameday": "2026-11-08",
+      "home_team": "NYJ",
+      "away_team": "BUF",
+      "home_score": NaN,
+      "away_score": NaN,
+      "gameday": "2026-11-15",
       "gametime": "13:00"
     },
     {
-      "home_team": "WAS",
+      "home_team": "ARI",
       "away_team": "LA",
-      "home_score": 13.0,
-      "away_score": 20.0,
-      "gameday": "2026-11-08",
-      "gametime": "13:00"
-    },
-    {
-      "home_team": "LAC",
-      "away_team": "HOU",
-      "home_score": 22.0,
-      "away_score": 44.0,
-      "gameday": "2026-11-08",
+      "home_score": NaN,
+      "away_score": NaN,
+      "gameday": "2026-11-15",
       "gametime": "16:05"
     },
     {
-      "home_team": "NE",
-      "away_team": "GB",
-      "home_score": 27.0,
-      "away_score": 45.0,
-      "gameday": "2026-11-08",
+      "home_team": "LV",
+      "away_team": "SEA",
+      "home_score": NaN,
+      "away_score": NaN,
+      "gameday": "2026-11-15",
+      "gametime": "16:05"
+    },
+    {
+      "home_team": "DAL",
+      "away_team": "SF",
+      "home_score": NaN,
+      "away_score": NaN,
+      "gameday": "2026-11-15",
       "gametime": "16:25"
     },
     {
-      "home_team": "SEA",
-      "away_team": "ARI",
-      "home_score": 17.0,
-      "away_score": 3.0,
-      "gameday": "2026-11-08",
-      "gametime": "16:25"
-    },
-    {
-      "home_team": "SF",
-      "away_team": "LV",
-      "home_score": 38.0,
-      "away_score": 17.0,
-      "gameday": "2026-11-08",
-      "gametime": "16:25"
-    },
-    {
-      "home_team": "CHI",
-      "away_team": "TB",
-      "home_score": 27.0,
-      "away_score": 24.0,
-      "gameday": "2026-11-08",
+      "home_team": "CIN",
+      "away_team": "PIT",
+      "home_score": NaN,
+      "away_score": NaN,
+      "gameday": "2026-11-15",
       "gametime": "20:20"
     },
     {
-      "home_team": "MIN",
-      "away_team": "BUF",
-      "home_score": 6.0,
-      "away_score": 23.0,
-      "gameday": "2026-11-09",
+      "home_team": "BAL",
+      "away_team": "LAC",
+      "home_score": NaN,
+      "away_score": NaN,
+      "gameday": "2026-11-16",
       "gametime": "20:15"
     }
   ]

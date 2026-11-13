@@ -1365,11 +1365,11 @@
       "week": 10,
       "home": "NYG",
       "away": "WAS",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 21,
+      "away_score": 24,
       "gameday": "2026-11-12",
       "gametime": "20:15",
-      "played": false
+      "played": true
     },
     {
       "week": 10,
