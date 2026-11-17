@@ -109,8 +109,8 @@
     {
       "home_team": "BAL",
       "away_team": "LAC",
-      "home_score": NaN,
-      "away_score": NaN,
+      "home_score": 20.0,
+      "away_score": 23.0,
       "gameday": "2026-11-16",
       "gametime": "20:15"
     }
