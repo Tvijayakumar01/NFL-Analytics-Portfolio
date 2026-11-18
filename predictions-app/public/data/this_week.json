@@ -7087,7 +7087,7 @@
         "player_name": "D.Henry",
         "team": "BAL",
         "position": "RB",
-        "form_z_score": 1.545384843247057
+        "form_z_score": 1.6141857896967904
       },
       "debutant": {
         "player_id": "00-0040691",
@@ -14501,7 +14501,7 @@
         "player_name": "D.Henry",
         "team": "BAL",
         "position": "RB",
-        "form_z_score": 1.9299168672909202
+        "form_z_score": 1.9549533606450178
       },
       "debutant": {
         "player_id": "00-0037834",
@@ -21745,7 +21745,7 @@
         "player_name": "L.Jackson",
         "team": "BAL",
         "position": "QB",
-        "form_z_score": 1.4959400827824745
+        "form_z_score": 1.554219971840102
       },
       "debutant": {
         "player_id": "00-0037238",
@@ -28989,7 +28989,7 @@
         "player_name": "B.Purdy",
         "team": "SF",
         "position": "QB",
-        "form_z_score": 2.0688635645116036
+        "form_z_score": 2.0920031571204505
       },
       "debutant": {
         "player_id": "00-0039150",
@@ -30466,13 +30466,13 @@
           "completions": 4
         },
         {
-          "player_id": "00-0033119",
-          "player_name": "Jacoby Brissett",
+          "player_id": "00-0038559",
+          "player_name": "Michael Wilson",
           "team": "ARI",
-          "role": "receiver",
+          "role": "passer",
           "week": 5,
-          "position": "QB",
-          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qjswiunczrn5xmdiqhlz",
+          "position": "WR",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hm2b9z4zujjmbiyldh8n",
           "plays": 1,
           "total_epa": 2.1177992820739746,
           "epa_per_play": 2.1177992820739746,
@@ -30483,13 +30483,13 @@
           "completions": 1
         },
         {
-          "player_id": "00-0038559",
-          "player_name": "Michael Wilson",
+          "player_id": "00-0033119",
+          "player_name": "Jacoby Brissett",
           "team": "ARI",
-          "role": "passer",
+          "role": "receiver",
           "week": 5,
-          "position": "WR",
-          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hm2b9z4zujjmbiyldh8n",
+          "position": "QB",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qjswiunczrn5xmdiqhlz",
           "plays": 1,
           "total_epa": 2.1177992820739746,
           "epa_per_play": 2.1177992820739746,
@@ -35978,7 +35978,7 @@
         "player_name": "B.Purdy",
         "team": "SF",
         "position": "QB",
-        "form_z_score": 1.8301310849182837
+        "form_z_score": 1.9057054161431
       },
       "debutant": {
         "player_id": "00-0039851",
@@ -42168,7 +42168,7 @@
         "player_name": "M.Evans",
         "team": "SF",
         "position": "WR",
-        "form_z_score": 1.332288548101255
+        "form_z_score": 1.3318693636737347
       },
       "debutant": {
         "player_id": "00-0039163",
@@ -43475,13 +43475,13 @@
           "completions": 0
         },
         {
-          "player_id": "00-0037304",
-          "player_name": "Connor Heyward",
+          "player_id": "00-0035190",
+          "player_name": "A.J. Cole",
           "team": "LV",
-          "role": "receiver",
+          "role": "passer",
           "week": 7,
-          "position": "RB",
-          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/nbbhxtutzvbj0ejljyyp",
+          "position": "P",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/t6ah2u0wptbb8n22tehr",
           "plays": 1,
           "total_epa": 2.5249366760253906,
           "epa_per_play": 2.5249366760253906,
@@ -43492,13 +43492,13 @@
           "completions": 1
         },
         {
-          "player_id": "00-0035190",
-          "player_name": "A.J. Cole",
+          "player_id": "00-0037304",
+          "player_name": "Connor Heyward",
           "team": "LV",
-          "role": "passer",
+          "role": "receiver",
           "week": 7,
-          "position": "P",
-          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/t6ah2u0wptbb8n22tehr",
+          "position": "RB",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/nbbhxtutzvbj0ejljyyp",
           "plays": 1,
           "total_epa": 2.5249366760253906,
           "epa_per_play": 2.5249366760253906,
@@ -48511,7 +48511,7 @@
         "player_name": "D.Maye",
         "team": "NE",
         "position": "QB",
-        "form_z_score": 2.0692225998037035
+        "form_z_score": 2.08234028099975
       },
       "debutant": {
         "player_id": "00-0036442",
@@ -54497,7 +54497,7 @@
         "player_name": "D.Maye",
         "team": "NE",
         "position": "QB",
-        "form_z_score": 1.6670985605687794
+        "form_z_score": 1.684901945696856
       },
       "debutant": {
         "player_id": "00-0036410",
@@ -55039,13 +55039,13 @@
           "completions": 2
         },
         {
-          "player_id": "00-0032065",
-          "player_name": "Bradley Pinion",
+          "player_id": "00-0041096",
+          "player_name": "Kaytron Allen",
           "team": "MIA",
-          "role": "passer",
+          "role": "receiver",
           "week": 9,
-          "position": "P",
-          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pjpgitum81otrufezlfm",
+          "position": "RB",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/waqz5otrugqhpriy0tdm",
           "plays": 1,
           "total_epa": 4.240609169006348,
           "epa_per_play": 4.240609169006348,
@@ -55056,13 +55056,13 @@
           "completions": 1
         },
         {
-          "player_id": "00-0041096",
-          "player_name": "Kaytron Allen",
+          "player_id": "00-0032065",
+          "player_name": "Bradley Pinion",
           "team": "MIA",
-          "role": "receiver",
+          "role": "passer",
           "week": 9,
-          "position": "RB",
-          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/waqz5otrugqhpriy0tdm",
+          "position": "P",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pjpgitum81otrufezlfm",
           "plays": 1,
           "total_epa": 4.240609169006348,
           "epa_per_play": 4.240609169006348,
@@ -60997,8 +60997,8 @@
           "position": "TE",
           "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/rs8o65x0u0n9xzde0fd6",
           "plays": 7,
-          "total_epa": -5.512299358844757,
-          "epa_per_play": -0.7874713369778225,
+          "total_epa": -5.512299299240112,
+          "epa_per_play": -0.7874713284628732,
           "success_rate": 0.28571428571428575,
           "yards": 33,
           "touchdowns": 0,
@@ -61055,23 +61055,6 @@
           "touchdowns": 0,
           "turnovers": 0,
           "completions": 0
-        },
-        {
-          "player_id": "00-0040735",
-          "player_name": "Luther Burden",
-          "team": "CHI",
-          "role": "receiver",
-          "week": 9,
-          "position": "WR",
-          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/iyuwdz7pbowdkwzq2tg5",
-          "plays": 9,
-          "total_epa": -6.313559994101524,
-          "epa_per_play": -0.7015066660112805,
-          "success_rate": 0.4444444444444444,
-          "yards": 97,
-          "touchdowns": 1,
-          "turnovers": 1,
-          "completions": 7
         },
         {
           "player_id": "00-0038129",
@@ -61140,6 +61123,23 @@
           "touchdowns": 1,
           "turnovers": 1,
           "completions": 20
+        },
+        {
+          "player_id": "00-0040735",
+          "player_name": "Luther Burden",
+          "team": "CHI",
+          "role": "receiver",
+          "week": 9,
+          "position": "WR",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/iyuwdz7pbowdkwzq2tg5",
+          "plays": 10,
+          "total_epa": -7.482721909880638,
+          "epa_per_play": -0.7482721909880639,
+          "success_rate": 0.39999999999999997,
+          "yards": 97,
+          "touchdowns": 1,
+          "turnovers": 1,
+          "completions": 7
         },
         {
           "player_id": "00-0039918",
@@ -61320,8 +61320,8 @@
           "position": "QB",
           "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/azwdmcksvjva4tgaa8vm",
           "plays": 25,
-          "total_epa": -18.41725730150938,
-          "epa_per_play": -0.7366902920603752,
+          "total_epa": -18.417257241904736,
+          "epa_per_play": -0.7366902896761894,
           "success_rate": 0.24,
           "yards": 75,
           "touchdowns": 0,
@@ -61333,7 +61333,7 @@
         "player_name": "J.Burrow",
         "team": "CIN",
         "position": "QB",
-        "form_z_score": 1.474388124854095
+        "form_z_score": 1.5060905687620356
       },
       "debutant": {
         "player_id": "00-0036264",
@@ -67578,8 +67578,8 @@
           "position": "WR",
           "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/unvrabuns2qjrjotregw",
           "plays": 4,
-          "total_epa": -5.096716344356537,
-          "epa_per_play": -1.2741790860891342,
+          "total_epa": -5.096716284751892,
+          "epa_per_play": -1.274179071187973,
           "success_rate": 0.25,
           "yards": 26,
           "touchdowns": 0,
@@ -67850,8 +67850,8 @@
           "position": "QB",
           "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mip4kogkqxwkkya6mvmh",
           "plays": 46,
-          "total_epa": -18.675603039562702,
-          "epa_per_play": -0.4059913704252762,
+          "total_epa": -18.675602979958057,
+          "epa_per_play": -0.4059913691295231,
           "success_rate": 0.2608695652173913,
           "yards": 270,
           "touchdowns": 0,
@@ -67863,7 +67863,7 @@
         "player_name": "C.McCaffrey",
         "team": "SF",
         "position": "RB",
-        "form_z_score": 1.7815060163013485
+        "form_z_score": 1.780498206820497
       },
       "debutant": {
         "player_id": "00-0036900",
