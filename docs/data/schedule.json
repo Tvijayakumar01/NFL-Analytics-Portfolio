@@ -1505,11 +1505,11 @@
       "week": 11,
       "home": "HOU",
       "away": "IND",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 26,
+      "away_score": 3,
       "gameday": "2026-11-19",
       "gametime": "20:15",
-      "played": false
+      "played": true
     },
     {
       "week": 11,
