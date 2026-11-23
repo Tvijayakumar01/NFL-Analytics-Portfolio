@@ -1513,113 +1513,113 @@
     },
     {
       "week": 11,
-      "home": "NYG",
-      "away": "JAX",
-      "home_score": null,
-      "away_score": null,
-      "gameday": "2026-11-22",
-      "gametime": "13:00",
-      "played": false
-    },
-    {
-      "week": 11,
       "home": "CAR",
       "away": "BAL",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 35,
+      "away_score": 33,
       "gameday": "2026-11-22",
       "gametime": "13:00",
-      "played": false
+      "played": true
     },
     {
       "week": 11,
       "home": "DET",
       "away": "TB",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 31,
+      "away_score": 21,
       "gameday": "2026-11-22",
       "gametime": "13:00",
-      "played": false
-    },
-    {
-      "week": 11,
-      "home": "CHI",
-      "away": "NO",
-      "home_score": null,
-      "away_score": null,
-      "gameday": "2026-11-22",
-      "gametime": "13:00",
-      "played": false
-    },
-    {
-      "week": 11,
-      "home": "DAL",
-      "away": "TEN",
-      "home_score": null,
-      "away_score": null,
-      "gameday": "2026-11-22",
-      "gametime": "13:00",
-      "played": false
-    },
-    {
-      "week": 11,
-      "home": "KC",
-      "away": "ARI",
-      "home_score": null,
-      "away_score": null,
-      "gameday": "2026-11-22",
-      "gametime": "13:00",
-      "played": false
-    },
-    {
-      "week": 11,
-      "home": "BUF",
-      "away": "MIA",
-      "home_score": null,
-      "away_score": null,
-      "gameday": "2026-11-22",
-      "gametime": "13:00",
-      "played": false
-    },
-    {
-      "week": 11,
-      "home": "LAC",
-      "away": "NYJ",
-      "home_score": null,
-      "away_score": null,
-      "gameday": "2026-11-22",
-      "gametime": "16:05",
-      "played": false
+      "played": true
     },
     {
       "week": 11,
       "home": "PHI",
       "away": "PIT",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 19,
+      "away_score": 16,
+      "gameday": "2026-11-22",
+      "gametime": "13:00",
+      "played": true
+    },
+    {
+      "week": 11,
+      "home": "CHI",
+      "away": "NO",
+      "home_score": 21,
+      "away_score": 13,
+      "gameday": "2026-11-22",
+      "gametime": "13:00",
+      "played": true
+    },
+    {
+      "week": 11,
+      "home": "DAL",
+      "away": "TEN",
+      "home_score": 51,
+      "away_score": 30,
+      "gameday": "2026-11-22",
+      "gametime": "13:00",
+      "played": true
+    },
+    {
+      "week": 11,
+      "home": "KC",
+      "away": "ARI",
+      "home_score": 34,
+      "away_score": 7,
+      "gameday": "2026-11-22",
+      "gametime": "13:00",
+      "played": true
+    },
+    {
+      "week": 11,
+      "home": "BUF",
+      "away": "MIA",
+      "home_score": 26,
+      "away_score": 9,
+      "gameday": "2026-11-22",
+      "gametime": "13:00",
+      "played": true
+    },
+    {
+      "week": 11,
+      "home": "LAC",
+      "away": "NYJ",
+      "home_score": 24,
+      "away_score": 27,
+      "gameday": "2026-11-22",
+      "gametime": "16:05",
+      "played": true
+    },
+    {
+      "week": 11,
+      "home": "NYG",
+      "away": "JAX",
+      "home_score": 23,
+      "away_score": 18,
       "gameday": "2026-11-22",
       "gametime": "16:25",
-      "played": false
+      "played": true
     },
     {
       "week": 11,
       "home": "DEN",
       "away": "LV",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 38,
+      "away_score": 24,
       "gameday": "2026-11-22",
       "gametime": "16:25",
-      "played": false
+      "played": true
     },
     {
       "week": 11,
       "home": "SF",
       "away": "MIN",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 35,
+      "away_score": 10,
       "gameday": "2026-11-22",
       "gametime": "20:20",
-      "played": false
+      "played": true
     },
     {
       "week": 11,
