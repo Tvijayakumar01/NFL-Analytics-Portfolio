@@ -101,8 +101,8 @@
     {
       "home_team": "WAS",
       "away_team": "CIN",
-      "home_score": NaN,
-      "away_score": NaN,
+      "home_score": 22.0,
+      "away_score": 20.0,
       "gameday": "2026-11-23",
       "gametime": "20:15"
     }

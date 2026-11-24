@@ -1625,11 +1625,11 @@
       "week": 11,
       "home": "WAS",
       "away": "CIN",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 22,
+      "away_score": 20,
       "gameday": "2026-11-23",
       "gametime": "20:15",
-      "played": false
+      "played": true
     },
     {
       "week": 12,
