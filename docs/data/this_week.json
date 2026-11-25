@@ -7087,7 +7087,7 @@
         "player_name": "D.Henry",
         "team": "BAL",
         "position": "RB",
-        "form_z_score": 1.6422637281967658
+        "form_z_score": 1.6173169333762611
       },
       "debutant": {
         "player_id": "00-0040691",
@@ -14501,7 +14501,7 @@
         "player_name": "D.Henry",
         "team": "BAL",
         "position": "RB",
-        "form_z_score": 1.967293207028017
+        "form_z_score": 1.936713188722871
       },
       "debutant": {
         "player_id": "00-0037834",
@@ -21745,7 +21745,7 @@
         "player_name": "L.Jackson",
         "team": "BAL",
         "position": "QB",
-        "form_z_score": 1.537116732660724
+        "form_z_score": 1.5492969129116365
       },
       "debutant": {
         "player_id": "00-0037238",
@@ -28989,7 +28989,7 @@
         "player_name": "B.Purdy",
         "team": "SF",
         "position": "QB",
-        "form_z_score": 2.048675628205977
+        "form_z_score": 2.055342493205696
       },
       "debutant": {
         "player_id": "00-0039150",
@@ -35978,7 +35978,7 @@
         "player_name": "B.Purdy",
         "team": "SF",
         "position": "QB",
-        "form_z_score": 1.8806737419503206
+        "form_z_score": 1.8884593692651193
       },
       "debutant": {
         "player_id": "00-0039851",
@@ -42165,10 +42165,10 @@
         }
       ],
       "form_leader": {
-        "player_name": "M.Evans",
-        "team": "SF",
-        "position": "WR",
-        "form_z_score": 1.289321019063874
+        "player_name": "T.Lawrence",
+        "team": "JAX",
+        "position": "QB",
+        "form_z_score": 1.2881017468149045
       },
       "debutant": {
         "player_id": "00-0039163",
@@ -43492,13 +43492,13 @@
           "completions": 0
         },
         {
-          "player_id": "00-0037304",
-          "player_name": "Connor Heyward",
+          "player_id": "00-0035190",
+          "player_name": "A.J. Cole",
           "team": "LV",
-          "role": "receiver",
+          "role": "passer",
           "week": 7,
-          "position": "RB",
-          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/nbbhxtutzvbj0ejljyyp",
+          "position": "P",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/t6ah2u0wptbb8n22tehr",
           "plays": 1,
           "total_epa": 2.3232626914978027,
           "epa_per_play": 2.3232626914978027,
@@ -43509,13 +43509,13 @@
           "completions": 1
         },
         {
-          "player_id": "00-0035190",
-          "player_name": "A.J. Cole",
+          "player_id": "00-0037304",
+          "player_name": "Connor Heyward",
           "team": "LV",
-          "role": "passer",
+          "role": "receiver",
           "week": 7,
-          "position": "P",
-          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/t6ah2u0wptbb8n22tehr",
+          "position": "RB",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/nbbhxtutzvbj0ejljyyp",
           "plays": 1,
           "total_epa": 2.3232626914978027,
           "epa_per_play": 2.3232626914978027,
@@ -48511,7 +48511,7 @@
         "player_name": "D.Maye",
         "team": "NE",
         "position": "QB",
-        "form_z_score": 2.032635869244692
+        "form_z_score": 2.0316139006826814
       },
       "debutant": {
         "player_id": "00-0036442",
@@ -54497,7 +54497,7 @@
         "player_name": "D.Maye",
         "team": "NE",
         "position": "QB",
-        "form_z_score": 1.649846574204569
+        "form_z_score": 1.6540041745625136
       },
       "debutant": {
         "player_id": "00-0036410",
@@ -61333,7 +61333,7 @@
         "player_name": "J.Burrow",
         "team": "CIN",
         "position": "QB",
-        "form_z_score": 1.5126013665066447
+        "form_z_score": 1.5204438157667786
       },
       "debutant": {
         "player_id": "00-0036264",
@@ -62597,8 +62597,8 @@
           "position": "QB",
           "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/jnkspnntgebegzp4ghve",
           "plays": 7,
-          "total_epa": 2.5948021858930588,
-          "epa_per_play": 0.37068602655615124,
+          "total_epa": 2.5952082127332687,
+          "epa_per_play": 0.370744030390467,
           "success_rate": 0.4285714285714286,
           "yards": 51,
           "touchdowns": 1,
@@ -67863,7 +67863,7 @@
         "player_name": "C.McCaffrey",
         "team": "SF",
         "position": "RB",
-        "form_z_score": 1.732588458608212
+        "form_z_score": 1.7346929849018105
       },
       "debutant": {
         "player_id": "00-0039139",
@@ -72570,13 +72570,13 @@
           "completions": 2
         },
         {
-          "player_id": "00-0040298",
-          "player_name": "Andrew Armstrong",
+          "player_id": "00-0036945",
+          "player_name": "Justin Fields",
           "team": "KC",
-          "role": "receiver",
+          "role": "passer",
           "week": 11,
-          "position": "WR",
-          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hkw32xqnimm6dvx2qfvl",
+          "position": "QB",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/npjrombgxkc5vjkctcgy",
           "plays": 1,
           "total_epa": -1.0889772176742554,
           "epa_per_play": -1.0889772176742554,
@@ -72587,13 +72587,13 @@
           "completions": 0
         },
         {
-          "player_id": "00-0036945",
-          "player_name": "Justin Fields",
+          "player_id": "00-0040298",
+          "player_name": "Andrew Armstrong",
           "team": "KC",
-          "role": "passer",
+          "role": "receiver",
           "week": 11,
-          "position": "QB",
-          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/npjrombgxkc5vjkctcgy",
+          "position": "WR",
+          "headshot_url": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hkw32xqnimm6dvx2qfvl",
           "plays": 1,
           "total_epa": -1.0889772176742554,
           "epa_per_play": -1.0889772176742554,
@@ -73951,7 +73951,7 @@
         "player_name": "C.McCaffrey",
         "team": "SF",
         "position": "RB",
-        "form_z_score": 1.7515195548412377
+        "form_z_score": 1.7469427858130788
       },
       "debutant": {
         "player_id": "00-0033077",
