@@ -1635,11 +1635,11 @@
       "week": 12,
       "home": "LA",
       "away": "GB",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 26,
+      "away_score": 13,
       "gameday": "2026-11-25",
       "gametime": "20:00",
-      "played": false
+      "played": true
     },
     {
       "week": 12,
